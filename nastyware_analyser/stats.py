@@ -1,0 +1,16 @@
+import os
+import sys
+
+def print_stats_empty_imports(imports_dir):
+    imports = os.listdir(imports_dir)
+    imports_len = len(imports)
+
+    empty_imports = 0
+
+    for index, import_file in enumerate(imports):
+        print(f'\r[{index + 1}/{imports_len}] Checking {import_file}', end='')
+        with open(imports_dir + import_file, 'r') as f:
+            if f.read().startswith('b\'mscoree.dll\' b\'_CorExeMain\''):
+                empty_imports += 1
+    
+    print(f'Empty imports: {empty_imports}/{imports_len} ({empty_imports / imports_len * 100}%)')

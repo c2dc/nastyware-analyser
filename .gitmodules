@@ -1,0 +1,3 @@
+[submodule "damicore"]
+	path = damicore
+	url = https://gitlab.com/monaco/damicore.git
