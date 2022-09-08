@@ -1,0 +1,3 @@
+[submodule "malware-datasource/malware-bazaar/damicore/third/ncd"]
+	path = malware-datasource/malware-bazaar/damicore/third/ncd
+	url = https://github.com/rene/ncd.git
