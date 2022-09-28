@@ -45,9 +45,9 @@ def ppmd_compression(fname, model_order = 6,
   """
   tmp_fname = os.path.join(ppmd_tmp_dir, os.path.basename(fname))
   print(fname, tmp_fname)
-  with open(os.devnull, 'w') as devnull:
-    call(['ppmd', 'e', '-o%d' % model_order, '-f%s' % tmp_fname, fname],
-        stdout=devnull)
+  os.system('ppmd e %d %s %s &> /dev/null' % (model_order, fname, tmp_fname))
+  # call(['ppmd', 'e', '-o%d' % model_order, '-f%s' % tmp_fname, fname],
+  #     stdout=open(os.devnull, 'w'))
   compressed_size = os.path.getsize(tmp_fname)
   os.remove(tmp_fname)
 
