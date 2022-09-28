@@ -1,3 +1,0 @@
-community-conv.o: community-conv.c
-community.o: community.c newman.h
-newman.o: newman.c newman.h

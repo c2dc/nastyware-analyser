@@ -1,4 +1,0 @@
-[submodule "third/ncd"]
-	path = third/ncd
-	url = https://github.com/rene/ncd.git
-	ignore = dirty

@@ -1,0 +1,11 @@
+ppmd/Ppmd7Enc.o: ppmd/Ppmd7Enc.c /usr/include/stdc-predef.h \
+ ppmd/Precomp.h ppmd/Compiler.h ppmd/Ppmd7.h ppmd/Ppmd.h ppmd/CpuArch.h \
+ ppmd/7zTypes.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
+/usr/include/stdc-predef.h:
+ppmd/Precomp.h:
+ppmd/Compiler.h:
+ppmd/Ppmd7.h:
+ppmd/Ppmd.h:
+ppmd/CpuArch.h:
+ppmd/7zTypes.h:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
