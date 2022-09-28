@@ -5,7 +5,7 @@ import os
 import sys
 import multiprocessing as mp
 from shutil import copyfileobj as copy
-from subprocess import Popen, PIPE, call
+from subprocess import Popen, PIPE, call, DEVNULL
 from progress_bar import ProgressBar
 
 def gzip_compression(fname, slowness = 6, **kwargs):
@@ -44,10 +44,8 @@ def ppmd_compression(fname, model_order = 6,
   @return Size of compressed file in bytes
   """
   tmp_fname = os.path.join(ppmd_tmp_dir, os.path.basename(fname))
-  print(fname, tmp_fname)
-  os.system('ppmd e %d %s %s &> /dev/null' % (model_order, fname, tmp_fname))
-  # call(['ppmd', 'e', '-o%d' % model_order, '-f%s' % tmp_fname, fname],
-  #     stdout=open(os.devnull, 'w'))
+  Popen(['ppmd', 'e', '-o%d' % model_order, '-f%s' % tmp_fname, fname],
+    stdout=DEVNULL).communicate()
   compressed_size = os.path.getsize(tmp_fname)
   os.remove(tmp_fname)
 
@@ -182,6 +180,11 @@ def ncd(compression_fn, pairing_fn, fname1, fname2, compressed_sizes = None,
 
 #### Parallel wrappers ####
 
+  # compression_args = [{
+  #   'cname': compression_name, 'fname': fname,
+  #   'queue': queue, 'kwargs': kwargs}
+  #   for fname in fnames]
+  
 def _parallel_compression_worker(args):
   """Wrapper for parallel calculation of compressed sizes."""
   compression_name, fname, queue, progress_bar, kwargs = (
