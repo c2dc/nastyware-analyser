@@ -25,9 +25,17 @@ if __name__== '__main__':
         print('Using C version of Damicore...')
         slice_filenames(args.folder)
         os.chdir('./damicore/bin/')
-        os.system(f'./damicore -n ../../{args.folder}')
+        # os.system(f'./damicore -n ../../{args.folder}')
         os.chdir('../../')
-        shutil.copyfile(f'./damicore/bin/outfile-{args.folder}', f'./tree.newick')
+
+        directory_name = args.folder.split('/')[-2]
+        shutil.copyfile(f'./damicore/bin/outtree-{directory_name}', f'./tree.newick')
+        with open('tree.newick') as f:
+            # read lines and strip newline characters
+            lines = [line.strip() for line in f.readlines()]
+        with open('tree.newick', 'w') as f:
+            f.write(''.join(lines))
+
     elif args.damicore_version == DAMICORE_VERSION_PYTHON:
         print('Using Python version of Damicore...')
         ret = os.system(f'./damicore-python/damicore.py {args.folder} --ncd-output ./damicore-python/results/ncd-matrix.phylip --format phylip --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters --compress ppmd')
@@ -42,6 +50,6 @@ if __name__== '__main__':
                 | smot filter --factor-by-capture="(R|G)" --some-match="G" --color="#0000FF" \
                 | smot color leaf -P -p "." "#909090"> tree.nexus')
     
-    # os.system('figtree ./tree.nexus')
+    os.system('figtree ./tree.nexus')
 
     
