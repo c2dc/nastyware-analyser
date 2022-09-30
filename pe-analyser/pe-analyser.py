@@ -25,13 +25,12 @@ if __name__== '__main__':
         print('Using C version of Damicore...')
         slice_filenames(args.folder)
         os.chdir('./damicore/bin/')
-        # os.system(f'./damicore -n ../../{args.folder}')
+        os.system(f'./damicore -n ../../{args.folder}')
         os.chdir('../../')
 
         directory_name = args.folder.split('/')[-2]
         shutil.copyfile(f'./damicore/bin/outtree-{directory_name}', f'./tree.newick')
         with open('tree.newick') as f:
-            # read lines and strip newline characters
             lines = [line.strip() for line in f.readlines()]
         with open('tree.newick', 'w') as f:
             f.write(''.join(lines))
@@ -51,5 +50,3 @@ if __name__== '__main__':
                 | smot color leaf -P -p "." "#909090"> tree.nexus')
     
     os.system('figtree ./tree.nexus')
-
-    

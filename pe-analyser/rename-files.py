@@ -7,7 +7,7 @@ import random
 for file in os.listdir('executable-functions'):
     prefix = 'G-'
     
-    if file.startswith('R-'):
+    if file.startswith('R'):
         prefix = 'R-'
 
     new_name = ''.join(random.choice('0123456789ABCDEF') for i in range(7))
