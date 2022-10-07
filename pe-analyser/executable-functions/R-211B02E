@@ -1,7 +1,0 @@
-b'advapi32.dll' b'RegOpenKeyExW'
-b'kernel32.dll' b'VirtualAllocEx'
-b'kernel32.dll' b'GetProcAddress'
-b'kernel32.dll' b'LoadLibraryW'
-b'kernel32.dll' b'GetModuleHandleW'
-b'advapi32.dll' b'RegQueryValueExA'
-b'kernel32.dll' b'SetUnhandledExceptionFilter'

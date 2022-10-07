@@ -43,10 +43,16 @@ if __name__== '__main__':
             exit(1)
         shutil.copyfile('damicore-python/results/tree.newick', './tree.newick')
 
+    # Using prefixes to color the tree
     os.system('smot color leaf -P -p "." "#909090" -p "R-*" "#FF0000" -p "G-*" "#0000FF" tree.newick \
                 | smot color pull \
                 | smot filter --factor-by-capture="(R|G)" --some-match="R" --color="#FF0000" \
                 | smot filter --factor-by-capture="(R|G)" --some-match="G" --color="#0000FF" \
                 | smot color leaf -P -p "." "#909090"> tree.nexus')
+
+    # Using sufixes to color the tree
+    # os.system('smot color leaf -P -p "." "#0000FF" tree.newick\
+    #             |  smot color pull | smot filter --factor-by-capture="(R|G)" --all-match="R" --color="#FF0000"\
+    #             | smot color leaf -P -p "." "#909090" > tree.nexus')
     
     os.system('figtree ./tree.nexus')

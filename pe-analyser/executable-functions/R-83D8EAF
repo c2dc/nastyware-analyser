@@ -1,4 +1,0 @@
-b'kernel32.dll' b'CloseHandle'
-b'kernel32.dll' b'CreateThread'
-b'kernel32.dll' b'SetErrorMode'
-b'kernel32.dll' b'lstrlenW'

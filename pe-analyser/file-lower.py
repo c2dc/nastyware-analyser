@@ -11,4 +11,3 @@ if __name__ == '__main__':
             for line in lines:
                 entry, function = line.split(' ', 1)
                 f.write(entry.lower() + ' ' + function)
-            

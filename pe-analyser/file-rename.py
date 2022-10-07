@@ -3,16 +3,22 @@
 import os
 import shutil
 import random
+import sys
 
-for file in os.listdir('executable-functions'):
-    prefix = 'G-'
+dir_name = sys.argv[1]
+
+for file in os.listdir(dir_name):
+    suffix = 'G'
     
     if file.startswith('R'):
-        prefix = 'R-'
+        suffix = 'R'
+    
+    if file.endswith('R'):
+        suffix = 'R'
 
     new_name = ''.join(random.choice('0123456789ABCDEF') for i in range(7))
-    
-    while (os.path.exists('./executable-functions/G-' + new_name) or os.path.exists('./executable-functions/R-' + new_name)):
+
+    while (os.path.exists(f'./{dir_name}/{new_name}-G') or os.path.exists(f'./{dir_name}/{new_name}-R')):
         new_name = ''.join(random.choice('0123456789ABCDEF') for i in range(7))
 
-    shutil.move('./executable-functions/' + file, './executable-functions/' + prefix + new_name)
+    shutil.move(f'./{dir_name}/{file}', f'./{dir_name}/{new_name}-{suffix}')

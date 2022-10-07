@@ -1,0 +1,42 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=31;
+	taxlabels
+	'069D781-R'[&!color=#909090]
+	'0D425EA-R'[&!color=#909090]
+	'10EC672-R'[&!color=#909090]
+	'179B373-G'[&!color=#909090]
+	'1A6F2D2-R'[&!color=#909090]
+	'1B95763-R'[&!color=#909090]
+	'1DB3554-G'[&!color=#909090]
+	'2210A18-R'[&!color=#909090]
+	'2D63B44-R'[&!color=#909090]
+	'33E48CA-G'[&!color=#909090]
+	'4139C10-R'[&!color=#909090]
+	'4AE90F0-G'[&!color=#909090]
+	'6592EAC-G'[&!color=#909090]
+	'6C0720F-G'[&!color=#909090]
+	'6D98B8B-R'[&!color=#909090]
+	'70CFBCA-R'[&!color=#909090]
+	'711F066-R'[&!color=#909090]
+	'831B267-R'[&!color=#909090]
+	'8B33D2B-G'[&!color=#909090]
+	'A3B7AF2-G'[&!color=#909090]
+	'B6F822F-R'[&!color=#909090]
+	'BB203B0-R'[&!color=#909090]
+	'BECE339-G'[&!color=#909090]
+	'C1F6AA4-G'[&!color=#909090]
+	'C3A7674-R'[&!color=#909090]
+	'D2AEFC5-G'[&!color=#909090]
+	'DC499D7-G'[&!color=#909090]
+	'DCFAECA-R'[&!color=#909090]
+	'E5D1CBA-G'[&!color=#909090]
+	'EEA3C8E-G'[&!color=#909090]
+	'F1494F5-R'[&!color=#909090]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((('069D781-R'[&!color=#FF0000]:0.372,((('10EC672-R'[&!color=#FF0000]:0.0855,'831B267-R'[&!color=#FF0000]:0.085)[&!color=#FF0000]:0.0382,'2210A18-R'[&!color=#FF0000]:0.127)[&!color=#FF0000]:0.227,'EEA3C8E-G'[&!color=#0000FF]:0.392)[&!color=#0000FF]:0.0151)[&!color=#0000FF]:0.0424,('1A6F2D2-R'[&!color=#FF0000]:0.325,('4139C10-R'[&!color=#FF0000]:0.28,'70CFBCA-R'[&!color=#FF0000]:0.278)[&!color=#FF0000]:0.0558)[&!color=#FF0000]:0.0445)[&!color=#0000FF]:0.00693,'6D98B8B-R'[&!color=#FF0000]:0.412)[&!color=#0000FF]:0.0233,'4AE90F0-G'[&!color=#0000FF]:0.373)[&!color=#0000FF]:0.0344,'F1494F5-R'[&!color=#FF0000]:0.423)[&!color=#0000FF]:0.0073,'1DB3554-G'[&!color=#0000FF]:0.357)[&!color=#0000FF]:0.0107,'2D63B44-R'[&!color=#FF0000]:0.382)[&!color=#0000FF]:0.00972,(('1B95763-R'[&!color=#FF0000]:0.226,('B6F822F-R'[&!color=#FF0000]:0.218,'C3A7674-R'[&!color=#FF0000]:0.212)[&!color=#FF0000]:0.0085)[&!color=#FF0000]:0.0221,'BB203B0-R'[&!color=#FF0000]:0.245)[&!color=#FF0000]:0.112)[&!color=#0000FF]:0.0266,'DC499D7-G'[&!color=#0000FF]:0.346)[&!color=#0000FF]:0.0314,('0D425EA-R'[&!color=#FF0000]:0.343,('711F066-R'[&!color=#FF0000]:0.35,'DCFAECA-R'[&!color=#FF0000]:0.353)[&!color=#FF0000]:0.0582)[&!color=#FF0000]:0.051)[&!color=#0000FF]:0.0441,'D2AEFC5-G'[&!color=#0000FF]:0.362)[&!color=#0000FF]:0.0261,(('33E48CA-G'[&!color=#0000FF]:0.322,(('A3B7AF2-G'[&!color=#0000FF]:0.306,'C1F6AA4-G'[&!color=#0000FF]:0.302)[&!color=#0000FF]:0.0109,'E5D1CBA-G'[&!color=#0000FF]:0.272)[&!color=#0000FF]:0.0449)[&!color=#0000FF]:0.012,'6592EAC-G'[&!color=#0000FF]:0.301)[&!color=#0000FF]:0.0144)[&!color=#0000FF]:0.00569,('6C0720F-G'[&!color=#0000FF]:0.293,('8B33D2B-G'[&!color=#0000FF]:0.354,'BECE339-G'[&!color=#0000FF]:0.307)[&!color=#0000FF]:0.0147)[&!color=#0000FF]:0.0258)[&!color=#0000FF]:0.169,'179B373-G'[&!color=#0000FF]:0.169)[&!color=#0000FF];
+end;
+
