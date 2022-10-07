@@ -1,0 +1,3 @@
+b'KERNEL32.dll' b'CloseHandle'
+b'KERNEL32.dll' b'SetErrorMode'
+b'KERNEL32.dll' b'CreateThread'

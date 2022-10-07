@@ -1,0 +1,7 @@
+b'kernel32.dll' b'LocalFree'
+b'kernel32.dll' b'UnhandledExceptionFilter'
+b'kernel32.dll' b'IsDebuggerPresent'
+b'kernel32.dll' b'GetLastError'
+b'kernel32.dll' b'lstrlenA'
+b'user32.dll' b'MessageBoxA'
+b'advapi32.dll' b'RevertToSelf'

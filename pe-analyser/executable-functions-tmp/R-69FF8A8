@@ -1,0 +1,7 @@
+b'MSVBVM60.DLL' b'MethCallEngine'
+b'MSVBVM60.DLL' b'EVENT_SINK_AddRef'
+b'MSVBVM60.DLL' b'DllFunctionCall'
+b'MSVBVM60.DLL' b'EVENT_SINK_Release'
+b'MSVBVM60.DLL' b'EVENT_SINK_QueryInterface'
+b'MSVBVM60.DLL' b'__vbaExceptHandler'
+b'MSVBVM60.DLL' b'ProcCallEngine'

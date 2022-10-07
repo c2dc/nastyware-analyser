@@ -1,0 +1,7 @@
+b'KERNEL32.dll' b'GetModuleHandleW'
+b'KERNEL32.dll' b'LoadLibraryW'
+b'KERNEL32.dll' b'GetProcAddress'
+b'KERNEL32.dll' b'VirtualAllocEx'
+b'KERNEL32.dll' b'SetUnhandledExceptionFilter'
+b'ADVAPI32.dll' b'RegOpenKeyExW'
+b'ADVAPI32.dll' b'RegQueryValueExA'
