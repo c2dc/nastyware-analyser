@@ -307,7 +307,7 @@ def _parallel_distance_matrix(fnames, compression_name, pairing_name, **kwargs):
   pool.close()
 
   for _ in range(len(file_pairs)):
-    queue.get(timeout=10)
+    queue.get(timeout=5)
     progress_bar.increment()
 
   ncd_results = async_result.get()
