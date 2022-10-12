@@ -84,6 +84,8 @@ if __name__ == '__main__':
       compression_name = a.compressor, pairing_name = a.pairing,
       is_parallel = not a.serial, **kwargs)
 
+  print(d['node_clustering'])
+
   # Outputs NCD step
   if a.ncd_output is not None:
     ncd_results = d['ncd']
