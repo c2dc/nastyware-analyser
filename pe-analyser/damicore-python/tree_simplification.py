@@ -4,6 +4,21 @@ from tree import Node, Leaf, Edge
 from math import log10, ceil
 from random import Random
 
+def verify_repeated_element(q_matrix):
+  # Compare elements from upper triangle with upper triangle
+  for i in range(len(q_matrix)):
+    for j in range(i+1, len(q_matrix)):
+      for k in range(len(q_matrix)):
+        for l in range(k+1, len(q_matrix)):
+          if q_matrix[i][j] == q_matrix[k][l] and (i, j) != (k, l):
+            print(i, j, '=>', q_matrix[i][j])
+            print(k, l, '=>', q_matrix[k][l])
+            print()
+            return True
+
+  return False
+          
+
 def num_digits(x):
   """Returns number of decimal digits in x.
   
@@ -110,15 +125,22 @@ def neighbor_joining(m, ids=None):
 
   tree = [Leaf(id_) for id_ in ids]
 
+  count = 0
+
   for _ in range(n, 2, -1):
     # Find closest neighbors
     s = list(map(sum, m))
     q = calculate_q(m, s)
+    
+    if verify_repeated_element(q):
+      count += 1
 
     # Join neighbors and update distance matrix
     i, j = sorted(matrix_argmin(q))
     m, di, dj = update_distance_matrix(m, s, i, j)
     tree = join_neighbors(tree, i, j, di, dj)
+
+  print(f'Numero de repeticoes: {count}')
 
   d = m[0][1]
   return join_neighbors(tree, 0, 1, d/2, d/2)[0]

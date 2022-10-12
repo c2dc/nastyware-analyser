@@ -179,11 +179,6 @@ def ncd(compression_fn, pairing_fn, fname1, fname2, compressed_sizes = None,
   return result
 
 #### Parallel wrappers ####
-
-  # compression_args = [{
-  #   'cname': compression_name, 'fname': fname,
-  #   'queue': queue, 'kwargs': kwargs}
-  #   for fname in fnames]
   
 def _parallel_compression_worker(args):
   """Wrapper for parallel calculation of compressed sizes."""
@@ -312,10 +307,11 @@ def _parallel_distance_matrix(fnames, compression_name, pairing_name, **kwargs):
   pool.close()
 
   for _ in range(len(file_pairs)):
-    queue.get(timeout=5)
+    queue.get(timeout=10)
     progress_bar.increment()
 
   ncd_results = async_result.get()
+
   sys.stderr.write('\n')
   return ncd_results
 
