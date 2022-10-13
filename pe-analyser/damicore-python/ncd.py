@@ -242,6 +242,7 @@ def _serial_distance_matrix(fnames, compression_fn, pairing_fn, **kwargs):
     x = compression_fn(fname)
     progress_bar.increment()
     return x
+
   compressed_sizes = map(update_progress, fnames)
 
   zip_size = dict(zip(fnames, compressed_sizes))
