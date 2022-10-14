@@ -5,6 +5,7 @@ from tree import newick_format, to_graph
 import argparse
 import math
 import ncd
+import cld
 import os
 import shutil
 import sys
@@ -52,6 +53,7 @@ def calc_weights(lengths, min_length=1):
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(add_help=False, parents=[ncd.cli_parser()])
   parser.add_argument('--ncd-output', help='File to output NCD result')
+  parser.add_argument('--cld-output', help='File to output CLD result')
   parser.add_argument('--tree-output', help='File to output tree result')
   parser.add_argument('--graph-image', help='File to output graph image')
   a = parser.parse_args()
