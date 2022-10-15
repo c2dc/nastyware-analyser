@@ -4,10 +4,6 @@ import os
 import sys
 from progress_bar import ProgressBar
 
-# TODOç
-def cld(fname1, fname2):
-    return 0
-
 # TODO:
 def _parallel_distance_matrix(fnames, **kwargs):
     pass

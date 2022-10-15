@@ -2,7 +2,7 @@ import os
 
 def remove_empty_imports(imports_dir):
     for filename in os.listdir(imports_dir):
-        if os.path.getsize(imports_dir + filename) == 30 or os.path.getsize(imports_dir + filename) == 0:
+        if os.path.getsize(imports_dir + filename) < 40 or os.path.getsize(imports_dir + filename) == 0:
             os.remove(imports_dir + filename)
 
 def slice_filenames(imports_dir):
