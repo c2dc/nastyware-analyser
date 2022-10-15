@@ -17,7 +17,12 @@ if __name__ == '__main__':
     cluster_files_len = len(cluster_files)
 
     count_identify_in_other = 0
+    count_malware_in_other = 0
+    count_goodware_in_other = 0
+
     count_identify_in_cluster = 0
+    count_malware_in_cluster = 0
+    count_goodware_in_cluster = 0
 
     i = 0
 
@@ -28,6 +33,10 @@ if __name__ == '__main__':
         intersection_minus = minus_functions.intersection(file_set)
 
         if len(intersection_plus) == len(plus_functions) and len(intersection_minus) == 0:
+            if file.startswith('R-'):
+                count_malware_in_other += 1
+            else:
+                count_goodware_in_other += 1
             count_identify_in_other += 1
             print(os.path.join('executable-functions', file))
         i += 1
@@ -43,6 +52,10 @@ if __name__ == '__main__':
         intersection_minus = minus_functions.intersection(file_set)
 
         if len(intersection_plus) == len(plus_functions) and len(intersection_minus) == 0:
+            if file.startswith('R-'):
+                count_malware_in_cluster += 1
+            else:
+                count_goodware_in_cluster += 1
             count_identify_in_cluster += 1
             print(os.path.join('cluster', file))
 
@@ -50,5 +63,13 @@ if __name__ == '__main__':
 
     print()
 
-    print(f'Identified in other: {count_identify_in_other} of {other_files_len}')
+    print('Status:')
+    print()
+    print(f'Identified in other: {count_identify_in_other} / {other_files_len} = {count_identify_in_other/other_files_len}')
+    print(f'Malware in other: {count_malware_in_other} / {count_identify_in_other} = {count_malware_in_other/count_identify_in_other}')
+    print(f'Goodware in other: {count_goodware_in_other} / {count_identify_in_other} = {count_goodware_in_other/count_identify_in_other}')
+    print()
     print(f'Identified in cluster: {count_identify_in_cluster} of {cluster_files_len}')
+    print(f'Malware in cluster: {count_malware_in_cluster} / {count_identify_in_cluster} = {count_malware_in_cluster/count_identify_in_cluster}')
+    print(f'Goodware in cluster: {count_goodware_in_cluster} / {count_identify_in_cluster} = {count_goodware_in_cluster/count_identify_in_cluster}')
+    print()

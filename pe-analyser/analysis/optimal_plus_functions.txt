@@ -1,0 +1,12 @@
+kernel32.dll GetTempPathW
+kernel32.dll TerminateProcess
+kernel32.dll GetCurrentProcessId
+kernel32.dll CreateThread
+kernel32.dll GetTickCount
+kernel32.dll CreateFileW
+kernel32.dll ExitProcess
+kernel32.dll FindNextFileW
+kernel32.dll CloseHandle
+kernel32.dll ReadFile
+advapi32.dll RegSetValueExW
+kernel32.dll OpenProcess

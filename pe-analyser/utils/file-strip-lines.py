@@ -16,4 +16,7 @@ if __name__ == '__main__':
         
         with open(file, 'w') as f:
             for line in file_lines:
-                f.write(' '.join(line) + '\n')
+                lib, func = line
+                lib = lib[2:][:-1]
+                func = func[2:][:-1]
+                f.write(' '.join([lib, func]) + '\n')
