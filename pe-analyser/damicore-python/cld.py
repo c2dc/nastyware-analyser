@@ -10,18 +10,18 @@ def _parallel_distance_matrix(fnames, **kwargs):
 
 def _serial_distance_matrix(fnames, **kwargs):
     """Serial calculation for distance matrix."""
-    sys.stderr.write('Compressing individual files...\n')
+    sys.stderr.write('Computing CLD distance...\n')
 
     file_pairs = [(fname1, fname2)
       for fname1 in fnames
       for fname2 in fnames
       if fname1 < fname2]
 
-    progress_bar = ProgressBar(len(fnames))
+    progress_bar = ProgressBar(len(file_pairs))
 
     def update_progress(pair):
         fname1, fname2 = pair
-        cld_result = cld(fname1, fname2, **kwargs)
+        cld_result = cld(fname1, fname2)
         progress_bar.increment()
         return cld_result
     
@@ -49,7 +49,7 @@ def distance_matrix(directory, is_parallel=False, **kwargs):
     fnames = sorted(os.listdir(directory))
     fnames = [os.path.join(directory, fname)
         for fname in fnames
-        if os.path.isfile(os.path.join(fnames, fname))]
+        if os.path.isfile(os.path.join(directory, fname))]
 
     if is_parallel:
         return _parallel_distance_matrix(fnames, **kwargs)
@@ -128,7 +128,7 @@ def to_matrix(cld_results):
 
   return m, ids
 
-def phylip_format(cld_results, alternative_ids):
+def phylip_format(cld_results):
     """Formats a list of NcdResult objects in Phylip format.
    
         The Phylip format is used in phylogenetic software to store distance
@@ -148,8 +148,6 @@ def phylip_format(cld_results, alternative_ids):
     @return String with matrix in Phylip format
     """
     m, ids = to_matrix(cld_results)
-    if alternative_ids is not None:
-        ids = alternative_ids
     names = ['{name:<10.10}'.format(name=id_) for id_ in ids]
     # TODO(brunokim): Find conflicts and solve them
 

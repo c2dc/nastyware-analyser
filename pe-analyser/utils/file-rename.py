@@ -21,4 +21,4 @@ for file in os.listdir(dir_name):
     while (os.path.exists(f'./{dir_name}/{new_name}-G') or os.path.exists(f'./{dir_name}/{new_name}-R')):
         new_name = ''.join(random.choice('0123456789ABCDEF') for i in range(7))
 
-    shutil.move(f'./{dir_name}/{file}', f'./{dir_name}/{new_name}-{suffix}')
+    shutil.move(f'./{dir_name}/{file}', f'./{dir_name}/{suffix}-{new_name}')
