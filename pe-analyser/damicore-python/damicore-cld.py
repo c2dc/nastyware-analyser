@@ -10,7 +10,7 @@ import shutil
 import sys
 import tree_simplification as nj
 
-def clustering(directory, is_parallel = False, **kwargs):
+def clustering(directory, is_parallel = True, **kwargs):
   sys.stderr.write('Performing CLD distance matrix calculation...\n')
   cld_results = cld.distance_matrix(directory, is_parallel = is_parallel, **kwargs)
 
@@ -66,7 +66,7 @@ if __name__ == '__main__':
   print(d['node_clustering'])
   cld_results = d['cld']
   cld_out = cld.phylip_format(cld_results)
-  with open('./cld-matrix.phylip', 'wt') as f:
+  with open('./damicore-python/results/cld-matrix.phylip', 'wt') as f:
     f.write(cld_out)
 
   # Outputs tree in Newick format

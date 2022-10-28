@@ -1,8 +1,0 @@
-b'msvcrt.dll' b'memcpy'
-b'USERENV.dll' b'ProcessGroupPolicyCompleted'
-b'KERNEL32.dll' b'GetVersion'
-b'KERNEL32.dll' b'GetNativeSystemInfo'
-b'KERNEL32.dll' b'GetUserDefaultLCID'
-b'USER32.dll' b'RegisterShellHookWindow'
-b'MPRAPI.dll' b'MprConfigInterfaceCreate'
-b'ADVAPI32.dll' b'RegRestoreKeyA'

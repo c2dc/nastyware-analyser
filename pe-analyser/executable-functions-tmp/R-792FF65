@@ -1,5 +1,0 @@
-b'KERNEL32.dll' b'VirtualFree'
-b'KERNEL32.dll' b'VirtualProtect'
-b'KERNEL32.dll' b'VirtualAlloc'
-b'USER32.dll' b'wsprintfW'
-b'ADVAPI32.dll' b'RegQueryValueExW'

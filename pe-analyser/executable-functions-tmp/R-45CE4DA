@@ -1,8 +1,0 @@
-b'KERNEL32.DLL' b'LoadLibraryA'
-b'KERNEL32.DLL' b'GetProcAddress'
-b'KERNEL32.DLL' b'ExitProcess'
-b'ADVAPI32.DLL' b'RegCloseKey'
-b'GDI32.DLL' b'DeleteObject'
-b'OLE32.DLL' b'OleInitialize'
-b'SHELL32.DLL' b'SHGetMalloc'
-b'USER32.DLL' b'SetMenu'

@@ -1,8 +1,0 @@
-b'KERNEL32.DLL' b'LoadLibraryA'
-b'KERNEL32.DLL' b'GetProcAddress'
-b'KERNEL32.DLL' b'VirtualProtect'
-b'KERNEL32.DLL' b'VirtualAlloc'
-b'KERNEL32.DLL' b'VirtualFree'
-b'KERNEL32.DLL' b'ExitProcess'
-b'winmm.dll' b'timeEndPeriod'
-b'ws2_32.dll' b'WSAGetOverlappedResult'

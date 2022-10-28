@@ -1,6 +1,0 @@
-b'KERNEL32.dll' b'LoadLibraryA'
-b'KERNEL32.dll' b'EnterCriticalSection'
-b'KERNEL32.dll' b'LeaveCriticalSection'
-b'KERNEL32.dll' b'LocalAlloc'
-b'KERNEL32.dll' b'lstrlenA'
-b'KERNEL32.dll' b'GetProcAddress'

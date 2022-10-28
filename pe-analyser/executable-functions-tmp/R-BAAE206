@@ -1,7 +1,0 @@
-b'KERNEL32.DLL' b'GetModuleHandleA'
-b'KERNEL32.DLL' b'GetProcAddress'
-b'WS2_32.dll' b'listen'
-b'USER32.dll' b'wsprintfA'
-b'ADVAPI32.dll' b'CryptEncrypt'
-b'SHELL32.dll' b'ShellExecuteA'
-b'IPHLPAPI.DLL' b'GetIpAddrTable'

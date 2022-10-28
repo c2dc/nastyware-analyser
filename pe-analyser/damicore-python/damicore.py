@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
   d = clustering(a.directory,
       compression_name = a.compressor, pairing_name = a.pairing,
-      is_parallel = not a.serial, **kwargs)
+      is_parallel = True, **kwargs)
 
   print(d['node_clustering'])
 

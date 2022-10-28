@@ -3,11 +3,9 @@
 import os
 import sys
 from progress_bar import ProgressBar
+import multiprocessing as mp
 
-# TODO:
-def _parallel_distance_matrix(fnames, **kwargs):
-    pass
-
+# TODO: Fazer funcionar
 def _serial_distance_matrix(fnames, **kwargs):
     """Serial calculation for distance matrix."""
     sys.stderr.write('Computing CLD distance...\n')
@@ -31,8 +29,55 @@ def _serial_distance_matrix(fnames, **kwargs):
 
     return cld_results
     
+def _parallel_cld_worker(args):
+    """Wrapper for parallel calculation of NCD pairs."""
+    fname1, fname2, queue, progress_bar, kwargs = (args.get('f1'), args.get('f2'),
+        args.get('queue'), args.get('progress'), args.get('kwargs'))
 
-def distance_matrix(directory, is_parallel=False, **kwargs):
+    if fname1 is None or fname2 is None:
+        raise Exception('Filenames not given')
+ 
+    result = cld(fname1, fname2)
+
+    if queue is not None:
+        queue.put(result)
+
+    if progress_bar is not None:
+        progress_bar.increment()
+
+    return result
+
+def _parallel_distance_matrix(fnames, **kwargs):
+    """Parallel calculation of distance matrix."""
+    num_cpus = mp.cpu_count()
+    manager = mp.Manager()
+    pool = mp.Pool(num_cpus)
+    queue = manager.Queue(2*num_cpus)
+
+    sys.stderr.write('\Computing CLD distance...\n')
+    file_pairs = [(fname1, fname2)
+        for fname1 in fnames
+        for fname2 in fnames
+        if fname1 < fname2]
+    progress_bar = ProgressBar(len(file_pairs))
+
+    cld_args = [{
+        'f1': fname1, 'f2': fname2, 'queue': queue,
+        'kwargs': kwargs} for fname1, fname2 in file_pairs]
+
+    async_result = pool.map_async(_parallel_cld_worker, cld_args)
+    pool.close()
+
+    for _ in range(len(file_pairs)):
+        queue.get(timeout=5)
+        progress_bar.increment()
+
+    cld_results = async_result.get()
+
+    sys.stderr.write('\n')
+    return cld_results
+
+def distance_matrix(directory, is_parallel=True, **kwargs):
     """Calculates the distance matrix of the files in the given directory using how many 
     lines are common between them.
 
@@ -124,7 +169,7 @@ def to_matrix(cld_results):
 
   for result in cld_results:
     i, j = ids.index(result.x), ids.index(result.y)
-    m[i][j] = m[j][i] = result.ncd
+    m[i][j] = m[j][i] = result.cld
 
   return m, ids
 
