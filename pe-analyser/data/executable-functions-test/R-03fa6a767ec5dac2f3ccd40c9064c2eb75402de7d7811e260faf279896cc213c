@@ -1,0 +1,4 @@
+b'ntdll.dll' b'ZwUnloadDriver'
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'GetClipboardSequenceNumber'
+b'kernel32.dll' b'GetCurrentThread'

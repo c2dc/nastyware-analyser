@@ -1,0 +1,5 @@
+b'user32.dll' b'WinHelpA'
+b'user32.dll' b'GetShellWindow'
+b'user32.dll' b'GetKBCodePage'
+b'shell32.dll' b'PifMgr_OpenProperties'
+b'kernel32.dll' b'GetThreadLocale'

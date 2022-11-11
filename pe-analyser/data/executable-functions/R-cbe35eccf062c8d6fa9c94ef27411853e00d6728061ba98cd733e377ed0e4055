@@ -1,0 +1,3 @@
+b'oleaut32.dll' b'VarMod'
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'GetActiveWindow'

@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'VarUI2FromCy'
+b'oleaut32.dll' b'SafeArrayGetUBound'
+b'kernel32.dll' b'GetCommandLineW'
+b'user32.dll' b'GetCursor'

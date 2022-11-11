@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'VarDateFromUdate'
+b'kernel32.dll' b'GetProcessHeap'
+b'kernel32.dll' b'GetUserDefaultLCID'
+b'kernel32.dll' b'GetTempFileNameA'

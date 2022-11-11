@@ -1,0 +1,5 @@
+b'oleaut32.dll' b'VarUI4FromCy'
+b'oleaut32.dll' b'VarUI1FromDec'
+b'user32.dll' b'GetKBCodePage'
+b'user32.dll' b'SetMenuContextHelpId'
+b'kernel32.dll' b'GetUserDefaultLangID'

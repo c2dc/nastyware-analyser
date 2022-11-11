@@ -1,0 +1,5 @@
+b'user32.dll' b'GetActiveWindow'
+b'user32.dll' b'PrintWindow'
+b'advapi32.dll' b'LsaEnumeratePrivileges'
+b'kernel32.dll' b'GetUserDefaultLangID'
+b'kernel32.dll' b'GetCurrentProcessId'

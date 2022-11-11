@@ -1,0 +1,5 @@
+b'ntdll.dll' b'RtlUpcaseUnicodeToMultiByteN'
+b'user32.dll' b'GetMessageTime'
+b'user32.dll' b'GetClipboardViewer'
+b'user32.dll' b'GetKeyNameTextA'
+b'kernel32.dll' b'GetLastError'

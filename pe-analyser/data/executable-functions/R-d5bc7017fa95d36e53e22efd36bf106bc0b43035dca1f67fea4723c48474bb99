@@ -1,0 +1,3 @@
+b'oleaut32.dll' b'GetActiveObject'
+b'user32.dll' b'GetCapture'
+b'user32.dll' b'GetProcessWindowStation'

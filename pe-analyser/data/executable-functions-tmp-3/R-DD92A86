@@ -1,0 +1,6 @@
+b'kernel32.dll' b'LoadLibraryA'
+b'kernel32.dll' b'EnterCriticalSection'
+b'kernel32.dll' b'LeaveCriticalSection'
+b'kernel32.dll' b'LocalAlloc'
+b'kernel32.dll' b'lstrlenA'
+b'kernel32.dll' b'GetProcAddress'

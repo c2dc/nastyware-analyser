@@ -1,0 +1,4 @@
+b'shell32.dll' b'SHGetNewLinkInfoA'
+b'user32.dll' b'GetCaretBlinkTime'
+b'kernel32.dll' b'GetCurrentThreadId'
+b'kernel32.dll' b'GetConsoleWindow'

@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'VarI4FromR8'
+b'user32.dll' b'MapDialogRect'
+b'user32.dll' b'GetCaretBlinkTime'
+b'kernel32.dll' b'GetCurrentThreadId'

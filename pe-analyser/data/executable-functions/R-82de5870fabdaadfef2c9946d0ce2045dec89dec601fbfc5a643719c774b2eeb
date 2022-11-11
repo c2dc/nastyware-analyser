@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'VarI2FromBool'
+b'user32.dll' b'GetCapture'
+b'kernel32.dll' b'GetSystemDefaultUILanguage'
+b'kernel32.dll' b'GetThreadLocale'

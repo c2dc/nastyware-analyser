@@ -1,0 +1,4 @@
+b'user32.dll' b'GetInputDesktop'
+b'user32.dll' b'GetOpenClipboardWindow'
+b'user32.dll' b'CreateIconFromResource'
+b'kernel32.dll' b'GetCurrentProcessId'

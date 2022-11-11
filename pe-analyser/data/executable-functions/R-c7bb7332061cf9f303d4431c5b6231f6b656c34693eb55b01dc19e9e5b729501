@@ -1,0 +1,6 @@
+b'ole32.dll' b'DoDragDrop'
+b'kernel32.dll' b'EnumResourceLanguagesA'
+b'user32.dll' b'GetCursor'
+b'user32.dll' b'GetMenuContextHelpId'
+b'user32.dll' b'GetForegroundWindow'
+b'oleaut32.dll' b'VarBstrFromR4'

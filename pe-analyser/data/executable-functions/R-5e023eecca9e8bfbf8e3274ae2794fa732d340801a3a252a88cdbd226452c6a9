@@ -1,0 +1,6 @@
+b'kernel32.dll' b'GetModuleHandleA'
+b'user32.dll' b'GetCursor'
+b'advapi32.dll' b'RegOpenKeyExW'
+b'comctl32.dll' b'CreateStatusWindowA'
+b'shell32.dll' b'SHGetDiskFreeSpaceA'
+b'psapi.dll' b'GetModuleInformation'

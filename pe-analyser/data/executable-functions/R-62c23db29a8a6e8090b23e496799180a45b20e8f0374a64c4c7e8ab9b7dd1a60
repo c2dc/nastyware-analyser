@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'VarI8FromI1'
+b'kernel32.dll' b'GetProcessAffinityMask'
+b'user32.dll' b'GetInputState'
+b'user32.dll' b'GetMessageTime'

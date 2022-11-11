@@ -1,0 +1,6 @@
+b'advapi32.dll' b'SetEntriesInAccessListW'
+b'shell32.dll' b'SHLoadInProc'
+b'ntdll.dll' b'RtlGetControlSecurityDescriptor'
+b'ntdll.dll' b'DbgUiIssueRemoteBreakin'
+b'kernel32.dll' b'GetProcessHeap'
+b'user32.dll' b'GetShellWindow'

@@ -1,0 +1,5 @@
+b'ntdll.dll' b'RtlInitializeRXact'
+b'advapi32.dll' b'SaferSetPolicyInformation'
+b'kernel32.dll' b'GetProfileIntA'
+b'kernel32.dll' b'GetCommandLineA'
+b'user32.dll' b'GetInputState'

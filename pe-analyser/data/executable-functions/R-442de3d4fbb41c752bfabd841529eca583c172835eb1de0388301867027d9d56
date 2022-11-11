@@ -1,0 +1,5 @@
+b'oleaut32.dll' b'LPSAFEARRAY_UserFree'
+b'user32.dll' b'GetDC'
+b'user32.dll' b'GetDialogBaseUnits'
+b'user32.dll' b'GetCursor'
+b'kernel32.dll' b'GetCurrentThreadId'

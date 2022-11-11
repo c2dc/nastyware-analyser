@@ -1,0 +1,7 @@
+b'ntdll.dll' b'ZwQueryInformationToken'
+b'oleaut32.dll' b'SafeArrayAccessData'
+b'user32.dll' b'IntersectRect'
+b'user32.dll' b'GetCaretBlinkTime'
+b'advapi32.dll' b'SystemFunction001'
+b'kernel32.dll' b'GetThreadLocale'
+b'kernel32.dll' b'GetCommandLineW'

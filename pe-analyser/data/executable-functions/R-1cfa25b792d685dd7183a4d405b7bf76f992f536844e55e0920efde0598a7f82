@@ -1,0 +1,6 @@
+b'ntdll.dll' b'RtlSubAuthorityCountSid'
+b'advapi32.dll' b'LsaQueryInfoTrustedDomain'
+b'kernel32.dll' b'GetModuleFileNameA'
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'GetForegroundWindow'
+b'user32.dll' b'GetMenuCheckMarkDimensions'

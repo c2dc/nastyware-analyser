@@ -1,0 +1,4 @@
+b'kernel32.dll' b'FileTimeToSystemTime'
+b'kernel32.dll' b'FatalAppExitA'
+b'kernel32.dll' b'GetUserDefaultUILanguage'
+b'user32.dll' b'GetClipboardViewer'

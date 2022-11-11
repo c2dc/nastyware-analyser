@@ -1,0 +1,6 @@
+b'shell32.dll' b'ILSaveToStream'
+b'ole32.dll' b'OleQueryLinkFromData'
+b'oleaut32.dll' b'VarUdateFromDate'
+b'user32.dll' b'GetClipboardOwner'
+b'kernel32.dll' b'GetCommandLineW'
+b'kernel32.dll' b'GetSystemDefaultLCID'

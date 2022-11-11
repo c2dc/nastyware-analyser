@@ -1,0 +1,4 @@
+b'advapi32.dll' b'AbortSystemShutdownA'
+b'kernel32.dll' b'GetUserDefaultLCID'
+b'kernel32.dll' b'GetFileInformationByHandle'
+b'user32.dll' b'GetMessageExtraInfo'

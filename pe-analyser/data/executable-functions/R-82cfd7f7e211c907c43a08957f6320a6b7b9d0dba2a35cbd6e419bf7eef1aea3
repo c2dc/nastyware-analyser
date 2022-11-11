@@ -1,0 +1,3 @@
+b'user32.dll' b'GetDoubleClickTime'
+b'user32.dll' b'GrayStringW'
+b'kernel32.dll' b'GetUserDefaultUILanguage'

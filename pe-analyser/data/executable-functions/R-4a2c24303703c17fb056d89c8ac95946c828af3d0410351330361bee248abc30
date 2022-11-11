@@ -1,0 +1,6 @@
+b'kernel32.dll' b'FormatMessageA'
+b'user32.dll' b'SubtractRect'
+b'user32.dll' b'GetFocus'
+b'user32.dll' b'IsRectEmpty'
+b'user32.dll' b'GetMessageExtraInfo'
+b'oleaut32.dll' b'VarI2FromDec'

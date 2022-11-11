@@ -1,0 +1,6 @@
+b'kernel32.dll' b'GetLogicalDriveStringsA'
+b'kernel32.dll' b'GetUserDefaultUILanguage'
+b'ntdll.dll' b'ZwOpenProcess'
+b'advapi32.dll' b'GetAccessPermissionsForObjectW'
+b'ole32.dll' b'StgIsStorageFile'
+b'user32.dll' b'GetMenuCheckMarkDimensions'

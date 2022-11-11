@@ -1,0 +1,4 @@
+b'kernel32.dll' b'HeapFree'
+b'kernel32.dll' b'HeapReAlloc'
+b'kernel32.dll' b'HeapAlloc'
+b'msvcrt.dll' b'memset'

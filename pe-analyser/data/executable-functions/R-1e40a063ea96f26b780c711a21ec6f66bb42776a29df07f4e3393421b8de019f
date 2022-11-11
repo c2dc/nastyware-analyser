@@ -1,0 +1,4 @@
+b'kernel32.dll' b'CreateHardLinkW'
+b'user32.dll' b'GetCursor'
+b'user32.dll' b'GetCapture'
+b'user32.dll' b'GetShellWindow'

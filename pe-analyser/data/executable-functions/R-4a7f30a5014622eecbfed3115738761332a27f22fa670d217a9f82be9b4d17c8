@@ -1,0 +1,4 @@
+b'advapi32.dll' b'SystemFunction032'
+b'user32.dll' b'GetClipboardViewer'
+b'user32.dll' b'GetDoubleClickTime'
+b'user32.dll' b'GetMessageExtraInfo'

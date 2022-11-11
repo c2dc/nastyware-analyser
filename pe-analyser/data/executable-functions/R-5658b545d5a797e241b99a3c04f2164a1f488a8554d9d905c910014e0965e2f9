@@ -1,0 +1,3 @@
+b'ole32.dll' b'CreateStreamOnHGlobal'
+b'kernel32.dll' b'GetCurrentProcessId'
+b'kernel32.dll' b'GetUserDefaultLCID'

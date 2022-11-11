@@ -1,0 +1,4 @@
+b'user32.dll' b'PostThreadMessageW'
+b'ntdll.dll' b'RtlTraceDatabaseValidate'
+b'kernel32.dll' b'GetSystemDefaultLangID'
+b'kernel32.dll' b'GetCurrentThread'

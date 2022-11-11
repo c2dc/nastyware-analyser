@@ -1,0 +1,6 @@
+b'ole32.dll' b'HENHMETAFILE_UserUnmarshal'
+b'ntdll.dll' b'NtFlushWriteBuffer'
+b'ntdll.dll' b'NlsMbOemCodePageTag'
+b'user32.dll' b'GetMessagePos'
+b'user32.dll' b'GetClipboardOwner'
+b'kernel32.dll' b'GetCommandLineA'

@@ -1,0 +1,6 @@
+b'ntdll.dll' b'RtlAdjustPrivilege'
+b'ole32.dll' b'HMETAFILEPICT_UserMarshal'
+b'kernel32.dll' b'GetCurrentProcess'
+b'kernel32.dll' b'GetDiskFreeSpaceExW'
+b'user32.dll' b'GetForegroundWindow'
+b'user32.dll' b'GetCaretBlinkTime'

@@ -1,0 +1,5 @@
+b'ntdll.dll' b'RtlEnumerateGenericTableWithoutSplayingAvl'
+b'advapi32.dll' b'CloseCodeAuthzLevel'
+b'advapi32.dll' b'SystemFunction019'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'user32.dll' b'GetClipboardViewer'

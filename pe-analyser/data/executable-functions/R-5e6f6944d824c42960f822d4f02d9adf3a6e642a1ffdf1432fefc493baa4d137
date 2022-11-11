@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'OleCreatePictureIndirect'
+b'user32.dll' b'GetDoubleClickTime'
+b'kernel32.dll' b'GetCommandLineW'
+b'kernel32.dll' b'GetCurrentProcessId'

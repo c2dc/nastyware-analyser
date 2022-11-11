@@ -1,0 +1,4 @@
+b'advapi32.dll' b'AllocateAndInitializeSid'
+b'ole32.dll' b'OleCreateFromDataEx'
+b'user32.dll' b'GetCapture'
+b'kernel32.dll' b'GetSystemDefaultLangID'

@@ -1,0 +1,4 @@
+b'user32.dll' b'GetCursor'
+b'user32.dll' b'SendMessageTimeoutW'
+b'shell32.dll' b'SHGetSpecialFolderLocation'
+b'kernel32.dll' b'GetCurrentProcessId'

@@ -1,0 +1,4 @@
+b'kernel32.dll' b'LockFile'
+b'kernel32.dll' b'GetLastError'
+b'kernel32.dll' b'GetCurrentThread'
+b'user32.dll' b'GetClipboardOwner'

@@ -1,0 +1,6 @@
+b'user32.dll' b'GetDesktopWindow'
+b'user32.dll' b'GetActiveWindow'
+b'user32.dll' b'GetClipboardViewer'
+b'user32.dll' b'GetUpdateRgn'
+b'advapi32.dll' b'FlushTraceA'
+b'kernel32.dll' b'CreateHardLinkW'

@@ -1,0 +1,6 @@
+b'advapi32.dll' b'AccessCheckByTypeResultListAndAuditAlarmA'
+b'user32.dll' b'WinHelpA'
+b'user32.dll' b'GetShellWindow'
+b'user32.dll' b'GetMessagePos'
+b'oleaut32.dll' b'VarR4FromStr'
+b'kernel32.dll' b'GetCurrentProcessId'

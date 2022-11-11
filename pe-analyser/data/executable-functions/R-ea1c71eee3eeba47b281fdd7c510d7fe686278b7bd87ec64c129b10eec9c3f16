@@ -1,0 +1,7 @@
+b'ntdll.dll' b'RtlQueryProcessLockInformation'
+b'ntdll.dll' b'RtlProtectHeap'
+b'ntdll.dll' b'NtCreatePort'
+b'ole32.dll' b'CoGetPSClsid'
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'GetDoubleClickTime'
+b'user32.dll' b'GetMessageExtraInfo'

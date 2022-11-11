@@ -1,0 +1,6 @@
+b'advapi32.dll' b'AddAccessAllowedObjectAce'
+b'ntdll.dll' b'NtCompressKey'
+b'ntdll.dll' b'ZwConnectPort'
+b'kernel32.dll' b'EndUpdateResourceA'
+b'kernel32.dll' b'GetSystemDefaultLangID'
+b'user32.dll' b'GetInputDesktop'

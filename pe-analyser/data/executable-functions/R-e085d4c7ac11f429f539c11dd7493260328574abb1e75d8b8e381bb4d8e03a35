@@ -1,0 +1,2 @@
+b'kernel32.dll' b'GetModuleHandleA'
+b'kernel32.dll' b'GetProcAddress'

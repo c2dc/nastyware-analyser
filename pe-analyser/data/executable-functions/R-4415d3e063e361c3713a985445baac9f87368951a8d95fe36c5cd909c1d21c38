@@ -1,0 +1,4 @@
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'DlgDirSelectExA'
+b'kernel32.dll' b'GetSystemDefaultUILanguage'
+b'kernel32.dll' b'GetProcessHeap'

@@ -1,0 +1,5 @@
+b'advapi32.dll' b'StartServiceA'
+b'user32.dll' b'GetProcessWindowStation'
+b'user32.dll' b'GetFocus'
+b'user32.dll' b'CallNextHookEx'
+b'user32.dll' b'GetInputDesktop'

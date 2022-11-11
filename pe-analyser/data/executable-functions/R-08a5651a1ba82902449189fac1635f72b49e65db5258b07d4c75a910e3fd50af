@@ -1,0 +1,4 @@
+b'user32.dll' b'GetOpenClipboardWindow'
+b'user32.dll' b'DdeFreeStringHandle'
+b'user32.dll' b'IMPGetIMEA'
+b'kernel32.dll' b'GetLastError'

@@ -1,0 +1,3 @@
+b'kernel32.dll' b'CreateNamedPipeW'
+b'kernel32.dll' b'GetUserDefaultLangID'
+b'user32.dll' b'GetMenuCheckMarkDimensions'

@@ -1,0 +1,4 @@
+b'shell32.dll' b'SHGetAttributesFromDataObject'
+b'kernel32.dll' b'GetSystemDefaultUILanguage'
+b'user32.dll' b'GetCaretBlinkTime'
+b'user32.dll' b'GetMenuCheckMarkDimensions'

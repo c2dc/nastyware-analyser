@@ -1,0 +1,5 @@
+b'msvbvm60.dll' b'EVENT_SINK_AddRef'
+b'msvbvm60.dll' b'EVENT_SINK_Release'
+b'msvbvm60.dll' b'EVENT_SINK_QueryInterface'
+b'msvbvm60.dll' b'__vbaExceptHandler'
+b'msvbvm60.dll' b'ProcCallEngine'

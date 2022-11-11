@@ -1,0 +1,7 @@
+b'oleaut32.dll' b'VarR4FromI2'
+b'user32.dll' b'GetCursor'
+b'user32.dll' b'IsWindow'
+b'user32.dll' b'GetClipboardViewer'
+b'kernel32.dll' b'GetThreadLocale'
+b'kernel32.dll' b'GetVolumePathNameA'
+b'advapi32.dll' b'GetNamedSecurityInfoW'

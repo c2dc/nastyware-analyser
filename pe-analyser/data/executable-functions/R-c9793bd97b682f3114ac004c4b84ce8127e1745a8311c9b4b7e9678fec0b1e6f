@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'VariantInit'
+b'advapi32.dll' b'CryptVerifySignatureA'
+b'kernel32.dll' b'GetCurrentThreadId'
+b'kernel32.dll' b'GetSystemDefaultLangID'

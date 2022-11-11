@@ -1,0 +1,5 @@
+b'ws2_32.dll' b'GetNameInfoW'
+b'user32.dll' b'GetMessageExtraInfo'
+b'user32.dll' b'GetDlgItemInt'
+b'user32.dll' b'GetClipboardViewer'
+b'user32.dll' b'GetCaretBlinkTime'

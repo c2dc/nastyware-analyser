@@ -1,0 +1,4 @@
+b'ntdll.dll' b'KiUserApcDispatcher'
+b'user32.dll' b'GetClipboardSequenceNumber'
+b'user32.dll' b'GetShellWindow'
+b'user32.dll' b'InsertMenuItemA'

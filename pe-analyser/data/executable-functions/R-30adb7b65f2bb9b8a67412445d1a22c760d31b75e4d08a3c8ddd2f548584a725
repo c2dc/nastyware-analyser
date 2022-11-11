@@ -1,0 +1,5 @@
+b'ntdll.dll' b'RtlIpv6StringToAddressExW'
+b'ntdll.dll' b'NtTestAlert'
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'GetClipboardViewer'
+b'user32.dll' b'AdjustWindowRect'

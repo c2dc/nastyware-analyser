@@ -1,0 +1,6 @@
+b'ole32.dll' b'CoMarshalInterThreadInterfaceInStream'
+b'kernel32.dll' b'WritePrivateProfileSectionA'
+b'kernel32.dll' b'GetSystemDefaultLangID'
+b'kernel32.dll' b'GetUserDefaultLCID'
+b'oleaut32.dll' b'VarDecFromI8'
+b'user32.dll' b'GetForegroundWindow'

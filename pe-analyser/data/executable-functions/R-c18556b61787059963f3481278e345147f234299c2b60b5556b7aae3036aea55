@@ -1,0 +1,5 @@
+b'kernel32.dll' b'OpenMutexA'
+b'kernel32.dll' b'FillConsoleOutputAttribute'
+b'ntdll.dll' b'RtlCreateUserProcess'
+b'user32.dll' b'GetOpenClipboardWindow'
+b'user32.dll' b'GetClipboardViewer'

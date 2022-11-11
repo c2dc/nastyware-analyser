@@ -1,0 +1,5 @@
+b'user32.dll' b'GetDesktopWindow'
+b'user32.dll' b'GetDoubleClickTime'
+b'user32.dll' b'IMPSetIMEA'
+b'user32.dll' b'DrawTextA'
+b'oleaut32.dll' b'SystemTimeToVariantTime'

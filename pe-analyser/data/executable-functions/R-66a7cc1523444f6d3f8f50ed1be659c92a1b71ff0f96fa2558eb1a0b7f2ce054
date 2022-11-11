@@ -1,0 +1,7 @@
+b'kernel32.dll' b'GetDiskFreeSpaceA'
+b'kernel32.dll' b'GetLogicalDrives'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'user32.dll' b'GetLastActivePopup'
+b'user32.dll' b'GetDoubleClickTime'
+b'user32.dll' b'GetMessageExtraInfo'
+b'ole32.dll' b'OleLoadFromStream'
