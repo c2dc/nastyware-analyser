@@ -1,0 +1,11 @@
+ntdll.dll __C_specific_handler
+ntdll.dll CsrClientConnectToServer
+ntdll.dll LdrDisableThreadCalloutsForDll
+ntdll.dll NtTerminateProcess
+ntdll.dll RtlCaptureContext
+ntdll.dll RtlLookupFunctionEntry
+ntdll.dll RtlVirtualUnwind
+ntdll.dll RtlUnhandledExceptionFilter
+ntdll.dll CsrClientCallServer
+ntdll.dll RtlNtStatusToDosError
+wow64win.dll NtWow64UserConnectHook

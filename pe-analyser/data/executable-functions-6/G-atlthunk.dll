@@ -1,0 +1,15 @@
+ntdll.dll NtClose
+ntdll.dll RtlAcquireSRWLockExclusive
+ntdll.dll LdrDisableThreadCalloutsForDll
+ntdll.dll RtlFreeHeap
+ntdll.dll NtAreMappedFilesTheSame
+ntdll.dll RtlReleaseSRWLockExclusive
+ntdll.dll RtlAllocateHeap
+api-ms-win-core-memory-l1-1-0.dll UnmapViewOfFile
+api-ms-win-core-memory-l1-1-0.dll CreateFileMappingW
+api-ms-win-core-memory-l1-1-0.dll VirtualProtect
+api-ms-win-core-memory-l1-1-0.dll MapViewOfFile
+api-ms-win-core-errorhandling-l1-1-0.dll SetLastError
+api-ms-win-core-libraryloader-l1-2-0.dll GetModuleHandleExW
+api-ms-win-core-libraryloader-l1-2-0.dll GetModuleFileNameW
+api-ms-win-core-file-l1-1-0.dll CreateFileW

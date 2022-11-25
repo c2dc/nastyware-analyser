@@ -1,0 +1,15 @@
+advapi32.dll RegCloseKey
+comdlg32.dll ChooseColorA
+gdi32.dll LineTo
+imm32.dll ImmNotifyIME
+kernel32.dll LoadLibraryA
+kernel32.dll ExitProcess
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+ole32.dll DoDragDrop
+oleaut32.dll UnRegisterTypeLib
+shell32.dll ShellExecuteA
+user32.dll GetDC
+winmm.dll waveOutOpen
+winspool.drv ClosePrinter
+ws2_32.dll WSACleanup

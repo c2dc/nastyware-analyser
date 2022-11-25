@@ -1,0 +1,16 @@
+kernel32.dll GetModuleHandleA
+mscoree.dll _CorExeMain
+kernel32.dll LocalAlloc
+kernel32.dll LocalFree
+kernel32.dll GetModuleFileNameW
+kernel32.dll GetProcessAffinityMask
+kernel32.dll SetProcessAffinityMask
+kernel32.dll SetThreadAffinityMask
+kernel32.dll Sleep
+kernel32.dll ExitProcess
+kernel32.dll FreeLibrary
+kernel32.dll LoadLibraryA
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+user32.dll GetProcessWindowStation
+user32.dll GetUserObjectInformationW

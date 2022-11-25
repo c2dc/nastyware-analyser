@@ -1,0 +1,2 @@
+kernel32.dll lstrcpy
+comctl32.dll InitCommonControls

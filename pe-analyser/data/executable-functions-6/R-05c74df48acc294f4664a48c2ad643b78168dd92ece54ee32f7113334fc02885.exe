@@ -1,0 +1,15 @@
+advapi32.dll RegCloseKey
+comdlg32.dll GetSaveFileNameA
+gdi32.dll BitBlt
+kernel32.dll LoadLibraryA
+kernel32.dll ExitProcess
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+ole32.dll CoGetObject
+oleaut32.dll SysStringLen
+psapi.dll GetModuleBaseNameA
+shell32.dll DragFinish
+user32.dll GetDC
+version.dll VerQueryValueA
+winmm.dll mixerOpen
+wsock32.dll WSAStartup

@@ -1,0 +1,12 @@
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualFree
+kernel32.dll ExitProcess
+advapi32.dll LsaClose
+iphlpapi.dll GetAdaptersAddresses
+psapi.dll GetProcessMemoryInfo
+shell32.dll SHGetSpecialFolderPathA
+user32.dll ShowWindow
+ws2_32.dll gethostname

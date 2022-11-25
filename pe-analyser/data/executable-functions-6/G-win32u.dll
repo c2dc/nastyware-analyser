@@ -1,0 +1,3 @@
+ntdll.dll LdrGetProcedureAddress
+ntdll.dll NtProtectVirtualMemory
+ntdll.dll LdrGetDllHandle

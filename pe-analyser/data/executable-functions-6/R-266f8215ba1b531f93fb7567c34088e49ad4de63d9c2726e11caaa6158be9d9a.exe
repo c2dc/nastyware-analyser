@@ -1,0 +1,13 @@
+kernel32.dll GetModuleHandleA
+user32.dll GetDesktopWindow
+gdi32.dll BitBlt
+advapi32.dll GetTokenInformation
+shell32.dll SHGetFolderPathA
+ole32.dll CoInitialize
+userenv.dll GetUserProfileDirectoryA
+ktmw32.dll RollbackTransaction
+bcrypt.dll BCryptDecrypt
+crypt32.dll CryptStringToBinaryA
+shlwapi.dll StrCmpNW
+winhttp.dll WinHttpCloseHandle
+gdiplus.dll GdiplusStartup

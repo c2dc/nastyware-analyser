@@ -1,0 +1,6 @@
+kernel32.dll GetLastError
+kernel32.dll GlobalFindAtomA
+ntdll.dll NtWaitHighEventPair
+ntdll.dll RtlAreAllAccessesGranted
+advapi32.dll GetSecurityDescriptorDacl
+user32.dll GetFocus

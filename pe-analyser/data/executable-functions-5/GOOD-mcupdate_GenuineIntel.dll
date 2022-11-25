@@ -1,0 +1,7 @@
+ntoskrnl.exe RtlInitUnicodeString
+ntoskrnl.exe RtlCopyUnicodeString
+ntoskrnl.exe RtlIntegerToUnicodeString
+ntoskrnl.exe ZwClose
+ntoskrnl.exe ZwSetValueKey
+ntoskrnl.exe ZwOpenKey
+ntoskrnl.exe RtlAppendUnicodeStringToString

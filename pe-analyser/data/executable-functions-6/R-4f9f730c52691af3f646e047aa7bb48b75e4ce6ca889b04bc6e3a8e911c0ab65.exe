@@ -1,0 +1,7 @@
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+user32.dll wsprintfA
+advapi32.dll RegCloseKey
+ole32.dll IIDFromString
+msvcrt.dll atoi
+shlwapi.dll PathFileExistsA

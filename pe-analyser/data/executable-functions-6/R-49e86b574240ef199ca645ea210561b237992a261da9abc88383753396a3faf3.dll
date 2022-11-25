@@ -1,0 +1,9 @@
+kernel32.dll GetModuleHandleA
+user32.dll GetAsyncKeyState
+advapi32.dll GetCurrentHwProfileA
+shell32.dll SHGetIconOverlayIndexA
+comctl32.dll DPA_Create
+iphlpapi.dll GetAdaptersInfo
+wininet.dll InternetConnectW
+msvcr100.dll malloc
+msvcp100.dll ?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z
