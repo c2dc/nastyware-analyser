@@ -1,0 +1,5 @@
+b'advapi32.dll' b'CreatePrivateObjectSecurityWithMultipleInheritance'
+b'advapi32.dll' b'ImpersonateLoggedOnUser'
+b'ntdll.dll' b'LdrFindResourceDirectory_U'
+b'user32.dll' b'GetInputDesktop'
+b'kernel32.dll' b'GetSystemDefaultUILanguage'

@@ -1,0 +1,5 @@
+b'kernel32.dll' b'GetModuleHandleA'
+b'user32.dll' b'CharLowerW'
+b'advapi32.dll' b'RegOpenKeyExA'
+b'shlwapi.dll' b'PathFileExistsW'
+b'shell32.dll' b'ShellAboutA'

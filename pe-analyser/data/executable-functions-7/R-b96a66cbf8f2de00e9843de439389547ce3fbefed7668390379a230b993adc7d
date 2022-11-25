@@ -1,0 +1,5 @@
+b'kernel32.dll' b'GetCurrentProcess'
+b'kernel32.dll' b'GetProcessId'
+b'oleaut32.dll' b'VarR4FromBool'
+b'advapi32.dll' b'GetOldestEventLogRecord'
+b'user32.dll' b'GetCapture'

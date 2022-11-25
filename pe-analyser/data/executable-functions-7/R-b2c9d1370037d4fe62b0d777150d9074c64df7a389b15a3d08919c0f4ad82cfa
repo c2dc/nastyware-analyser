@@ -1,0 +1,6 @@
+b'user32.dll' b'EnumDisplaySettingsExA'
+b'user32.dll' b'GetMessageExtraInfo'
+b'ntdll.dll' b'RtlAddAccessDeniedObjectAce'
+b'advapi32.dll' b'LsaFreeMemory'
+b'kernel32.dll' b'GetCurrentThread'
+b'kernel32.dll' b'GetConsoleWindow'

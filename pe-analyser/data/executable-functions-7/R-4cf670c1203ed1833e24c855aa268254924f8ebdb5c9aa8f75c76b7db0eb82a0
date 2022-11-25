@@ -1,0 +1,4 @@
+b'kernel32.dll' b'GetProcessHeap'
+b'kernel32.dll' b'GetThreadLocale'
+b'kernel32.dll' b'CheckNameLegalDOS8Dot3W'
+b'kernel32.dll' b'GetUserDefaultUILanguage'

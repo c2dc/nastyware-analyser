@@ -1,0 +1,4 @@
+b'kernel32.dll' b'OpenJobObjectW'
+b'kernel32.dll' b'VirtualQuery'
+b'user32.dll' b'GetCapture'
+b'user32.dll' b'GetDialogBaseUnits'

@@ -1,0 +1,5 @@
+b'ole32.dll' b'OleSetMenuDescriptor'
+b'user32.dll' b'GetDesktopWindow'
+b'user32.dll' b'EnumDesktopWindows'
+b'kernel32.dll' b'GetCurrentThreadId'
+b'kernel32.dll' b'GetProcessHeap'

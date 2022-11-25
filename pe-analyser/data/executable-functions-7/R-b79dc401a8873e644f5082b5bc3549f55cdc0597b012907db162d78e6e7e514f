@@ -1,0 +1,4 @@
+b'shell32.dll' b'ExtractAssociatedIconW'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'user32.dll' b'GetMessagePos'
+b'kernel32.dll' b'GetCommandLineA'

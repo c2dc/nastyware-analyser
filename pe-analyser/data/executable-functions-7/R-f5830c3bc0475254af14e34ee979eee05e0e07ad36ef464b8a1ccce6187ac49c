@@ -1,0 +1,4 @@
+b'ntdll.dll' b'NtModifyBootEntry'
+b'user32.dll' b'GetDoubleClickTime'
+b'user32.dll' b'GetClipboardSequenceNumber'
+b'kernel32.dll' b'GetCurrentProcessId'

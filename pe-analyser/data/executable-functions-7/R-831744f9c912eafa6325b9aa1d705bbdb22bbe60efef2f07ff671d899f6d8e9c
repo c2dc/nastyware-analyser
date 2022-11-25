@@ -1,0 +1,4 @@
+b'kernel32.dll' b'GetVersion'
+b'kernel32.dll' b'AreFileApisANSI'
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'GetFocus'

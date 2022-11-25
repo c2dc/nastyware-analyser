@@ -1,0 +1,5 @@
+b'user32.dll' b'GetKBCodePage'
+b'user32.dll' b'DdeUnaccessData'
+b'user32.dll' b'UnregisterDeviceNotification'
+b'shell32.dll' b'FindExecutableW'
+b'kernel32.dll' b'GetUserDefaultLangID'

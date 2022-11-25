@@ -1,0 +1,2 @@
+b'kernel32.dll' b'GetModuleHandleA'
+b'mscoree.dll' b'_CorExeMain'

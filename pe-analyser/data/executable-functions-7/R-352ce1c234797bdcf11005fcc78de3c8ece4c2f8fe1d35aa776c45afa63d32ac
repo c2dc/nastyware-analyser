@@ -1,0 +1,5 @@
+b'kernel32.dll' b'GetFileAttributesA'
+b'kernel32.dll' b'GetLastError'
+b'kernel32.dll' b'GetCommandLineW'
+b'ws2_32.dll' b'WSAGetLastError'
+b'user32.dll' b'GetInputDesktop'

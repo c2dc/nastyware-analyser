@@ -1,0 +1,6 @@
+b'advapi32.dll' b'LsaICLookupSids'
+b'kernel32.dll' b'QueryInformationJobObject'
+b'kernel32.dll' b'GetUserDefaultUILanguage'
+b'kernel32.dll' b'GetSystemDefaultLCID'
+b'ntdll.dll' b'NtTerminateProcess'
+b'ole32.dll' b'CoRevokeInitializeSpy'

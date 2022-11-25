@@ -1,0 +1,6 @@
+b'kernel32.dll' b'GetSystemDefaultUILanguage'
+b'kernel32.dll' b'GetVersion'
+b'kernel32.dll' b'LCMapStringW'
+b'ole32.dll' b'StgPropertyLengthAsVariant'
+b'advapi32.dll' b'ConvertStringSDToSDRootDomainW'
+b'oleaut32.dll' b'VarDecInt'

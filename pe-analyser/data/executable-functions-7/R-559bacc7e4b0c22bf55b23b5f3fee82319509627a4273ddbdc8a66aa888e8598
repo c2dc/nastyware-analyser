@@ -1,0 +1,5 @@
+b'kernel32.dll' b'GetModuleHandleA'
+b'kernel32.dll' b'GetProcAddress'
+b'msvcrt.dll' b'free'
+b'ntdll.dll' b'NtClose'
+b'user32.dll' b'WinHelpW'

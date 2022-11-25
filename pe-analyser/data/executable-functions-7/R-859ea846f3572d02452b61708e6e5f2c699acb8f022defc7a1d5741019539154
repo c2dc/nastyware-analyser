@@ -1,0 +1,3 @@
+b'user32.dll' b'SetWindowsHookA'
+b'kernel32.dll' b'GetUserDefaultLCID'
+b'kernel32.dll' b'GetCommandLineW'

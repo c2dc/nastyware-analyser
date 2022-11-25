@@ -1,0 +1,5 @@
+b'kernel32.dll' b'GetUserDefaultLCID'
+b'kernel32.dll' b'GetProcAddress'
+b'kernel32.dll' b'CopyFileW'
+b'user32.dll' b'GetActiveWindow'
+b'user32.dll' b'GetClipboardViewer'

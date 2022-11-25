@@ -1,0 +1,6 @@
+b'kernel32.dll' b'GetCommandLineA'
+b'kernel32.dll' b'GetThreadLocale'
+b'kernel32.dll' b'CancelTimerQueueTimer'
+b'advapi32.dll' b'FlushTraceA'
+b'user32.dll' b'SetDlgItemTextA'
+b'ole32.dll' b'HMETAFILEPICT_UserFree'

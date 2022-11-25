@@ -1,0 +1,6 @@
+b'shell32.dll' b'SHGetDesktopFolder'
+b'kernel32.dll' b'GetVersion'
+b'kernel32.dll' b'VerLanguageNameA'
+b'ntdll.dll' b'ZwUnloadKey'
+b'user32.dll' b'GetForegroundWindow'
+b'user32.dll' b'GetCapture'

@@ -1,0 +1,7 @@
+b'kernel32.dll' b'GetModuleHandleA'
+b'kernel32.dll' b'GetProcAddress'
+b'user32.dll' b'wsprintfW'
+b'advapi32.dll' b'RegCloseKey'
+b'shell32.dll' b'SHGetFolderPathW'
+b'version.dll' b'VerQueryValueW'
+b'shlwapi.dll' b'PathRemoveFileSpecW'

@@ -1,0 +1,4 @@
+b'ole32.dll' b'HDC_UserSize'
+b'kernel32.dll' b'GetSystemDefaultLangID'
+b'kernel32.dll' b'GetNumberOfConsoleInputEvents'
+b'user32.dll' b'GetShellWindow'

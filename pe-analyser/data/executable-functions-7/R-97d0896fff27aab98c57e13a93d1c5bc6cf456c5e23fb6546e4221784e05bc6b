@@ -1,0 +1,3 @@
+b'kernel32.dll' b'GetConsoleWindow'
+b'kernel32.dll' b'GetCurrentProcessId'
+b'kernel32.dll' b'FindResourceExA'

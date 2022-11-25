@@ -1,0 +1,5 @@
+b'ntdll.dll' b'NtEnumerateBootEntries'
+b'ntdll.dll' b'NtStartProfile'
+b'ntdll.dll' b'NtQueryInformationToken'
+b'user32.dll' b'GetForegroundWindow'
+b'kernel32.dll' b'GetConsoleWindow'

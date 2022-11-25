@@ -1,0 +1,3 @@
+b'shell32.dll' b'SHGetFolderPathA'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'user32.dll' b'GetDoubleClickTime'

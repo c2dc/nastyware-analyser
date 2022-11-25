@@ -1,0 +1,5 @@
+b'oleaut32.dll' b'LoadTypeLib'
+b'kernel32.dll' b'GetSystemDefaultLangID'
+b'kernel32.dll' b'GetConsoleWindow'
+b'kernel32.dll' b'GetVolumeNameForVolumeMountPointA'
+b'user32.dll' b'GetForegroundWindow'

@@ -1,0 +1,4 @@
+b'ntdll.dll' b'ZwQuerySection'
+b'ntdll.dll' b'ZwAccessCheckByTypeResultList'
+b'kernel32.dll' b'GetUserDefaultUILanguage'
+b'kernel32.dll' b'GetVersion'

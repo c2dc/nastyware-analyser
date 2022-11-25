@@ -1,0 +1,5 @@
+b'kernel32.dll' b'SetEvent'
+b'kernel32.dll' b'GetUserDefaultUILanguage'
+b'kernel32.dll' b'Thread32First'
+b'user32.dll' b'GetProcessWindowStation'
+b'user32.dll' b'GetInputState'

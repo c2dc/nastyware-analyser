@@ -1,0 +1,5 @@
+b'oleaut32.dll' b'VarCyFromBool'
+b'kernel32.dll' b'GetCommandLineA'
+b'kernel32.dll' b'GetLastError'
+b'kernel32.dll' b'BuildCommDCBAndTimeoutsA'
+b'user32.dll' b'GetCursor'

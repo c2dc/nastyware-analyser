@@ -1,0 +1,4 @@
+b'advapi32.dll' b'ElfChangeNotify'
+b'user32.dll' b'GetMessageTime'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'kernel32.dll' b'GetLastError'

@@ -1,0 +1,7 @@
+b'ntdll.dll' b'NtCreatePagingFile'
+b'ntdll.dll' b'NtProtectVirtualMemory'
+b'ws2_32.dll' b'WSASetServiceW'
+b'advapi32.dll' b'LsaDelete'
+b'kernel32.dll' b'GetCurrentProcessId'
+b'kernel32.dll' b'GetUserDefaultLCID'
+b'kernel32.dll' b'GetProcessHeap'

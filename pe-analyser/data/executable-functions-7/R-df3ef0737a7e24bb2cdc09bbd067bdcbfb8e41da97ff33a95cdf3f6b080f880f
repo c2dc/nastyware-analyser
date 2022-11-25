@@ -1,0 +1,6 @@
+b'kernel32.dll' b'InterlockedFlushSList'
+b'user32.dll' b'DdePostAdvise'
+b'user32.dll' b'GetForegroundWindow'
+b'user32.dll' b'GetInputState'
+b'advapi32.dll' b'SystemFunction017'
+b'ntdll.dll' b'RtlIpv6AddressToStringExW'

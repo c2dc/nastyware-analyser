@@ -1,0 +1,3 @@
+b'ntdll.dll' b'NtRequestPort'
+b'user32.dll' b'GetMessageTime'
+b'kernel32.dll' b'GetSystemDefaultLangID'

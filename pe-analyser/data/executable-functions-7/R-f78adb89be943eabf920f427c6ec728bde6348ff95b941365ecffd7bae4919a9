@@ -1,0 +1,6 @@
+b'ntdll.dll' b'ZwSetInformationKey'
+b'ntdll.dll' b'ZwFindAtom'
+b'ntdll.dll' b'RtlInitCodePageTable'
+b'advapi32.dll' b'SystemFunction028'
+b'user32.dll' b'GetMessageExtraInfo'
+b'kernel32.dll' b'GetCurrentThreadId'

@@ -1,0 +1,4 @@
+b'user32.dll' b'GetCaretBlinkTime'
+b'user32.dll' b'GetDesktopWindow'
+b'user32.dll' b'IMPQueryIMEW'
+b'kernel32.dll' b'GetVersion'

@@ -1,0 +1,7 @@
+b'user32.dll' b'GetInputDesktop'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'user32.dll' b'CheckMenuItem'
+b'ole32.dll' b'CLIPFORMAT_UserMarshal'
+b'oleaut32.dll' b'SafeArrayCreate'
+b'ntdll.dll' b'RtlExitUserThread'
+b'kernel32.dll' b'GetUserDefaultUILanguage'

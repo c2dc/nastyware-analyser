@@ -1,0 +1,4 @@
+b'oleaut32.dll' b'VarR8FromI4'
+b'user32.dll' b'GetShellWindow'
+b'user32.dll' b'ChangeMenuA'
+b'user32.dll' b'GetMessageExtraInfo'

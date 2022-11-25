@@ -1,0 +1,4 @@
+b'advapi32.dll' b'CreateProcessWithLogonW'
+b'ntdll.dll' b'RtlActivateActivationContextEx'
+b'kernel32.dll' b'GetUserDefaultUILanguage'
+b'user32.dll' b'GetMessagePos'

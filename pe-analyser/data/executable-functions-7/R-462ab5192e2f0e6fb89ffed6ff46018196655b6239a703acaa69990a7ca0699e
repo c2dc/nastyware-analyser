@@ -1,0 +1,4 @@
+b'ntdll.dll' b'RtlFormatMessage'
+b'user32.dll' b'GetClipboardOwner'
+b'user32.dll' b'GetMessageExtraInfo'
+b'user32.dll' b'GetCapture'

@@ -1,0 +1,4 @@
+b'kernel32.dll' b'GetPrivateProfileSectionA'
+b'kernel32.dll' b'GetUserDefaultUILanguage'
+b'kernel32.dll' b'GetUserDefaultLangID'
+b'user32.dll' b'GetShellWindow'

@@ -1,0 +1,4 @@
+b'user32.dll' b'GetOpenClipboardWindow'
+b'user32.dll' b'SetForegroundWindow'
+b'user32.dll' b'GetActiveWindow'
+b'kernel32.dll' b'DeleteFileA'

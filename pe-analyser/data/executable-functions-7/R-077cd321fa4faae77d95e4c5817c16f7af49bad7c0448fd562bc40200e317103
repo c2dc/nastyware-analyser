@@ -1,0 +1,3 @@
+b'oleaut32.dll' b'VarR8FromDisp'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'kernel32.dll' b'GetSystemDefaultLCID'

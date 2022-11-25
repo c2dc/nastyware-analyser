@@ -1,0 +1,5 @@
+b'oleaut32.dll' b'VarDecFromI2'
+b'oleaut32.dll' b'VarI4FromDec'
+b'user32.dll' b'GetClipboardSequenceNumber'
+b'user32.dll' b'GetMessageTime'
+b'kernel32.dll' b'GetCurrentProcess'

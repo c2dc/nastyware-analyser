@@ -1,0 +1,6 @@
+b'kernel32.dll' b'CancelWaitableTimer'
+b'ntdll.dll' b'NtSetIoCompletion'
+b'user32.dll' b'LoadIconW'
+b'user32.dll' b'GetShellWindow'
+b'user32.dll' b'ChangeMenuW'
+b'user32.dll' b'GetActiveWindow'

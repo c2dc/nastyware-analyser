@@ -1,0 +1,5 @@
+b'ntdll.dll' b'RtlUnicodeStringToInteger'
+b'ntdll.dll' b'RtlQueryAtomInAtomTable'
+b'user32.dll' b'GetShellWindow'
+b'user32.dll' b'GetCaretBlinkTime'
+b'kernel32.dll' b'GetProcessHeap'

@@ -1,0 +1,6 @@
+b'user32.dll' b'DialogBoxParamA'
+b'user32.dll' b'SetWindowRgn'
+b'user32.dll' b'CreateDialogParamA'
+b'advapi32.dll' b'RegReplaceKeyA'
+b'kernel32.dll' b'GetLastError'
+b'kernel32.dll' b'GetThreadLocale'

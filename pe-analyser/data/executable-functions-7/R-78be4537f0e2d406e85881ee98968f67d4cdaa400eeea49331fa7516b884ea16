@@ -1,0 +1,6 @@
+b'kernel32.dll' b'SwitchToFiber'
+b'kernel32.dll' b'GetUserDefaultLCID'
+b'kernel32.dll' b'GetCurrentThreadId'
+b'advapi32.dll' b'SystemFunction031'
+b'ntdll.dll' b'ZwSetVolumeInformationFile'
+b'user32.dll' b'GetCaretBlinkTime'

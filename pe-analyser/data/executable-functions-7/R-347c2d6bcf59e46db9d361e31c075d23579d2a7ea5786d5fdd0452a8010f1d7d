@@ -1,0 +1,6 @@
+b'user32.dll' b'GetDialogBaseUnits'
+b'user32.dll' b'SendNotifyMessageW'
+b'user32.dll' b'GetActiveWindow'
+b'user32.dll' b'GetMenuCheckMarkDimensions'
+b'user32.dll' b'ShowCaret'
+b'ntdll.dll' b'DbgPrintReturnControlC'
