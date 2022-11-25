@@ -12,12 +12,10 @@ if (Get-ChildItem -Path $peFilesDir -File) {
 }
 
 # Copy all files from C: to C:\pe-files\ if first two bytes are 0x4d5a
-Get-ChildItem -Path C:\sqmapi.dll -Recurse -File -Exclude $peFilesDir | Where-Object {
+Get-ChildItem -Path C:\ -Recurse -File -Exclude $peFilesDir | Where-Object {
     $bytes = Get-Content -Path $_.FullName -Encoding Byte -ReadCount 1
     $bytes[0] -eq "77" -and $bytes[1] -eq "90"
 } | Copy-Item -Destination $peFilesDir -Force
-
-# Get-ChildItem -Path C:\ -Recurse -File -Exclude $peFilesDir | Where-Object { (Get-Content -Path $_.FullName -Encoding Byte -ReadCount 1)[0] -eq 0x4d } | Move-Item -Destination $peFilesDir
 
 # Compress the directory C:\pe-files\ to C:\pe-files.zip
 Compress-Archive -Path $peFilesDir -DestinationPath $peFilesDir.zip
