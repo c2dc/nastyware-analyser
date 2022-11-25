@@ -4,8 +4,8 @@ import yara_tools
 rule = yara_tools.create_rule(name="blackcat_cluster")
 rule.add_import(name="pe")
 
-plus_functions = set(open('analysis/optimal_plus_functions.txt').read().splitlines())
-minus_functions = set(open('analysis/optimal_minus_functions.txt').read().splitlines())
+plus_functions = set(open('tmp_analysis/optimal_plus_functions.txt').read().splitlines())
+minus_functions = set(open('tmp_analysis/optimal_minus_functions.txt').read().splitlines())
 
 for line in plus_functions:
     lib, func = line.split()
