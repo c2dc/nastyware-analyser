@@ -14,6 +14,7 @@ if (Get-ChildItem -Path $peFilesDir -File) {
 # Copy all files from C: to C:\pe-files\ if first two bytes are 0x4d5a
 Get-ChildItem -Path C:\ -Recurse -File -Exclude $peFilesDir | Where-Object {
     $bytes = Get-Content -Path $_.FullName -Encoding Byte -ReadCount 1
+    Write-Host $_.FullName
     $bytes[0] -eq "77" -and $bytes[1] -eq "90"
 } | Copy-Item -Destination $peFilesDir -Force
 
