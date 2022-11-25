@@ -1,0 +1,11 @@
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualFree
+kernel32.dll ExitProcess
+advapi32.dll RegCloseKey
+ole32.dll CoInitialize
+oleaut32.dll VariantCopy
+user32.dll CharNextA
+wsock32.dll socket

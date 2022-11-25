@@ -1,0 +1,15 @@
+kernel32.dll GetProcAddress
+kernel32.dll GetModuleHandleA
+kernel32.dll LoadLibraryA
+rasapi32.dll RasHangUpA
+winmm.dll midiStreamOpen
+ws2_32.dll WSAStartup
+user32.dll WaitForInputIdle
+gdi32.dll PtVisible
+winspool.drv OpenPrinterA
+advapi32.dll RegQueryValueA
+shell32.dll SHGetSpecialFolderPathA
+ole32.dll StgCreateDocfileOnILockBytes
+oleaut32.dll SafeArrayAccessData
+wininet.dll InternetCanonicalizeUrlA
+comdlg32.dll ChooseColorA

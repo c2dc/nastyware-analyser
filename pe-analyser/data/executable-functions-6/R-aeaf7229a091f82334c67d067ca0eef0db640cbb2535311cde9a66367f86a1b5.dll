@@ -1,0 +1,10 @@
+kernel32.dll LoadLibraryA
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualProtect
+kernel32.dll GetProcAddress
+kernel32.dll GetCurrentProcess
+kernel32.dll GetCurrentThread
+kernel32.dll GetCurrentThreadId
+comctl32.dll FlatSB_SetScrollProp
+version.dll VerFindFileA
+advapi32.dll ElfReadEventLogW

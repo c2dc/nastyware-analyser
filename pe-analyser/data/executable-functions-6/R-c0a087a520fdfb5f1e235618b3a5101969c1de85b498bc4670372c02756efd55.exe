@@ -1,0 +1,13 @@
+kernel32.dll VirtualQuery
+kernel32.dll VirtualFree
+kernel32.dll VirtualAlloc
+kernel32.dll SetLastError
+kernel32.dll VirtualProtect
+kernel32.dll IsBadReadPtr
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll FreeLibrary
+kernel32.dll GetNativeSystemInfo
+kernel32.dll HeapAlloc
+kernel32.dll GetProcessHeap
+kernel32.dll HeapFree

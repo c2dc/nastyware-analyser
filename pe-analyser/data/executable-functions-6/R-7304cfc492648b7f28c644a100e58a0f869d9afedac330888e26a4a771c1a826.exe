@@ -1,0 +1,8 @@
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+advapi32.dll RegFlushKey
+user32.dll GetDC
+shlwapi.dll PathFileExistsA
+version.dll VerQueryValueA
+gdi32.dll Escape
+winspool.drv ClosePrinter

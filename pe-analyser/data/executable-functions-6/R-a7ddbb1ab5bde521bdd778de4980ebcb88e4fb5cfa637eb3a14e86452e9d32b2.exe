@@ -1,0 +1,6 @@
+kernel32.dll LoadLibraryA
+kernel32.dll ExitProcess
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+msvcrt.dll _iob
+user32.dll ShowWindow

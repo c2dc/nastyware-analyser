@@ -1,0 +1,8 @@
+comdlg32.dll GetOpenFileNameW
+kernel32.dll LoadLibraryA
+kernel32.dll ExitProcess
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+shell32.dll SHGetMalloc
+shlwapi.dll PathCompactPathExW
+user32.dll SetFocus

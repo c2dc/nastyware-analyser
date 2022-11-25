@@ -1,0 +1,5 @@
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+kernel32.dll ExitProcess
+shell32.dll ShellExecuteA
