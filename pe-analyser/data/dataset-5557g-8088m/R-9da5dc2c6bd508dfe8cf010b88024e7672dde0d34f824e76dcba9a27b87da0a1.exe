@@ -1,0 +1,12 @@
+comctl32.dll InitCommonControlsEx
+gdi32.dll GetStockObject
+kernel32.dll LoadLibraryA
+kernel32.dll ExitProcess
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+msvcrt.dll free
+ole32.dll CoInitialize
+shell32.dll ShellExecuteExW
+shlwapi.dll PathRemoveArgsW
+user32.dll SetFocus
+winmm.dll timeBeginPeriod

@@ -1,0 +1,13 @@
+ntoskrnl.exe atol
+ntoskrnl.exe KdDebuggerNotPresent
+ntoskrnl.exe KeFindConfigurationEntry
+ntoskrnl.exe strstr
+ntoskrnl.exe EtwSetInformation
+ntoskrnl.exe _vsnprintf
+ntoskrnl.exe EtwWriteTransfer
+ntoskrnl.exe EtwRegister
+ntoskrnl.exe PoSetHiberRange
+ntoskrnl.exe HalPrivateDispatchTable
+ntoskrnl.exe _strupr
+hal.dll KdComPortInUse
+hal.dll KeStallExecutionProcessor

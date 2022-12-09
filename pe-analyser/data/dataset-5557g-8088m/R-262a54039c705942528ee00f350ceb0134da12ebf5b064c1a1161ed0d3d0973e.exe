@@ -1,0 +1,13 @@
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+advapi32.dll RegEnumKeyA
+dbghelp.dll MakeSureDirectoryPathExists
+user32.dll wsprintfA
+shlwapi.dll PathFileExistsA
+msvcrt.dll free
+kernel32.dll GetModuleHandleA
+kernel32.dll LoadLibraryA
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualFree
+kernel32.dll GetModuleFileNameA
+kernel32.dll ExitProcess

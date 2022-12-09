@@ -1,0 +1,13 @@
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualFree
+kernel32.dll ExitProcess
+comctl32.dll InitCommonControls
+gdi32.dll SetBkColor
+msvcrt.dll memset
+ole32.dll CoInitialize
+shell32.dll ShellExecuteExA
+shlwapi.dll PathQuoteSpacesA
+user32.dll IsChild

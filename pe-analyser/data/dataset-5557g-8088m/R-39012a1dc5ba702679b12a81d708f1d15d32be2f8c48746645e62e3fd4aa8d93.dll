@@ -1,0 +1,12 @@
+kernel32.dll GetModuleHandleW
+kernel32.dll GetLastError
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+user32.dll LoadCursorA
+user32.dll LoadIconA
+user32.dll CharUpperA
+user32.dll CharUpperW
+gdi32.dll GetTextCharacterExtra
+gdi32.dll RealizePalette
+advapi32.dll RegOpenKeyA
+advapi32.dll GetUserNameA

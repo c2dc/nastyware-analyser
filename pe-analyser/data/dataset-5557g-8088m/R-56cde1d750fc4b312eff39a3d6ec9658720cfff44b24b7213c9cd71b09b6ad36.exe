@@ -1,0 +1,5 @@
+kernel32.dll ExitProcess
+kernel32.dll GetStdHandle
+kernel32.dll WriteConsoleA
+kernel32.dll Sleep
+kernel32.dll GetLocalTime

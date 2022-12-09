@@ -1,0 +1,6 @@
+kernel32.dll GetModuleHandleA
+shell32.dll SHGetFolderPathA
+user32.dll wsprintfA
+advapi32.dll GetUserNameA
+winhttp.dll WinHttpQueryDataAvailable
+msvcrt.dll memset

@@ -1,0 +1,9 @@
+kernel32.dll DisableThreadLibraryCalls
+kernel32.dll LoadResource
+kernel32.dll LockResource
+kernel32.dll FindResourceA
+kernel32.dll QueryPerformanceCounter
+kernel32.dll GetCurrentProcessId
+kernel32.dll GetCurrentThreadId
+kernel32.dll GetSystemTimeAsFileTime
+kernel32.dll IsProcessorFeaturePresent

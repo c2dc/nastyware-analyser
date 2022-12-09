@@ -1,0 +1,16 @@
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualFree
+kernel32.dll ExitProcess
+advapi32.dll RegCloseKey
+comdlg32.dll ChooseColorA
+gdi32.dll Escape
+ole32.dll CoTaskMemFree
+oleaut32.dll VariantTimeToSystemTime
+shell32.dll ShellExecuteA
+user32.dll GetDC
+winmm.dll waveOutOpen
+winspool.drv OpenPrinterA
+ws2_32.dll recvfrom

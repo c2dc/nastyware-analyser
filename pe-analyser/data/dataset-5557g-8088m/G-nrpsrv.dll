@@ -1,0 +1,13 @@
+ntdll.dll RtlLookupFunctionEntry
+ntdll.dll RtlVirtualUnwind
+ntdll.dll RtlCaptureContext
+api-ms-win-core-libraryloader-l1-2-0.dll DisableThreadLibraryCalls
+api-ms-win-core-profile-l1-1-0.dll QueryPerformanceCounter
+api-ms-win-core-processthreads-l1-1-0.dll GetCurrentProcess
+api-ms-win-core-processthreads-l1-1-0.dll GetCurrentProcessId
+api-ms-win-core-processthreads-l1-1-0.dll GetCurrentThreadId
+api-ms-win-core-processthreads-l1-1-0.dll TerminateProcess
+api-ms-win-core-sysinfo-l1-1-0.dll GetTickCount
+api-ms-win-core-sysinfo-l1-1-0.dll GetSystemTimeAsFileTime
+api-ms-win-core-errorhandling-l1-1-0.dll UnhandledExceptionFilter
+api-ms-win-core-errorhandling-l1-1-0.dll SetUnhandledExceptionFilter
