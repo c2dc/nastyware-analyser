@@ -1,0 +1,7 @@
+msvbvm60.dll MethCallEngine
+msvbvm60.dll EVENT_SINK_AddRef
+msvbvm60.dll DllFunctionCall
+msvbvm60.dll EVENT_SINK_Release
+msvbvm60.dll EVENT_SINK_QueryInterface
+msvbvm60.dll __vbaExceptHandler
+msvbvm60.dll ProcCallEngine

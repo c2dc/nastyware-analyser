@@ -1,0 +1,10 @@
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+user32.dll GetDC
+advapi32.dll RegFlushKey
+ole32.dll OleRun
+gdi32.dll SaveDC
+shlwapi.dll PathFileExistsA
+oleaut32.dll VarR8FromCy
+shell32.dll SHGetSpecialFolderPathA
+winspool.drv ClosePrinter

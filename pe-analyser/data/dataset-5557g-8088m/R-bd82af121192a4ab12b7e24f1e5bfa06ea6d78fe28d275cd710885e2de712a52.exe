@@ -1,0 +1,15 @@
+msvcrt.dll __p___winitenv
+msvcrt.dll __wgetmainargs
+msvcrt.dll _initterm
+msvcrt.dll __setusermatherr
+msvcrt.dll _adjust_fdiv
+msvcrt.dll __p__commode
+msvcrt.dll exit
+msvcrt.dll __set_app_type
+msvcrt.dll _except_handler3
+msvcrt.dll _controlfp
+msvcrt.dll _XcptFilter
+msvcrt.dll __p__fmode
+msvcrt.dll _exit
+kernel32.dll GetProcAddress
+kernel32.dll LoadLibraryW

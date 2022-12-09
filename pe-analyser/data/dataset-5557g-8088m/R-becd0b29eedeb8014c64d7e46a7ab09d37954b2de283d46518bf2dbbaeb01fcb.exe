@@ -1,0 +1,15 @@
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualFree
+user32.dll GetScrollPos
+gdi32.dll GetClipRgn
+winmm.dll midiStreamRestart
+winspool.drv ClosePrinter
+advapi32.dll RegCloseKey
+shell32.dll ShellExecuteA
+ole32.dll OleInitialize
+oleaut32.dll UnRegisterTypeLib
+comctl32.dll ImageList_Destroy
+ws2_32.dll recv
+comdlg32.dll GetFileTitleA

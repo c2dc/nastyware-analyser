@@ -1,0 +1,16 @@
+kernel32.dll LoadLibraryA
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualProtect
+kernel32.dll GetProcAddress
+kernel32.dll lstrlenA
+kernel32.dll lstrcmpA
+user32.dll GetKeyboardType
+user32.dll GetWindowThreadProcessId
+user32.dll GetWindowDC
+user32.dll GetGUIThreadInfo
+winspool.drv DeletePrinterIC
+shell32.dll SHGetNewLinkInfo
+gdi32.dll GetCharABCWidthsW
+oleaut32.dll LoadRegTypeLib
+winspool.drv ConvertUnicodeDevModeToAnsiDevmode
+gdiplus.dll GdipAddPathClosedCurve

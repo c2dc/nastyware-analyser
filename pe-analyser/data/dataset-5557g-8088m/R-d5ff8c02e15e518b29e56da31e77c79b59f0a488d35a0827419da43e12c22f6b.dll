@@ -1,0 +1,17 @@
+ole32.dll STGMEDIUM_UserFree
+ole32.dll CoDosDateTimeToFileTime
+rpcrt4.dll I_RpcServerUseProtseq2W
+user32.dll SetWindowsHookW
+user32.dll GetFocus
+mprapi.dll MprAdminUserGetInfo
+kernel32.dll LoadLibraryExW
+kernel32.dll LoadLibraryExA
+kernel32.dll OutputDebugStringA
+kernel32.dll LoadLibraryA
+kernel32.dll GetModuleHandleA
+kernel32.dll CreateFileW
+msvcrt.dll iswalpha
+winmm.dll midiInMessage
+advapi32.dll RegSaveKeyExA
+advapi32.dll GetServiceKeyNameW
+gdi32.dll GetEnhMetaFileHeader
