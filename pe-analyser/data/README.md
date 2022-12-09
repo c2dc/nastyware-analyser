@@ -1,18 +1,12 @@
 # Categorizacao dos datasets
 
-1. executable-funcions:
+1. executable-funcions: Funcoes originais do artigo do nilson + malwares obtidos no malware bazaar
 
-2. executable-functions-2:
+2. funcoes-artigo-nilson: Funcoes originais do artigo do nilson
 
-3. executable-functions-3:
+3. executable-functions-6:
 
-4. executable-functions-4:
+4. executable-functions-7:
 
-5. executable-functions-5:
-
-6. executable-functions-6:
-
-7. executable-functions-7:
-
-8. executable-functions-8:
+5. executable-functions-8:
 

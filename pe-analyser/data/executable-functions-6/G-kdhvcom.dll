@@ -1,4 +1,0 @@
-ntoskrnl.exe MmGetPhysicalAddress
-ntoskrnl.exe KdDebuggerNotPresent
-ntoskrnl.exe __C_specific_handler
-ntoskrnl.exe PoSetHiberRange

@@ -1,4 +1,0 @@
-b'advapi32.dll' b'ControlService'
-b'user32.dll' b'GetDesktopWindow'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetCurrentProcessId'

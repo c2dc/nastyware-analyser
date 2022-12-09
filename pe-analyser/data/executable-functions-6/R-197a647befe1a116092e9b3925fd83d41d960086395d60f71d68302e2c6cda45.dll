@@ -1,9 +1,0 @@
-kernel32.dll GetModuleHandleA
-ws2_32.dll inet_ntoa
-psapi.dll GetModuleFileNameExW
-msvcrt.dll _time64
-user32.dll CreateWindowExA
-advapi32.dll GetSidSubAuthority
-ole32.dll CoInitializeEx
-oleaut32.dll SafeArrayGetUBound
-userenv.dll GetUserProfileDirectoryW

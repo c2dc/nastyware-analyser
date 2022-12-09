@@ -1,5 +1,0 @@
-kernel32.dll GetTickCount
-kernel32.dll GetCurrentThreadId
-kernel32.dll QueryPerformanceCounter
-kernel32.dll GetCurrentProcessId
-kernel32.dll GetSystemTimeAsFileTime

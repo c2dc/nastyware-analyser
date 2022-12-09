@@ -1,5 +1,0 @@
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'ReleaseSemaphore'
-b'user32.dll' b'GetWindowModuleFileNameA'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'GetInputState'

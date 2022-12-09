@@ -1,6 +1,0 @@
-b'ole32.dll' b'HDC_UserMarshal'
-b'kernel32.dll' b'MoveFileWithProgressA'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'TrackMouseEvent'
-b'shell32.dll' b'SHExtractIconsW'

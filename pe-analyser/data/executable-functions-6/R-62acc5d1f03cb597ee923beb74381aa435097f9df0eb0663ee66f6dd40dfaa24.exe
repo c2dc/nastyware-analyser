@@ -1,6 +1,0 @@
-ntdll.dll ZwCompleteConnectPort
-user32.dll GetMessageTime
-user32.dll GetCursorInfo
-kernel32.dll GetCommandLineA
-kernel32.dll GetCPInfo
-kernel32.dll GetUserDefaultLCID
