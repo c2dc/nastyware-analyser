@@ -1,6 +1,0 @@
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'TlsAlloc'
-b'kernel32.dll' b'CompareStringW'
-b'shell32.dll' b'SHQueryRecycleBinA'
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'GetCaretBlinkTime'

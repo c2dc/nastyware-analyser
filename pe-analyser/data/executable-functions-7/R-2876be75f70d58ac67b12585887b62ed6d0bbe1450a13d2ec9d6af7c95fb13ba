@@ -1,6 +1,0 @@
-b'user32.dll' b'BeginDeferWindowPos'
-b'user32.dll' b'GetClassInfoExA'
-b'user32.dll' b'IsCharLowerW'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'kernel32.dll' b'GetVolumePathNamesForVolumeNameA'
-b'kernel32.dll' b'GetCommandLineA'

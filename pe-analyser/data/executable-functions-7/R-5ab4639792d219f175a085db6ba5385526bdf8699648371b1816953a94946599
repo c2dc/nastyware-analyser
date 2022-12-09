@@ -1,7 +1,0 @@
-b'advapi32.dll' b'CommandLineFromMsiDescriptor'
-b'advapi32.dll' b'SetKernelObjectSecurity'
-b'advapi32.dll' b'GetMultipleTrusteeOperationW'
-b'ntdll.dll' b'RtlInsertElementGenericTableAvl'
-b'user32.dll' b'GetFocus'
-b'user32.dll' b'GetDoubleClickTime'
-b'kernel32.dll' b'GetCurrentThread'

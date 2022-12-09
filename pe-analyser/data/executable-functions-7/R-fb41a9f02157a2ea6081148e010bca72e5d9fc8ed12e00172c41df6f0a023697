@@ -1,5 +1,0 @@
-b'oleaut32.dll' b'VarFormatPercent'
-b'oleaut32.dll' b'SafeArrayGetElemsize'
-b'ntdll.dll' b'NtOpenThreadToken'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetDialogBaseUnits'

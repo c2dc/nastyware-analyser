@@ -1,5 +1,0 @@
-b'user32.dll' b'GetDialogBaseUnits'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'SetMessageQueue'
-b'ole32.dll' b'StgConvertVariantToProperty'
-b'kernel32.dll' b'GetUserDefaultLangID'

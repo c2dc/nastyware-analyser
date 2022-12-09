@@ -1,6 +1,0 @@
-b'ntdll.dll' b'KiRaiseUserExceptionDispatcher'
-b'ntdll.dll' b'ZwQueryValueKey'
-b'ntdll.dll' b'RtlGetCurrentPeb'
-b'ntdll.dll' b'ZwCreateJobObject'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'GetCurrentThreadId'

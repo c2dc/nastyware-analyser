@@ -1,0 +1,17 @@
+ntdll.dll RtlCaptureContext
+ntdll.dll RtlUnhandledExceptionFilter
+ntdll.dll RtlAnsiStringToUnicodeString
+ntdll.dll _vsnwprintf
+ntdll.dll RtlAppendUnicodeStringToString
+ntdll.dll NtEnumerateValueKey
+ntdll.dll NtTerminateProcess
+ntdll.dll NtOpenKey
+ntdll.dll RtlInitUnicodeString
+ntdll.dll RtlCopyUnicodeString
+ntdll.dll NtClose
+ntdll.dll wcschr
+ntdll.dll NtQueryValueKey
+ntdll.dll RtlIntegerToChar
+ntdll.dll LdrDisableThreadCalloutsForDll
+ntdll.dll memset
+api-ms-win-stateseparation-helpers-l1-1-0.dll GetPersistedRegistryLocationW

@@ -1,5 +1,0 @@
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'user32.dll' b'MonitorFromPoint'
-b'user32.dll' b'GetDialogBaseUnits'
-b'user32.dll' b'GetMessageExtraInfo'
-b'ntdll.dll' b'ZwRenameKey'

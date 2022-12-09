@@ -1,5 +1,0 @@
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'GetProcessHeap'
-b'kernel32.dll' b'MoveFileExW'
-b'ntdll.dll' b'ZwOpenMutant'
-b'user32.dll' b'GetInputDesktop'

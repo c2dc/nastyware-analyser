@@ -1,7 +1,0 @@
-b'advapi32.dll' b'GetSecurityInfo'
-b'kernel32.dll' b'GetProcessHeap'
-b'kernel32.dll' b'GetDateFormatA'
-b'user32.dll' b'DdeImpersonateClient'
-b'user32.dll' b'ChangeDisplaySettingsExA'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetInputDesktop'

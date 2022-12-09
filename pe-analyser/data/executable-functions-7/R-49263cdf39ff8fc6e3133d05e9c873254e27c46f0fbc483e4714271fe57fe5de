@@ -1,4 +1,0 @@
-b'kernel32.dll' b'GetThreadSelectorEntry'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetCursor'

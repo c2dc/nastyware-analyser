@@ -1,5 +1,0 @@
-b'user32.dll' b'GetMenuBarInfo'
-b'user32.dll' b'GetCapture'
-b'ntdll.dll' b'RtlAppendUnicodeToString'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetUserDefaultLangID'

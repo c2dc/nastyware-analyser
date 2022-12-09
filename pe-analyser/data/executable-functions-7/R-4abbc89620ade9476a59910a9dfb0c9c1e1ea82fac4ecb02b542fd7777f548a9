@@ -1,5 +1,0 @@
-b'kernel32.dll' b'GetProcessHeap'
-b'kernel32.dll' b'lstrcatW'
-b'oleaut32.dll' b'VarR8FromUI2'
-b'oleaut32.dll' b'VarBoolFromDec'
-b'user32.dll' b'GetShellWindow'

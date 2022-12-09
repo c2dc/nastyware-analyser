@@ -1,6 +1,0 @@
-b'ntdll.dll' b'RtlIsDosDeviceName_U'
-b'ntdll.dll' b'LdrSetAppCompatDllRedirectionCallback'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'GetExitCodeThread'
-b'user32.dll' b'GetMessagePos'

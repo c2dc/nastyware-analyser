@@ -1,6 +1,0 @@
-b'user32.dll' b'GetDialogBaseUnits'
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'SetProcessWindowStation'
-b'ntdll.dll' b'LdrProcessRelocationBlock'
-b'ntdll.dll' b'DbgPrint'
-b'kernel32.dll' b'GetProcessHeap'

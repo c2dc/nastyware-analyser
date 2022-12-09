@@ -1,7 +1,0 @@
-b'oleaut32.dll' b'VarUI2FromDate'
-b'user32.dll' b'GetClipboardOwner'
-b'user32.dll' b'DrawAnimatedRects'
-b'user32.dll' b'InvertRect'
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'GetShellWindow'
-b'advapi32.dll' b'CreatePrivateObjectSecurityEx'

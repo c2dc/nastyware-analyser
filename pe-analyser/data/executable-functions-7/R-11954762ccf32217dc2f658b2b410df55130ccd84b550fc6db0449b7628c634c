@@ -1,6 +1,0 @@
-b'ole32.dll' b'HICON_UserFree'
-b'advapi32.dll' b'GetTrusteeNameW'
-b'advapi32.dll' b'ReadEncryptedFileRaw'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'GlobalFlags'

@@ -1,4 +1,0 @@
-b'oleaut32.dll' b'VarI1FromR4'
-b'advapi32.dll' b'ConvertSidToStringSidW'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'

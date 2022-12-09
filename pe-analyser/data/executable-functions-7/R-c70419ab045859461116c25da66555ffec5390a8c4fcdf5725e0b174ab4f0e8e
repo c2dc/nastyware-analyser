@@ -1,5 +1,0 @@
-b'ntdll.dll' b'KiUserApcDispatcher'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'user32.dll' b'ChildWindowFromPoint'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetMenuCheckMarkDimensions'

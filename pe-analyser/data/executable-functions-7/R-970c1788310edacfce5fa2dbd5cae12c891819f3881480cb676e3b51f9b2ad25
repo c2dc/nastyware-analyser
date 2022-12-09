@@ -1,3 +1,0 @@
-b'ntdll.dll' b'DbgUiConnectToDbg'
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'GetFocus'

@@ -1,5 +1,0 @@
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetSubMenu'
-b'advapi32.dll' b'CryptEnumProvidersA'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'GetCommandLineW'

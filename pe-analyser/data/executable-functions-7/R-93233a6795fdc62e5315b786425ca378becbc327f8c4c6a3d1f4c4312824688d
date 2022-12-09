@@ -1,6 +1,0 @@
-b'shell32.dll' b'SHLoadInProc'
-b'shell32.dll' b'SHExtractIconsW'
-b'oleaut32.dll' b'VarUI8FromDisp'
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetForegroundWindow'

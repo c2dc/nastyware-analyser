@@ -1,7 +1,0 @@
-b'ntdll.dll' b'RtlReadMemoryStream'
-b'ntdll.dll' b'NtModifyBootEntry'
-b'ntdll.dll' b'RtlAddAce'
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetEnvironmentStringsA'
-b'user32.dll' b'GetClipboardSequenceNumber'

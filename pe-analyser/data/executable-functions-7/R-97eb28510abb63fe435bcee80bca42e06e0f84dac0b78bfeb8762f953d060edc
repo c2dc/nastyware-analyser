@@ -1,6 +1,0 @@
-b'shell32.dll' b'SHGetIconOverlayIndexA'
-b'user32.dll' b'DrawMenuBar'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'user32.dll' b'GetFocus'
-b'user32.dll' b'GetCapture'
-b'ws2_32.dll' b'WSAIoctl'

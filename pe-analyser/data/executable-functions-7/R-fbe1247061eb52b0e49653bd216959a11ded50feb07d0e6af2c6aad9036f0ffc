@@ -1,6 +1,0 @@
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetEnvironmentVariableA'
-b'kernel32.dll' b'SetCalendarInfoW'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'user32.dll' b'TileWindows'
-b'oleaut32.dll' b'VarNeg'

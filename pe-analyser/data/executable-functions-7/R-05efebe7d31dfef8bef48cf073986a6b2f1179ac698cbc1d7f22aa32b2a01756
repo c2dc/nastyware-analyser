@@ -1,4 +1,0 @@
-b'advapi32.dll' b'AddAce'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetShellWindow'

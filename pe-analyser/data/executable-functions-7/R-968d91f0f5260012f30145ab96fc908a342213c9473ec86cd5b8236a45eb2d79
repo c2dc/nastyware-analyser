@@ -1,4 +1,0 @@
-b'ntdll.dll' b'RtlMultiAppendUnicodeStringBuffer'
-b'ole32.dll' b'HACCEL_UserSize'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetInputDesktop'

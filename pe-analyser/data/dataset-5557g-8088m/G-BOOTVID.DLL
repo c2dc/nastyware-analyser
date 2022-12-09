@@ -1,0 +1,13 @@
+ntoskrnl.exe memset
+ntoskrnl.exe WRITE_REGISTER_ULONG
+ntoskrnl.exe WRITE_REGISTER_USHORT
+ntoskrnl.exe HalPrivateDispatchTable
+ntoskrnl.exe MmMapIoSpaceEx
+ntoskrnl.exe READ_REGISTER_UCHAR
+ntoskrnl.exe WRITE_REGISTER_UCHAR
+ntoskrnl.exe MmUnmapIoSpace
+hal.dll READ_PORT_USHORT
+hal.dll WRITE_PORT_UCHAR
+hal.dll READ_PORT_UCHAR
+hal.dll WRITE_PORT_USHORT
+hal.dll WRITE_PORT_BUFFER_USHORT

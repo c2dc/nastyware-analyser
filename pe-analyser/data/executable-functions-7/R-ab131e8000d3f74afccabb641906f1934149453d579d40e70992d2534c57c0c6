@@ -1,3 +1,0 @@
-b'kernel32.dll' b'CallNamedPipeA'
-b'user32.dll' b'GetKBCodePage'
-b'user32.dll' b'GetOpenClipboardWindow'

@@ -1,6 +1,0 @@
-b'ole32.dll' b'StgOpenStorageEx'
-b'advapi32.dll' b'GetCurrentHwProfileA'
-b'ntdll.dll' b'ZwSetSystemTime'
-b'ntdll.dll' b'RtlSetCurrentDirectory_U'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'GetSystemDefaultLangID'

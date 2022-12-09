@@ -1,4 +1,0 @@
-b'kernel32.dll' b'Heap32ListNext'
-b'ntdll.dll' b'RtlpNtMakeTemporaryKey'
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'GetClipboardViewer'

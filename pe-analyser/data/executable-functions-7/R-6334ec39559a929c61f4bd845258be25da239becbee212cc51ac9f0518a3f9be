@@ -1,3 +1,0 @@
-b'ntdll.dll' b'ZwNotifyChangeDirectoryFile'
-b'user32.dll' b'GetCursor'
-b'kernel32.dll' b'GetConsoleWindow'

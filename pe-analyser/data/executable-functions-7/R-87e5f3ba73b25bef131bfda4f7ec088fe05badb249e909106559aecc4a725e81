@@ -1,4 +1,0 @@
-b'advapi32.dll' b'ElfClearEventLogFileA'
-b'ntdll.dll' b'NtSetValueKey'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetMessageTime'

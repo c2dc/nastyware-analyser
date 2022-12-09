@@ -1,6 +1,0 @@
-b'shell32.dll' b'SHDefExtractIconW'
-b'ntdll.dll' b'LdrQueryImageFileExecutionOptions'
-b'ntdll.dll' b'RtlCreateTagHeap'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'WaitNamedPipeA'

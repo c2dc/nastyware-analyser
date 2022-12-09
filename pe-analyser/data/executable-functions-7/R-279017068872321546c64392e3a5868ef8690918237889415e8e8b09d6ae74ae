@@ -1,3 +1,0 @@
-b'user32.dll' b'ChangeDisplaySettingsA'
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'GetMessageExtraInfo'

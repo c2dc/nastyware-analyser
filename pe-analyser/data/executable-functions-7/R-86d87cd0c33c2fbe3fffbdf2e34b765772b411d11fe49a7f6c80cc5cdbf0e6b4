@@ -1,5 +1,0 @@
-b'advapi32.dll' b'ConvertSecurityDescriptorToAccessA'
-b'ntdll.dll' b'NtDeleteAtom'
-b'ntdll.dll' b'RtlConsoleMultiByteToUnicodeN'
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'GetLastError'

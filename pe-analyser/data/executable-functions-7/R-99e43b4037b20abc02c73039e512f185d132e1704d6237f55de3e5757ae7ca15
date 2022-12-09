@@ -1,6 +1,0 @@
-b'shell32.dll' b'ILGetNext'
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'SleepEx'
-b'advapi32.dll' b'SetSecurityInfoExA'
-b'oleaut32.dll' b'VarBstrFromDate'
-b'user32.dll' b'GetForegroundWindow'

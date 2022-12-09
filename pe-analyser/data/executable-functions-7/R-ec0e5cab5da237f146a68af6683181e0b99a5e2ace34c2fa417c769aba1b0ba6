@@ -1,3 +1,0 @@
-b'kernel32.dll' b'CreateFileA'
-b'kernel32.dll' b'ExitProcess'
-b'comctl32.dll' b'InitCommonControls'

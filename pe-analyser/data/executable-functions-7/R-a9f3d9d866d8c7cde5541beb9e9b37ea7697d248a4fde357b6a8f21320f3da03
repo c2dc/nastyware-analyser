@@ -1,4 +1,0 @@
-b'oleaut32.dll' b'GetVarConversionLocaleSetting'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetCommandLineW'

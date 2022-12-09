@@ -1,6 +1,0 @@
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'EndTask'
-b'ntdll.dll' b'PfxFindPrefix'
-b'ntdll.dll' b'NtWaitForDebugEvent'
-b'shell32.dll' b'SHBrowseForFolderA'
-b'kernel32.dll' b'GetCurrentThread'

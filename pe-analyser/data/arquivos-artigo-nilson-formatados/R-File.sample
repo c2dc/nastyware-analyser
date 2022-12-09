@@ -1,0 +1,9 @@
+shlwapi.dll PathAppendW
+kernel32.dll CreateProcessW
+kernel32.dll GetSystemTime
+kernel32.dll lstrlenW
+kernel32.dll LocalFree
+advapi32.dll CheckTokenMembership
+advapi32.dll CreateWellKnownSid
+ole32.dll CoCreateInstance
+ole32.dll CoSetProxyBlanket

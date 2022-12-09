@@ -1,7 +1,0 @@
-kernel32.dll LoadLibraryA
-kernel32.dll GetProcAddress
-kernel32.dll VirtualProtect
-kernel32.dll VirtualAlloc
-kernel32.dll VirtualFree
-advapi32.dll RegCloseKey
-ole32.dll OleInitialize

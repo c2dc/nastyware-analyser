@@ -1,4 +1,0 @@
-b'advapi32.dll' b'ReportEventW'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'GetShellWindow'
-b'kernel32.dll' b'GetVersion'

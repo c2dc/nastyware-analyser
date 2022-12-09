@@ -1,4 +1,0 @@
-b'shell32.dll' b'SHEmptyRecycleBinW'
-b'user32.dll' b'GetCursor'
-b'user32.dll' b'GetShellWindow'
-b'kernel32.dll' b'GetProcessHeap'

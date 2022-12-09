@@ -1,7 +1,0 @@
-b'ntdll.dll' b'RtlCompareUnicodeString'
-b'ntdll.dll' b'RtlGetProcessHeaps'
-b'shell32.dll' b'FindExecutableW'
-b'oleaut32.dll' b'SafeArrayGetVartype'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetCaretBlinkTime'

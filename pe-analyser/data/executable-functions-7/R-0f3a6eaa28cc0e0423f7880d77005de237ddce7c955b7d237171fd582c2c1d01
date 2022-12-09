@@ -1,5 +1,0 @@
-b'ole32.dll' b'WriteClassStg'
-b'ole32.dll' b'CoGetInstanceFromIStorage'
-b'advapi32.dll' b'ControlTraceW'
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'GetProcessHeap'

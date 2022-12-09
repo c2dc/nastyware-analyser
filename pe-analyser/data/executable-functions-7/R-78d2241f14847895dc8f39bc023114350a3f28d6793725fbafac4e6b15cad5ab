@@ -1,4 +1,0 @@
-b'user32.dll' b'MapVirtualKeyW'
-b'user32.dll' b'GetProcessWindowStation'
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'GetVersion'

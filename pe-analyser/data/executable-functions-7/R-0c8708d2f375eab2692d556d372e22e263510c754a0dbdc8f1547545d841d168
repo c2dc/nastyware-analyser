@@ -1,7 +1,0 @@
-b'kernel32.dll' b'GetProcessTimes'
-b'kernel32.dll' b'GetUserGeoID'
-b'user32.dll' b'GetDesktopWindow'
-b'user32.dll' b'EnumPropsA'
-b'user32.dll' b'GetMessageExtraInfo'
-b'user32.dll' b'GetCapture'
-b'ole32.dll' b'WriteStringStream'

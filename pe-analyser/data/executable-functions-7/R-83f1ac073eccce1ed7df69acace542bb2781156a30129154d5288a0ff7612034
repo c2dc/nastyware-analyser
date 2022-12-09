@@ -1,7 +1,0 @@
-b'ntdll.dll' b'RtlGetCallersAddress'
-b'ntdll.dll' b'ZwSetLowEventPair'
-b'user32.dll' b'GetDlgItem'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetDialogBaseUnits'
-b'ws2_32.dll' b'WSASetBlockingHook'
-b'kernel32.dll' b'GetSystemDefaultLangID'

@@ -1,4 +1,0 @@
-user32.dll GetDoubleClickTime
-user32.dll IMPSetIMEA
-kernel32.dll GetProcessHeap
-kernel32.dll GetSystemDefaultLCID

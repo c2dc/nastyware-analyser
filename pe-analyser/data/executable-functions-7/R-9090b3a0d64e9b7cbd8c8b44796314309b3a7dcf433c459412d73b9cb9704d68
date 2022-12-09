@@ -1,5 +1,0 @@
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'SuspendThread'
-b'advapi32.dll' b'EnumServicesStatusExA'
-b'user32.dll' b'LoadCursorA'
-b'user32.dll' b'GetClipboardOwner'

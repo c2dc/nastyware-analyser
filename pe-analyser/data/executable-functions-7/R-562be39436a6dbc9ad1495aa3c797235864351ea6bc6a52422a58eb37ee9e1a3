@@ -1,5 +1,0 @@
-b'ole32.dll' b'CoDosDateTimeToFileTime'
-b'kernel32.dll' b'SetLocalPrimaryComputerNameW'
-b'user32.dll' b'GetFocus'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'user32.dll' b'GetForegroundWindow'

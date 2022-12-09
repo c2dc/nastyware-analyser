@@ -1,5 +1,0 @@
-b'ntdll.dll' b'RtlIsGenericTableEmpty'
-b'user32.dll' b'GetActiveWindow'
-b'user32.dll' b'GetThreadDesktop'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'kernel32.dll' b'GetSystemDefaultLCID'

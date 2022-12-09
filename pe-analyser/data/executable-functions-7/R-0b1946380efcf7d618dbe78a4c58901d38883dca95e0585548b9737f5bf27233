@@ -1,5 +1,0 @@
-b'ntdll.dll' b'RtlIsNameLegalDOS8Dot3'
-b'advapi32.dll' b'AdjustTokenGroups'
-b'user32.dll' b'LoadAcceleratorsA'
-b'user32.dll' b'GetClipboardViewer'
-b'kernel32.dll' b'GetCommandLineA'

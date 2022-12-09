@@ -1,5 +1,0 @@
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'NotifyWinEvent'
-b'ntdll.dll' b'RtlDeleteAtomFromAtomTable'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'kernel32.dll' b'GetLastError'

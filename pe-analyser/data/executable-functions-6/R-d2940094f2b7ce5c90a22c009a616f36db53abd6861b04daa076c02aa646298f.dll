@@ -1,8 +1,0 @@
-kernel32.dll CloseHandle
-kernel32.dll ExitThread
-kernel32.dll ResumeThread
-kernel32.dll CreateProcessA
-kernel32.dll GetThreadContext
-kernel32.dll SetThreadContext
-kernel32.dll VirtualAllocEx
-kernel32.dll WriteProcessMemory

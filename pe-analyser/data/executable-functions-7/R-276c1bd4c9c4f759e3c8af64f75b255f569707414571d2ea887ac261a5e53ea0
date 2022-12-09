@@ -1,7 +1,0 @@
-b'ws2_32.dll' b'WSAUnhookBlockingHook'
-b'ws2_32.dll' b'WSACreateEvent'
-b'ntdll.dll' b'NtImpersonateThread'
-b'shell32.dll' b'Shell_GetImageLists'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetOpenClipboardWindow'

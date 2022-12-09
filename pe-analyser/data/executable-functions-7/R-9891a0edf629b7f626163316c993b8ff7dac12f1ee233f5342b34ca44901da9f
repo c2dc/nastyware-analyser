@@ -1,7 +1,0 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'advapi32.dll' b'RegCloseKey'
-b'ole32.dll' b'CoTaskMemFree'
-b'oleaut32.dll' b'LoadTypeLib'
-b'user32.dll' b'LoadIconA'
-b'msvcrt.dll' b'time'

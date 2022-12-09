@@ -1,3 +1,0 @@
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'IsBadReadPtr'

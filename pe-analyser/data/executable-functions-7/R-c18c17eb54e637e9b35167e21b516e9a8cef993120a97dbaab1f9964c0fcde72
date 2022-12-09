@@ -1,7 +1,0 @@
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'BackupSeek'
-b'advapi32.dll' b'ControlTraceA'
-b'ntdll.dll' b'RtlSetDaclSecurityDescriptor'
-b'oleaut32.dll' b'VarI8FromR4'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetShellWindow'

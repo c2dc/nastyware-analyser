@@ -1,6 +1,0 @@
-b'ntdll.dll' b'NtCreatePagingFile'
-b'ntdll.dll' b'NtLockFile'
-b'advapi32.dll' b'SetSecurityDescriptorRMControl'
-b'user32.dll' b'GetActiveWindow'
-b'user32.dll' b'GetShellWindow'
-b'kernel32.dll' b'GetCurrentProcessId'

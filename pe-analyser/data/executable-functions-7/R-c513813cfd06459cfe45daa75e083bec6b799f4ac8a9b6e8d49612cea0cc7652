@@ -1,6 +1,0 @@
-b'ntdll.dll' b'RtlLogStackBackTrace'
-b'ntdll.dll' b'ZwSetSecurityObject'
-b'ole32.dll' b'CoFileTimeToDosDateTime'
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetDesktopWindow'

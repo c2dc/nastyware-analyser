@@ -1,5 +1,0 @@
-b'ntdll.dll' b'ZwSetInformationDebugObject'
-b'ntdll.dll' b'ZwRequestWaitReplyPort'
-b'advapi32.dll' b'CreateProcessWithLogonW'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetShellWindow'

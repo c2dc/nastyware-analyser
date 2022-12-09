@@ -1,5 +1,0 @@
-b'kernel32.dll' b'lstrcpyA'
-b'kernel32.dll' b'GetConsoleWindow'
-b'ntdll.dll' b'RtlAreBitsClear'
-b'ntdll.dll' b'RtlCustomCPToUnicodeN'
-b'user32.dll' b'GetShellWindow'

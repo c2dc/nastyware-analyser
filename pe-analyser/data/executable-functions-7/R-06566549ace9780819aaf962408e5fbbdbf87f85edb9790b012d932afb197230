@@ -1,6 +1,0 @@
-b'advapi32.dll' b'RegSetValueW'
-b'advapi32.dll' b'CryptHashSessionKey'
-b'kernel32.dll' b'GetCurrentThread'
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'kernel32.dll' b'GetLogicalDriveStringsW'
-b'user32.dll' b'GetShellWindow'

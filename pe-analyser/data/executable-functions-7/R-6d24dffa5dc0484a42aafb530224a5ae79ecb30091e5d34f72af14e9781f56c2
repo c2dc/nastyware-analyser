@@ -1,6 +1,0 @@
-b'kernel32.dll' b'SetThreadPriorityBoost'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'SetThreadIdealProcessor'
-b'kernel32.dll' b'GetCurrentDirectoryW'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetClipboardSequenceNumber'

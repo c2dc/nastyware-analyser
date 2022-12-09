@@ -1,7 +1,0 @@
-b'ole32.dll' b'HBITMAP_UserFree'
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'GetWindowWord'
-b'ntdll.dll' b'NtSetSystemTime'
-b'ws2_32.dll' b'ntohs'
-b'kernel32.dll' b'GetCurrentThreadId'

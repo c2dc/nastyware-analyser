@@ -1,3 +1,0 @@
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'SetActiveWindow'
-b'kernel32.dll' b'GetCommandLineA'

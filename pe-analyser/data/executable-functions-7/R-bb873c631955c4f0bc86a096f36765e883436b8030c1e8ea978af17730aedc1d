@@ -1,7 +1,0 @@
-b'advapi32.dll' b'SaferCreateLevel'
-b'ole32.dll' b'ComPs_NdrDllCanUnloadNow'
-b'kernel32.dll' b'QueryDosDeviceA'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'SendMessageTimeoutW'
-b'user32.dll' b'GetActiveWindow'

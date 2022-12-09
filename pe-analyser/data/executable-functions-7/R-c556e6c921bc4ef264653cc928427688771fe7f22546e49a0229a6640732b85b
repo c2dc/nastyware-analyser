@@ -1,7 +1,0 @@
-b'ntdll.dll' b'RtlIpv4StringToAddressA'
-b'kernel32.dll' b'DeleteTimerQueueEx'
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'SetFilePointerEx'
-b'oleaut32.dll' b'VarUI4FromI8'
-b'user32.dll' b'GetMessageExtraInfo'

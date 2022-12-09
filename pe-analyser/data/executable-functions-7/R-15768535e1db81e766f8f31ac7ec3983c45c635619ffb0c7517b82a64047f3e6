@@ -1,3 +1,0 @@
-b'advapi32.dll' b'CommandLineFromMsiDescriptor'
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'GetInputDesktop'

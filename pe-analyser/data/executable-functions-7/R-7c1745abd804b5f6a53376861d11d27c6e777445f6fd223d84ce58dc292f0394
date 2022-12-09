@@ -1,5 +1,0 @@
-b'ntdll.dll' b'RtlIpv4StringToAddressA'
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'kernel32.dll' b'GetConsoleOutputCP'
-b'ole32.dll' b'CoFileTimeToDosDateTime'

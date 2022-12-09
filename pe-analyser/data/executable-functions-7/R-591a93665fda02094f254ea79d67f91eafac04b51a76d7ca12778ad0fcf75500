@@ -1,6 +1,0 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'msvcrt.dll' b'free'
-b'advapi32.dll' b'TraceEvent'
-b'user32.dll' b'CharNextW'
-b'oleaut32.dll' b'VarUI4FromStr'

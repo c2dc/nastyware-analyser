@@ -1,6 +1,0 @@
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'IMPGetIMEW'
-b'shell32.dll' b'DragQueryFileW'
-b'oleaut32.dll' b'VarCyFromI1'
-b'advapi32.dll' b'LsaQuerySecurityObject'

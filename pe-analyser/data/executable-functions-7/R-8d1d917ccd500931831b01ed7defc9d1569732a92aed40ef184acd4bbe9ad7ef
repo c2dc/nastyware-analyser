@@ -1,5 +1,0 @@
-b'advapi32.dll' b'LsaEnumeratePrivilegesOfAccount'
-b'ole32.dll' b'HBRUSH_UserMarshal'
-b'kernel32.dll' b'GetProcessHeap'
-b'kernel32.dll' b'GetThreadLocale'
-b'user32.dll' b'GetCursor'

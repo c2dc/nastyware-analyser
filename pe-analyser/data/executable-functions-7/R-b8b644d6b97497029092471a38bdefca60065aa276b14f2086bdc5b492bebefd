@@ -1,3 +1,0 @@
-b'kernel32.dll' b'GetStringTypeExA'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'user32.dll' b'GetShellWindow'

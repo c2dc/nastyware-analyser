@@ -1,4 +1,0 @@
-b'kernel32.dll' b'OpenThread'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'user32.dll' b'GetFocus'
-b'user32.dll' b'GetInputState'

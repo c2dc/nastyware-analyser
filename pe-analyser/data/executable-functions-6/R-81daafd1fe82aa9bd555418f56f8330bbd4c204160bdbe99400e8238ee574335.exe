@@ -1,5 +1,0 @@
-kernel32 HeapFree
-iphlpapi.dll GetAdaptersInfo
-kernel32.dll IsDebuggerPresent
-user32.dll CloseClipboard
-advapi32.dll RegOpenKeyExA

@@ -1,3 +1,0 @@
-b'advapi32.dll' b'DestroyPrivateObjectSecurity'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetUserDefaultUILanguage'

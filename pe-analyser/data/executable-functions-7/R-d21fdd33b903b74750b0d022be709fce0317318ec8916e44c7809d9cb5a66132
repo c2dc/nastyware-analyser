@@ -1,3 +1,0 @@
-b'ws2_32.dll' b'WSAResetEvent'
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'user32.dll' b'GetMessageTime'

@@ -1,6 +1,0 @@
-b'user32.dll' b'CountClipboardFormats'
-b'user32.dll' b'SetLayeredWindowAttributes'
-b'user32.dll' b'GetMessagePos'
-b'advapi32.dll' b'CryptDuplicateKey'
-b'ntdll.dll' b'RtlUnicodeStringToInteger'
-b'kernel32.dll' b'GetVersion'

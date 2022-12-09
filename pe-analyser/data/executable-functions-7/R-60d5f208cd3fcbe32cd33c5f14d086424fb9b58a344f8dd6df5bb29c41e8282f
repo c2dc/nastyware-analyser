@@ -1,6 +1,0 @@
-b'oleaut32.dll' b'BSTR_UserSize'
-b'ntdll.dll' b'ZwAccessCheckByType'
-b'ntdll.dll' b'RtlEnableEarlyCriticalSectionEventCreation'
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'GetClipboardOwner'
-b'user32.dll' b'GetForegroundWindow'

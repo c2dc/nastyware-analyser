@@ -1,3 +1,0 @@
-b'user32.dll' b'RegisterShellHookWindow'
-b'user32.dll' b'GetCapture'
-b'kernel32.dll' b'GetSystemDefaultLangID'

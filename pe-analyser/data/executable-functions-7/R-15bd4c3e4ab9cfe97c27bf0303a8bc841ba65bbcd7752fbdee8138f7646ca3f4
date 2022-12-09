@@ -1,4 +1,0 @@
-b'advapi32.dll' b'GetTrusteeNameA'
-b'advapi32.dll' b'ConvertSecurityDescriptorToStringSecurityDescriptorA'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'kernel32.dll' b'GetCurrentProcess'

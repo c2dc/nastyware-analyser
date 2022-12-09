@@ -1,5 +1,0 @@
-b'shell32.dll' b'SHGetDataFromIDListW'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'kernel32.dll' b'GetFullPathNameW'
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'GetDoubleClickTime'

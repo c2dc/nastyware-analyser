@@ -1,4 +1,0 @@
-b'oleaut32.dll' b'SysReAllocString'
-b'ole32.dll' b'CoSetProxyBlanket'
-b'user32.dll' b'GetClipboardOwner'
-b'user32.dll' b'GetOpenClipboardWindow'

@@ -1,7 +1,0 @@
-b'oleaut32.dll' b'SysAllocStringByteLen'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetSystemTimeAsFileTime'
-b'kernel32.dll' b'FreeEnvironmentStringsW'
-b'kernel32.dll' b'GetConsoleTitleW'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetCapture'

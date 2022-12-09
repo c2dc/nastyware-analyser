@@ -1,3 +1,0 @@
-b'advapi32.dll' b'StartServiceCtrlDispatcherW'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'user32.dll' b'GetCapture'

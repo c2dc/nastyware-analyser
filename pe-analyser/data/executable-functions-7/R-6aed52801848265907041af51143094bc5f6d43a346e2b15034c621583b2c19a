@@ -1,6 +1,0 @@
-b'ntdll.dll' b'ZwMakePermanentObject'
-b'oleaut32.dll' b'VarCyCmp'
-b'user32.dll' b'GetPropW'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'

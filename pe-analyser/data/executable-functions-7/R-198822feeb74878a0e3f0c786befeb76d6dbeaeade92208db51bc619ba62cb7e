@@ -1,7 +1,0 @@
-b'kernel32.dll' b'HeapReAlloc'
-b'kernel32.dll' b'GetThreadLocale'
-b'ntdll.dll' b'RtlDeleteResource'
-b'oleaut32.dll' b'VarUI4FromCy'
-b'ole32.dll' b'UtConvertDvtd16toDvtd32'
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'GetInputState'

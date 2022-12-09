@@ -1,5 +1,0 @@
-b'ole32.dll' b'OleBuildVersion'
-b'ntdll.dll' b'RtlAddAttributeActionToRXact'
-b'shell32.dll' b'SHCloneSpecialIDList'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'user32.dll' b'GetProcessWindowStation'

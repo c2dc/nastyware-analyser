@@ -1,5 +1,0 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'user32.dll' b'SetTimer'
-b'shell32.dll' b'ShellExecuteA'
-b'msvcrt.dll' b'free'

@@ -1,5 +1,0 @@
-b'ntdll.dll' b'RtlCopyLuidAndAttributesArray'
-b'kernel32.dll' b'FatalExit'
-b'kernel32.dll' b'GetCurrentThread'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetClipboardViewer'

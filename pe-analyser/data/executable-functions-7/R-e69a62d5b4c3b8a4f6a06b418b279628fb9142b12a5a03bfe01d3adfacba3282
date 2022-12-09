@@ -1,4 +1,0 @@
-b'kernel32.dll' b'QueueUserWorkItem'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'

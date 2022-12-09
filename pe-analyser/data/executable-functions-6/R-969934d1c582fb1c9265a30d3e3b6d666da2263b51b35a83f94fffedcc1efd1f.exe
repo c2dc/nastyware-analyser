@@ -1,5 +1,0 @@
-advapi32.dll AreAnyAccessesGranted
-kernel32.dll LoadLibraryA
-kernel32.dll ExitProcess
-kernel32.dll GetProcAddress
-kernel32.dll VirtualProtect

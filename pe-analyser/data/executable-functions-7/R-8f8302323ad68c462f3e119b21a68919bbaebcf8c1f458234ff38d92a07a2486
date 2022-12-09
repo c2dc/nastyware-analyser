@@ -1,5 +1,0 @@
-b'ole32.dll' b'CoGetInterceptorFromTypeInfo'
-b'ntdll.dll' b'RtlSetControlSecurityDescriptor'
-b'oleaut32.dll' b'VarCyFromR8'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetForegroundWindow'

@@ -1,3 +1,0 @@
-b'kernel32.dll' b'GetSystemWindowsDirectoryA'
-b'kernel32.dll' b'GetCommandLineA'
-b'user32.dll' b'GetMessageTime'

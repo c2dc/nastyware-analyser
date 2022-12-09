@@ -1,3 +1,0 @@
-b'advapi32.dll' b'LsaEnumerateAccountRights'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'user32.dll' b'GetDesktopWindow'

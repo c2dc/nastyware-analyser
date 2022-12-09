@@ -1,4 +1,0 @@
-b'advapi32.dll' b'EncryptFileW'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'FindFirstFileW'
-b'user32.dll' b'GetCaretBlinkTime'

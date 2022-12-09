@@ -1,3 +1,0 @@
-b'kernel32.dll' b'GetThreadLocale'
-b'kernel32.dll' b'GetSystemWindowsDirectoryW'
-b'user32.dll' b'GetClipboardSequenceNumber'

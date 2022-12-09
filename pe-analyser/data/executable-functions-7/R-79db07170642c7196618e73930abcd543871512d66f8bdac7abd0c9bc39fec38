@@ -1,3 +1,0 @@
-b'kernel32.dll' b'FindFirstVolumeA'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'user32.dll' b'GetMenuCheckMarkDimensions'

@@ -1,4 +1,0 @@
-b'ntdll.dll' b'RtlPopFrame'
-b'ntdll.dll' b'NtCreateKeyedEvent'
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'GetShellWindow'

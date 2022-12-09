@@ -1,4 +1,0 @@
-b'ws2_32.dll' b'WSAStartup'
-b'ole32.dll' b'PropSysAllocString'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetMenuCheckMarkDimensions'

@@ -1,4 +1,0 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'user32.dll' b'SendMessageA'
-b'advapi32.dll' b'RegQueryValueW'
-b'shell32.dll' b'PathMakeUniqueName'

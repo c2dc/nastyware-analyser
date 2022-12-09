@@ -1,6 +1,0 @@
-b'ntdll.dll' b'RtlInitializeRXact'
-b'ntdll.dll' b'RtlCompareString'
-b'oleaut32.dll' b'VarUI4FromUI8'
-b'shell32.dll' b'SHReplaceFromPropSheetExtArray'
-b'user32.dll' b'GetDesktopWindow'
-b'user32.dll' b'GetKBCodePage'

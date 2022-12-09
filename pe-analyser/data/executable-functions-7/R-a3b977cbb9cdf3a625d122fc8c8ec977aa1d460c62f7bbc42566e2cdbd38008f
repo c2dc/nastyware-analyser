@@ -1,7 +1,0 @@
-b'user32.dll' b'GetClipboardOwner'
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'AdjustWindowRectEx'
-b'user32.dll' b'WinHelpW'
-b'kernel32.dll' b'SetConsoleTitleW'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'ntdll.dll' b'ZwQueryKey'

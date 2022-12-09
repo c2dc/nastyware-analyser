@@ -1,6 +1,0 @@
-b'kernel32.dll' b'GetCurrentThread'
-b'kernel32.dll' b'GetLogicalDrives'
-b'kernel32.dll' b'ExitProcess'
-b'kernel32.dll' b'GetVolumePathNamesForVolumeNameW'
-b'oleaut32.dll' b'VarR4FromUI1'
-b'user32.dll' b'GetProcessWindowStation'

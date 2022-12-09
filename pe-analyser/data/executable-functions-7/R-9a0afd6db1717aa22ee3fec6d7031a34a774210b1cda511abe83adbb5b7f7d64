@@ -1,3 +1,0 @@
-b'kernel32.dll' b'GetCurrentThread'
-b'kernel32.dll' b'HeapFree'
-b'kernel32.dll' b'GetVersion'
