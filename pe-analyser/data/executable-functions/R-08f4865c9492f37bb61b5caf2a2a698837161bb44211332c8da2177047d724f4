@@ -1,6 +1,6 @@
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'MonitorFromRect'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'user32.dll' b'GetCursor'
-b'user32.dll' b'ChangeDisplaySettingsExW'
-b'ntdll.dll' b'DbgPrint'
+user32.dll GetMessagePos
+user32.dll MonitorFromRect
+user32.dll GetClipboardSequenceNumber
+user32.dll GetCursor
+user32.dll ChangeDisplaySettingsExW
+ntdll.dll DbgPrint

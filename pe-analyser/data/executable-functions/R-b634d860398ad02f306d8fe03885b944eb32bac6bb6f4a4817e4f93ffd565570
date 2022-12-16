@@ -1,5 +1,5 @@
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'RestoreLastError'
-b'shell32.dll' b'ShellExecuteExW'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetDialogBaseUnits'
+kernel32.dll GetCommandLineA
+kernel32.dll RestoreLastError
+shell32.dll ShellExecuteExW
+user32.dll GetOpenClipboardWindow
+user32.dll GetDialogBaseUnits

@@ -1,3 +1,3 @@
-b'ntdll.dll' b'ZwCreateJobObject'
-b'user32.dll' b'GetDialogBaseUnits'
-b'kernel32.dll' b'GetSystemDefaultLangID'
+ntdll.dll ZwCreateJobObject
+user32.dll GetDialogBaseUnits
+kernel32.dll GetSystemDefaultLangID

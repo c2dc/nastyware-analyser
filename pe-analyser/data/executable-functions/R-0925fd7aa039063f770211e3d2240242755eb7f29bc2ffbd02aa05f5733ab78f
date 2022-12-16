@@ -1,4 +1,4 @@
-b'ole32.dll' b'HBITMAP_UserUnmarshal'
-b'user32.dll' b'GetKBCodePage'
-b'user32.dll' b'GetProcessWindowStation'
-b'kernel32.dll' b'GetLastError'
+ole32.dll HBITMAP_UserUnmarshal
+user32.dll GetKBCodePage
+user32.dll GetProcessWindowStation
+kernel32.dll GetLastError

@@ -1,4 +1,4 @@
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'CreateIconFromResource'
-b'kernel32.dll' b'GetCurrentProcessId'
+user32.dll GetInputDesktop
+user32.dll GetOpenClipboardWindow
+user32.dll CreateIconFromResource
+kernel32.dll GetCurrentProcessId

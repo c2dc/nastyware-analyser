@@ -1,5 +1,5 @@
-b'ntdll.dll' b'NtEnumerateKey'
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'GetKBCodePage'
-b'user32.dll' b'DrawStateW'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
+ntdll.dll NtEnumerateKey
+user32.dll GetClipboardViewer
+user32.dll GetKBCodePage
+user32.dll DrawStateW
+user32.dll GetMenuCheckMarkDimensions

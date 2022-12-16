@@ -1,4 +1,4 @@
-b'oleaut32.dll' b'VarI4FromUI8'
-b'user32.dll' b'GetDesktopWindow'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'GetActiveWindow'
+oleaut32.dll VarI4FromUI8
+user32.dll GetDesktopWindow
+user32.dll GetCaretBlinkTime
+user32.dll GetActiveWindow

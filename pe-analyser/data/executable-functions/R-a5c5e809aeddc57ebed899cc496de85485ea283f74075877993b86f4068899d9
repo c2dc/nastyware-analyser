@@ -1,7 +1,7 @@
-b'ntdll.dll' b'ZwEnumerateKey'
-b'user32.dll' b'AdjustWindowRect'
-b'user32.dll' b'ShowWindow'
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'GetClipboardOwner'
-b'oleaut32.dll' b'BSTR_UserFree'
-b'kernel32.dll' b'GetCommandLineA'
+ntdll.dll ZwEnumerateKey
+user32.dll AdjustWindowRect
+user32.dll ShowWindow
+user32.dll GetMessagePos
+user32.dll GetClipboardOwner
+oleaut32.dll BSTR_UserFree
+kernel32.dll GetCommandLineA

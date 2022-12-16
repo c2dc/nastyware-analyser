@@ -1,4 +1,4 @@
-b'ntdll.dll' b'RtlActivateActivationContextUnsafeFast'
-b'user32.dll' b'SetCaretPos'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetKBCodePage'
+ntdll.dll RtlActivateActivationContextUnsafeFast
+user32.dll SetCaretPos
+user32.dll GetDoubleClickTime
+user32.dll GetKBCodePage

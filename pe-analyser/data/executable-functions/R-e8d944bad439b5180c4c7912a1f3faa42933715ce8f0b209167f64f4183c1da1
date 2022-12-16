@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetUserDefaultUILanguage'
-b'kernel32.dll' b'GetThreadContext'
-b'user32.dll' b'FreeDDElParam'
-b'user32.dll' b'GetMessagePos'
+kernel32.dll GetUserDefaultUILanguage
+kernel32.dll GetThreadContext
+user32.dll FreeDDElParam
+user32.dll GetMessagePos

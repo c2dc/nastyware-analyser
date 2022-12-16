@@ -1,5 +1,5 @@
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'DdeCreateStringHandleW'
-b'oleaut32.dll' b'VarR4FromStr'
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
+user32.dll GetMessageTime
+user32.dll DdeCreateStringHandleW
+oleaut32.dll VarR4FromStr
+kernel32.dll GetConsoleWindow
+kernel32.dll GetSystemDefaultUILanguage

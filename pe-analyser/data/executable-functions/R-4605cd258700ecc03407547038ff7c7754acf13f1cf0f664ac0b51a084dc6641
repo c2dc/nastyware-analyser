@@ -1,7 +1,7 @@
-b'kernel32.dll' b'GetCommMask'
-b'kernel32.dll' b'EndUpdateResourceA'
-b'kernel32.dll' b'GetProcessHeap'
-b'kernel32.dll' b'GetLastError'
-b'oleaut32.dll' b'VarR4FromUI2'
-b'ntdll.dll' b'ZwFlushBuffersFile'
-b'user32.dll' b'GetClipboardViewer'
+kernel32.dll GetCommMask
+kernel32.dll EndUpdateResourceA
+kernel32.dll GetProcessHeap
+kernel32.dll GetLastError
+oleaut32.dll VarR4FromUI2
+ntdll.dll ZwFlushBuffersFile
+user32.dll GetClipboardViewer

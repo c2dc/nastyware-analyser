@@ -1,4 +1,4 @@
-b'advapi32.dll' b'GetServiceKeyNameW'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'kernel32.dll' b'GetThreadLocale'
-b'kernel32.dll' b'GetConsoleWindow'
+advapi32.dll GetServiceKeyNameW
+user32.dll GetMenuCheckMarkDimensions
+kernel32.dll GetThreadLocale
+kernel32.dll GetConsoleWindow

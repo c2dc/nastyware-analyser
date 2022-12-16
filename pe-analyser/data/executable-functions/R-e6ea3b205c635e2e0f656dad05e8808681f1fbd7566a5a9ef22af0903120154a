@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'ntdll.dll' b'qsort'
-b'advapi32.dll' b'FreeSid'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+ntdll.dll qsort
+advapi32.dll FreeSid

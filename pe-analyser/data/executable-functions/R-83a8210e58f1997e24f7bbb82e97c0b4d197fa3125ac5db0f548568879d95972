@@ -1,7 +1,7 @@
-b'user32.dll' b'GetMessageExtraInfo'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'DeregisterShellHookWindow'
-b'kernel32.dll' b'SetProcessShutdownParameters'
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'ntdll.dll' b'ZwQueryInformationJobObject'
-b'ntdll.dll' b'NtCompressKey'
+user32.dll GetMessageExtraInfo
+user32.dll GetDoubleClickTime
+user32.dll DeregisterShellHookWindow
+kernel32.dll SetProcessShutdownParameters
+kernel32.dll GetSystemDefaultLangID
+ntdll.dll ZwQueryInformationJobObject
+ntdll.dll NtCompressKey

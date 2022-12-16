@@ -1,5 +1,5 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'msvcrt.dll' b'free'
-b'advapi32.dll' b'RegCloseKey'
-b'rpcrt4.dll' b'NdrClientCall2'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+msvcrt.dll free
+advapi32.dll RegCloseKey
+rpcrt4.dll NdrClientCall2

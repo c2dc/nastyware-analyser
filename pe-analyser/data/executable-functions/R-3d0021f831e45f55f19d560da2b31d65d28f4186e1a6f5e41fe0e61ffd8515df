@@ -1,6 +1,6 @@
-b'advapi32.dll' b'RegEnumKeyA'
-b'advapi32.dll' b'RegOpenKeyW'
-b'ole32.dll' b'OleCreateStaticFromData'
-b'ntdll.dll' b'NtLockRegistryKey'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetMessagePos'
+advapi32.dll RegEnumKeyA
+advapi32.dll RegOpenKeyW
+ole32.dll OleCreateStaticFromData
+ntdll.dll NtLockRegistryKey
+user32.dll GetOpenClipboardWindow
+user32.dll GetMessagePos

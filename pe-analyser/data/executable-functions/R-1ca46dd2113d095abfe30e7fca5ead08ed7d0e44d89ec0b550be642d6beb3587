@@ -1,6 +1,6 @@
-b'user32.dll' b'SetCapture'
-b'user32.dll' b'GetClipboardOwner'
-b'oleaut32.dll' b'OleCreatePropertyFrameIndirect'
-b'ntdll.dll' b'ZwEnumerateBootEntries'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
+user32.dll SetCapture
+user32.dll GetClipboardOwner
+oleaut32.dll OleCreatePropertyFrameIndirect
+ntdll.dll ZwEnumerateBootEntries
+kernel32.dll GetCurrentThreadId
+kernel32.dll GetSystemDefaultUILanguage

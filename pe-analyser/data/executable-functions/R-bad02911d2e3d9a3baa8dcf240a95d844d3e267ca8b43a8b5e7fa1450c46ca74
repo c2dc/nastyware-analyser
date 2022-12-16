@@ -1,7 +1,7 @@
-b'advapi32.dll' b'EnumServicesStatusW'
-b'kernel32.dll' b'CheckNameLegalDOS8Dot3A'
-b'kernel32.dll' b'GetConsoleWindow'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetAltTabInfoW'
-b'user32.dll' b'LoadIconA'
-b'user32.dll' b'GetClipboardViewer'
+advapi32.dll EnumServicesStatusW
+kernel32.dll CheckNameLegalDOS8Dot3A
+kernel32.dll GetConsoleWindow
+user32.dll GetCapture
+user32.dll GetAltTabInfoW
+user32.dll LoadIconA
+user32.dll GetClipboardViewer

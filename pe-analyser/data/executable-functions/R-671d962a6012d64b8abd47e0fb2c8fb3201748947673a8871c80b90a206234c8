@@ -1,4 +1,4 @@
-b'oleaut32.dll' b'VarI1FromUI2'
-b'ntdll.dll' b'RtlEncodePointer'
-b'kernel32.dll' b'GetCurrentProcess'
-b'user32.dll' b'GetInputState'
+oleaut32.dll VarI1FromUI2
+ntdll.dll RtlEncodePointer
+kernel32.dll GetCurrentProcess
+user32.dll GetInputState

@@ -1,6 +1,6 @@
-b'ws2_32.dll' b'FreeAddrInfoW'
-b'kernel32.dll' b'ReadConsoleW'
-b'kernel32.dll' b'GetCurrentThread'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'oleaut32.dll' b'VarUI4FromUI1'
-b'ntdll.dll' b'ZwSetSystemInformation'
+ws2_32.dll FreeAddrInfoW
+kernel32.dll ReadConsoleW
+kernel32.dll GetCurrentThread
+kernel32.dll GetSystemDefaultUILanguage
+oleaut32.dll VarUI4FromUI1
+ntdll.dll ZwSetSystemInformation

@@ -1,6 +1,6 @@
-b'oleaut32.dll' b'VarUI2FromDate'
-b'advapi32.dll' b'GetSecurityDescriptorLength'
-b'advapi32.dll' b'OpenEncryptedFileRawW'
-b'kernel32.dll' b'EnumResourceNamesW'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'user32.dll' b'GetCaretBlinkTime'
+oleaut32.dll VarUI2FromDate
+advapi32.dll GetSecurityDescriptorLength
+advapi32.dll OpenEncryptedFileRawW
+kernel32.dll EnumResourceNamesW
+kernel32.dll GetSystemDefaultUILanguage
+user32.dll GetCaretBlinkTime

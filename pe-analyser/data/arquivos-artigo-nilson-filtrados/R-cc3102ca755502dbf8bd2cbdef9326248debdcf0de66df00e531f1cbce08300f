@@ -1,7 +1,0 @@
-b'ntdll.dll' b'ZwDuplicateObject'
-b'ntdll.dll' b'NtWaitLowEventPair'
-b'ntdll.dll' b'RtlFlushSecureMemoryCache'
-b'ole32.dll' b'GetDocumentBitStg'
-b'kernel32.dll' b'GetThreadLocale'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetCaretBlinkTime'

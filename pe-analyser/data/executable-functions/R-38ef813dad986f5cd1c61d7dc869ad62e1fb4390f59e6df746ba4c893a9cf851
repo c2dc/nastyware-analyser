@@ -1,6 +1,6 @@
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetAtomNameA'
-b'shell32.dll' b'SHGetFolderPathAndSubDirW'
-b'ole32.dll' b'CoGetInstanceFromIStorage'
-b'user32.dll' b'GetMessageExtraInfo'
-b'user32.dll' b'GetDoubleClickTime'
+kernel32.dll GetCurrentThreadId
+kernel32.dll GetAtomNameA
+shell32.dll SHGetFolderPathAndSubDirW
+ole32.dll CoGetInstanceFromIStorage
+user32.dll GetMessageExtraInfo
+user32.dll GetDoubleClickTime

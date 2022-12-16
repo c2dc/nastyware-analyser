@@ -1,6 +1,6 @@
-b'ntdll.dll' b'RtlConvertLongToLargeInteger'
-b'ws2_32.dll' b'bind'
-b'kernel32.dll' b'GetThreadLocale'
-b'kernel32.dll' b'FindFirstChangeNotificationA'
-b'user32.dll' b'GetMenuItemInfoA'
-b'user32.dll' b'GetCapture'
+ntdll.dll RtlConvertLongToLargeInteger
+ws2_32.dll bind
+kernel32.dll GetThreadLocale
+kernel32.dll FindFirstChangeNotificationA
+user32.dll GetMenuItemInfoA
+user32.dll GetCapture

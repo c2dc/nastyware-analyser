@@ -1,4 +1,4 @@
-b'advapi32.dll' b'GetTraceLoggerHandle'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'user32.dll' b'GetCapture'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
+advapi32.dll GetTraceLoggerHandle
+user32.dll GetClipboardSequenceNumber
+user32.dll GetCapture
+kernel32.dll GetUserDefaultUILanguage

@@ -1,5 +1,5 @@
-b'ntdll.dll' b'RtlUpcaseUnicodeToMultiByteN'
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'GetKeyNameTextA'
-b'kernel32.dll' b'GetLastError'
+ntdll.dll RtlUpcaseUnicodeToMultiByteN
+user32.dll GetMessageTime
+user32.dll GetClipboardViewer
+user32.dll GetKeyNameTextA
+kernel32.dll GetLastError

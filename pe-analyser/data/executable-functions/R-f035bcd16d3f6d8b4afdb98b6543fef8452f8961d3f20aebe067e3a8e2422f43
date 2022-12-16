@@ -1,4 +1,4 @@
-b'advapi32.dll' b'CheckTokenMembership'
-b'oleaut32.dll' b'SafeArrayAccessData'
-b'user32.dll' b'GetActiveWindow'
-b'kernel32.dll' b'GetCommandLineW'
+advapi32.dll CheckTokenMembership
+oleaut32.dll SafeArrayAccessData
+user32.dll GetActiveWindow
+kernel32.dll GetCommandLineW

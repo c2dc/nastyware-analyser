@@ -1,7 +1,7 @@
-b'kernel32.dll' b'ReadConsoleOutputA'
-b'kernel32.dll' b'DebugBreakProcess'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'advapi32.dll' b'GetTraceEnableLevel'
-b'advapi32.dll' b'UninstallApplication'
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'GetActiveWindow'
+kernel32.dll ReadConsoleOutputA
+kernel32.dll DebugBreakProcess
+kernel32.dll GetSystemDefaultLCID
+advapi32.dll GetTraceEnableLevel
+advapi32.dll UninstallApplication
+user32.dll GetProcessWindowStation
+user32.dll GetActiveWindow

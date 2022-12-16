@@ -1,5 +1,5 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'psapi.dll' b'EnumProcesses'
-b'advapi32.dll' b'RegCloseKey'
-b'ws2_32.dll' b'inet_addr'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+psapi.dll EnumProcesses
+advapi32.dll RegCloseKey
+ws2_32.dll inet_addr

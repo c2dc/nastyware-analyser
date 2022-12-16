@@ -1,4 +1,4 @@
-b'kernel32.dll' b'CreateFileW'
-b'ws2_32.dll' b'WSAHtons'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetInputState'
+kernel32.dll CreateFileW
+ws2_32.dll WSAHtons
+user32.dll GetDoubleClickTime
+user32.dll GetInputState

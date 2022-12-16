@@ -1,5 +1,5 @@
-b'oleaut32.dll' b'VarWeekdayName'
-b'ole32.dll' b'OleBuildVersion'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'kernel32.dll' b'WaitForMultipleObjects'
-b'user32.dll' b'GetFocus'
+oleaut32.dll VarWeekdayName
+ole32.dll OleBuildVersion
+kernel32.dll GetSystemDefaultUILanguage
+kernel32.dll WaitForMultipleObjects
+user32.dll GetFocus

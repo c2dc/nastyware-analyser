@@ -1,7 +1,7 @@
-b'user32.dll' b'KillTimer'
-b'user32.dll' b'GetDesktopWindow'
-b'user32.dll' b'CopyAcceleratorTableA'
-b'user32.dll' b'AppendMenuA'
-b'kernel32.dll' b'WriteConsoleOutputCharacterA'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
+user32.dll KillTimer
+user32.dll GetDesktopWindow
+user32.dll CopyAcceleratorTableA
+user32.dll AppendMenuA
+kernel32.dll WriteConsoleOutputCharacterA
+kernel32.dll GetUserDefaultLCID
+kernel32.dll GetUserDefaultUILanguage

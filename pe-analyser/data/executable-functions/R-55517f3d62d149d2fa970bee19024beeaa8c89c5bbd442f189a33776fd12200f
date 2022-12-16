@@ -1,4 +1,4 @@
-b'user32.dll' b'GetMessageExtraInfo'
-b'user32.dll' b'DdeCreateDataHandle'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'GetCurrentProcessId'
+user32.dll GetMessageExtraInfo
+user32.dll DdeCreateDataHandle
+kernel32.dll GetCommandLineW
+kernel32.dll GetCurrentProcessId

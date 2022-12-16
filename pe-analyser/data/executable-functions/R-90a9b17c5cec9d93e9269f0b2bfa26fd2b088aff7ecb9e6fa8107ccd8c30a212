@@ -1,3 +1,3 @@
-b'kernel32.dll' b'SetConsoleCursorPosition'
-b'user32.dll' b'GetDialogBaseUnits'
-b'user32.dll' b'GetForegroundWindow'
+kernel32.dll SetConsoleCursorPosition
+user32.dll GetDialogBaseUnits
+user32.dll GetForegroundWindow

@@ -1,4 +1,4 @@
-b'user32.dll' b'CallMsgFilterW'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'LoadImageW'
-b'kernel32.dll' b'GetVersion'
+user32.dll CallMsgFilterW
+user32.dll GetForegroundWindow
+user32.dll LoadImageW
+kernel32.dll GetVersion

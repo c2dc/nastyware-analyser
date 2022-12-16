@@ -1,6 +1,6 @@
-b'kernel32.dll' b'ProcessIdToSessionId'
-b'kernel32.dll' b'GetCurrentThread'
-b'kernel32.dll' b'PulseEvent'
-b'ole32.dll' b'StgOpenStorageEx'
-b'oleaut32.dll' b'VarI8FromR4'
-b'user32.dll' b'GetDoubleClickTime'
+kernel32.dll ProcessIdToSessionId
+kernel32.dll GetCurrentThread
+kernel32.dll PulseEvent
+ole32.dll StgOpenStorageEx
+oleaut32.dll VarI8FromR4
+user32.dll GetDoubleClickTime

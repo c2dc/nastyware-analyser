@@ -1,5 +1,5 @@
-b'user32.dll' b'CreateDialogIndirectParamA'
-b'user32.dll' b'GetClipboardOwner'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'LockFile'
+user32.dll CreateDialogIndirectParamA
+user32.dll GetClipboardOwner
+kernel32.dll GetCommandLineA
+kernel32.dll GetCommandLineW
+kernel32.dll LockFile

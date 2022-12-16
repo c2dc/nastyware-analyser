@@ -1,4 +1,4 @@
-b'advapi32.dll' b'ConvertStringSDToSDDomainA'
-b'user32.dll' b'GetCursor'
-b'user32.dll' b'GetShellWindow'
-b'kernel32.dll' b'GetSystemDefaultLCID'
+advapi32.dll ConvertStringSDToSDDomainA
+user32.dll GetCursor
+user32.dll GetShellWindow
+kernel32.dll GetSystemDefaultLCID

@@ -1,7 +1,7 @@
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'GetKBCodePage'
-b'user32.dll' b'CharLowerBuffA'
-b'user32.dll' b'GetMessagePos'
-b'ntdll.dll' b'RtlQueueApcWow64Thread'
-b'kernel32.dll' b'MapUserPhysicalPages'
-b'advapi32.dll' b'CredReadDomainCredentialsW'
+user32.dll GetMessageTime
+user32.dll GetKBCodePage
+user32.dll CharLowerBuffA
+user32.dll GetMessagePos
+ntdll.dll RtlQueueApcWow64Thread
+kernel32.dll MapUserPhysicalPages
+advapi32.dll CredReadDomainCredentialsW

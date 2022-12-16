@@ -1,6 +1,6 @@
-b'kernel32.dll' b'SetMailslotInfo'
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'MoveFileWithProgressW'
-b'oleaut32.dll' b'VarUI4FromI1'
-b'ole32.dll' b'CoRegisterPSClsid'
-b'user32.dll' b'GetClipboardSequenceNumber'
+kernel32.dll SetMailslotInfo
+kernel32.dll GetVersion
+kernel32.dll MoveFileWithProgressW
+oleaut32.dll VarUI4FromI1
+ole32.dll CoRegisterPSClsid
+user32.dll GetClipboardSequenceNumber

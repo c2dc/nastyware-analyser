@@ -1,3 +1,3 @@
-b'oleaut32.dll' b'SafeArrayGetIID'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'user32.dll' b'GetInputDesktop'
+oleaut32.dll SafeArrayGetIID
+kernel32.dll GetSystemDefaultUILanguage
+user32.dll GetInputDesktop

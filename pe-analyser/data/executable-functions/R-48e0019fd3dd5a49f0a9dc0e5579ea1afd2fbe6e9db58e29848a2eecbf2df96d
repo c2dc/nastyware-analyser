@@ -1,3 +1,3 @@
-b'ole32.dll' b'OleMetafilePictFromIconAndLabel'
-b'user32.dll' b'GetDesktopWindow'
-b'user32.dll' b'GetKBCodePage'
+ole32.dll OleMetafilePictFromIconAndLabel
+user32.dll GetDesktopWindow
+user32.dll GetKBCodePage

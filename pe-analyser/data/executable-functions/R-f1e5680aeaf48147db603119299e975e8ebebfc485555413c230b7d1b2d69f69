@@ -1,5 +1,5 @@
-b'ntdll.dll' b'ZwQueryInformationFile'
-b'ntdll.dll' b'NtEnumerateValueKey'
-b'oleaut32.dll' b'VarUI2FromUI1'
-b'kernel32.dll' b'GetVersion'
-b'user32.dll' b'GetDesktopWindow'
+ntdll.dll ZwQueryInformationFile
+ntdll.dll NtEnumerateValueKey
+oleaut32.dll VarUI2FromUI1
+kernel32.dll GetVersion
+user32.dll GetDesktopWindow

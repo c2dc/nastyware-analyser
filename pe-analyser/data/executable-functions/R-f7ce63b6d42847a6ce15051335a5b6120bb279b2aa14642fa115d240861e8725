@@ -1,4 +1,4 @@
-b'kernel32.dll' b'LeaveCriticalSection'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'ole32.dll' b'OleQueryLinkFromData'
-b'user32.dll' b'GetMessageExtraInfo'
+kernel32.dll LeaveCriticalSection
+kernel32.dll GetSystemDefaultUILanguage
+ole32.dll OleQueryLinkFromData
+user32.dll GetMessageExtraInfo

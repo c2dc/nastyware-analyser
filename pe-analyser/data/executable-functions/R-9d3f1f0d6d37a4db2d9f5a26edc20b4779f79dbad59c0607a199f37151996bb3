@@ -1,3 +1,3 @@
-b'user32.dll' b'GetTopWindow'
-b'user32.dll' b'GetCaretBlinkTime'
-b'kernel32.dll' b'GetThreadLocale'
+user32.dll GetTopWindow
+user32.dll GetCaretBlinkTime
+kernel32.dll GetThreadLocale

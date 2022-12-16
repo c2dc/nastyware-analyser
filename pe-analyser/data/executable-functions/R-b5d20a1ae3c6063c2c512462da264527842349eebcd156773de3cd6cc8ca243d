@@ -1,3 +1,3 @@
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'GetUserObjectInformationA'
-b'kernel32.dll' b'GetLastError'
+user32.dll GetClipboardViewer
+user32.dll GetUserObjectInformationA
+kernel32.dll GetLastError

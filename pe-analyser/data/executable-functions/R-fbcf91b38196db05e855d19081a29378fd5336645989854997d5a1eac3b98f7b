@@ -1,4 +1,4 @@
-b'user32.dll' b'ImpersonateDdeClientWindow'
-b'user32.dll' b'GetFocus'
-b'oleaut32.dll' b'VarR8FromDisp'
-b'kernel32.dll' b'GetConsoleWindow'
+user32.dll ImpersonateDdeClientWindow
+user32.dll GetFocus
+oleaut32.dll VarR8FromDisp
+kernel32.dll GetConsoleWindow

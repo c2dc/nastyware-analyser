@@ -1,7 +1,7 @@
-b'ntdll.dll' b'DbgPrint'
-b'ntdll.dll' b'RtlNewSecurityObjectEx'
-b'ntdll.dll' b'NtUnloadKeyEx'
-b'kernel32.dll' b'CancelIo'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'GetClipboardViewer'
+ntdll.dll DbgPrint
+ntdll.dll RtlNewSecurityObjectEx
+ntdll.dll NtUnloadKeyEx
+kernel32.dll CancelIo
+user32.dll GetForegroundWindow
+user32.dll GetCaretBlinkTime
+user32.dll GetClipboardViewer

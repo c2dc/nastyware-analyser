@@ -1,6 +1,6 @@
-b'ntdll.dll' b'RtlCopySid'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'kernel32.dll' b'OpenMutexA'
-b'kernel32.dll' b'Heap32First'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'user32.dll' b'GetActiveWindow'
+ntdll.dll RtlCopySid
+kernel32.dll GetSystemDefaultLCID
+kernel32.dll OpenMutexA
+kernel32.dll Heap32First
+user32.dll GetMenuCheckMarkDimensions
+user32.dll GetActiveWindow

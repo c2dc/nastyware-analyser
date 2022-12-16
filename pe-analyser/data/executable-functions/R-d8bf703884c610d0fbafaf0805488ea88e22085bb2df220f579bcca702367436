@@ -1,4 +1,4 @@
-b'advapi32.dll' b'EqualPrefixSid'
-b'user32.dll' b'GetActiveWindow'
-b'user32.dll' b'GetClipboardOwner'
-b'user32.dll' b'GetInputState'
+advapi32.dll EqualPrefixSid
+user32.dll GetActiveWindow
+user32.dll GetClipboardOwner
+user32.dll GetInputState

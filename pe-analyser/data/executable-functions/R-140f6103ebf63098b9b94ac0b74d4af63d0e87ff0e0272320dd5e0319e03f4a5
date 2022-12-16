@@ -1,5 +1,5 @@
-b'user32.dll' b'GetDlgCtrlID'
-b'user32.dll' b'GetKBCodePage'
-b'ntdll.dll' b'RtlAppendStringToString'
-b'oleaut32.dll' b'VariantInit'
-b'kernel32.dll' b'GetConsoleWindow'
+user32.dll GetDlgCtrlID
+user32.dll GetKBCodePage
+ntdll.dll RtlAppendStringToString
+oleaut32.dll VariantInit
+kernel32.dll GetConsoleWindow

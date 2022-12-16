@@ -1,7 +1,7 @@
-b'ntdll.dll' b'RtlQueryTimeZoneInformation'
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetNextDlgTabItem'
-b'ws2_32.dll' b'WSARecv'
-b'advapi32.dll' b'SetSecurityInfoExW'
-b'kernel32.dll' b'GetCommandLineA'
+ntdll.dll RtlQueryTimeZoneInformation
+user32.dll GetInputDesktop
+user32.dll GetCapture
+user32.dll GetNextDlgTabItem
+ws2_32.dll WSARecv
+advapi32.dll SetSecurityInfoExW
+kernel32.dll GetCommandLineA

@@ -1,5 +1,5 @@
-b'kernel32.dll' b'GetNumberFormatA'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'GetVersion'
-b'user32.dll' b'mouse_event'
-b'advapi32.dll' b'SystemFunction014'
+kernel32.dll GetNumberFormatA
+kernel32.dll GetLastError
+kernel32.dll GetVersion
+user32.dll mouse_event
+advapi32.dll SystemFunction014

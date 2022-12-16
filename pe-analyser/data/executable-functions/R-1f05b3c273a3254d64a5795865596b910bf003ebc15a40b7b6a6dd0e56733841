@@ -1,5 +1,5 @@
-b'ntdll.dll' b'RtlDeleteAtomFromAtomTable'
-b'ntdll.dll' b'RtlValidSid'
-b'shell32.dll' b'SHSetInstanceExplorer'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'user32.dll' b'GetDoubleClickTime'
+ntdll.dll RtlDeleteAtomFromAtomTable
+ntdll.dll RtlValidSid
+shell32.dll SHSetInstanceExplorer
+kernel32.dll GetCurrentThreadId
+user32.dll GetDoubleClickTime

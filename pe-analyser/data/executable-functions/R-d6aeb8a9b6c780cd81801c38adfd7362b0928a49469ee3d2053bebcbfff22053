@@ -1,4 +1,4 @@
-b'advapi32.dll' b'CredGetSessionTypes'
-b'shell32.dll' b'PathResolve'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'user32.dll' b'GetClipboardSequenceNumber'
+advapi32.dll CredGetSessionTypes
+shell32.dll PathResolve
+kernel32.dll GetCurrentThreadId
+user32.dll GetClipboardSequenceNumber

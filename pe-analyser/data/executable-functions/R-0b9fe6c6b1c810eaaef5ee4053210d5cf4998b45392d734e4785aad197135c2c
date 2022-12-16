@@ -1,7 +1,7 @@
-b'advapi32.dll' b'SetSecurityDescriptorGroup'
-b'oleaut32.dll' b'RegisterActiveObject'
-b'oleaut32.dll' b'VarUI4FromR4'
-b'kernel32.dll' b'Beep'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'GetClipboardSequenceNumber'
+advapi32.dll SetSecurityDescriptorGroup
+oleaut32.dll RegisterActiveObject
+oleaut32.dll VarUI4FromR4
+kernel32.dll Beep
+user32.dll GetForegroundWindow
+user32.dll GetMessagePos
+user32.dll GetClipboardSequenceNumber

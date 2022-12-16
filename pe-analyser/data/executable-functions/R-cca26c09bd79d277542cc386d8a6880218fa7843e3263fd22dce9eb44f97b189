@@ -1,6 +1,6 @@
-b'oleaut32.dll' b'VarI1FromStr'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'ChangeDisplaySettingsA'
-b'ws2_32.dll' b'listen'
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'GetCommandLineA'
+oleaut32.dll VarI1FromStr
+user32.dll GetForegroundWindow
+user32.dll ChangeDisplaySettingsA
+ws2_32.dll listen
+kernel32.dll GetVersion
+kernel32.dll GetCommandLineA

@@ -1,5 +1,5 @@
-b'ntdll.dll' b'NtPrivilegedServiceAuditAlarm'
-b'ole32.dll' b'CoGetObjectContext'
-b'user32.dll' b'GetCapture'
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'kernel32.dll' b'GetCommandLineW'
+ntdll.dll NtPrivilegedServiceAuditAlarm
+ole32.dll CoGetObjectContext
+user32.dll GetCapture
+kernel32.dll GetSystemDefaultLangID
+kernel32.dll GetCommandLineW

@@ -1,4 +1,4 @@
-b'ntdll.dll' b'RtlEnterCriticalSection'
-b'oleaut32.dll' b'VarI1FromUI1'
-b'user32.dll' b'GetFocus'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
+ntdll.dll RtlEnterCriticalSection
+oleaut32.dll VarI1FromUI1
+user32.dll GetFocus
+kernel32.dll GetSystemDefaultUILanguage

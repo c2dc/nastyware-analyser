@@ -1,6 +1,6 @@
-b'oleaut32.dll' b'VarUI4FromI1'
-b'user32.dll' b'ChildWindowFromPoint'
-b'ntdll.dll' b'RtlEnlargedIntegerMultiply'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'kernel32.dll' b'GetConsoleWindow'
+oleaut32.dll VarUI4FromI1
+user32.dll ChildWindowFromPoint
+ntdll.dll RtlEnlargedIntegerMultiply
+kernel32.dll GetSystemDefaultLCID
+kernel32.dll GetUserDefaultLangID
+kernel32.dll GetConsoleWindow

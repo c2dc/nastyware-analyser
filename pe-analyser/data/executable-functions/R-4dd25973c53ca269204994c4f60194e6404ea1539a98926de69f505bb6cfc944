@@ -1,3 +1,3 @@
-b'kernel32.dll' b'EraseTape'
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
+kernel32.dll EraseTape
+user32.dll GetMessagePos
+user32.dll GetMenuCheckMarkDimensions

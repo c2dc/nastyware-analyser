@@ -1,6 +1,6 @@
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetEnvironmentVariableA'
-b'kernel32.dll' b'SetCalendarInfoW'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'user32.dll' b'TileWindows'
-b'oleaut32.dll' b'VarNeg'
+kernel32.dll GetUserDefaultLCID
+kernel32.dll GetEnvironmentVariableA
+kernel32.dll SetCalendarInfoW
+user32.dll GetClipboardSequenceNumber
+user32.dll TileWindows
+oleaut32.dll VarNeg

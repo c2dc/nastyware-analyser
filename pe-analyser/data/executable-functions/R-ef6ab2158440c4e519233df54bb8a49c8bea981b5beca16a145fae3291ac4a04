@@ -1,6 +1,6 @@
-b'ole32.dll' b'HGLOBAL_UserMarshal'
-b'ole32.dll' b'SNB_UserSize'
-b'ntdll.dll' b'RtlCreateActivationContext'
-b'user32.dll' b'FlashWindowEx'
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'GetClipboardOwner'
+ole32.dll HGLOBAL_UserMarshal
+ole32.dll SNB_UserSize
+ntdll.dll RtlCreateActivationContext
+user32.dll FlashWindowEx
+user32.dll GetInputDesktop
+user32.dll GetClipboardOwner

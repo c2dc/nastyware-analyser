@@ -1,7 +1,0 @@
-b'user32.dll' b'WINNLSEnableIME'
-b'user32.dll' b'GetDlgItem'
-b'user32.dll' b'GetDesktopWindow'
-b'user32.dll' b'GetNextDlgGroupItem'
-b'ntdll.dll' b'NlsMbOemCodePageTag'
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'GetCurrentThread'

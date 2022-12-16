@@ -1,5 +1,5 @@
-b'advapi32.dll' b'StartServiceCtrlDispatcherW'
-b'advapi32.dll' b'GetCurrentHwProfileA'
-b'advapi32.dll' b'ControlTraceW'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
+advapi32.dll StartServiceCtrlDispatcherW
+advapi32.dll GetCurrentHwProfileA
+advapi32.dll ControlTraceW
+kernel32.dll GetCurrentProcessId
+user32.dll GetMenuCheckMarkDimensions

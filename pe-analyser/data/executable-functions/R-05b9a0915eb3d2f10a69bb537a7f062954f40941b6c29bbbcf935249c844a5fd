@@ -1,5 +1,5 @@
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'DdeSetQualityOfService'
-b'user32.dll' b'GetShellWindow'
-b'advapi32.dll' b'OpenSCManagerW'
-b'kernel32.dll' b'GetCurrentProcess'
+user32.dll GetDoubleClickTime
+user32.dll DdeSetQualityOfService
+user32.dll GetShellWindow
+advapi32.dll OpenSCManagerW
+kernel32.dll GetCurrentProcess

@@ -1,6 +1,6 @@
-b'ntdll.dll' b'ZwOpenSemaphore'
-b'ntdll.dll' b'RtlQueryInformationActiveActivationContext'
-b'ntdll.dll' b'ZwSetHighEventPair'
-b'ntdll.dll' b'DbgQueryDebugFilterState'
-b'user32.dll' b'GetDoubleClickTime'
-b'kernel32.dll' b'GetSystemDefaultLCID'
+ntdll.dll ZwOpenSemaphore
+ntdll.dll RtlQueryInformationActiveActivationContext
+ntdll.dll ZwSetHighEventPair
+ntdll.dll DbgQueryDebugFilterState
+user32.dll GetDoubleClickTime
+kernel32.dll GetSystemDefaultLCID

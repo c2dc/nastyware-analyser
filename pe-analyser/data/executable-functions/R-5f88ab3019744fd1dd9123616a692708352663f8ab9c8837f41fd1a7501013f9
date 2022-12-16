@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetThreadIOPendingFlag'
-b'user32.dll' b'GetCapture'
+kernel32.dll GetCurrentThreadId
+kernel32.dll GetCommandLineA
+kernel32.dll GetThreadIOPendingFlag
+user32.dll GetCapture

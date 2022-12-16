@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'user32.dll' b'SendMessageA'
-b'advapi32.dll' b'RegQueryValueW'
-b'shell32.dll' b'PathMakeUniqueName'
+kernel32.dll GetModuleHandleA
+user32.dll SendMessageA
+advapi32.dll RegQueryValueW
+shell32.dll PathMakeUniqueName

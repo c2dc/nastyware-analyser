@@ -1,5 +1,5 @@
-b'kernel32.dll' b'GetCurrentProcess'
-b'kernel32.dll' b'GetProcessId'
-b'oleaut32.dll' b'VarR4FromBool'
-b'advapi32.dll' b'GetOldestEventLogRecord'
-b'user32.dll' b'GetCapture'
+kernel32.dll GetCurrentProcess
+kernel32.dll GetProcessId
+oleaut32.dll VarR4FromBool
+advapi32.dll GetOldestEventLogRecord
+user32.dll GetCapture

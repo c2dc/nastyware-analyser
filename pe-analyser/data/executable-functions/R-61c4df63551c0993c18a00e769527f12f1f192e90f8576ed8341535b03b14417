@@ -1,3 +1,3 @@
-b'ws2_32.dll' b'WSCDeinstallProvider'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetVersion'
+ws2_32.dll WSCDeinstallProvider
+kernel32.dll GetUserDefaultLCID
+kernel32.dll GetVersion

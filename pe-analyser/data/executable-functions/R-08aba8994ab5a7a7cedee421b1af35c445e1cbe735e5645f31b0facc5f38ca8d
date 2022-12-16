@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetTempFileNameW'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'ntdll.dll' b'ZwOpenDirectoryObject'
+kernel32.dll GetTempFileNameW
+kernel32.dll GetSystemDefaultLCID
+kernel32.dll GetUserDefaultLangID
+ntdll.dll ZwOpenDirectoryObject

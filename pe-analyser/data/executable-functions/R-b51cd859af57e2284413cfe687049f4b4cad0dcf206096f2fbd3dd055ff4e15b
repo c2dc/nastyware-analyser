@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetCurrentProcessId'
-b'kernel32.dll' b'CreateFileA'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetForegroundWindow'
+kernel32.dll GetCurrentProcessId
+kernel32.dll CreateFileA
+user32.dll GetDoubleClickTime
+user32.dll GetForegroundWindow

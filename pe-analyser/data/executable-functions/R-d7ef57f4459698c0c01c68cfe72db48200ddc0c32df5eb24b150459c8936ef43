@@ -1,3 +1,3 @@
-b'user32.dll' b'SendMessageCallbackA'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'kernel32.dll' b'GetCurrentProcess'
+user32.dll SendMessageCallbackA
+kernel32.dll GetSystemDefaultLCID
+kernel32.dll GetCurrentProcess

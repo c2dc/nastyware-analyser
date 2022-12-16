@@ -1,6 +1,6 @@
-b'ntdll.dll' b'LdrQueryProcessModuleInformation'
-b'ntdll.dll' b'NtAdjustGroupsToken'
-b'user32.dll' b'LoadMenuW'
-b'kernel32.dll' b'OpenFileMappingA'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'GetUserDefaultLangID'
+ntdll.dll LdrQueryProcessModuleInformation
+ntdll.dll NtAdjustGroupsToken
+user32.dll LoadMenuW
+kernel32.dll OpenFileMappingA
+kernel32.dll GetCommandLineW
+kernel32.dll GetUserDefaultLangID

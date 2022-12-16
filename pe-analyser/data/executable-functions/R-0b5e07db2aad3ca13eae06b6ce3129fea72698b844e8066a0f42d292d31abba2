@@ -1,2 +1,2 @@
-b'kernel32.dll' b'lstrcpy'
-b'comctl32.dll' b'InitCommonControls'
+kernel32.dll lstrcpy
+comctl32.dll InitCommonControls

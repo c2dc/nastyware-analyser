@@ -1,7 +1,7 @@
-b'kernel32.dll' b'GetProcAddress'
-b'kernel32.dll' b'FreeLibrary'
-b'kernel32.dll' b'lstrcpynA'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetSystemInfo'
-b'kernel32.dll' b'LocalFree'
-b'kernel32.dll' b'LoadLibraryW'
+kernel32.dll GetProcAddress
+kernel32.dll FreeLibrary
+kernel32.dll lstrcpynA
+kernel32.dll GetUserDefaultLCID
+kernel32.dll GetSystemInfo
+kernel32.dll LocalFree
+kernel32.dll LoadLibraryW

@@ -1,5 +1,5 @@
-b'oleaut32.dll' b'VarBoolFromDisp'
-b'ntdll.dll' b'RtlAllocateHandle'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'GetCurrentThreadId'
+oleaut32.dll VarBoolFromDisp
+ntdll.dll RtlAllocateHandle
+kernel32.dll GetCommandLineA
+kernel32.dll GetConsoleWindow
+kernel32.dll GetCurrentThreadId

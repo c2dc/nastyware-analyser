@@ -1,4 +1,4 @@
-b'oleaut32.dll' b'VarI2FromR4'
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'GetKBCodePage'
+oleaut32.dll VarI2FromR4
+user32.dll GetClipboardViewer
+user32.dll GetCaretBlinkTime
+user32.dll GetKBCodePage

@@ -1,8 +1,8 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'wintrust.dll' b'WinVerifyTrust'
-b'user32.dll' b'ShowWindow'
-b'shell32.dll' b'SHGetFolderPathA'
-b'shlwapi.dll' b'PathAppendA'
-b'dbghelp.dll' b'ImageNtHeader'
-b'ntdll.dll' b'NtCreatePort'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+wintrust.dll WinVerifyTrust
+user32.dll ShowWindow
+shell32.dll SHGetFolderPathA
+shlwapi.dll PathAppendA
+dbghelp.dll ImageNtHeader
+ntdll.dll NtCreatePort

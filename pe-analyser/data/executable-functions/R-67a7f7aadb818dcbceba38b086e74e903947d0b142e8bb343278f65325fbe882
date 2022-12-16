@@ -1,5 +1,5 @@
-b'kernel32.dll' b'OpenEventA'
-b'kernel32.dll' b'GetTempFileNameW'
-b'advapi32.dll' b'AccessCheckAndAuditAlarmA'
-b'user32.dll' b'GetDialogBaseUnits'
-b'user32.dll' b'GetDesktopWindow'
+kernel32.dll OpenEventA
+kernel32.dll GetTempFileNameW
+advapi32.dll AccessCheckAndAuditAlarmA
+user32.dll GetDialogBaseUnits
+user32.dll GetDesktopWindow

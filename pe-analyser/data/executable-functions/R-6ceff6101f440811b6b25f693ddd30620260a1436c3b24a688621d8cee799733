@@ -1,6 +1,6 @@
-b'kernel32.dll' b'GetCurrentProcessId'
-b'kernel32.dll' b'SetUserGeoID'
-b'kernel32.dll' b'SetConsoleWindowInfo'
-b'user32.dll' b'DdeImpersonateClient'
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'GetMessageExtraInfo'
+kernel32.dll GetCurrentProcessId
+kernel32.dll SetUserGeoID
+kernel32.dll SetConsoleWindowInfo
+user32.dll DdeImpersonateClient
+user32.dll GetProcessWindowStation
+user32.dll GetMessageExtraInfo

@@ -1,7 +1,7 @@
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'EnumLanguageGroupLocalesA'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'advapi32.dll' b'SystemFunction020'
-b'ntdll.dll' b'NtFlushVirtualMemory'
-b'user32.dll' b'MessageBoxTimeoutA'
-b'user32.dll' b'GetFocus'
+kernel32.dll GetConsoleWindow
+kernel32.dll EnumLanguageGroupLocalesA
+kernel32.dll GetUserDefaultLangID
+advapi32.dll SystemFunction020
+ntdll.dll NtFlushVirtualMemory
+user32.dll MessageBoxTimeoutA
+user32.dll GetFocus

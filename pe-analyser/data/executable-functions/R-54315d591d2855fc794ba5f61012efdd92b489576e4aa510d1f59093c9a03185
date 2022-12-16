@@ -1,6 +1,6 @@
-b'ntdll.dll' b'RtlpNtEnumerateSubKey'
-b'ntdll.dll' b'NtFlushWriteBuffer'
-b'shell32.dll' b'ReadCabinetState'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetActiveWindow'
-b'user32.dll' b'GetClipboardViewer'
+ntdll.dll RtlpNtEnumerateSubKey
+ntdll.dll NtFlushWriteBuffer
+shell32.dll ReadCabinetState
+user32.dll GetDoubleClickTime
+user32.dll GetActiveWindow
+user32.dll GetClipboardViewer

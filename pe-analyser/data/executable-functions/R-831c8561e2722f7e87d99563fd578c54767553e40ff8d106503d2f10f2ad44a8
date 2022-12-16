@@ -1,6 +1,6 @@
-b'user32.dll' b'FindWindowExW'
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'GetClipboardSequenceNumber'
-b'advapi32.dll' b'LsaRemovePrivilegesFromAccount'
-b'kernel32.dll' b'GetPrivateProfileSectionNamesA'
-b'kernel32.dll' b'SetCommTimeouts'
+user32.dll FindWindowExW
+user32.dll GetClipboardViewer
+user32.dll GetClipboardSequenceNumber
+advapi32.dll LsaRemovePrivilegesFromAccount
+kernel32.dll GetPrivateProfileSectionNamesA
+kernel32.dll SetCommTimeouts

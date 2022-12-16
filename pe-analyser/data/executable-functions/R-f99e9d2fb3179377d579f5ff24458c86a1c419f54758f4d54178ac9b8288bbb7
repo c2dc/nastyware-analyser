@@ -1,6 +1,6 @@
-b'ws2_32.dll' b'WSAHtonl'
-b'ntdll.dll' b'RtlAddCompoundAce'
-b'advapi32.dll' b'FreeSid'
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'DdeDisconnect'
-b'kernel32.dll' b'GetUserDefaultLangID'
+ws2_32.dll WSAHtonl
+ntdll.dll RtlAddCompoundAce
+advapi32.dll FreeSid
+user32.dll GetProcessWindowStation
+user32.dll DdeDisconnect
+kernel32.dll GetUserDefaultLangID

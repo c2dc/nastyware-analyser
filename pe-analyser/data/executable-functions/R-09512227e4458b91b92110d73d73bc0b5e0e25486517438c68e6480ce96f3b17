@@ -1,6 +1,6 @@
-b'ntdll.dll' b'NtQueryDirectoryObject'
-b'ntdll.dll' b'ZwAllocateUserPhysicalPages'
-b'advapi32.dll' b'InitiateSystemShutdownA'
-b'user32.dll' b'CreateDialogIndirectParamA'
-b'user32.dll' b'GetDialogBaseUnits'
-b'kernel32.dll' b'GetSystemDefaultLCID'
+ntdll.dll NtQueryDirectoryObject
+ntdll.dll ZwAllocateUserPhysicalPages
+advapi32.dll InitiateSystemShutdownA
+user32.dll CreateDialogIndirectParamA
+user32.dll GetDialogBaseUnits
+kernel32.dll GetSystemDefaultLCID

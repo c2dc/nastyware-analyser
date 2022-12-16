@@ -1,4 +1,4 @@
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'GetWindowDC'
-b'user32.dll' b'GetActiveWindow'
-b'oleaut32.dll' b'VarFormatNumber'
+user32.dll GetShellWindow
+user32.dll GetWindowDC
+user32.dll GetActiveWindow
+oleaut32.dll VarFormatNumber

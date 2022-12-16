@@ -1,5 +1,5 @@
-b'ntdll.dll' b'RtlMapGenericMask'
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetClassInfoExA'
-b'advapi32.dll' b'I_ScSetServiceBitsA'
+ntdll.dll RtlMapGenericMask
+user32.dll GetShellWindow
+user32.dll GetInputState
+user32.dll GetClassInfoExA
+advapi32.dll I_ScSetServiceBitsA

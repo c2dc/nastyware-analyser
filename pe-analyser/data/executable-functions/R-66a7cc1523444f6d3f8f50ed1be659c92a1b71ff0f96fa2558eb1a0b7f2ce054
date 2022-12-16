@@ -1,7 +1,7 @@
-b'kernel32.dll' b'GetDiskFreeSpaceA'
-b'kernel32.dll' b'GetLogicalDrives'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'user32.dll' b'GetLastActivePopup'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetMessageExtraInfo'
-b'ole32.dll' b'OleLoadFromStream'
+kernel32.dll GetDiskFreeSpaceA
+kernel32.dll GetLogicalDrives
+user32.dll GetMenuCheckMarkDimensions
+user32.dll GetLastActivePopup
+user32.dll GetDoubleClickTime
+user32.dll GetMessageExtraInfo
+ole32.dll OleLoadFromStream

@@ -1,3 +1,3 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'advapi32.dll' b'RegCloseKey'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+advapi32.dll RegCloseKey

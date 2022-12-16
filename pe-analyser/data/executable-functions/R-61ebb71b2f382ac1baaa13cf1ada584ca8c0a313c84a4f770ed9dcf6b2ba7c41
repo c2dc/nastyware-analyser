@@ -1,4 +1,4 @@
-b'ole32.dll' b'CLSIDFromProgIDEx'
-b'ntdll.dll' b'ZwQueryEvent'
-b'user32.dll' b'GetDesktopWindow'
-b'user32.dll' b'GetCapture'
+ole32.dll CLSIDFromProgIDEx
+ntdll.dll ZwQueryEvent
+user32.dll GetDesktopWindow
+user32.dll GetCapture

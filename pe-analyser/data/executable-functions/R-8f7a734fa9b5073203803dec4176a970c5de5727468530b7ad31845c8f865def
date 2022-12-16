@@ -1,5 +1,5 @@
-b'ntdll.dll' b'ZwAlertResumeThread'
-b'advapi32.dll' b'BuildSecurityDescriptorA'
-b'kernel32.dll' b'GetConsoleWindow'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'user32.dll' b'GetClipboardSequenceNumber'
+ntdll.dll ZwAlertResumeThread
+advapi32.dll BuildSecurityDescriptorA
+kernel32.dll GetConsoleWindow
+user32.dll GetMenuCheckMarkDimensions
+user32.dll GetClipboardSequenceNumber

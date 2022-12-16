@@ -1,7 +1,7 @@
-b'ntdll.dll' b'NtAlertResumeThread'
-b'user32.dll' b'EmptyClipboard'
-b'user32.dll' b'GetCaretBlinkTime'
-b'advapi32.dll' b'BuildTrusteeWithNameW'
-b'ole32.dll' b'OleSave'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'kernel32.dll' b'GetUserDefaultLCID'
+ntdll.dll NtAlertResumeThread
+user32.dll EmptyClipboard
+user32.dll GetCaretBlinkTime
+advapi32.dll BuildTrusteeWithNameW
+ole32.dll OleSave
+kernel32.dll GetUserDefaultLangID
+kernel32.dll GetUserDefaultLCID

@@ -1,5 +1,5 @@
-b'ntdll.dll' b'RtlGetCurrentPeb'
-b'ole32.dll' b'CreateStreamOnHGlobal'
-b'user32.dll' b'GetCapture'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'GetSystemDefaultLangID'
+ntdll.dll RtlGetCurrentPeb
+ole32.dll CreateStreamOnHGlobal
+user32.dll GetCapture
+kernel32.dll GetCommandLineW
+kernel32.dll GetSystemDefaultLangID

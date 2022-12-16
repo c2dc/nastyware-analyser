@@ -1,7 +1,7 @@
-b'ntdll.dll' b'RtlGetUnloadEventTrace'
-b'kernel32.dll' b'FindNextVolumeA'
-b'kernel32.dll' b'GetProcessHandleCount'
-b'kernel32.dll' b'ResumeThread'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
+ntdll.dll RtlGetUnloadEventTrace
+kernel32.dll FindNextVolumeA
+kernel32.dll GetProcessHandleCount
+kernel32.dll ResumeThread
+kernel32.dll GetProcessHeap
+user32.dll GetDoubleClickTime
+user32.dll GetMenuCheckMarkDimensions

@@ -1,6 +1,6 @@
-b'advapi32.dll' b'SystemFunction029'
-b'advapi32.dll' b'LockServiceDatabase'
-b'user32.dll' b'GetShellWindow'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'DdeQueryStringA'
-b'kernel32.dll' b'GetCurrentProcess'
+advapi32.dll SystemFunction029
+advapi32.dll LockServiceDatabase
+user32.dll GetShellWindow
+user32.dll GetDoubleClickTime
+user32.dll DdeQueryStringA
+kernel32.dll GetCurrentProcess

@@ -1,3 +1,3 @@
-b'ntdll.dll' b'NtQuerySemaphore'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetInputDesktop'
+ntdll.dll NtQuerySemaphore
+user32.dll GetCapture
+user32.dll GetInputDesktop

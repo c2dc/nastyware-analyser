@@ -1,6 +1,6 @@
-b'oleaut32.dll' b'VarR4FromI8'
-b'advapi32.dll' b'SetSecurityDescriptorSacl'
-b'user32.dll' b'SetWindowTextA'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'kernel32.dll' b'GetProcessHeap'
+oleaut32.dll VarR4FromI8
+advapi32.dll SetSecurityDescriptorSacl
+user32.dll SetWindowTextA
+kernel32.dll GetCommandLineA
+kernel32.dll GetUserDefaultLangID
+kernel32.dll GetProcessHeap

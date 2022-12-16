@@ -1,4 +1,4 @@
-b'ws2_32.dll' b'WSALookupServiceNextA'
-b'ntdll.dll' b'RtlConvertSidToUnicodeString'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'user32.dll' b'GetOpenClipboardWindow'
+ws2_32.dll WSALookupServiceNextA
+ntdll.dll RtlConvertSidToUnicodeString
+kernel32.dll GetUserDefaultLCID
+user32.dll GetOpenClipboardWindow

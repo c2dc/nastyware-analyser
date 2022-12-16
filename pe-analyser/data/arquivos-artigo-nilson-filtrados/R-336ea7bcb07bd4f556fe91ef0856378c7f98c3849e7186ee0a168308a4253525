@@ -1,4 +1,0 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'winmm.dll' b'DefDriverProc'
-b'user32.dll' b'MessageBoxA'

@@ -1,4 +1,4 @@
-b'kernel32.dll' b'IsBadStringPtrA'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'GetInputDesktop'
+kernel32.dll IsBadStringPtrA
+user32.dll GetOpenClipboardWindow
+user32.dll GetMessagePos
+user32.dll GetInputDesktop

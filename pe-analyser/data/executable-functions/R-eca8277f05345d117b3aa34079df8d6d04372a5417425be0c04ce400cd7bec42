@@ -1,4 +1,4 @@
-b'ole32.dll' b'PropStgNameToFmtId'
-b'ole32.dll' b'OleTranslateAccelerator'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'kernel32.dll' b'GetCommandLineA'
+ole32.dll PropStgNameToFmtId
+ole32.dll OleTranslateAccelerator
+kernel32.dll GetSystemDefaultUILanguage
+kernel32.dll GetCommandLineA

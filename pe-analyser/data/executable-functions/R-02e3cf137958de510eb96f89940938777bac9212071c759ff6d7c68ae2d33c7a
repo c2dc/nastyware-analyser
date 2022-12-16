@@ -1,6 +1,6 @@
-b'ntdll.dll' b'ZwUnloadDriver'
-b'user32.dll' b'SetWindowTextA'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'kernel32.dll' b'BuildCommDCBAndTimeoutsA'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'kernel32.dll' b'QueryActCtxW'
+ntdll.dll ZwUnloadDriver
+user32.dll SetWindowTextA
+user32.dll GetMenuCheckMarkDimensions
+kernel32.dll BuildCommDCBAndTimeoutsA
+kernel32.dll GetSystemDefaultLCID
+kernel32.dll QueryActCtxW

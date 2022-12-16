@@ -1,7 +1,7 @@
-b'ntdll.dll' b'RtlGetCallersAddress'
-b'ntdll.dll' b'ZwSetLowEventPair'
-b'user32.dll' b'GetDlgItem'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetDialogBaseUnits'
-b'ws2_32.dll' b'WSASetBlockingHook'
-b'kernel32.dll' b'GetSystemDefaultLangID'
+ntdll.dll RtlGetCallersAddress
+ntdll.dll ZwSetLowEventPair
+user32.dll GetDlgItem
+user32.dll GetOpenClipboardWindow
+user32.dll GetDialogBaseUnits
+ws2_32.dll WSASetBlockingHook
+kernel32.dll GetSystemDefaultLangID

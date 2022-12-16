@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'GetCurrentActCtx'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'GetDesktopWindow'
+kernel32.dll GetLastError
+kernel32.dll GetCurrentActCtx
+user32.dll GetForegroundWindow
+user32.dll GetDesktopWindow

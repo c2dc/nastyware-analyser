@@ -1,4 +1,4 @@
-b'shell32.dll' b'SHBrowseForFolderA'
-b'kernel32.dll' b'lstrcmpW'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetCursor'
+shell32.dll SHBrowseForFolderA
+kernel32.dll lstrcmpW
+user32.dll GetInputState
+user32.dll GetCursor

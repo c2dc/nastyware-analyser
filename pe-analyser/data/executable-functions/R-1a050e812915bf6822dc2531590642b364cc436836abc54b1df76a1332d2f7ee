@@ -1,6 +1,6 @@
-b'kernel32.dll' b'OpenWaitableTimerW'
-b'kernel32.dll' b'GetCurrentProcess'
-b'ws2_32.dll' b'WPUCompleteOverlappedRequest'
-b'ws2_32.dll' b'WSAEnumProtocolsW'
-b'ntdll.dll' b'RtlNumberOfClearBits'
-b'user32.dll' b'GetClipboardViewer'
+kernel32.dll OpenWaitableTimerW
+kernel32.dll GetCurrentProcess
+ws2_32.dll WPUCompleteOverlappedRequest
+ws2_32.dll WSAEnumProtocolsW
+ntdll.dll RtlNumberOfClearBits
+user32.dll GetClipboardViewer

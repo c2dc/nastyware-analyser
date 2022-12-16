@@ -1,5 +1,5 @@
-b'advapi32.dll' b'RegEnumKeyA'
-b'ntdll.dll' b'RtlActivateActivationContext'
-b'user32.dll' b'GetClipboardViewer'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetCurrentProcessId'
+advapi32.dll RegEnumKeyA
+ntdll.dll RtlActivateActivationContext
+user32.dll GetClipboardViewer
+kernel32.dll GetUserDefaultLCID
+kernel32.dll GetCurrentProcessId

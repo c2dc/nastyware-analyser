@@ -1,4 +1,4 @@
-b'kernel32.dll' b'LoadLibraryA'
-b'kernel32.dll' b'ExitProcess'
-b'kernel32.dll' b'GetProcAddress'
-b'kernel32.dll' b'VirtualProtect'
+kernel32.dll LoadLibraryA
+kernel32.dll ExitProcess
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect

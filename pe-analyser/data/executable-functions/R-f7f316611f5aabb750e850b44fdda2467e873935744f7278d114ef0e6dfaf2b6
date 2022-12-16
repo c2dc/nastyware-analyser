@@ -1,4 +1,4 @@
-b'advapi32.dll' b'SetFileSecurityW'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'GetCursor'
-b'kernel32.dll' b'GetCurrentThread'
+advapi32.dll SetFileSecurityW
+user32.dll GetCaretBlinkTime
+user32.dll GetCursor
+kernel32.dll GetCurrentThread

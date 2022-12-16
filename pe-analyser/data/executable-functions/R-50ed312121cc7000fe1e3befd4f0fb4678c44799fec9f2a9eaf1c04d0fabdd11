@@ -1,4 +1,4 @@
-b'advapi32.dll' b'UnlockServiceDatabase'
-b'kernel32.dll' b'GetCommandLineA'
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'GetClipboardSequenceNumber'
+advapi32.dll UnlockServiceDatabase
+kernel32.dll GetCommandLineA
+user32.dll GetInputDesktop
+user32.dll GetClipboardSequenceNumber

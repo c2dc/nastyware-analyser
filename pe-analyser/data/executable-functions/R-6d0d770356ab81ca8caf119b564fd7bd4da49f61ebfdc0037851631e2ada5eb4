@@ -1,6 +1,6 @@
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'TileWindows'
-b'kernel32.dll' b'CreateFileW'
-b'kernel32.dll' b'GetVersion'
-b'ntdll.dll' b'RtlMapGenericMask'
-b'oleaut32.dll' b'SafeArraySetIID'
+user32.dll GetCaretBlinkTime
+user32.dll TileWindows
+kernel32.dll CreateFileW
+kernel32.dll GetVersion
+ntdll.dll RtlMapGenericMask
+oleaut32.dll SafeArraySetIID

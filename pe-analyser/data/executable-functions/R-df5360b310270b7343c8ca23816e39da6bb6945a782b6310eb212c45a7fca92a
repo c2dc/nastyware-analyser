@@ -1,4 +1,4 @@
-b'user32.dll' b'LookupIconIdFromDirectoryEx'
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'GetInputState'
-b'kernel32.dll' b'GetProcessHeap'
+user32.dll LookupIconIdFromDirectoryEx
+user32.dll GetProcessWindowStation
+user32.dll GetInputState
+kernel32.dll GetProcessHeap

@@ -1,7 +1,7 @@
-b'ole32.dll' b'HBRUSH_UserFree'
-b'ole32.dll' b'OleConvertIStorageToOLESTREAM'
-b'user32.dll' b'GetForegroundWindow'
-b'user32.dll' b'GetMonitorInfoA'
-b'shell32.dll' b'ExtractIconW'
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'GetSystemDefaultLangID'
+ole32.dll HBRUSH_UserFree
+ole32.dll OleConvertIStorageToOLESTREAM
+user32.dll GetForegroundWindow
+user32.dll GetMonitorInfoA
+shell32.dll ExtractIconW
+kernel32.dll GetVersion
+kernel32.dll GetSystemDefaultLangID

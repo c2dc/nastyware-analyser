@@ -1,5 +1,5 @@
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'SetSystemCursor'
-b'user32.dll' b'GetDoubleClickTime'
-b'kernel32.dll' b'TerminateProcess'
-b'kernel32.dll' b'FindFirstFileExA'
+user32.dll GetInputState
+user32.dll SetSystemCursor
+user32.dll GetDoubleClickTime
+kernel32.dll TerminateProcess
+kernel32.dll FindFirstFileExA

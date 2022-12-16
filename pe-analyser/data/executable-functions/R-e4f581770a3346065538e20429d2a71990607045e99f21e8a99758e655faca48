@@ -1,6 +1,6 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'user32.dll' b'SetRect'
-b'gdi32.dll' b'GetStockObject'
-b'shell32.dll' b'SHGetFolderPathW'
-b'shlwapi.dll' b'PathAppendW'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+user32.dll SetRect
+gdi32.dll GetStockObject
+shell32.dll SHGetFolderPathW
+shlwapi.dll PathAppendW

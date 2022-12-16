@@ -1,2 +1,2 @@
-b'kernel32.dll' b'GetProcAddress'
-b'kernel32.dll' b'LoadLibraryW'
+kernel32.dll GetProcAddress
+kernel32.dll LoadLibraryW

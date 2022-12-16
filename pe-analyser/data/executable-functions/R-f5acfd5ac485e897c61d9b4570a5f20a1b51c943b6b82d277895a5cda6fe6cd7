@@ -1,5 +1,5 @@
-b'user32.dll' b'GetClipboardViewer'
-b'user32.dll' b'CallNextHookEx'
-b'user32.dll' b'GetFocus'
-b'user32.dll' b'CopyAcceleratorTableW'
-b'user32.dll' b'GetOpenClipboardWindow'
+user32.dll GetClipboardViewer
+user32.dll CallNextHookEx
+user32.dll GetFocus
+user32.dll CopyAcceleratorTableW
+user32.dll GetOpenClipboardWindow

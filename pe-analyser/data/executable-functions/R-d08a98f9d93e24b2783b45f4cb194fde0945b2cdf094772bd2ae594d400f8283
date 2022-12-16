@@ -1,6 +1,6 @@
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'SetThreadDesktop'
-b'ntdll.dll' b'RtlGetOwnerSecurityDescriptor'
-b'ntdll.dll' b'RtlSetUserFlagsHeap'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
-b'kernel32.dll' b'SetThreadAffinityMask'
+user32.dll GetCapture
+user32.dll SetThreadDesktop
+ntdll.dll RtlGetOwnerSecurityDescriptor
+ntdll.dll RtlSetUserFlagsHeap
+kernel32.dll GetUserDefaultUILanguage
+kernel32.dll SetThreadAffinityMask

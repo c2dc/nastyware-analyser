@@ -1,4 +1,4 @@
-b'advapi32.dll' b'LogonUserExW'
-b'user32.dll' b'GetDialogBaseUnits'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'GetUserDefaultLangID'
+advapi32.dll LogonUserExW
+user32.dll GetDialogBaseUnits
+kernel32.dll GetUserDefaultLCID
+kernel32.dll GetUserDefaultLangID

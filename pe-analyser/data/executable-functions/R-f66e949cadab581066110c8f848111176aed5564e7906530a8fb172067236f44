@@ -1,8 +1,8 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'msvcrt.dll' b'free'
-b'gdi32.dll' b'SelectObject'
-b'oleaut32.dll' b'SysFreeString'
-b'user32.dll' b'GetDC'
-b'ole32.dll' b'CoTaskMemFree'
-b'advapi32.dll' b'RegCloseKey'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+msvcrt.dll free
+gdi32.dll SelectObject
+oleaut32.dll SysFreeString
+user32.dll GetDC
+ole32.dll CoTaskMemFree
+advapi32.dll RegCloseKey

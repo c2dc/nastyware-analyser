@@ -1,5 +1,5 @@
-b'ntdll.dll' b'NtTerminateProcess'
-b'ntdll.dll' b'NtFsControlFile'
-b'user32.dll' b'ValidateRect'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetShellWindow'
+ntdll.dll NtTerminateProcess
+ntdll.dll NtFsControlFile
+user32.dll ValidateRect
+user32.dll GetOpenClipboardWindow
+user32.dll GetShellWindow

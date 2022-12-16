@@ -1,7 +1,7 @@
-b'advapi32.dll' b'RegConnectRegistryW'
-b'shell32.dll' b'SHSetInstanceExplorer'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'kernel32.dll' b'GetVolumePathNamesForVolumeNameW'
-b'user32.dll' b'UpdateWindow'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetProcessWindowStation'
+advapi32.dll RegConnectRegistryW
+shell32.dll SHSetInstanceExplorer
+kernel32.dll GetSystemDefaultUILanguage
+kernel32.dll GetVolumePathNamesForVolumeNameW
+user32.dll UpdateWindow
+user32.dll GetInputState
+user32.dll GetProcessWindowStation

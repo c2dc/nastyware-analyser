@@ -1,6 +1,6 @@
-b'ntdll.dll' b'ZwCreateNamedPipeFile'
-b'advapi32.dll' b'SystemFunction004'
-b'advapi32.dll' b'MakeAbsoluteSD2'
-b'kernel32.dll' b'GetUserDefaultLangID'
-b'kernel32.dll' b'GetProcessHeap'
-b'user32.dll' b'GetActiveWindow'
+ntdll.dll ZwCreateNamedPipeFile
+advapi32.dll SystemFunction004
+advapi32.dll MakeAbsoluteSD2
+kernel32.dll GetUserDefaultLangID
+kernel32.dll GetProcessHeap
+user32.dll GetActiveWindow

@@ -1,6 +1,6 @@
-b'kernel32.dll' b'CopyFileA'
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'TransactNamedPipe'
-b'ntdll.dll' b'RtlEqualPrefixSid'
-b'user32.dll' b'GetInputDesktop'
-b'user32.dll' b'GetClipboardViewer'
+kernel32.dll CopyFileA
+kernel32.dll GetConsoleWindow
+kernel32.dll TransactNamedPipe
+ntdll.dll RtlEqualPrefixSid
+user32.dll GetInputDesktop
+user32.dll GetClipboardViewer

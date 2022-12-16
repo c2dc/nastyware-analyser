@@ -1,4 +1,0 @@
-b'ntdll.dll' b'RtlComputeImportTableHash'
-b'ntdll.dll' b'NlsMbCodePageTag'
-b'user32.dll' b'GetCaretBlinkTime'
-b'kernel32.dll' b'GetCommandLineW'

@@ -1,6 +1,6 @@
-b'oleaut32.dll' b'VarR8FromI1'
-b'kernel32.dll' b'EnumTimeFormatsA'
-b'kernel32.dll' b'OpenMutexA'
-b'ntdll.dll' b'RtlCommitMemoryStream'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetDialogBaseUnits'
+oleaut32.dll VarR8FromI1
+kernel32.dll EnumTimeFormatsA
+kernel32.dll OpenMutexA
+ntdll.dll RtlCommitMemoryStream
+user32.dll GetOpenClipboardWindow
+user32.dll GetDialogBaseUnits

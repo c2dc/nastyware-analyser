@@ -1,4 +1,4 @@
-b'user32.dll' b'CreateAcceleratorTableA'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetClipboardOwner'
-b'kernel32.dll' b'GetSystemDefaultLCID'
+user32.dll CreateAcceleratorTableA
+user32.dll GetOpenClipboardWindow
+user32.dll GetClipboardOwner
+kernel32.dll GetSystemDefaultLCID

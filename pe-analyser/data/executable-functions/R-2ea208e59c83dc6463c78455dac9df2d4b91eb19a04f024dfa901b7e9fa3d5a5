@@ -1,6 +1,6 @@
-b'ntdll.dll' b'ZwOpenSemaphore'
-b'ntdll.dll' b'ZwCreateThread'
-b'ws2_32.dll' b'inet_ntoa'
-b'user32.dll' b'GetMessageExtraInfo'
-b'user32.dll' b'GetProcessWindowStation'
-b'kernel32.dll' b'GetSystemDefaultLCID'
+ntdll.dll ZwOpenSemaphore
+ntdll.dll ZwCreateThread
+ws2_32.dll inet_ntoa
+user32.dll GetMessageExtraInfo
+user32.dll GetProcessWindowStation
+kernel32.dll GetSystemDefaultLCID

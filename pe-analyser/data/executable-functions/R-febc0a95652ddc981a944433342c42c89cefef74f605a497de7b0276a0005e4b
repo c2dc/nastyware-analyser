@@ -1,4 +1,4 @@
-b'oleaut32.dll' b'VarDecFromDate'
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'GetMessageTime'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
+oleaut32.dll VarDecFromDate
+user32.dll GetDoubleClickTime
+user32.dll GetMessageTime
+kernel32.dll GetSystemDefaultUILanguage

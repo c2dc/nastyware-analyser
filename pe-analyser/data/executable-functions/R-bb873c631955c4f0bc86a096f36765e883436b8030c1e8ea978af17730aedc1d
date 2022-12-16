@@ -1,7 +1,7 @@
-b'advapi32.dll' b'SaferCreateLevel'
-b'ole32.dll' b'ComPs_NdrDllCanUnloadNow'
-b'kernel32.dll' b'QueryDosDeviceA'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'SendMessageTimeoutW'
-b'user32.dll' b'GetActiveWindow'
+advapi32.dll SaferCreateLevel
+ole32.dll ComPs_NdrDllCanUnloadNow
+kernel32.dll QueryDosDeviceA
+kernel32.dll GetUserDefaultLCID
+user32.dll GetInputState
+user32.dll SendMessageTimeoutW
+user32.dll GetActiveWindow

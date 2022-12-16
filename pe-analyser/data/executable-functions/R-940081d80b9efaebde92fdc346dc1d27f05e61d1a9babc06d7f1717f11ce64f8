@@ -1,5 +1,5 @@
-b'advapi32.dll' b'SetEntriesInAclW'
-b'shell32.dll' b'RealShellExecuteExA'
-b'oleaut32.dll' b'VarR4FromBool'
-b'user32.dll' b'GetCaretBlinkTime'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
+advapi32.dll SetEntriesInAclW
+shell32.dll RealShellExecuteExA
+oleaut32.dll VarR4FromBool
+user32.dll GetCaretBlinkTime
+kernel32.dll GetUserDefaultUILanguage

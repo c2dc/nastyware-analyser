@@ -1,6 +1,6 @@
-b'advapi32.dll' b'CopySid'
-b'oleaut32.dll' b'VarI2FromDec'
-b'kernel32.dll' b'GetFileSizeEx'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetProcessHeap'
+advapi32.dll CopySid
+oleaut32.dll VarI2FromDec
+kernel32.dll GetFileSizeEx
+kernel32.dll GetCurrentThreadId
+kernel32.dll GetCommandLineA
+kernel32.dll GetProcessHeap

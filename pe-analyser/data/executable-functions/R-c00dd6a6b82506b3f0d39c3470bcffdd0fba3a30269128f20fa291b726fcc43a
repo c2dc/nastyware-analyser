@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'kernel32.dll' b'WriteProfileSectionW'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'GetInputState'
+kernel32.dll GetSystemDefaultLangID
+kernel32.dll WriteProfileSectionW
+user32.dll GetCaretBlinkTime
+user32.dll GetInputState

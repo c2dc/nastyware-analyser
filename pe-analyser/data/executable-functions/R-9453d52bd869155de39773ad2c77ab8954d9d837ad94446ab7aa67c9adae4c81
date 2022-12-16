@@ -1,4 +1,4 @@
-b'oleaut32.dll' b'VarI4FromR8'
-b'user32.dll' b'MapDialogRect'
-b'user32.dll' b'GetCaretBlinkTime'
-b'kernel32.dll' b'GetCurrentThreadId'
+oleaut32.dll VarI4FromR8
+user32.dll MapDialogRect
+user32.dll GetCaretBlinkTime
+kernel32.dll GetCurrentThreadId

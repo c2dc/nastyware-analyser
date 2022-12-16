@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetVolumeInformationW'
-b'kernel32.dll' b'GetLastError'
-b'kernel32.dll' b'GetVersion'
-b'user32.dll' b'GetClipboardOwner'
+kernel32.dll GetVolumeInformationW
+kernel32.dll GetLastError
+kernel32.dll GetVersion
+user32.dll GetClipboardOwner

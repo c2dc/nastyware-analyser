@@ -1,4 +1,4 @@
-b'ole32.dll' b'HMETAFILEPICT_UserMarshal'
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
-b'user32.dll' b'GetCursor'
+ole32.dll HMETAFILEPICT_UserMarshal
+kernel32.dll GetSystemDefaultLangID
+kernel32.dll GetSystemDefaultUILanguage
+user32.dll GetCursor

@@ -1,6 +1,6 @@
-b'ole32.dll' b'MonikerRelativePathTo'
-b'ntdll.dll' b'NtCreateTimer'
-b'ntdll.dll' b'RtlAddAce'
-b'kernel32.dll' b'GetCurrentProcess'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetMessageExtraInfo'
+ole32.dll MonikerRelativePathTo
+ntdll.dll NtCreateTimer
+ntdll.dll RtlAddAce
+kernel32.dll GetCurrentProcess
+user32.dll GetCapture
+user32.dll GetMessageExtraInfo

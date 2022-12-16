@@ -1,5 +1,5 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'user32.dll' b'GetDC'
-b'gdi32.dll' b'Escape'
-b'winspool.drv' b'OpenPrinterA'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+user32.dll GetDC
+gdi32.dll Escape
+winspool.drv OpenPrinterA

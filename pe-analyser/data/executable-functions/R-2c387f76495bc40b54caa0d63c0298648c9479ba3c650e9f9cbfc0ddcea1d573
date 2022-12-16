@@ -1,7 +1,7 @@
-b'shell32.dll' b'SHGetIconOverlayIndexW'
-b'ole32.dll' b'WdtpInterfacePointer_UserUnmarshal'
-b'ole32.dll' b'CoRegisterSurrogateEx'
-b'ntdll.dll' b'NtSetInformationObject'
-b'kernel32.dll' b'GetSystemDefaultLCID'
-b'user32.dll' b'GetInputState'
-b'user32.dll' b'GetActiveWindow'
+shell32.dll SHGetIconOverlayIndexW
+ole32.dll WdtpInterfacePointer_UserUnmarshal
+ole32.dll CoRegisterSurrogateEx
+ntdll.dll NtSetInformationObject
+kernel32.dll GetSystemDefaultLCID
+user32.dll GetInputState
+user32.dll GetActiveWindow

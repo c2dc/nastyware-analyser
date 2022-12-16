@@ -1,4 +1,0 @@
-b'ntdll.dll' b'RtlCloneMemoryStream'
-b'kernel32.dll' b'GetSystemDefaultLangID'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'GetInputDesktop'

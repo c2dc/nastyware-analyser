@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetStartupInfoA'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'user32.dll' b'GetCapture'
+kernel32.dll GetStartupInfoA
+kernel32.dll GetUserDefaultUILanguage
+kernel32.dll GetCurrentProcessId
+user32.dll GetCapture

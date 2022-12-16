@@ -1,7 +1,7 @@
-b'oleaut32.dll' b'VarI2FromI8'
-b'user32.dll' b'RealGetWindowClassW'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'ntdll.dll' b'RtlFillMemoryUlong'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'Thread32First'
-b'kernel32.dll' b'GetCommandLineW'
+oleaut32.dll VarI2FromI8
+user32.dll RealGetWindowClassW
+user32.dll GetMenuCheckMarkDimensions
+ntdll.dll RtlFillMemoryUlong
+kernel32.dll GetCommandLineA
+kernel32.dll Thread32First
+kernel32.dll GetCommandLineW

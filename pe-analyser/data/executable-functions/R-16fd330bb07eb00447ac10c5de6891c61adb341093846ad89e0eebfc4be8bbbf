@@ -1,4 +1,4 @@
-b'kernel32.dll' b'OpenMutexA'
-b'ntdll.dll' b'ZwCreateSection'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'GetForegroundWindow'
+kernel32.dll OpenMutexA
+ntdll.dll ZwCreateSection
+user32.dll GetCaretBlinkTime
+user32.dll GetForegroundWindow

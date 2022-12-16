@@ -1,6 +1,6 @@
-b'kernel32.dll' b'QueryPerformanceCounter'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'kernel32.dll' b'GetCurrentThreadId'
-b'kernel32.dll' b'GetSystemTimeAsFileTime'
-b'kernel32.dll' b'GetTickCount'
-b'kernel32.dll' b'DisableThreadLibraryCalls'
+kernel32.dll QueryPerformanceCounter
+kernel32.dll GetCurrentProcessId
+kernel32.dll GetCurrentThreadId
+kernel32.dll GetSystemTimeAsFileTime
+kernel32.dll GetTickCount
+kernel32.dll DisableThreadLibraryCalls

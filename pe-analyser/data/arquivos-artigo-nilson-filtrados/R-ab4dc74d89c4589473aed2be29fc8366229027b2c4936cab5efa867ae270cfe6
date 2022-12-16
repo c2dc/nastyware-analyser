@@ -1,5 +1,0 @@
-b'user32.dll' b'GetMessageExtraInfo'
-b'user32.dll' b'GetMessagePos'
-b'user32.dll' b'CharToOemBuffA'
-b'kernel32.dll' b'SetProcessShutdownParameters'
-b'kernel32.dll' b'GetUserDefaultUILanguage'

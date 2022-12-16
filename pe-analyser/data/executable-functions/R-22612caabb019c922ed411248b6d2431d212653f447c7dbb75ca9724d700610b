@@ -1,4 +1,4 @@
-b'kernel32.dll' b'GetConsoleWindow'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'kernel32.dll' b'WriteConsoleOutputAttribute'
-b'kernel32.dll' b'GetCommandLineW'
+kernel32.dll GetConsoleWindow
+kernel32.dll GetCurrentProcessId
+kernel32.dll WriteConsoleOutputAttribute
+kernel32.dll GetCommandLineW

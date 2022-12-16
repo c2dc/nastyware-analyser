@@ -1,7 +1,7 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'user32.dll' b'IsWindowVisible'
-b'advapi32.dll' b'RegCreateKeyExA'
-b'gdi32.dll' b'DeleteObject'
-b'winspool.drv' b'ClosePrinter'
-b'shell32.dll' b'SHGetSpecialFolderPathA'
-b'shlwapi.dll' b'PathFileExistsA'
+kernel32.dll GetModuleHandleA
+user32.dll IsWindowVisible
+advapi32.dll RegCreateKeyExA
+gdi32.dll DeleteObject
+winspool.drv ClosePrinter
+shell32.dll SHGetSpecialFolderPathA
+shlwapi.dll PathFileExistsA

@@ -1,8 +1,8 @@
-b'kernel32.dll' b'GetModuleHandleA'
-b'kernel32.dll' b'GetProcAddress'
-b'msvcrt.dll' b'free'
-b'winmm.dll' b'timeSetEvent'
-b'advapi32.dll' b'RegCloseKey'
-b'user32.dll' b'PeekMessageW'
-b'ole32.dll' b'CoTaskMemFree'
-b'oleaut32.dll' b'LoadRegTypeLib'
+kernel32.dll GetModuleHandleA
+kernel32.dll GetProcAddress
+msvcrt.dll free
+winmm.dll timeSetEvent
+advapi32.dll RegCloseKey
+user32.dll PeekMessageW
+ole32.dll CoTaskMemFree
+oleaut32.dll LoadRegTypeLib

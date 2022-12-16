@@ -1,5 +1,5 @@
-b'ntdll.dll' b'NtSetSystemPowerState'
-b'user32.dll' b'SetCaretPos'
-b'user32.dll' b'GetDialogBaseUnits'
-b'kernel32.dll' b'FindFirstVolumeMountPointW'
-b'kernel32.dll' b'GetCurrentThreadId'
+ntdll.dll NtSetSystemPowerState
+user32.dll SetCaretPos
+user32.dll GetDialogBaseUnits
+kernel32.dll FindFirstVolumeMountPointW
+kernel32.dll GetCurrentThreadId

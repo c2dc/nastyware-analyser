@@ -1,5 +1,5 @@
-b'user32.dll' b'GetActiveWindow'
-b'user32.dll' b'MapWindowPoints'
-b'user32.dll' b'GetMessageTime'
-b'kernel32.dll' b'SetLastError'
-b'kernel32.dll' b'GetSystemDefaultUILanguage'
+user32.dll GetActiveWindow
+user32.dll MapWindowPoints
+user32.dll GetMessageTime
+kernel32.dll SetLastError
+kernel32.dll GetSystemDefaultUILanguage

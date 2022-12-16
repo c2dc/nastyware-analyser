@@ -1,6 +1,6 @@
-b'user32.dll' b'GetFocus'
-b'user32.dll' b'IsCharAlphaA'
-b'user32.dll' b'GetMessagePos'
-b'kernel32.dll' b'GetDiskFreeSpaceW'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'advapi32.dll' b'RegisterServiceCtrlHandlerW'
+user32.dll GetFocus
+user32.dll IsCharAlphaA
+user32.dll GetMessagePos
+kernel32.dll GetDiskFreeSpaceW
+kernel32.dll GetUserDefaultLCID
+advapi32.dll RegisterServiceCtrlHandlerW

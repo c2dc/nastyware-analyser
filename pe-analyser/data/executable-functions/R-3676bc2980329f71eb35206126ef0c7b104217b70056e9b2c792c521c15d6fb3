@@ -1,5 +1,5 @@
-b'ole32.dll' b'WriteClassStg'
-b'user32.dll' b'DrawFrame'
-b'kernel32.dll' b'GetVersion'
-b'kernel32.dll' b'GetCurrentProcessId'
-b'kernel32.dll' b'GetCurrentThread'
+ole32.dll WriteClassStg
+user32.dll DrawFrame
+kernel32.dll GetVersion
+kernel32.dll GetCurrentProcessId
+kernel32.dll GetCurrentThread

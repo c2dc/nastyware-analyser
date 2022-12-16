@@ -1,6 +1,6 @@
-b'oleaut32.dll' b'VarR8FromDisp'
-b'advapi32.dll' b'CryptEnumProviderTypesW'
-b'ntdll.dll' b'RtlSetProcessIsCritical'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'user32.dll' b'GetProcessWindowStation'
+oleaut32.dll VarR8FromDisp
+advapi32.dll CryptEnumProviderTypesW
+ntdll.dll RtlSetProcessIsCritical
+kernel32.dll GetCommandLineW
+kernel32.dll GetUserDefaultLCID
+user32.dll GetProcessWindowStation

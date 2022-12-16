@@ -1,6 +1,6 @@
-b'kernel32.dll' b'GetPrivateProfileStringA'
-b'kernel32.dll' b'ReadConsoleOutputW'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'advapi32.dll' b'NotifyChangeEventLog'
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'GetClipboardViewer'
+kernel32.dll GetPrivateProfileStringA
+kernel32.dll ReadConsoleOutputW
+kernel32.dll GetUserDefaultLCID
+advapi32.dll NotifyChangeEventLog
+user32.dll GetMessageTime
+user32.dll GetClipboardViewer

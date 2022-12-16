@@ -1,5 +1,5 @@
-b'user32.dll' b'GetDoubleClickTime'
-b'user32.dll' b'IsWindow'
-b'kernel32.dll' b'GetUserDefaultLCID'
-b'kernel32.dll' b'WriteTapemark'
-b'kernel32.dll' b'GetCurrentProcess'
+user32.dll GetDoubleClickTime
+user32.dll IsWindow
+kernel32.dll GetUserDefaultLCID
+kernel32.dll WriteTapemark
+kernel32.dll GetCurrentProcess

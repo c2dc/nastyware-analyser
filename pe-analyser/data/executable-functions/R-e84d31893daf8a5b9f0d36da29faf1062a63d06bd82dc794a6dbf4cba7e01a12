@@ -1,4 +1,4 @@
-b'ntdll.dll' b'RtlDosSearchPath_U'
-b'shell32.dll' b'SHDefExtractIconA'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
-b'user32.dll' b'GetMessagePos'
+ntdll.dll RtlDosSearchPath_U
+shell32.dll SHDefExtractIconA
+kernel32.dll GetUserDefaultUILanguage
+user32.dll GetMessagePos

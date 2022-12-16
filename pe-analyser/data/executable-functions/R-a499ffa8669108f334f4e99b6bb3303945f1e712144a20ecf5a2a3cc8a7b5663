@@ -1,4 +1,4 @@
-b'user32.dll' b'GetWindowDC'
-b'user32.dll' b'FillRect'
-b'kernel32.dll' b'GetCommandLineW'
-b'kernel32.dll' b'GetSystemDefaultLangID'
+user32.dll GetWindowDC
+user32.dll FillRect
+kernel32.dll GetCommandLineW
+kernel32.dll GetSystemDefaultLangID

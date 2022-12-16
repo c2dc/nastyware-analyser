@@ -1,5 +1,5 @@
-b'ntdll.dll' b'RtlQueueWorkItem'
-b'ntdll.dll' b'NtTranslateFilePath'
-b'kernel32.dll' b'GetProfileSectionW'
-b'user32.dll' b'GetMenuCheckMarkDimensions'
-b'user32.dll' b'GetDialogBaseUnits'
+ntdll.dll RtlQueueWorkItem
+ntdll.dll NtTranslateFilePath
+kernel32.dll GetProfileSectionW
+user32.dll GetMenuCheckMarkDimensions
+user32.dll GetDialogBaseUnits

@@ -1,3 +1,3 @@
-b'user32.dll' b'GetProcessWindowStation'
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'DdeUnaccessData'
+user32.dll GetProcessWindowStation
+user32.dll GetOpenClipboardWindow
+user32.dll DdeUnaccessData

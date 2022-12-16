@@ -1,6 +1,6 @@
-b'oleaut32.dll' b'SafeArrayGetLBound'
-b'ole32.dll' b'CoCreateGuid'
-b'user32.dll' b'wvsprintfA'
-b'user32.dll' b'ScreenToClient'
-b'kernel32.dll' b'GetCommandLineA'
-b'kernel32.dll' b'GetProcessHeap'
+oleaut32.dll SafeArrayGetLBound
+ole32.dll CoCreateGuid
+user32.dll wvsprintfA
+user32.dll ScreenToClient
+kernel32.dll GetCommandLineA
+kernel32.dll GetProcessHeap

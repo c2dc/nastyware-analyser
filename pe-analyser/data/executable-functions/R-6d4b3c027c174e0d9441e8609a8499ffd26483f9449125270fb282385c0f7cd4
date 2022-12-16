@@ -1,5 +1,5 @@
-b'user32.dll' b'GetMessageTime'
-b'user32.dll' b'GetCaretBlinkTime'
-b'user32.dll' b'UpdateLayeredWindow'
-b'ntdll.dll' b'ZwCreateProcess'
-b'kernel32.dll' b'GetThreadLocale'
+user32.dll GetMessageTime
+user32.dll GetCaretBlinkTime
+user32.dll UpdateLayeredWindow
+ntdll.dll ZwCreateProcess
+kernel32.dll GetThreadLocale

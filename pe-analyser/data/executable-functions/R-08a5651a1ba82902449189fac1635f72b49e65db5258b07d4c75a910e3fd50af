@@ -1,4 +1,4 @@
-b'user32.dll' b'GetOpenClipboardWindow'
-b'user32.dll' b'DdeFreeStringHandle'
-b'user32.dll' b'IMPGetIMEA'
-b'kernel32.dll' b'GetLastError'
+user32.dll GetOpenClipboardWindow
+user32.dll DdeFreeStringHandle
+user32.dll IMPGetIMEA
+kernel32.dll GetLastError

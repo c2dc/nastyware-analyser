@@ -1,7 +1,7 @@
-b'kernel32.dll' b'WriteFileEx'
-b'kernel32.dll' b'GetUserDefaultUILanguage'
-b'advapi32.dll' b'RegEnumKeyA'
-b'ntdll.dll' b'RtlReAllocateHeap'
-b'ntdll.dll' b'NtEnumerateBootEntries'
-b'user32.dll' b'GetCapture'
-b'user32.dll' b'GetMessageExtraInfo'
+kernel32.dll WriteFileEx
+kernel32.dll GetUserDefaultUILanguage
+advapi32.dll RegEnumKeyA
+ntdll.dll RtlReAllocateHeap
+ntdll.dll NtEnumerateBootEntries
+user32.dll GetCapture
+user32.dll GetMessageExtraInfo
