@@ -1,0 +1,12 @@
+msvcrt.dll __C_specific_handler
+msvcrt.dll _initterm
+msvcrt.dll malloc
+msvcrt.dll free
+msvcrt.dll _amsg_exit
+msvcrt.dll _XcptFilter
+kernel32.dll GetSystemTimeAsFileTime
+kernel32.dll GetCurrentThreadId
+kernel32.dll GetCurrentProcessId
+kernel32.dll QueryPerformanceCounter
+kernel32.dll Sleep
+kernel32.dll GetTickCount

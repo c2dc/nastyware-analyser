@@ -1,0 +1,3 @@
+ntoskrnl.exe MmMapIoSpaceEx
+ntoskrnl.exe HalPrivateDispatchTable
+ntoskrnl.exe MmUnmapIoSpace

@@ -1,0 +1,12 @@
+kernel32.dll LoadLibraryA
+kernel32.dll GetProcAddress
+kernel32.dll VirtualProtect
+kernel32.dll VirtualAlloc
+kernel32.dll VirtualFree
+kernel32.dll ExitProcess
+advapi32.dll FreeSid
+dnsapi.dll DnsQuery_A
+msvcrt.dll _iob
+shell32.dll ShellExecuteA
+user32.dll wsprintfA
+ws2_32.dll recv
