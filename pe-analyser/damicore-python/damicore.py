@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 from tree import newick_format, to_graph
+from constants import *
 
 import argparse
 import math
@@ -9,6 +10,7 @@ import os
 import shutil
 import sys
 import tree_simplification as nj
+
 
 def clustering(directory, compression_name='ppmd', pairing_name='concat',
     is_parallel = True, **kwargs):
@@ -52,7 +54,6 @@ def calc_weights(lengths, min_length=1):
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(add_help=False, parents=[ncd.cli_parser()])
   parser.add_argument('--ncd-output', help='File to output NCD result')
-  parser.add_argument('--cld-output', help='File to output CLD result')
   parser.add_argument('--tree-output', help='File to output tree result')
   parser.add_argument('--graph-image', help='File to output graph image')
   a = parser.parse_args()
@@ -64,15 +65,15 @@ if __name__ == '__main__':
   if verbose != 1:
     sys.stderr.write('Note: verbosity level not implemented yet\n')
 
-  if not os.path.exists('tmp') or not os.path.isdir('tmp'):
-    os.mkdir('tmp')
+  if not os.path.exists(TMP_DIRECTORY) or not os.path.isdir(TMP_DIRECTORY):
+    os.mkdir(TMP_DIRECTORY)
   if a.compressor == 'ppmd' and (
-      not os.path.exists('ppmd_tmp') or not os.path.isdir('ppmd_tmp')):
-    os.mkdir('ppmd_tmp')
+      not os.path.exists(PPMD_TMP_DIRECTORY) or not os.path.isdir(PPMD_TMP_DIRECTORY)):
+    os.mkdir(PPMD_TMP_DIRECTORY)
  
   kwargs = {
-      'pair_dir': 'tmp',
-      'ppmd_tmp_dir': 'ppmd_tmp',
+      'pair_dir': TMP_DIRECTORY,
+      'ppmd_tmp_dir': PPMD_TMP_DIRECTORY,
       'slowness': a.slowness,
       'model_order': a.model_order,
       'memory': a.memory,
@@ -116,6 +117,6 @@ if __name__ == '__main__':
       f.write(out)
   
   # Remove tmp/
-  if os.path.exists('tmp'):
-    shutil.rmtree('tmp/')
+  if os.path.exists(TMP_DIRECTORY):
+    shutil.rmtree(TMP_DIRECTORY)
 

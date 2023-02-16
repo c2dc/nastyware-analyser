@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 
+from progress_bar import ProgressBar
+from constants import *
+
 import argparse
 import os
 import sys
 import multiprocessing as mp
 from shutil import copyfileobj as copy
 from subprocess import Popen, PIPE, call, DEVNULL
-from progress_bar import ProgressBar
 
 def gzip_compression(fname, slowness = 6, **kwargs):
   """Compression using gzip executable.
@@ -60,7 +62,7 @@ compression = {
 
 #### Pairing functions ####
 
-def concat(fname1, fname2, pair_dir = os.path.join('tmp'), **kwargs):
+def concat(fname1, fname2, pair_dir = os.path.join(TMP_DIRECTORY), **kwargs):
   """Concatenates given files into a new file.
 
   @param fname1, fname2 Files to concatenate (in this order)
@@ -78,7 +80,7 @@ def concat(fname1, fname2, pair_dir = os.path.join('tmp'), **kwargs):
   return concat_fname
 
 def interleave(fname1, fname2, block_size = 1024,
-    pair_dir = os.path.join('tmp'), **kwargs):
+    pair_dir = os.path.join(TMP_DIRECTORY), **kwargs):
   """Interleaves blocks of the given files into a new file.
 
     Partitions each file into blocks with the given size, except for the last
@@ -471,15 +473,15 @@ if __name__ == '__main__':
   if verbose != 1:
     sys.stderr.write('Note: verbosity level not implemented yet\n')
 
-  if not os.path.exists('tmp') or not os.path.isdir('tmp'):
-    os.mkdir('tmp')
+  if not os.path.exists(TMP_DIRECTORY) or not os.path.isdir(TMP_DIRECTORY):
+    os.mkdir(TMP_DIRECTORY)
   if a.compressor == 'ppmd' and (
-      not os.path.exists('ppmd_tmp') or not os.path.isdir('ppmd_tmp')):
-    os.mkdir('ppmd_tmp')
+      not os.path.exists(PPMD_TMP_DIRECTORY) or not os.path.isdir(PPMD_TMP_DIRECTORY)):
+    os.mkdir(PPMD_TMP_DIRECTORY)
  
   kwargs = {
-      'pair_dir': 'tmp',
-      'ppmd_tmp_dir': 'ppmd_tmp',
+      'pair_dir': TMP_DIRECTORY,
+      'ppmd_tmp_dir': PPMD_TMP_DIRECTORY,
       'slowness': a.slowness,
       'model_order': a.model_order,
       'memory': a.memory,
