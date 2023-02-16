@@ -41,8 +41,8 @@ if __name__== '__main__':
     elif args.damicore_version == DAMICORE_VERSION_PYTHON:
         print('Using Python version of Damicore...')
         
-        # ret = os.system(f'./damicore-python/damicore.py {args.folder} --ncd-output ./damicore-python/results/ncd-matrix.phylip --format phylip --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters --compress ppmd')
-        ret = os.system(f'./damicore-python/damicore-cld.py {args.folder} --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters')
+        ret = os.system(f'./damicore-python/damicore.py {args.folder} --ncd-output ./damicore-python/results/ncd-matrix.phylip --format phylip --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters --compress ppmd')
+        # ret = os.system(f'./damicore-python/damicore-cld.py {args.folder} --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters')
         
         if ret != 0:
             print('Error while running Damicore')
@@ -58,16 +58,16 @@ if __name__== '__main__':
         shutil.copyfile('damicore-python/results/tree.newick', './tree.newick')
 
     # Using prefixes to color the tree
-    os.system('smot color leaf -P -p "." "#000000" -p "R-*" "#FF0000" -p "G-*" "#0000FF" tree.newick \
-                | smot color pull \
-                | smot filter --factor-by-capture="(R|G)" --some-match="R" --color="#FF0000" \
-                | smot filter --factor-by-capture="(R|G)" --some-match="G" --color="#0000FF" \
-                | smot color leaf -P -p "." "#000000"> tree.nexus')
+    # os.system('smot color leaf -P -p "." "#000000" -p "R-*" "#FF0000" -p "G-*" "#0000FF" tree.newick \
+    #             | smot color pull \
+    #             | smot filter --factor-by-capture="(R|G)" --some-match="R" --color="#FF0000" \
+    #             | smot filter --factor-by-capture="(R|G)" --some-match="G" --color="#0000FF" \
+    #             | smot color leaf -P -p "." "#000000"> tree.nexus')
 
     # Using sufixes to color the tree
     # os.system('smot color leaf -P -p "." "#0000FF" tree.newick\
     #             |  smot color pull | smot filter --factor-by-capture="(R|G)" --all-match="R" --color="#FF0000"\
     #             | smot color leaf -P -p "." "#909090" > tree.nexus')
     
-    if args.open_figtree:
-        os.system('figtree ./tree.nexus')
+    # if args.open_figtree:
+    #     os.system('figtree ./tree.nexus')

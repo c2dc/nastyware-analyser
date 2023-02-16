@@ -85,7 +85,8 @@ if __name__ == '__main__':
       compression_name = a.compressor, pairing_name = a.pairing,
       is_parallel = True, **kwargs)
 
-  print(d['node_clustering'])
+  with open('./node_clustering.txt', 'wt') as f:
+    f.write(str(d['node_clustering']))
 
   # Outputs NCD step
   if a.ncd_output is not None:
