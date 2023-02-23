@@ -1,63 +1,153 @@
-Clustering with 362 elements and 62 clusters
--2, -179, G-BootMenuUX.dll, G-ClipSVC.dll
--3, -144, -145, -161, -162, -163, -166, G-MapsStore.dll, G-apprepsync.dll, G-msv1_0.dll
--4, -5, -141, G-browser.dll, G-appmgmts.dll
--6, -61, -62, -63, -64, G-msfeeds.dll, -81, -137, G-bcd.dll, G-bcdboot.exe
--7, -56, G-msTextPrediction.dll
--8, -55, G-bitsadmin.exe, G-mtstocom.exe
--9, -54, G-adsldp.dll, G-adsmsext.dll
--10, -51, -52, -53, G-colbact.dll, G-mtxdm.dll, G-mqlogmgr.dll, G-mstask.dll
--11, -12, G-BackgroundMediaPolicy.dll, -13, G-ConfigureExpandedStorage.dll, -16
--14, G-CloudExperienceHostBroker.exe, -15, G-Cortana.Persona.dll, G-MediaFoundation.DefaultPerceptionProvider.dll
--17, -18, G-mi.dll, -45, -48, G-MSMPEG2ENC.DLL, G-cemapi.dll
--19, -20, -21, G-certenc.dll, G-browcli.dll
--22, -39, -40, G-BthTelemetry.dll, G-appidcertstorecheck.exe, G-mfh264enc.dll
--23, -24, -26, G-adhapi.dll, G-mfvfw.dll, -27, -28, G-MUILanguageCleanup.dll
--25, G-BthMtpContextHandler.dll, G-msdelta.dll
--29, -30, -31, G-MCCSPal.dll, -32, G-WudfSMCClassExt.dll, G-mfh263enc.dll, G-credssp.dll, -33, -34, G-ahadmin.dll, G-wups2.dll, G-catsrvps.dll
--35, -36, -37, G-MP43DECD.DLL, G-MP4SDECD.DLL, G-mfvdsp.dll, -38, G-bcdprov.dll, G-bcdsrv.dll
--41, -42, G-MdmDiagnostics.dll, G-msscntrs.dll, -43, G-cabapi.dll, -44, G-msvcp110_win.dll, G-msvcp60.dll
--46, G-MFCaptureEngine.dll, -47, G-mfaudiocnv.dll, G-mfsensorgroup.dll
--49, -50, G-MuiUnattend.exe, G-compact.exe, G-mmci.dll
--57, -58, -59, G-OnDemandConnRouteHelper.dll, G-adhsvc.dll, G-mprapi.dll
--60, G-mf.dll, G-mintdh.dll
--65, -72, G-CPFilters.dll, G-cdosys.dll
--66, G-BthpanContextHandler.dll, -67, -68, G-azroleui.dll, G-colorui.dll
--69, -70, G-aclui.dll, G-mstsmmc.dll
--71, G-comuid.dll, G-mqsnap.dll
--73, -74, -80, G-adprep.dll, R-Petya.sample, G-migisol.dll
--75, -76, -77, R-Djvu.sample, G-msvcr120_clr0400.dll, R-Vipasana.sample
--78, -79, G-CompMgmtLauncher.exe, G-atl100.dll, G-mqmigplugin.dll
--82, -124, -125, -126, -127, G-Configure-SMRemoting.exe, G-correngine.dll, G-cfgbkend.dll
--83, -122, G-cipher.exe, -123, G-mount.exe, G-openfiles.exe
--84, -85, -119, G-atlthunk.dll, G-convert.exe
--86, -87, -88, -89, G-mfcm140.dll, R-MSSECSVC.sample
--90, -91, -100, G-aspnet_counters.dll, G-muifontsetup.dll
--92, -93, -94, G-CHxReadingStringIME.dll, -95, -96, G-Microsoft.Uev.AgentDriverEvents.dll, -97, G-mqutil.dll, G-osuninst.dll, G-adsiisex.dll, -98, G-C_ISCII.DLL, -99, G-mprmsg.dll, G-mrt_map.dll, G-clrhost.dll
--101, -102, G-MdRes.exe, G-ocsetapi.dll, G-cmpbk32.dll
--103, -109, G-MsiCofire.dll, G-cofiredm.dll
--104, -105, -107, G-appidtel.exe, G-mqcertui.dll, -108, G-MiracastInputMgr.dll, G-bitsigd.dll
--106, G-JavaScriptCollectionAgent.dll, G-cca.dll
--110, -115, -116, -117, G-change.exe, G-chglogon.exe, G-makecab.exe, -118, G-csvde.dll, G-csvde.exe
--111, -113, -114, G-browser_broker.exe, G-conhost.exe, G-mountvol.exe
--112, G-OptionalFeatures.exe, G-mpnotify.exe
--120, -121, R-File.sample, R-Win32.Wannacry.sample, R-Ransomware.sample
--128, -129, G-admwprox.dll, G-cmlua.dll, -130, G-bthci.dll
--131, -132, G-cliconfg.dll, G-odbccp32.dll, G-cmutil.dll
--133, -136, G-msctfui.dll, G-msihnd.dll
--134, -135, G-cmdl32.exe, G-occache.dll, G-msoeacct.dll
--138, -139, -140, G-avicap32.dll, G-mciavi32.dll, G-mssign32.dll, G-offlinesam.dll
--142, G-cfgmgr32.dll, -143, G-cryptcatsvc.dll, G-cryptsvc.dll
--146, -147, G-zipfldr.dll, G-consent.exe
--148, -160, G-msdtcuiu.dll, G-mtxclu.dll
--149, -158, -159, G-aeinv.dll, G-aepic.dll, G-appraiser.dll
--150, -157, G-mprddm.dll, G-mprsnap.dll
--151, -152, G-CertEnrollUI.dll, -155, -156, G-mfc100u.dll, G-mspaint.exe, G-msoledbsql.dll
--153, -154, G-CloudStorageWizard.exe, G-accessibilitycpl.dll, G-osk.exe
--164, G-MSAJApi.dll, -165, G-cdpsvc.dll, G-cdpusersvc.dll
--167, -168, G-mapstoasttask.dll, G-moshost.dll, -169, G-msvcp_win.dll, G-ortcengine.dll
--170, -171, -172, G-CryptoWinRT.dll, G-cscobj.dll, G-oleacc.dll
--173, -174, G-WWAHost.exe
--175, G-MMDevAPI.dll, G-mfplat.dll
--176, -177, G-MusUpdateHandlers.dll, -178, G-OmaDmAgent.dll, G-mfmkvsrcsnk.dll, G-credprovhost.dll
--180, -181, G-apphelp.dll, G-appinfo.dll, G-cmd.exe
+Clustering with 1574 elements and 152 clusters
+-2, -547, -787, G-mpunits.dll, G-oemlicense.dll
+-3, -4, -5, -6, -7, -35, -166, -167, -185, -186, -187, -188, G-avicap32.dll, G-mciavi32.dll, G-msvfw32.dll, -189, -190, G-charmap.exe, G-oledlg.dll, G-console.dll
+-8, -9, -10, G-BCP47Langs.dll, G-OpcServices.dll, G-aitstatic.exe
+-11, -12, -13, G-MSWB7.dll, -14, G-msvcp110_win.dll, G-msvcp60.dll, -15, G-Microsoft.Uev.ConfigWrapper.dll, G-Microsoft.Uev.CscUnpinTool.exe, -16, -17, -18, G-Microsoft.Uev.AppAgent.dll, G-Microsoft.Uev.ModernAppAgent.dll, -19, G-Microsoft.Uev.CommonBridge.dll, -20, G-Microsoft.Uev.Office2013CustomActions.dll, G-Microsoft.Uev.PrinterCustomActions.dll, -21, G-msvcp100.dll, -22, G-msvcp120.dll, G-msvcp120_clr0400.dll
+-23, -24, -25, G-msaatext.dll, -31, G-CPFilters.dll, -32, G-cdosys.dll, G-mqoa.dll, -33, -34, G-MDMAppInstaller.exe, G-MbaeParserTask.exe, G-mqad.dll
+-26, -27, G-BthpanContextHandler.dll, G-connect.dll, -28, -29, G-CscMig.dll, -30, G-apds.dll, G-mqcmiplugin.dll, G-mswmdm.dll
+-36, -101, -102, G-bootcfg.exe, G-openfiles.exe, G-cipher.exe
+-37, -89, -90, -91, -92, -93, G-Configure-SMRemoting.exe, -98, G-WUDFx.dll, G-cewmdm.dll, G-cfgbkend.dll, -99, -100, G-mount.exe, G-mqbkup.exe, G-msiexec.exe, G-mmcshext.dll
+-38, -83, -84, -85, G-Magnification.dll, G-chartv.dll, -86, G-mf3216.dll, G-opengl32.dll, -87, -88, G-atl.dll, G-mshtmled.dll, G-cic.dll
+-39, -82, G-cscript.exe, G-jscript.dll
+-40, -41, -42, -69, -70, R-Gandcrab.sample, R-cryptowall.sample, R-Locky.sample
+-43, -44, R-System_Lock_1.2b1.sample, -62, -63, R-Buhtrap.sample, R-Manager.sample, R-Vipasana.sample
+-45, -46, -47, G-CompMgmtLauncher.exe, -48, R-Dharma.sample, -49, R-Mamba_xox_b.sample, -50, R-Ransomware.tmp.sample, R-Ryuk2.sample, -51, -52, G-atl100.dll, G-mscories.dll, G-msdadiag.dll
+-53, G-mqmigplugin.dll, -54, -55, G-mscoree.dll, R-Faux-v3.sample, -56, -57, R-131.sample, R-Ryuk_copy.sample
+-58, -59, R-Avaddon.sample, -60, -61, R-Lockbit.Trojan.sample, R-Ransomware.tmp2.sample, R-Troldesh.sample, R-Djvu.sample
+-64, -65, G-MpSigStub.exe, G-mcbuilder.exe, -66, -67, G-msvcr100.dll, -68, G-msvcr120.dll, G-msvcr120_clr0400.dll, G-msvcrt.dll
+-71, -72, -73, G-advpack.dll, -74, G-msoeacct.dll, G-msoert2.dll, -75, G-mdminst.dll, G-modemui.dll
+-76, -77, -78, -79, -80, G-cmcfg32.dll, G-cmstp.exe, G-cmlua.dll, G-msident.dll, G-occache.dll, -81, G-cmdl32.exe, G-cmmon32.exe
+-94, -95, -96, G-Microsoft.Uev.Office2010CustomActions.dll, G-MsRdpWebAccess.dll, G-cttunesvr.exe, -97, G-correngine.dll, G-jscript9diag.dll
+-103, -104, -105, G-migisol.dll, G-wusa.exe, G-odbc32.dll
+-106, -107, -108, G-MRT.exe, -109, G-adal.dll, R-Petya.sample, G-adprep.dll, -110, R-LockBit_14_02_2021.sample, R-Lockbit.sample
+-111, -112, -113, -142, -143, -144, -145, G-attrib.exe, G-comp.exe, -146, G-chkntfs.exe, G-convert.exe, G-chkdsk.exe, G-cnvfat.dll, -155, -165, G-cmd.exe, R-cerber.sample
+-114, -115, -116, -117, -118, R-Teslacrypt.sample, G-atmfd.dll, -137, -138, G-atlthunk.dll, G-csrss.exe, G-avrt.dll, -141, G-cdd.dll, G-ci.dll
+-119, -120, -121, G-BOOTVID.DLL, -122, G-mcupdate_AuthenticAMD.dll, G-mcupdate_GenuineIntel.dll, R-Satana.sample
+-123, -124, -125, -126, -127, G-BPAInst.dll, G-MuxInst.dll, -128, G-miguiresource.dll, -129, G-mscat32.dll, G-mssip32.dll, -130, R-File.sample, -135, R-Revil.sample, R-Revil_Sodinokibi.sample
+-131, -132, R-Crysis.sample, -133, -134, R-LordEK.sample, R-Phobos.sample, R-Radamant.sample, R-Win32.Wannacry.sample
+-136, R-Ransomware.sample, R-RedBoot.sample
+-139, R-Buran.sample, -140, R-MSSECSVC.sample, R-Wannacry.sample
+-147, G-apphelp.dll, -148, -149, -150, -151, G-autochk.exe, -152, G-autoconv.exe, G-autofmt.exe, -153, G-basesrv.dll, G-csrsrv.dll, G-bcd.dll, -154, G-bcdboot.exe, G-bcdedit.exe
+-156, -157, G-Chakra.dll, G-jscript9.dll, -158, -159, -160, G-acmigration.dll, -161, -162, G-aeinv.dll, G-aepic.dll, G-appraiser.dll, G-msfeeds.dll
+-163, G-azroles.dll, -164, G-mqrt.dll, G-mqsec.dll
+-168, -169, -170, -171, G-colorui.dll, -178, -182, -183, -184, G-comsnap.dll, G-mstsmhst.dll, G-wvc.dll, G-oleprn.dll, G-cttune.exe
+-172, -173, -174, G-MSVidCtl.dll, G-comuid.dll, G-msi.dll, -175, G-cmdial32.dll, G-comctl32.dll
+-176, -177, G-aclui.dll, G-mqsnap.dll, G-mstsmmc.dll
+-179, -180, G-adsiedit.dll, G-azroleui.dll, -181, G-msconfig.exe, G-msinfo32.exe
+-191, -192, G-compstui.dll, G-msihnd.dll, -193, -194, G-mscandui.dll, G-msctfui.dll, G-msutb.dll
+-195, -196, -197, G-cabview.dll, G-mydocs.dll, G-msieftp.dll, G-cleanmgr.exe
+-198, -290, -291, -292, -293, -294, -295, -296, G-BitsProxy.dll, -311, G-blb_ps.dll, G-cmstplua.dll, -312, G-actxprxy.dll, G-mfps.dll, G-CameraCaptureUI.dll, -313, -316, G-mapi32.dll, G-mapistub.dll, G-CastLaunch.dll, -317
+-199, -289, G-BluetoothApis.dll, G-ByteCodeGenerator.exe
+-200, -201, -281, -286, G-appidpolicyconverter.exe, -287, G-auditcse.dll, -288, G-auditpol.exe, G-auditpolcore.dll
+-202, -203, -258, -259, G-BrowserSettingSync.dll, -261, G-MSPhotography.dll, G-MSVideoDSP.dll
+-204, -205, -206, G-BWContextHandler.dll, -207, G-adprovider.dll, -208, G-capiprovider.dll, G-cngprovider.dll, -209, G-MsSpellCheckingHost.exe, -212, G-BthRadioMedia.dll, G-mfksproxy.dll
+-210, -211, G-CfgSPCellular.dll, G-Chakradiag.dll, G-MSFlacEncoder.dll
+-213, -241, -242, -243, -244, G-certCredProvider.dll, G-appidapi.dll, G-OnDemandConnRouteHelper.dll, G-basecsp.dll
+-214, -215, -224, -225, G-ContactHarvesterDS.dll, G-JpnServiceDS.dll, -226, G-MTF.dll, G-MTFServer.dll, -227, -228, -238, G-cemapi.dll, G-msauserext.dll
+-216, -217, -218, G-BackgroundMediaPolicy.dll, G-CbtBackgroundManagerPolicy.dll, -219, -220, G-CloudDomainJoinAUG.dll, G-ConnectedAccountState.dll, G-mdmpostprocessevaluator.dll, -221, -222, G-CloudNotifications.exe, G-MDMAgent.exe, -223, G-MdmDiagnostics.dll, G-omadmprc.exe
+-229, -230, -235, G-msscntrs.dll, G-mssitlb.dll, -236, G-MSMPEG2ENC.DLL, -237, G-cryptext.dll, G-msacm32.dll
+-231, -232, -233, -234, G-MSAlacDecoder.dll, G-MSAlacEncoder.dll, G-MSOpusDecoder.dll, G-cfmifs.dll, G-cmifw.dll
+-239, -240, G-alg.exe, G-mlang.dll, G-miutils.dll
+-245, -246, -247, -248, -249, -255, -256, -257, G-MSAMRNBDecoder.dll, G-MSAMRNBEncoder.dll, G-MSAMRNBSink.dll, G-MSAMRNBSource.dll, G-MSAProfileNotificationHandler.dll, G-cabapi.dll, G-clfsw32.dll, G-capauthz.dll
+-250, -251, G-CIWmi.dll, G-Chakrathunk.dll, -252, -253, -254, G-CspCellularSettings.dll, G-MdmDiagnosticsTool.exe, G-msvcirt.dll, G-MiracastInputMgr.dll
+-260, G-MBMediaManager.dll, G-OneBackupHandler.dll
+-262, -263, -264, -265, -276, G-CastingShellExt.dll, -277, G-CloudBackupSettings.dll, -278, G-ConfigureExpandedStorage.dll, G-ConsoleLogon.dll, G-CredentialUIBroker.exe, G-musdialoghandlers.dll, -279, G-CallHistoryClient.dll, -280, G-ChatApis.dll, G-ContactApis.dll
+-266, -267, -268, -269, -270, G-BcastDVRHelper.dll, G-Cortana.Persona.dll, -271, G-BluetoothDesktopHandlers.dll, G-MediaFoundation.DefaultPerceptionProvider.dll, G-MtcModel.dll, G-CloudExperienceHostBroker.exe
+-272, -273, G-CallButtons.dll, -274, G-CredProvDataModel.dll, G-WwaApi.dll, -275, G-biwinrt.dll, G-mbussdapi.dll
+-282, -283, -284, G-BrokerLib.dll, G-appidsvc.dll, G-adhsvc.dll, -285, G-CertPolEng.dll, G-mprapi.dll
+-297, -298, -299, -300, -301, G-CallButtons.ProxyStub.dll, G-bcastdvr.proxy.dll, -302, G-OneCoreCommonProxyStub.dll, G-OneCoreUAPCommonProxyStub.dll, -304, -305, G-CortanaMapiHelper.ProxyStub.dll, -306, -307, G-ahadmin.dll, G-cmgrcspps.dll, G-wups2.dll, -308, G-catsrvps.dll, G-MapsBtSvcProxy.dll
+-303, G-msctfp.dll, G-mssprxy.dll
+-309, -310, G-amsiproxy.dll, G-cfmifsproxy.dll, G-wups.dll
+-314, G-acppage.dll, -315, G-admwprox.dll, G-btpanui.dll
+-318, -319, -320, -321, G-CloudDomainJoinDataModelServer.dll, -322, G-CloudExperienceHostBroker.dll, G-CloudExperienceHostUser.dll, -323, G-CloudExperienceHost.dll, G-CloudExperienceHostCommon.dll, G-MbaeApiPublic.dll, -324, G-MbaeApi.dll, -325, G-MiracastReceiver.dll, G-MrmCoreR.dll
+-326, -327, G-CryptoWinRT.dll, G-msxml6.dll, -328, G-cscobj.dll, -329, G-oleacc.dll, G-wuapi.dll
+-330, -331, -494, -543, -544, G-browser.dll, G-mswsock.dll, -545, -546, G-cfgmgr32.dll, G-cryptcatsvc.dll, G-cryptnet.dll
+-332, -333, -334, -453, -463, G-msTextPrediction.dll, G-mssph.dll, -464, -465, -466, -467, G-catsrv.dll, G-catsrvut.dll, G-mtstocom.exe, G-clbcatq.dll
+-335, -447, -448, -451, G-mfnetsrc.dll, G-mfsrcsnk.dll, -452, G-msdrm.dll, G-msmpeg2vdec.dll
+-336, -337, -431, G-CompatTelRunner.exe, -432, G-appmgmts.dll, G-appmgr.dll
+-338, -339, -340, -429, G-OmaDmAgent.dll, -430, G-mdmmigrator.dll, G-mfmkvsrcsnk.dll
+-341, -347, G-cscsvc.dll, G-mprdim.dll
+-342, -343, G-BFE.DLL, -344, G-MPSSVC.dll, G-mispace.dll, -345, G-BootMenuUX.dll, -346, G-ClipSVC.dll, G-ClipUp.exe
+-348, -349, -414, -420, G-MFMediaEngine.dll, G-mfsvr.dll, G-consent.exe
+-350, -387, -390, -391, -395, G-msctf.dll, -412, -413, G-cscui.dll, G-zipfldr.dll, G-mssvp.dll
+-351, -352, -353, -354, G-certca.dll, -356, -357, G-certadm.dll, G-certocm.dll, -358, G-certreq.exe, G-certutil.exe, -359, G-mtxclu.dll, -362
+-355, G-CertEnroll.dll, G-certcli.dll
+-360, -361, G-msdtcprx.dll, G-msdtcuiu.dll, G-msdtctm.dll
+-363, -364, -365, -369, G-bootux.dll, G-msctfuimanager.dll, -373, G-JpMapControl.dll, G-MapControlCore.dll
+-366, -367, G-CertEnrollUI.dll, G-msdt.exe, -368, G-Magnify.exe, G-osk.exe
+-370, G-CloudStorageWizard.exe, -371, G-MaintenanceUI.dll, -372, G-accessibilitycpl.dll, G-autoplay.dll
+-374, -375, -383, G-mprddm.dll, -384, G-mqqm.dll, -385, -386, G-msodbcsql13.dll, G-msodbcsql17.dll, G-msoledbsql.dll
+-376, -377, G-advapi32.dll, -378, G-combase.dll, G-ole32.dll, -379, G-comsvcs.dll, -380, G-mssrch.dll, G-wuaueng.dll
+-381, G-authui.dll, -382, G-bisrv.dll, G-modernexecserver.dll
+-388, -389, G-ConhostV1.dll, G-ConhostV2.dll, G-cryptui.dll
+-392, -393, -394, G-adprop.dll, G-certmgr.dll, G-objsel.dll, G-mprsnap.dll
+-396, -397, -411, G-mmc.exe, G-mmcndmgr.dll, G-mblctr.exe
+-398, -400, -401, -402, -403, -404, G-mfc100.dll, G-mfc100u.dll, -405, -406, G-mfc120.dll, G-mfc120u.dll, -407, G-mfc140.dll, G-mfc140u.dll, -408, G-mfc42.dll, G-mfc42u.dll, -409, G-mshtml.dll, G-mstscax.dll
+-399, G-comdlg32.dll, G-mspaint.exe
+-410, G-mstsc.exe, R-Unpacked.sample
+-415, -418, -419, G-MicrosoftAccountExtension.dll, G-mbsmsapi.dll, G-aadtb.dll
+-416, -417, G-CoreUIComponents.dll, G-bcastdvr.exe, G-MsSpellCheckingFacility.dll
+-421, -422, G-MessagingDataModel2.dll, G-browserbroker.dll, -423, -424, G-MrmIndexer.dll, G-OneDriveSettingSyncProvider.dll
+-425, -426, -427, G-MusNotification.exe, G-MusNotificationUx.exe, G-MusUpdateHandlers.dll, -428, G-mdmregistration.dll, G-omadmclient.exe
+-433, -434, -435, G-ClipboardServer.dll, -436, G-ConsentUX.dll, -437, G-credprovhost.dll, -438, G-credprovs.dll, G-credprovslegacy.dll, -439, G-WWAHost.exe, G-appinfo.dll
+-440, -443, -444, -445, -446, G-MicrosoftAccountCloudAP.dll, G-mskeyprotcli.dll, G-MicrosoftAccountTokenProvider.dll, G-clusapi.dll, G-accountaccessor.dll
+-441, G-CoreMessaging.dll, -442, G-MMDevAPI.dll, G-bthserv.dll
+-449, -450, G-mfcore.dll, G-mfplat.dll, G-mfds.dll
+-454, -458, -459, -460, G-MCCSEngineShared.dll, G-MSFlacDecoder.dll, G-mssphtb.dll, -461, G-configmanager2.dll, -462, G-coredpus.dll, G-omadmapi.dll
+-455, -456, -457, G-BingASDS.dll, G-configurationclient.dll, G-CortanaMapiHelper.dll, G-msftedit.dll
+-468, -469, -470, -471, G-colbact.dll, G-mtxdm.dll, G-comrepl.dll, -472, -473, G-mqlogmgr.dll, G-msdtclog.dll, -474, G-msdtc.exe, G-mtxoci.dll, G-msdtckrm.dll
+-475, -476, -486, G-mintdh.dll, G-mmcbase.dll, -487, G-mscms.dll, G-msxml3.dll
+-477, -478, -479, -480, -481, G-MCRecvSrc.dll, -482, G-mfasfsrcsnk.dll, G-mfmp4srcsnk.dll, G-MFCaptureEngine.dll, G-MDEServer.exe, -485, G-aadcloudap.dll, G-audiodg.exe
+-483, -484, G-mf.dll, G-mfmpeg2srcsnk.dll, G-mfnetcore.dll
+-488, -489, -490, G-CertPKICmdlet.dll, -491, G-crypttpmeksvc.dll, -492, G-cryptuiwizard.dll, G-mssign32.dll, G-authfwcfg.dll, -493, G-wudriver.dll, G-wuuhext.dll
+-495, -496, -521, -522, -528, -529, -530, G-MapsCSP.dll, G-mapstoasttask.dll, G-mapsupdatetask.dll, G-MosHostClient.dll
+-497, -498, -499, -518, -519, G-cloudAP.dll, G-msv1_0.dll, G-crypt32.dll, -520, G-coml2.dll, G-oleaut32.dll
+-500, -510, G-audiosrv.dll, -511, G-cdp.dll, -512, G-mos.dll, G-moshostcore.dll
+-501, -502, -503, -504, -505, -506, G-BingMaps.dll, G-MapGeocoder.dll, G-MapRouter.dll, -507, G-MapConfiguration.dll, G-MapsStore.dll, -508, G-BingOnlineServices.dll, G-container.dll, G-container_xml.dll, -509, G-apprepapi.dll, G-apprepsync.dll
+-513, -514, G-MSAJApi.dll, G-certprop.dll, -515, -516, G-cdprt.dll, -517, G-cdpsvc.dll, G-cdpusersvc.dll, G-cryptngc.dll
+-523, -524, G-BioCredProv.dll, -525, -526, G-MapsBtSvc.dll, G-MosStorage.dll, G-moshost.dll, -527, G-BioIso.exe, G-appsruprov.dll
+-531, -532, -533, G-concrt140.dll, -534, G-msvcp140_2.dll, G-msvcp140_atomic_wait.dll, G-mavinject.exe, -535, -536, G-msvcp140.dll, G-msvcp_win.dll, G-ortcengine.dll
+-537, -538, -539, G-WUDFHost.exe, G-WUDFSvc.dll, G-WUDFPlatform.dll, -540, -541, G-authz.dll, G-cryptsvc.dll, -542, G-offlinelsa.dll, G-offlinesam.dll
+-548, -785, G-adsldp.dll, -786, G-adsmsext.dll, G-adsnt.dll
+-549, -550, -551, -552, -773, -779, G-Clipc.dll, G-mi.dll, -784, G-mstask.dll, G-onex.dll, G-bitsadmin.exe
+-553, -770, -771, -772, G-CastSrv.exe, G-mfpmp.exe, G-CompPkgSup.dll, G-wuautoappupdate.dll
+-554, -555, -556, -592, -593, -594, -595, -596, G-ComputerDefaults.exe, G-OptionalFeatures.exe, G-changepk.exe, G-bootim.exe, G-mobsync.exe, G-OpenWith.exe, -597, -668, G-bidispl.dll, G-msfeedsbs.dll
+-557, -558, -559, G-CameraSettingsUIHost.exe, -577, -578, -579, -580, G-change.exe, -581, -582, -583, G-chglogon.exe, G-chgusr.exe, G-msg.exe, G-chgport.exe, -584, G-choice.exe, G-clip.exe, G-makecab.exe, -585, G-csvde.dll, G-csvde.exe, -586
+-560, -561, -562, G-BackgroundTransferHost.exe, G-calc.exe, -563, G-control.exe, -566, -567, -574, -575, G-cliconfg.exe, G-odbcad32.exe, G-odbcconf.exe, -576, G-MdRes.exe, G-MdSched.exe
+-564, -565, G-conhost.exe, G-wuauclt.exe, G-wuapihost.exe
+-568, -569, -570, -571, -572, G-MSchedExe.exe, G-colorcpl.exe, G-ctfmon.exe, G-mqsvc.exe, -573, G-msfeedssync.exe, G-mshta.exe, G-bthudtask.exe
+-587, G-CheckNetIsolation.exe, G-browser_broker.exe
+-588, -589, -590, -591, G-MRINFO.EXE, G-mountvol.exe, G-cmdkey.exe, G-at.exe, G-mpnotify.exe
+-598, -599, -655, -656, -657, -658, -659, -660, G-C_G18030.DLL, G-C_IS2022.DLL, G-coreaudiopolicymanagerext.dll, -661, G-msvcp140_1.dll, G-msvcp140_codecvt_ids.dll, -662, G-mfcm140.dll, G-mfcm140u.dll, -663, G-aspnet_counters.dll, -664, -665, G-mfcm100.dll, G-mfcm100u.dll, -666, G-mfcm120.dll, G-mfcm120u.dll, -667, G-msodbcdiag13.dll, G-msodbcdiag17.dll
+-600, -645, G-msdart.dll, G-offreg.dll
+-601, -602, -603, -604, -605, -606, G-acproxy.dll, -633, G-clb.dll, G-mciqtz32.dll, -640, G-certpick.dll, G-cryptdlg.dll, -641, G-mycomput.dll
+-607, -608, -628, -630, -631, G-odbcbcp.dll, G-odbctrac.dll, G-odbcconf.dll, G-asycfilt.dll
+-609, -610, -611, -612, G-CHxReadingStringIME.dll, -625, G-muifontsetup.dll, G-osbaseln.dll, -626, G-clrhost.dll, G-msisip.dll, -627, G-odbccr32.dll, G-odbccu32.dll
+-613, -614, -615, -616, -617, -618, -619, G-Microsoft.Uev.AgentDriverEvents.dll, G-Microsoft.Uev.EventLogMessages.dll, -620, G-osuninst.dll, -623, G-acledit.dll, G-mtxex.dll, G-OskSupport.dll, G-msiwer.dll, -624, G-MshtmlDac.dll, G-adsiisex.dll, G-cmdext.dll
+-621, -622, G-comcat.dll, G-mqutil.dll, G-msrating.dll
+-629, G-cbclient.dll, G-ocsetapi.dll
+-632, G-cmpbk32.dll, G-mgmtapi.dll
+-634, -635, G-MemoryDiagnostic.dll, G-msclmd.dll, -636, G-atmlib.dll
+-637, -638, G-amstream.dll, G-cca.dll, -639, G-mcicda.dll, G-msiltcfg.dll
+-642, G-bthci.dll, -643, -644, G-cliconfg.dll, G-odbccp32.dll, G-cmutil.dll
+-646, -647, -648, -649, G-JavaScriptCollectionAgent.dll, G-MbaeXmlParser.dll, -650, G-bthpanapi.dll, G-onexui.dll, -653, G-MsiCofire.dll, -654, G-cofire.exe, G-cofiredm.dll
+-651, -652, G-appidtel.exe, G-bridgeunattend.exe, G-mqcertui.dll
+-669, -769, G-MsCtfMonitor.dll, G-msimtf.dll
+-670, -764, -765, -766, -767, -768, G-bcrypt.dll, G-bcryptprimitives.dll, G-mskeyprotect.dll, G-cryptsp.dll, G-cryptxml.dll, G-mpr.dll
+-671, -672, -673, -754, -755, G-mciseq.dll, G-midimap.dll, G-mciwave.dll, -756, G-browcli.dll, G-cmintegrator.dll
+-674, -749, -750, -751, G-CSystemEventsBrokerClient.dll, -752, G-cryptdll.dll, G-ztrace_maps.dll, G-cabinet.dll, -753, G-joinproviderol.dll, G-joinutil.dll
+-675, -702, -703, -704, -705, -745, G-bcdprov.dll, G-bcdsrv.dll, -746, G-WUDFCoinstaller.dll, G-mmcico.dll, -747, -748, G-mibincodec.dll, G-mimofcodec.dll, G-mpeval.dll, G-capisp.dll
+-676, -677, -678, -679, -680, G-BthMtpContextHandler.dll, G-amsi.dll, G-msdelta.dll, -684, -685, G-BthTelemetry.dll, G-appidcertstorecheck.exe, -686, G-bitsigd.dll, -687, G-cscapi.dll, G-cscdll.dll
+-681, -682, G-WwaExt.dll, G-adhapi.dll, -683, G-mftranscode.dll, G-mfvfw.dll
+-688, -699, -700, -701, G-MSAudDecMFT.dll, G-offfilt.dll, G-certenc.dll, G-jsproxy.dll
+-689, -690, -691, G-mfh264enc.dll, G-chkwudrv.dll, -698, G-ContactActivation.dll, G-OnDemandBrokerClient.dll
+-692, G-COLORCNV.DLL, -693, G-MFWMAAEC.DLL, -694, -695, G-MP3DMOD.DLL, G-mfvdsp.dll, -696, -697, G-MP43DECD.DLL, G-MPG4DECD.DLL, G-MP4SDECD.DLL
+-706, -707, G-cngkeyhelper.dll, -740, -741, -742, G-cngcredui.dll, G-credui.dll, G-credssp.dll, -743, -744, G-mfcsubs.dll, G-zipcontainer.dll, G-mimefilt.dll
+-708, -739, G-MUILanguageCleanup.dll, G-bitsperf.dll
+-709, -710, -711, G-msasn1.dll, -730, -731, G-Microsoft.Management.Infrastructure.Native.Unmanaged.dll, -732, -733, G-WudfSMCClassExt.dll, -734, G-mfh263enc.dll, G-oleacchooks.dll, -735, G-mfAACEnc.dll, -736, G-mfdvdec.dll, G-mfmjpegdec.dll, -737, G-mrt100.dll, -738, G-mspatcha.dll, G-mspatchc.dll
+-712, -713, -714, -715, G-C_ISCII.DLL, G-OobeFldr.dll, G-msimg32.dll, -716, -717, -718, -719, G-browseui.dll, G-mfperfhelper.dll, G-mprmsg.dll, G-msidle.dll, -720, G-c_GSM7.DLL, -721, G-mrt_map.dll, -722, G-msidcrl40.dll, G-msls31.dll, -723, G-cryptbase.dll, G-mprext.dll
+-724, -725, -726, -727, G-MCCSPal.dll, G-bi.dll, G-backgroundTaskHost.exe, -728, -729, G-msrle32.dll, G-msyuv.dll, G-msvidc32.dll, G-msdmo.dll
+-757, -758, -759, G-mfsensorgroup.dll, G-WUDFx02000.dll, -763, G-MirrorDrvCompat.dll, G-batmeter.dll
+-760, -761, G-MFPlay.dll, -762, G-mfaudiocnv.dll, G-mfreadwrite.dll, G-msvproc.dll
+-774, -775, G-CertEnrollCtrl.exe, -776, G-MuiUnattend.exe, -777, G-cacls.exe, G-compact.exe, -778, G-activeds.dll, G-adsldpc.dll
+-780, -781, G-MultiDigiMon.exe, G-credwiz.exe, -782, G-avifil32.dll, -783, G-mmci.dll, G-msports.dll
