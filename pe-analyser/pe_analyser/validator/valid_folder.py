@@ -3,8 +3,8 @@ import re
 import argparse
 
 def valid_folder(folder_path):
-    if not re.match(r'\./.*/$', folder_path):
-        raise argparse.ArgumentTypeError(f'Folder path must be in format ./*/ but is {folder_path}')
+    if not re.match(r'/.*/$', folder_path):
+        raise argparse.ArgumentTypeError(f'Folder path must be in format /*/ but is {folder_path}')
 
     # Check is empty
     if not os.listdir(folder_path):

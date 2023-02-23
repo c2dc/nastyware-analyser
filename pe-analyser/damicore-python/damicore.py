@@ -10,6 +10,7 @@ import os
 import shutil
 import sys
 import tree_simplification as nj
+import igraph as ig
 
 
 def clustering(directory, compression_name='ppmd', pairing_name='concat',
@@ -86,8 +87,25 @@ if __name__ == '__main__':
       compression_name = a.compressor, pairing_name = a.pairing,
       is_parallel = True, **kwargs)
 
-  with open('./node_clustering.txt', 'wt') as f:
-    f.write(str(d['node_clustering']))
+  node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
+  with open(node_output_filename, 'wt') as f:
+    f.write(d['node_clustering'].summary(verbosity=1))
+  
+  print(d['node_clustering'].__getitem__(0))
+  # print(type(d['graph']))
+  # for v in d['graph'].vs:
+  #   if v['name'].startswith('R-'):
+  #     v['color'] = 'red'
+  #   else:
+  #     v['color'] = 'blue'
+
+  # ig.plot(d['graph'], target='asdf2.pdf', bbox=(1000, 1000), layout=d['graph'].layout('kk'))
+
+  # for asdf in d['fname_cluster']:
+  #   print( asdf, d['fname_cluster'][asdf] )   
+  
+  # TODO: Tentar arrumar um jeito melhor de fazer isso
+  
 
   # Outputs NCD step
   if a.ncd_output is not None:

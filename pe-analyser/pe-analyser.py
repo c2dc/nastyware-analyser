@@ -28,7 +28,7 @@ if __name__== '__main__':
         print('Using C version of Damicore...')
         slice_filenames(args.folder)
         os.chdir('./damicore/bin/')
-        os.system(f'./damicore -n ../../{args.folder}')
+        os.system(f'./damicore -n {args.folder}') # TODO: Verificar se o path é um relative path ou um absolute path
         os.chdir('../../')
 
         directory_name = args.folder.split('/')[-2]
@@ -41,7 +41,7 @@ if __name__== '__main__':
     elif args.damicore_version == DAMICORE_VERSION_PYTHON:
         print('Using Python version of Damicore...')
         
-        ret = os.system(f'./damicore-python/damicore.py {args.folder} --ncd-output ./damicore-python/results/ncd-matrix.phylip --format phylip --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters')
+        # ret = os.system(f'./damicore-python/damicore.py {args.folder} --ncd-output ./damicore-python/results/ncd-matrix.phylip --format phylip --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters')
         ret = os.system(f'./damicore-python/damicore.py {args.folder} --ncd-output ./damicore-python/results/ncd-matrix.phylip --format phylip --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters --compress ppmd')
         # ret = os.system(f'./damicore-python/damicore-cld.py {args.folder} --tree-output ./damicore-python/results/tree.newick --graph-image ./damicore-python/results/tree-image.png --output ./damicore-python/results/final.clusters')
         

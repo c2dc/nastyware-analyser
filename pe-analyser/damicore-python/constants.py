@@ -1,3 +1,5 @@
 
-TMP_DIRECTORY = './tmp'
-PPMD_TMP_DIRECTORY = './ppmd_tmp'
+TMP_DIRECTORY = '/archive/tmp'
+PPMD_TMP_DIRECTORY = '/archive/ppmd_tmp'
+
+CLUSTER_OUTPUT_FILE = './node_clustering.txt'
