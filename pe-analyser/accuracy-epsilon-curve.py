@@ -133,11 +133,13 @@ acc_dt = []
 acc_sd = []
 mostly_malware_clusters = []
 
-lines = open('node_clustering.txt', 'r').readlines()
+lines = open('node_clustering_multilevel.txt', 'r').readlines()
 lines = lines[1:]
 clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
 
-for epsilon in np.linspace(0.15, 0.25, 10):
+xx = np.linspace(0.1, 1, 10)
+
+for epsilon in xx:
     mostly_malware_clusters = []
     for cluster in clusters:
         if len(cluster) > 1:
@@ -153,9 +155,9 @@ for epsilon in np.linspace(0.15, 0.25, 10):
     acc_sd.append(sd_classification(epsilon))
 
 # Plot the results varying epsilon
-plt.plot(np.linspace(0.1, 1, 10), acc_dt, label='Decision Tree')
-plt.plot(np.linspace(0.1, 1, 10), acc_sd, label='Similarity Difference')
+plt.plot(xx, acc_dt, label='Decision Tree')
+plt.plot(xx, acc_sd, label='Similarity Difference')
 plt.xlabel('Epsilon')
 plt.ylabel('Accuracy')
 plt.legend()
-plt.savefig('epsilon-accuracy-015-025.png')
+plt.savefig('epsilon-accuracy-multilevel.png')

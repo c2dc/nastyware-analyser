@@ -25,7 +25,10 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
 
   sys.stderr.write('\nClustering elements...\n')
   g = to_graph(tree)
-  fast_newman = g.community_fastgreedy(weights="length").as_clustering()
+
+  # fast_newman = g.community_fastgreedy(weights="length").as_clustering()
+  fast_newman = g.community_multilevel(weights="length")
+  print(type(fast_newman))
 
   # Maps leaf ID to cluster number
   vertex_names = [v["name"] for v in g.vs]
