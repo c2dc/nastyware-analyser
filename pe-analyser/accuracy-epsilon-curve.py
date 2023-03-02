@@ -107,7 +107,7 @@ def dt_classification(epsilon):
     pred_gw = ['MALWARE' if p != '-1' else 'GOODWARE' for p in pred_gw]
     pred = ['MALWARE' if p != '-1' else 'GOODWARE' for p in pred]
 
-    return accuracy_score(test_df['label'], pred)
+    return accuracy_score(test_df['label'], pred), accuracy_score(test_mw['label'], pred_mw), accuracy_score(test_gw['label'], pred_gw)
 
 def sd_classification(epsilon):
     plus = [plus_functions(TRAIN_DIR, cluster) for cluster in mostly_malware_clusters]
@@ -125,15 +125,19 @@ def sd_classification(epsilon):
 
     return accuracy_score(test_label, pred)
 
-TRAIN_DIR = '/archive/files/nastyware-files/import-arquivos-nilson/'
-TEST_MALWARE_DIR = '/archive/files/nastyware-files/import-malware-bazaar-2021-01-to-2021-02/'
+TRAIN_DIR = '/archive/files/nastyware-files/mix/'
+TEST_MALWARE_DIR = '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
 TEST_GOODWARE_DIR = '/archive/files/nastyware-files/import-windows-server-2016/'
 
 acc_dt = []
+acc_mw_dt = []
+acc_gw_dt = []
 acc_sd = []
 mostly_malware_clusters = []
 
-lines = open('node_clustering_multilevel.txt', 'r').readlines()
+cluster_alg = 'spinglass'
+
+lines = open(f'node_clustering_{cluster_alg}.txt', 'r').readlines()
 lines = lines[1:]
 clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
 
@@ -150,14 +154,18 @@ for epsilon in xx:
             if malware_count >= epsilon * len(cluster):
                 mostly_malware_clusters.append(cluster)
 
-
-    acc_dt.append(dt_classification(epsilon))
-    acc_sd.append(sd_classification(epsilon))
+    acc_tot, acc_mw, acc_gw = dt_classification(epsilon)
+    acc_dt.append(acc_tot)
+    acc_mw_dt.append(acc_mw)
+    acc_gw_dt.append(acc_gw)
+    # acc_sd.append(sd_classification(epsilon))
 
 # Plot the results varying epsilon
-plt.plot(xx, acc_dt, label='Decision Tree')
-plt.plot(xx, acc_sd, label='Similarity Difference')
+plt.plot(xx, acc_dt, label='Decision Tree (Total)')
+plt.plot(xx, acc_mw_dt, label='Decision Tree (Malware)')
+plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware')
+# plt.plot(xx, acc_sd, label='Similarity Difference')
 plt.xlabel('Epsilon')
 plt.ylabel('Accuracy')
 plt.legend()
-plt.savefig('epsilon-accuracy-multilevel.png')
+plt.savefig(f'epsilon_accuracy_{cluster_alg}.png')

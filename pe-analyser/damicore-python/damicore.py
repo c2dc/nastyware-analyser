@@ -26,9 +26,60 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
   sys.stderr.write('\nClustering elements...\n')
   g = to_graph(tree)
 
-  # fast_newman = g.community_fastgreedy(weights="length").as_clustering()
-  fast_newman = g.community_multilevel(weights="length")
-  print(type(fast_newman))
+  #####################################################################################33
+  node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
+
+  # try:
+  #   fast_newman = g.community_fastgreedy(weights="length").as_clustering()
+  #   with open(node_output_filename + "_fastgreedy", 'wt') as f:
+  #     f.write(fast_newman.summary(verbosity=1))
+  # except:
+  #   print('fastgreedy failed')
+
+  # try:
+  #   fast_newman = g.community_edge_betweenness(weights="length").as_clustering()
+  #   with open(node_output_filename + "_edge_betweenness", 'wt') as f:
+  #     f.write(fast_newman.summary(verbosity=1))
+  # except:
+  #   print('edge_betweness failed')
+
+  # try:
+  #   fast_newman = g.community_infomap(edge_weights="length")
+  #   with open(node_output_filename + "_infomap", 'wt') as f:
+  #     f.write(fast_newman.summary(verbosity=1))
+  # except:
+  #   print('infomap failed')
+
+  # try:
+  #   fast_newman = g.community_label_propagation(weights="length")
+  #   with open(node_output_filename + "_label_propagation", 'wt') as f:
+  #     f.write(fast_newman.summary(verbosity=1))
+  # except:
+  #   print('label_propagation failed')
+
+  # try:
+  #   fast_newman = g.community_leading_eigenvector(weights="length")
+  #   with open(node_output_filename + "_leading_eigenvector", 'wt') as f:
+  #     f.write(fast_newman.summary(verbosity=1))
+  # except:
+  #   print('leading_eigenvector failed')
+
+  # try:
+  #   fast_newman = g.community_spinglass(weights="length")
+  #   with open(node_output_filename + "_spinglass", 'wt') as f:
+  #     f.write(fast_newman.summary(verbosity=1))
+  # except:
+  #   print('spinglass failed')
+
+  try:
+    fast_newman = g.community_walktrap(weights="length").as_clustering()
+    with open(node_output_filename + "_walktrap", 'wt') as f:
+      f.write(fast_newman.summary(verbosity=1))
+  except:
+    print('walktrap failed')
+
+
+  #####################################################################################33
 
   # Maps leaf ID to cluster number
   vertex_names = [v["name"] for v in g.vs]
@@ -90,11 +141,13 @@ if __name__ == '__main__':
       compression_name = a.compressor, pairing_name = a.pairing,
       is_parallel = True, **kwargs)
 
-  node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
-  with open(node_output_filename, 'wt') as f:
-    f.write(d['node_clustering'].summary(verbosity=1))
+  # node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
+  # with open(node_output_filename, 'wt') as f:
+  #   f.write(d['node_clustering'].summary(verbosity=1))
   
   print(d['node_clustering'].__getitem__(0))
+  
+  # TODO: Sera que da pra usar o plot desse grafo?
   # print(type(d['graph']))
   # for v in d['graph'].vs:
   #   if v['name'].startswith('R-'):
@@ -103,11 +156,6 @@ if __name__ == '__main__':
   #     v['color'] = 'blue'
 
   # ig.plot(d['graph'], target='asdf2.pdf', bbox=(1000, 1000), layout=d['graph'].layout('kk'))
-
-  # for asdf in d['fname_cluster']:
-  #   print( asdf, d['fname_cluster'][asdf] )   
-  
-  # TODO: Tentar arrumar um jeito melhor de fazer isso
   
 
   # Outputs NCD step
