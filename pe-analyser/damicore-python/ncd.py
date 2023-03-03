@@ -358,6 +358,21 @@ def csv_format(ncd_results, header=True):
       r=result)
   return s
 
+def from_matrix(m, ids):
+  """Converts an n x n matrix to a list of NcdResult objects.
+
+  @param m Distance matrix
+  @param ids List of IDs corresponding to the distance matrix
+  @return List of NcdResult objects
+  """
+  n = len(m)
+  ncd_results = []
+  for i in range(n):
+    for j in range(i+1, n):
+      ncd_results.append(NcdResult(x = ids[i], y = ids[j],
+      zx = None, zy = None, zxy = None, ncd = m[i][j]))
+  return ncd_results
+
 def to_matrix(ncd_results):
   """Converts a list of NcdResult objects to an n x n matrix.
 
@@ -398,15 +413,40 @@ def phylip_format(ncd_results, alternative_ids = None):
   m, ids = to_matrix(ncd_results)
   if alternative_ids is not None:
     ids = alternative_ids
-  names = ['{name:<10.10}'.format(name=id_) for id_ in ids]
+  
+  # TODO: Testando novo "formato do phylip"
+  # names = ['{name:<10.10}'.format(name=id_) for id_ in ids]
+  names = ['{name}'.format(name=id_) for id_ in ids]
+
   # TODO(brunokim): Find conflicts and solve them
 
   s = '%d\n' % len(m)
   for name,row in zip(names, m):
     xs = ' '.join('%.15f' % dij for dij in row)
+    xs = ' '.join('%.15f' % dij for dij in row)
     s += name + ' ' + xs + '\n'
 
   return s
+
+def distance_matrix_from_philip_format(filename):
+  """Reads a distance matrix in Phylip format.
+
+  @param filename File to read
+  @return (m, ids) distance matrix with corresponding IDs
+  """
+  with open(filename, 'r') as f:
+    n = int(f.readline())
+    m = [[0.0 for _ in range(n)] for _ in range(n)]
+    ids = []
+    for i in range(n):
+      line = f.readline().split()
+      ids.append(line[0])
+      for j in range(n):
+        m[i][j] = float(line[j+1])
+  
+  ncd_results = from_matrix(m, ids)
+
+  return ncd_results
 
 #### Command-line interface parser ####
 

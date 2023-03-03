@@ -16,8 +16,10 @@ import igraph as ig
 def clustering(directory, compression_name='ppmd', pairing_name='concat',
     is_parallel = True, **kwargs):
   sys.stderr.write('Performing NCD distance matrix calculation...\n')
-  ncd_results = ncd.distance_matrix(directory, compression_name, pairing_name,
-      is_parallel = is_parallel, **kwargs)
+  
+  ncd_results = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
+  # ncd_results = ncd.distance_matrix(directory, compression_name, pairing_name,
+  #     is_parallel = is_parallel, **kwargs)
 
   sys.stderr.write('\nSimplifying graph...\n')
   m, ids = ncd.to_matrix(ncd_results)
@@ -26,60 +28,11 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
   sys.stderr.write('\nClustering elements...\n')
   g = to_graph(tree)
 
-  #####################################################################################33
   node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
 
-  # try:
-  #   fast_newman = g.community_fastgreedy(weights="length").as_clustering()
-  #   with open(node_output_filename + "_fastgreedy", 'wt') as f:
-  #     f.write(fast_newman.summary(verbosity=1))
-  # except:
-  #   print('fastgreedy failed')
-
-  # try:
-  #   fast_newman = g.community_edge_betweenness(weights="length").as_clustering()
-  #   with open(node_output_filename + "_edge_betweenness", 'wt') as f:
-  #     f.write(fast_newman.summary(verbosity=1))
-  # except:
-  #   print('edge_betweness failed')
-
-  # try:
-  #   fast_newman = g.community_infomap(edge_weights="length")
-  #   with open(node_output_filename + "_infomap", 'wt') as f:
-  #     f.write(fast_newman.summary(verbosity=1))
-  # except:
-  #   print('infomap failed')
-
-  # try:
-  #   fast_newman = g.community_label_propagation(weights="length")
-  #   with open(node_output_filename + "_label_propagation", 'wt') as f:
-  #     f.write(fast_newman.summary(verbosity=1))
-  # except:
-  #   print('label_propagation failed')
-
-  # try:
-  #   fast_newman = g.community_leading_eigenvector(weights="length")
-  #   with open(node_output_filename + "_leading_eigenvector", 'wt') as f:
-  #     f.write(fast_newman.summary(verbosity=1))
-  # except:
-  #   print('leading_eigenvector failed')
-
-  # try:
-  #   fast_newman = g.community_spinglass(weights="length")
-  #   with open(node_output_filename + "_spinglass", 'wt') as f:
-  #     f.write(fast_newman.summary(verbosity=1))
-  # except:
-  #   print('spinglass failed')
-
-  try:
-    fast_newman = g.community_walktrap(weights="length").as_clustering()
-    with open(node_output_filename + "_walktrap", 'wt') as f:
-      f.write(fast_newman.summary(verbosity=1))
-  except:
-    print('walktrap failed')
-
-
-  #####################################################################################33
+  fast_newman = g.community_fastgreedy(weights="length").as_clustering()
+  with open(node_output_filename + "_fastgreedy" + ".txt", 'wt') as f:
+    f.write(fast_newman.summary(verbosity=1))
 
   # Maps leaf ID to cluster number
   vertex_names = [v["name"] for v in g.vs]
@@ -140,10 +93,6 @@ if __name__ == '__main__':
   d = clustering(a.directory,
       compression_name = a.compressor, pairing_name = a.pairing,
       is_parallel = True, **kwargs)
-
-  # node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
-  # with open(node_output_filename, 'wt') as f:
-  #   f.write(d['node_clustering'].summary(verbosity=1))
   
   print(d['node_clustering'].__getitem__(0))
   

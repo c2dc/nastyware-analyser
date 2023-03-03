@@ -135,9 +135,9 @@ acc_gw_dt = []
 acc_sd = []
 mostly_malware_clusters = []
 
-cluster_alg = 'spinglass'
+cluster_alg = 'walktrap'
 
-lines = open(f'node_clustering_{cluster_alg}.txt', 'r').readlines()
+lines = open(f'out/node_clustering_{cluster_alg}.txt', 'r').readlines()
 lines = lines[1:]
 clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
 
@@ -168,4 +168,4 @@ plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware')
 plt.xlabel('Epsilon')
 plt.ylabel('Accuracy')
 plt.legend()
-plt.savefig(f'epsilon_accuracy_{cluster_alg}.png')
+plt.savefig(f'out/epsilon_accuracy_{cluster_alg}.png')
