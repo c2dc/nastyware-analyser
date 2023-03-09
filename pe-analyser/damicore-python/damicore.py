@@ -17,9 +17,14 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
     is_parallel = True, **kwargs):
   sys.stderr.write('Performing NCD distance matrix calculation...\n')
   
-  ncd_results = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
-  # ncd_results = ncd.distance_matrix(directory, compression_name, pairing_name,
-  #     is_parallel = is_parallel, **kwargs)
+  # ncd_results = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
+  ncd_results = ncd.distance_matrix(directory, compression_name, pairing_name,
+      is_parallel = is_parallel, **kwargs)
+
+  # TODO: Teste de valores negativos
+  # ncd_out = ncd.phylip_format(ncd_results)
+  # with open(a.ncd_output, 'wt') as f:
+  #     f.write(ncd_out)
 
   sys.stderr.write('\nSimplifying graph...\n')
   m, ids = ncd.to_matrix(ncd_results)
@@ -29,6 +34,13 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
   g = to_graph(tree)
 
   node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
+
+  # TODO: Remover
+  # From graph g print all the negative weights
+  for e in g.es:
+    if e['length'] <= 0:
+      print(e)
+
 
   fast_newman = g.community_fastgreedy(weights="length").as_clustering()
   with open(node_output_filename + "_fastgreedy" + ".txt", 'wt') as f:
@@ -94,18 +106,7 @@ if __name__ == '__main__':
       compression_name = a.compressor, pairing_name = a.pairing,
       is_parallel = True, **kwargs)
   
-  print(d['node_clustering'].__getitem__(0))
-  
-  # TODO: Sera que da pra usar o plot desse grafo?
-  # print(type(d['graph']))
-  # for v in d['graph'].vs:
-  #   if v['name'].startswith('R-'):
-  #     v['color'] = 'red'
-  #   else:
-  #     v['color'] = 'blue'
-
-  # ig.plot(d['graph'], target='asdf2.pdf', bbox=(1000, 1000), layout=d['graph'].layout('kk'))
-  
+  print(d['node_clustering'].__getitem__(0))  
 
   # Outputs NCD step
   if a.ncd_output is not None:
