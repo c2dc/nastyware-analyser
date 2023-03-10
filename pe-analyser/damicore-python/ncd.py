@@ -46,8 +46,16 @@ def ppmd_compression(fname, model_order = 6,
   @return Size of compressed file in bytes
   """
   tmp_fname = os.path.join(ppmd_tmp_dir, os.path.basename(fname))
-  Popen(['ppmd', 'e', '-o%d' % model_order, '-f%s' % tmp_fname, fname],
-    stdout=DEVNULL).communicate()
+  p = Popen(['ppmd', 'e', '-o%d' % model_order, '-f%s' % tmp_fname, fname],
+    stdout=DEVNULL)
+  p.communicate()
+  rc = p.poll()
+  if rc != 0:
+    print(f'Error: ppmd returned non-zero exit code {rc} for file {fname}')
+  
+
+
+
   compressed_size = os.path.getsize(tmp_fname)
   os.remove(tmp_fname)
 

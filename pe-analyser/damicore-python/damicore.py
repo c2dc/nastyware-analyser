@@ -12,35 +12,37 @@ import sys
 import tree_simplification as nj
 import igraph as ig
 
+def distance_matrix():
+  return None
 
 def clustering(directory, compression_name='ppmd', pairing_name='concat',
     is_parallel = True, **kwargs):
   sys.stderr.write('Performing NCD distance matrix calculation...\n')
   
-  # ncd_results = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
-  ncd_results = ncd.distance_matrix(directory, compression_name, pairing_name,
+  # dist_matrix = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
+  dist_matrix = ncd.distance_matrix(directory, compression_name, pairing_name,
       is_parallel = is_parallel, **kwargs)
 
-  # TODO: Teste de valores negativos
-  # ncd_out = ncd.phylip_format(ncd_results)
-  # with open(a.ncd_output, 'wt') as f:
-  #     f.write(ncd_out)
+  # dist_matrix = distance_matrix()
 
   sys.stderr.write('\nSimplifying graph...\n')
-  m, ids = ncd.to_matrix(ncd_results)
+  m, ids = ncd.to_matrix(dist_matrix)
+  print(m)
+  
   tree = nj.neighbor_joining(m, ids)
+
+  input()
 
   sys.stderr.write('\nClustering elements...\n')
   g = to_graph(tree)
 
   node_output_filename = os.path.join(CLUSTER_OUTPUT_FILE)
 
-  # TODO: Remover
-  # From graph g print all the negative weights
+  # Remover erros de precisao numerica
   for e in g.es:
     if e['length'] <= 0:
+      e['length'] = 0.0
       print(e)
-
 
   fast_newman = g.community_fastgreedy(weights="length").as_clustering()
   with open(node_output_filename + "_fastgreedy" + ".txt", 'wt') as f:
@@ -53,7 +55,7 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
     membership[id_] = fast_newman.membership[ vertex_names.index(id_) ]
 
   return {
-      'ncd': ncd_results,
+      'ncd': dist_matrix,
       'tree': tree,
       'fnames': ids,
       'graph': g,
@@ -77,6 +79,9 @@ if __name__ == '__main__':
   parser.add_argument('--tree-output', help='File to output tree result')
   parser.add_argument('--graph-image', help='File to output graph image')
   a = parser.parse_args()
+
+  # TODO: Testar isso aqui
+  sys.setrecursionlimit(5000)
 
   ## TODO(brunokim): The following is copied from ncd.py, refactor to extract to
   # a single place.

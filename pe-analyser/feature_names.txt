@@ -6133,7 +6133,6 @@ _CIsin
 _CIsqrt
 _CItan
 _CItanh
-_CorDllMain
 _CorExeMain
 _CxxThrowException
 _EH_prolog

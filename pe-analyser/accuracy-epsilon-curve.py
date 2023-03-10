@@ -125,9 +125,9 @@ def sd_classification(epsilon):
 
     return accuracy_score(test_label, pred)
 
-TRAIN_DIR = '/archive/files/nastyware-files/mix/'
+TRAIN_DIR = '/archive/files/import-small-dir/'
 TEST_MALWARE_DIR = '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
-TEST_GOODWARE_DIR = '/archive/files/nastyware-files/import-windows-server-2016/'
+TEST_GOODWARE_DIR = '/archive/files/nastyware-files/import-windows-server-2019/'
 
 acc_dt = []
 acc_mw_dt = []
@@ -135,9 +135,9 @@ acc_gw_dt = []
 acc_sd = []
 mostly_malware_clusters = []
 
-cluster_alg = 'walktrap'
+cluster_alg = 'fastgreedy'
 
-lines = open(f'out/node_clustering_{cluster_alg}.txt', 'r').readlines()
+lines = open(f'out/node_clustering_{cluster_alg}_old.txt', 'r').readlines()
 lines = lines[1:]
 clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
 
@@ -168,4 +168,4 @@ plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware')
 plt.xlabel('Epsilon')
 plt.ylabel('Accuracy')
 plt.legend()
-plt.savefig(f'out/epsilon_accuracy_{cluster_alg}.png')
+plt.savefig(f'out/epsilon_accuracy_{cluster_alg}_new.png')
