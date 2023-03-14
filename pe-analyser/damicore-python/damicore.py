@@ -12,6 +12,10 @@ import sys
 import tree_simplification as nj
 import igraph as ig
 
+# TODO: Apagar
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 def distance_matrix():
   return None
 
@@ -27,11 +31,11 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
 
   sys.stderr.write('\nSimplifying graph...\n')
   m, ids = ncd.to_matrix(dist_matrix)
-  print(m)
+  # print(m)
   
   tree = nj.neighbor_joining(m, ids)
 
-  input()
+  # input()
 
   sys.stderr.write('\nClustering elements...\n')
   g = to_graph(tree)
@@ -43,6 +47,11 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
     if e['length'] <= 0:
       e['length'] = 0.0
       print(e)
+
+  # Show edge weights distribution
+  sns.displot(g.es['length'])
+  plt.title('Edge weights distribution (NEW FORMAT - 8)')
+  plt.show()
 
   fast_newman = g.community_fastgreedy(weights="length").as_clustering()
   with open(node_output_filename + "_fastgreedy" + ".txt", 'wt') as f:
