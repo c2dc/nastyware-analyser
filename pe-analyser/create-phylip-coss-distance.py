@@ -1,5 +1,4 @@
 import os
-import sys
 import argparse
 import numpy as np
 from scipy.spatial.distance import cosine
@@ -13,18 +12,19 @@ def create_dist_matrix(directory):
 
     files = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
     dist_matrix = np.zeros((len(files), len(files)))
+    
     for i in range(0, len(files) - 1):
-        print(f"Processing {i} / {len(files)}", end="\r") 
+        print(f"Processing {i} / {len(files)}", end="\r")
+
+        f1 = open(os.path.join(directory, files[i]), 'rb').read()
+        f1 = np.fromiter(map(int, list(f1.decode())), dtype=int)
+
         for j in range(i + 1, len(files)):
             if i == j:
                 dist_matrix[i][j] = 0
             else:
-                f1 = open(os.path.join(directory, files[i]), 'rb').read()
                 f2 = open(os.path.join(directory, files[j]), 'rb').read()
-
-                # Split content in list of chars
-                f1 = list(map(int, list(f1.decode())))
-                f2 = list(map(int, list(f2.decode())))
+                f2 = np.fromiter(map(int, list(f2.decode())), dtype=int)
 
                 dist_matrix[i][j] = cosine(f1, f2)
                 dist_matrix[j][i] = dist_matrix[i][j]
