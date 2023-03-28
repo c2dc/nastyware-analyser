@@ -125,7 +125,7 @@ def sd_classification(epsilon):
 
     return accuracy_score(test_label, pred)
 
-TRAIN_DIR = '/archive/files/nastyware-files/mix/'
+TRAIN_DIR = '/archive/files/import-small-dir/'
 TEST_MALWARE_DIR = '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
 TEST_GOODWARE_DIR = '/archive/files/nastyware-files/import-windows-server-2019/'
 
@@ -137,13 +137,15 @@ mostly_malware_clusters = []
 
 cluster_alg = 'fastgreedy'
 
-lines = open(f'out/node_clustering_{cluster_alg}.txt', 'r').readlines()
+lines = open(f'./node_clustering_{cluster_alg}.txt', 'r').readlines()
 lines = lines[1:]
 clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
 
 xx = np.linspace(0.1, 1, 10)
 
 for epsilon in xx:
+    print(f'Processing epsilon {epsilon} / {xx[-1]}', end='\r')
+
     mostly_malware_clusters = []
     for cluster in clusters:
         if len(cluster) > 1:
@@ -160,10 +162,12 @@ for epsilon in xx:
     acc_gw_dt.append(acc_gw)
     # acc_sd.append(sd_classification(epsilon))
 
+print()
+
 # Plot the results varying epsilon
 plt.plot(xx, acc_dt, label='Decision Tree (Total)')
 plt.plot(xx, acc_mw_dt, label='Decision Tree (Malware)')
-plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware')
+plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware)')
 # plt.plot(xx, acc_sd, label='Similarity Difference')
 plt.xlabel('Epsilon')
 plt.ylabel('Accuracy')

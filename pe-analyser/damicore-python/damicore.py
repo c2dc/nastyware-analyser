@@ -23,9 +23,9 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
     is_parallel = True, **kwargs):
   sys.stderr.write('Performing NCD distance matrix calculation...\n')
   
-  # dist_matrix = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
-  dist_matrix = ncd.distance_matrix(directory, compression_name, pairing_name,
-      is_parallel = is_parallel, **kwargs)
+  dist_matrix = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
+  # dist_matrix = ncd.distance_matrix(directory, compression_name, pairing_name,
+  #     is_parallel = is_parallel, **kwargs)
 
   # dist_matrix = distance_matrix()
 
@@ -123,14 +123,14 @@ if __name__ == '__main__':
   print(d['node_clustering'].__getitem__(0))  
 
   # Outputs NCD step
-  if a.ncd_output is not None:
-    ncd_results = d['ncd']
-    if a.format == 'phylip':
-      ncd_out = ncd.phylip_format(ncd_results)
-    else:
-      ncd_out = ncd.csv_format(ncd_results)
-    with open(a.ncd_output, 'wt') as f:
-      f.write(ncd_out)
+  # if a.ncd_output is not None:
+  #   ncd_results = d['ncd']
+  #   if a.format == 'phylip':
+  #     ncd_out = ncd.phylip_format(ncd_results)
+  #   else:
+  #     ncd_out = ncd.csv_format(ncd_results)
+  #   with open(a.ncd_output, 'wt') as f:
+  #     f.write(ncd_out)
 
   # Outputs tree in Newick format
   if a.tree_output is not None:
