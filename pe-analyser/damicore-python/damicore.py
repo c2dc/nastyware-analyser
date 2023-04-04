@@ -23,9 +23,9 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
     is_parallel = True, **kwargs):
   sys.stderr.write('Performing NCD distance matrix calculation...\n')
   
-  dist_matrix = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
-  # dist_matrix = ncd.distance_matrix(directory, compression_name, pairing_name,
-  #     is_parallel = is_parallel, **kwargs)
+  # dist_matrix = ncd.distance_matrix_from_philip_format('./damicore-python/results/ncd-matrix.phylip')
+  dist_matrix = ncd.distance_matrix(directory, compression_name, pairing_name,
+      is_parallel = is_parallel, **kwargs)
 
   # dist_matrix = distance_matrix()
 

@@ -125,7 +125,7 @@ def sd_classification(epsilon):
 
     return accuracy_score(test_label, pred)
 
-TRAIN_DIR = '/archive/files/nastyware-files/mix/'
+TRAIN_DIR = '/archive/files/nastyware-files-mix/mix3-format0/'
 # TRAIN_DIR = '/archive/files/import-small-dir/'
 TEST_MALWARE_DIR = '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
 TEST_GOODWARE_DIR = '/archive/files/nastyware-files/import-windows-server-2019/'
