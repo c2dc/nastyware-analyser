@@ -3,7 +3,7 @@ import argparse
 import pandas as pd
 
 parse = argparse.ArgumentParser()
-parse.add_arguments('--microsoft-descriptions_directory', type=str, default='/archive/files/microsoft-docs-descriptions/', help='Directory where the descriptions are stored')
+parse.add_argument('--microsoft-descriptions_directory', type=str, default='/archive/files/microsoft-docs-functions-descriptions/', help='Directory where the descriptions are stored')
 parse.add_argument('--from-directory', type=str, default='', help='Directory where the original files are stored')
 parse.add_argument('--to-directory', type=str, default='', help='Directory where the new files will be stored')
 

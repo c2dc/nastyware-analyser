@@ -49,11 +49,11 @@ def clustering(directory, compression_name='ppmd', pairing_name='concat',
       print(e)
 
   # Show edge weights distribution
-  sns.displot(g.es['length'])
-  plt.title('Edge weights distribution (NEW FORMAT - 8)')
-  plt.show()
+  # sns.displot(g.es['length'])
+  # plt.title('Edge weights distribution (NEW FORMAT - 8)')
+  # plt.show()
 
-  input('Press enter to write new cluster file...')
+  # input('Press enter to write new cluster file...')
 
   fast_newman = g.community_fastgreedy(weights="length").as_clustering()
   with open(node_output_filename + "_fastgreedy" + ".txt", 'wt') as f:
