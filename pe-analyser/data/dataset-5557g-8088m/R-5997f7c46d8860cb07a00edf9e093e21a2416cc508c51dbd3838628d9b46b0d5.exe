@@ -1,9 +1,0 @@
-kernel32.dll GetProcAddress
-kernel32.dll LoadLibraryA
-kernel32.dll WaitForSingleObject
-kernel32.dll InitializeCriticalSectionAndSpinCount
-kernel32.dll LeaveCriticalSection
-kernel32.dll GetLastError
-kernel32.dll EnterCriticalSection
-kernel32.dll ReleaseMutex
-kernel32.dll CloseHandle
