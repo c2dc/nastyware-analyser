@@ -1,4 +1,0 @@
-kernel32.dll GetTempFileNameW
-kernel32.dll GetSystemDefaultLCID
-kernel32.dll GetUserDefaultLangID
-ntdll.dll ZwOpenDirectoryObject

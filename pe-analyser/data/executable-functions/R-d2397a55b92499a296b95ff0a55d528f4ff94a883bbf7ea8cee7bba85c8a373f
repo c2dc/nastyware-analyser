@@ -1,5 +1,0 @@
-ole32.dll CoTestCancel
-ntdll.dll ZwSetContextThread
-user32.dll GetKBCodePage
-user32.dll GetDesktopWindow
-kernel32.dll GetConsoleWindow

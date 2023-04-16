@@ -1,7 +1,0 @@
-ntdll.dll RtlQueryProcessLockInformation
-ntdll.dll RtlProtectHeap
-ntdll.dll NtCreatePort
-ole32.dll CoGetPSClsid
-user32.dll GetClipboardOwner
-user32.dll GetDoubleClickTime
-user32.dll GetMessageExtraInfo

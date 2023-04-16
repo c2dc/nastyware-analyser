@@ -1,5 +1,0 @@
-oleaut32.dll VarBoolFromDisp
-ntdll.dll RtlAllocateHandle
-kernel32.dll GetCommandLineA
-kernel32.dll GetConsoleWindow
-kernel32.dll GetCurrentThreadId

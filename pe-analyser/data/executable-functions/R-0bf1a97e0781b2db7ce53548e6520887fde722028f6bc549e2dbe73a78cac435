@@ -1,5 +1,0 @@
-ntdll.dll RtlMapGenericMask
-user32.dll GetShellWindow
-user32.dll GetInputState
-user32.dll GetClassInfoExA
-advapi32.dll I_ScSetServiceBitsA

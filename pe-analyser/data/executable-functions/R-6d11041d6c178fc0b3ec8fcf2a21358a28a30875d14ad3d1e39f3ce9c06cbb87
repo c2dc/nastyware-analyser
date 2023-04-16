@@ -1,4 +1,0 @@
-advapi32.dll ElfChangeNotify
-user32.dll GetMessageTime
-user32.dll GetMenuCheckMarkDimensions
-kernel32.dll GetLastError

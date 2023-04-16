@@ -1,5 +1,0 @@
-user32.dll GetClipboardViewer
-user32.dll CallNextHookEx
-user32.dll GetFocus
-user32.dll CopyAcceleratorTableW
-user32.dll GetOpenClipboardWindow

@@ -1,5 +1,0 @@
-ntdll.dll RtlAreBitsClear
-user32.dll GetForegroundWindow
-user32.dll AdjustWindowRect
-user32.dll GetActiveWindow
-kernel32.dll GetConsoleWindow

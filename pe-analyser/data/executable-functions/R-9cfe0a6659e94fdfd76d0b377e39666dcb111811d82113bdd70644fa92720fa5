@@ -1,3 +1,0 @@
-advapi32.dll CloseEncryptedFileRaw
-user32.dll GetInputState
-kernel32.dll GetSystemDefaultLangID

@@ -1,3 +1,0 @@
-user32.dll GetTopWindow
-user32.dll GetCaretBlinkTime
-kernel32.dll GetThreadLocale

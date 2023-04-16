@@ -1,5 +1,0 @@
-oleaut32.dll VarUI4FromCy
-oleaut32.dll VarUI1FromDec
-user32.dll GetKBCodePage
-user32.dll SetMenuContextHelpId
-kernel32.dll GetUserDefaultLangID

@@ -1,5 +1,0 @@
-ntdll.dll RtlUnicodeStringToInteger
-ntdll.dll RtlQueryAtomInAtomTable
-user32.dll GetShellWindow
-user32.dll GetCaretBlinkTime
-kernel32.dll GetProcessHeap

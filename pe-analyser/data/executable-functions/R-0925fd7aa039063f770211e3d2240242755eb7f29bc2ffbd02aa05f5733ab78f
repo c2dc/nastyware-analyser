@@ -1,4 +1,0 @@
-ole32.dll HBITMAP_UserUnmarshal
-user32.dll GetKBCodePage
-user32.dll GetProcessWindowStation
-kernel32.dll GetLastError

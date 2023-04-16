@@ -1,6 +1,0 @@
-advapi32.dll RegSetValueW
-advapi32.dll CryptHashSessionKey
-kernel32.dll GetCurrentThread
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GetLogicalDriveStringsW
-user32.dll GetShellWindow

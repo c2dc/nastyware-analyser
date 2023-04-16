@@ -1,7 +1,0 @@
-kernel32.dll GetProcAddress
-kernel32.dll FreeLibrary
-kernel32.dll lstrcpynA
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetSystemInfo
-kernel32.dll LocalFree
-kernel32.dll LoadLibraryW

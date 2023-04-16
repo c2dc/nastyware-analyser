@@ -1,6 +1,0 @@
-ntdll.dll ZwMakePermanentObject
-oleaut32.dll VarCyCmp
-user32.dll GetPropW
-kernel32.dll GetUserDefaultLangID
-kernel32.dll GetSystemDefaultLCID
-kernel32.dll GetSystemDefaultUILanguage

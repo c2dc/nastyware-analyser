@@ -1,6 +1,0 @@
-kernel32.dll CancelWaitableTimer
-ntdll.dll NtSetIoCompletion
-user32.dll LoadIconW
-user32.dll GetShellWindow
-user32.dll ChangeMenuW
-user32.dll GetActiveWindow

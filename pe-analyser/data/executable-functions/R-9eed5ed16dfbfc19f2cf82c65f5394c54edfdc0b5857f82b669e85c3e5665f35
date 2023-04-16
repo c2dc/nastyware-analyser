@@ -1,8 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-msvcrt.dll free
-winmm.dll timeSetEvent
-advapi32.dll RegCloseKey
-user32.dll PeekMessageW
-ole32.dll CoTaskMemFree
-oleaut32.dll LoadRegTypeLib

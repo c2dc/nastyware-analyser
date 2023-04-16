@@ -1,6 +1,0 @@
-user32.dll GetClipboardOwner
-user32.dll EnumPropsExA
-advapi32.dll QueryTraceA
-oleaut32.dll OleLoadPicturePath
-kernel32.dll GetCurrentProcessId
-kernel32.dll GetCurrentThreadId

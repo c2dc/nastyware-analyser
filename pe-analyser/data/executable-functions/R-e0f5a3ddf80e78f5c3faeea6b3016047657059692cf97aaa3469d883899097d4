@@ -1,6 +1,0 @@
-ntdll.dll NtCreateProcess
-user32.dll GetCapture
-user32.dll SetMenuInfo
-kernel32.dll GetLastError
-kernel32.dll GetCurrentProcess
-kernel32.dll AddLocalAlternateComputerNameA

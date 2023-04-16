@@ -1,4 +1,0 @@
-kernel32.dll GetCurrentProcessId
-kernel32.dll CreateFileA
-user32.dll GetDoubleClickTime
-user32.dll GetForegroundWindow

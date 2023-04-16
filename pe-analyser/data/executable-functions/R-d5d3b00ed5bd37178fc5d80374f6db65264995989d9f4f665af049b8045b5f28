@@ -1,7 +1,0 @@
-ntdll.dll ZwQueryInformationToken
-oleaut32.dll SafeArrayAccessData
-user32.dll IntersectRect
-user32.dll GetCaretBlinkTime
-advapi32.dll SystemFunction001
-kernel32.dll GetThreadLocale
-kernel32.dll GetCommandLineW

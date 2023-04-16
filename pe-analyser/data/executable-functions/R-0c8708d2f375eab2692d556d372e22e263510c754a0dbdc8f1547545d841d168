@@ -1,7 +1,0 @@
-kernel32.dll GetProcessTimes
-kernel32.dll GetUserGeoID
-user32.dll GetDesktopWindow
-user32.dll EnumPropsA
-user32.dll GetMessageExtraInfo
-user32.dll GetCapture
-ole32.dll WriteStringStream

@@ -1,6 +1,0 @@
-ntdll.dll RtlpNtEnumerateSubKey
-ntdll.dll NtFlushWriteBuffer
-shell32.dll ReadCabinetState
-user32.dll GetDoubleClickTime
-user32.dll GetActiveWindow
-user32.dll GetClipboardViewer

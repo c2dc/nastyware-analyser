@@ -1,6 +1,0 @@
-user32.dll DlgDirSelectExA
-user32.dll GetClipboardOwner
-user32.dll GetMessagePos
-user32.dll GetMenuItemID
-advapi32.dll StartTraceA
-kernel32.dll GetVersion

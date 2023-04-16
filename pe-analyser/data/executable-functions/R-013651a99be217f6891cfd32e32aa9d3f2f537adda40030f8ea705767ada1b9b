@@ -1,4 +1,0 @@
-advapi32.dll ReportEventW
-user32.dll GetForegroundWindow
-user32.dll GetShellWindow
-kernel32.dll GetVersion

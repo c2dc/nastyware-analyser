@@ -1,6 +1,0 @@
-ole32.dll CoMarshalInterThreadInterfaceInStream
-kernel32.dll WritePrivateProfileSectionA
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GetUserDefaultLCID
-oleaut32.dll VarDecFromI8
-user32.dll GetForegroundWindow

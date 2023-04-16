@@ -1,4 +1,0 @@
-ntdll.dll KiUserApcDispatcher
-user32.dll GetClipboardSequenceNumber
-user32.dll GetShellWindow
-user32.dll InsertMenuItemA

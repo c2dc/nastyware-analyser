@@ -1,4 +1,0 @@
-kernel32.dll OpenMutexA
-ntdll.dll ZwCreateSection
-user32.dll GetCaretBlinkTime
-user32.dll GetForegroundWindow

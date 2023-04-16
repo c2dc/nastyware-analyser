@@ -1,5 +1,0 @@
-ntdll.dll RtlInitializeRXact
-advapi32.dll SaferSetPolicyInformation
-kernel32.dll GetProfileIntA
-kernel32.dll GetCommandLineA
-user32.dll GetInputState

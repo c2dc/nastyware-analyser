@@ -1,4 +1,0 @@
-advapi32.dll CredGetSessionTypes
-shell32.dll PathResolve
-kernel32.dll GetCurrentThreadId
-user32.dll GetClipboardSequenceNumber

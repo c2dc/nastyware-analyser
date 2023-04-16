@@ -1,5 +1,0 @@
-ntdll.dll RtlQueueWorkItem
-ntdll.dll NtTranslateFilePath
-kernel32.dll GetProfileSectionW
-user32.dll GetMenuCheckMarkDimensions
-user32.dll GetDialogBaseUnits

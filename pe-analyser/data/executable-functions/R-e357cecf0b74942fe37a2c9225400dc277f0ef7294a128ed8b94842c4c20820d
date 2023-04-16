@@ -1,4 +1,0 @@
-ntdll.dll NtReadFileScatter
-user32.dll CharLowerBuffA
-user32.dll GetClipboardViewer
-user32.dll GetClipboardOwner

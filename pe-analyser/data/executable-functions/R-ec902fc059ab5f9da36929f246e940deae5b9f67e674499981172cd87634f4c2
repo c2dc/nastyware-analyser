@@ -1,5 +1,0 @@
-ntdll.dll NtSetLowWaitHighEventPair
-ws2_32.dll closesocket
-user32.dll GetKBCodePage
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetCurrentThread

@@ -1,6 +1,0 @@
-user32.dll FindWindowExW
-user32.dll GetClipboardViewer
-user32.dll GetClipboardSequenceNumber
-advapi32.dll LsaRemovePrivilegesFromAccount
-kernel32.dll GetPrivateProfileSectionNamesA
-kernel32.dll SetCommTimeouts

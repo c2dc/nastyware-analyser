@@ -1,5 +1,0 @@
-advapi32.dll ConvertSecurityDescriptorToAccessA
-ntdll.dll NtDeleteAtom
-ntdll.dll RtlConsoleMultiByteToUnicodeN
-kernel32.dll GetCurrentProcess
-kernel32.dll GetLastError

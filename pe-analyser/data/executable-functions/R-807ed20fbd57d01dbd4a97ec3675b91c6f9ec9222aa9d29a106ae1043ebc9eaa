@@ -1,5 +1,0 @@
-user32.dll GetKBCodePage
-user32.dll DdeUnaccessData
-user32.dll UnregisterDeviceNotification
-shell32.dll FindExecutableW
-kernel32.dll GetUserDefaultLangID

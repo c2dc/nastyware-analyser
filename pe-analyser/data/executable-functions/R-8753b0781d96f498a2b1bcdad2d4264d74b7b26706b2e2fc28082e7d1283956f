@@ -1,3 +1,0 @@
-shell32.dll ILGetSize
-kernel32.dll GetUserDefaultLangID
-user32.dll GetInputDesktop

@@ -1,3 +1,0 @@
-advapi32.dll CreateRestrictedToken
-kernel32.dll GetCurrentThread
-user32.dll GetDoubleClickTime

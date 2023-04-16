@@ -1,3 +1,0 @@
-kernel32.dll EnumSystemGeoID
-user32.dll GetInputState
-user32.dll GetOpenClipboardWindow

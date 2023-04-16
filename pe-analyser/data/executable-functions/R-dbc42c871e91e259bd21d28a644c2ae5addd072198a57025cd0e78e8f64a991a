@@ -1,7 +1,0 @@
-advapi32.dll RegConnectRegistryW
-shell32.dll SHSetInstanceExplorer
-kernel32.dll GetSystemDefaultUILanguage
-kernel32.dll GetVolumePathNamesForVolumeNameW
-user32.dll UpdateWindow
-user32.dll GetInputState
-user32.dll GetProcessWindowStation

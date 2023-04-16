@@ -1,4 +1,0 @@
-user32.dll GetCaretBlinkTime
-user32.dll GetDesktopWindow
-user32.dll IMPQueryIMEW
-kernel32.dll GetVersion

@@ -1,4 +1,0 @@
-advapi32.dll ElfClearEventLogFileA
-ntdll.dll NtSetValueKey
-kernel32.dll GetProcessHeap
-user32.dll GetMessageTime

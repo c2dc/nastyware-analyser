@@ -1,7 +1,0 @@
-ntdll.dll RtlReadMemoryStream
-ntdll.dll NtModifyBootEntry
-ntdll.dll RtlAddAce
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetEnvironmentStringsA
-user32.dll GetClipboardSequenceNumber

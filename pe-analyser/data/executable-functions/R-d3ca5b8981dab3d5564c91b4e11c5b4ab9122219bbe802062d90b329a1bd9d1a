@@ -1,4 +1,0 @@
-kernel32.dll GetLastError
-kernel32.dll GetCurrentActCtx
-user32.dll GetForegroundWindow
-user32.dll GetDesktopWindow

@@ -1,4 +1,0 @@
-ntdll.dll RtlPopFrame
-ntdll.dll NtCreateKeyedEvent
-user32.dll GetMessagePos
-user32.dll GetShellWindow

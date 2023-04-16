@@ -1,7 +1,0 @@
-user32.dll GetMessageTime
-user32.dll GetKBCodePage
-user32.dll CharLowerBuffA
-user32.dll GetMessagePos
-ntdll.dll RtlQueueApcWow64Thread
-kernel32.dll MapUserPhysicalPages
-advapi32.dll CredReadDomainCredentialsW

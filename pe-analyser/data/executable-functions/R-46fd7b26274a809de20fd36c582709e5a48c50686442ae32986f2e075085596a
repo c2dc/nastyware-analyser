@@ -1,6 +1,0 @@
-user32.dll DialogBoxParamA
-user32.dll SetWindowRgn
-user32.dll CreateDialogParamA
-advapi32.dll RegReplaceKeyA
-kernel32.dll GetLastError
-kernel32.dll GetThreadLocale

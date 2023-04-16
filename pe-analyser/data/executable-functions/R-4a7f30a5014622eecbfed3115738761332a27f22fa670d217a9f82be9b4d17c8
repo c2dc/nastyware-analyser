@@ -1,4 +1,0 @@
-advapi32.dll SystemFunction032
-user32.dll GetClipboardViewer
-user32.dll GetDoubleClickTime
-user32.dll GetMessageExtraInfo

@@ -1,4 +1,0 @@
-shell32.dll SHBrowseForFolderA
-kernel32.dll lstrcmpW
-user32.dll GetInputState
-user32.dll GetCursor

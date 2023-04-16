@@ -1,5 +1,0 @@
-user32.dll GetDesktopWindow
-user32.dll GetDoubleClickTime
-user32.dll IMPSetIMEA
-user32.dll DrawTextA
-oleaut32.dll SystemTimeToVariantTime

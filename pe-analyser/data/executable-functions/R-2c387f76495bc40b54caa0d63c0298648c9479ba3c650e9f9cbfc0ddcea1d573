@@ -1,7 +1,0 @@
-shell32.dll SHGetIconOverlayIndexW
-ole32.dll WdtpInterfacePointer_UserUnmarshal
-ole32.dll CoRegisterSurrogateEx
-ntdll.dll NtSetInformationObject
-kernel32.dll GetSystemDefaultLCID
-user32.dll GetInputState
-user32.dll GetActiveWindow

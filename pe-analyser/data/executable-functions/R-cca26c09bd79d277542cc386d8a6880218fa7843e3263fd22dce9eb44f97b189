@@ -1,6 +1,0 @@
-oleaut32.dll VarI1FromStr
-user32.dll GetForegroundWindow
-user32.dll ChangeDisplaySettingsA
-ws2_32.dll listen
-kernel32.dll GetVersion
-kernel32.dll GetCommandLineA

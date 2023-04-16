@@ -1,6 +1,0 @@
-kernel32.dll LoadLibraryExW
-kernel32.dll GetThreadLocale
-user32.dll GetActiveWindow
-user32.dll GetClipCursor
-ole32.dll FreePropVariantArray
-oleaut32.dll VarDateFromI1

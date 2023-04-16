@@ -1,5 +1,0 @@
-user32.dll GetOpenClipboardWindow
-user32.dll GetSubMenu
-advapi32.dll CryptEnumProvidersA
-kernel32.dll GetLastError
-kernel32.dll GetCommandLineW

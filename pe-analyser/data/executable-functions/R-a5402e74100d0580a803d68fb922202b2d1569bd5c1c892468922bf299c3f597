@@ -1,6 +1,0 @@
-shell32.dll SHGetDesktopFolder
-kernel32.dll GetVersion
-kernel32.dll VerLanguageNameA
-ntdll.dll ZwUnloadKey
-user32.dll GetForegroundWindow
-user32.dll GetCapture

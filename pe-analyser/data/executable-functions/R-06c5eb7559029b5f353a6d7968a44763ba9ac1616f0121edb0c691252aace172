@@ -1,4 +1,0 @@
-user32.dll CreateAcceleratorTableA
-user32.dll GetOpenClipboardWindow
-user32.dll GetClipboardOwner
-kernel32.dll GetSystemDefaultLCID

@@ -1,6 +1,0 @@
-ntdll.dll RtlSetUserValueHeap
-ntdll.dll RtlRegisterWait
-ntdll.dll NtCreateEvent
-advapi32.dll GetLengthSid
-kernel32.dll GetCurrentProcess
-kernel32.dll GetVersion

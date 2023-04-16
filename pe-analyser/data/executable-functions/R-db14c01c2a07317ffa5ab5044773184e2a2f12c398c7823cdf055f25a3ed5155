@@ -1,4 +1,0 @@
-oleaut32.dll VarI4FromUI8
-user32.dll GetDesktopWindow
-user32.dll GetCaretBlinkTime
-user32.dll GetActiveWindow

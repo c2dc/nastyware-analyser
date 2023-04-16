@@ -1,3 +1,0 @@
-kernel32.dll SetConsoleCursorPosition
-user32.dll GetDialogBaseUnits
-user32.dll GetForegroundWindow

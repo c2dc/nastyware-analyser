@@ -1,5 +1,0 @@
-user32.dll GetKBCodePage
-user32.dll MonitorFromRect
-user32.dll GetInputState
-advapi32.dll AddAccessDeniedAce
-ntdll.dll ZwReadVirtualMemory

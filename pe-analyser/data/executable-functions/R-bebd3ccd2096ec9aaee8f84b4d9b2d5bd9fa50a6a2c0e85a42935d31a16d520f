@@ -1,8 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-wintrust.dll WinVerifyTrust
-user32.dll ShowWindow
-shell32.dll SHGetFolderPathA
-shlwapi.dll PathAppendA
-dbghelp.dll ImageNtHeader
-ntdll.dll NtCreatePort

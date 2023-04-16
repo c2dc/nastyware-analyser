@@ -1,5 +1,0 @@
-oleaut32.dll VarFormatPercent
-oleaut32.dll SafeArrayGetElemsize
-ntdll.dll NtOpenThreadToken
-user32.dll GetDoubleClickTime
-user32.dll GetDialogBaseUnits

@@ -1,4 +1,0 @@
-advapi32.dll EqualPrefixSid
-user32.dll GetActiveWindow
-user32.dll GetClipboardOwner
-user32.dll GetInputState

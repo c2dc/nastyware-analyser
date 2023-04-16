@@ -1,5 +1,0 @@
-ntdll.dll ZwCreateThread
-ntdll.dll NtOpenSymbolicLinkObject
-kernel32.dll GetCurrentProcessId
-kernel32.dll GetLastError
-kernel32.dll GetUserDefaultLCID

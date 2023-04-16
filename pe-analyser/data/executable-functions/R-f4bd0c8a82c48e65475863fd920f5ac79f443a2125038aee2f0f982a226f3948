@@ -1,6 +1,0 @@
-kernel32.dll SetMailslotInfo
-kernel32.dll GetVersion
-kernel32.dll MoveFileWithProgressW
-oleaut32.dll VarUI4FromI1
-ole32.dll CoRegisterPSClsid
-user32.dll GetClipboardSequenceNumber

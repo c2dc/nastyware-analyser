@@ -1,4 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-ntdll.dll qsort
-advapi32.dll FreeSid

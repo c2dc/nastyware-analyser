@@ -1,5 +1,0 @@
-user32.dll GetActiveWindow
-user32.dll PrintWindow
-advapi32.dll LsaEnumeratePrivileges
-kernel32.dll GetUserDefaultLangID
-kernel32.dll GetCurrentProcessId

@@ -1,3 +1,0 @@
-ntdll.dll NtRequestPort
-user32.dll GetMessageTime
-kernel32.dll GetSystemDefaultLangID

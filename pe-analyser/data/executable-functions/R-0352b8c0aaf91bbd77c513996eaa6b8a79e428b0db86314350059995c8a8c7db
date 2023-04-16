@@ -1,5 +1,0 @@
-ntdll.dll NtTerminateProcess
-ntdll.dll NtFsControlFile
-user32.dll ValidateRect
-user32.dll GetOpenClipboardWindow
-user32.dll GetShellWindow

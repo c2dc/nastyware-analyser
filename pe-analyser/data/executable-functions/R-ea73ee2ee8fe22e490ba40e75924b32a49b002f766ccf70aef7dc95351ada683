@@ -1,6 +1,0 @@
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetAtomNameA
-shell32.dll SHGetFolderPathAndSubDirW
-ole32.dll CoGetInstanceFromIStorage
-user32.dll GetMessageExtraInfo
-user32.dll GetDoubleClickTime

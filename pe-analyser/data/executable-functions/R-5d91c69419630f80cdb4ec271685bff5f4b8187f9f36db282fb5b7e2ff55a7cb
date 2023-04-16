@@ -1,6 +1,0 @@
-oleaut32.dll SafeArrayGetLBound
-ole32.dll CoCreateGuid
-user32.dll wvsprintfA
-user32.dll ScreenToClient
-kernel32.dll GetCommandLineA
-kernel32.dll GetProcessHeap

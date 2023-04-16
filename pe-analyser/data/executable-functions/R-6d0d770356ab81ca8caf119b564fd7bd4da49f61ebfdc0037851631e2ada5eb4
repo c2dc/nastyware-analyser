@@ -1,6 +1,0 @@
-user32.dll GetCaretBlinkTime
-user32.dll TileWindows
-kernel32.dll CreateFileW
-kernel32.dll GetVersion
-ntdll.dll RtlMapGenericMask
-oleaut32.dll SafeArraySetIID

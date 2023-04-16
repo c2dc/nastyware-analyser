@@ -1,5 +1,0 @@
-advapi32.dll StartServiceA
-user32.dll GetProcessWindowStation
-user32.dll GetFocus
-user32.dll CallNextHookEx
-user32.dll GetInputDesktop

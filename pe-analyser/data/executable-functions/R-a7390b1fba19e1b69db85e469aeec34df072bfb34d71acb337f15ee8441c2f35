@@ -1,6 +1,0 @@
-kernel32.dll GetSystemDefaultUILanguage
-kernel32.dll GetVersion
-kernel32.dll LCMapStringW
-ole32.dll StgPropertyLengthAsVariant
-advapi32.dll ConvertStringSDToSDRootDomainW
-oleaut32.dll VarDecInt

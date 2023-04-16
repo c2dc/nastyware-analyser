@@ -1,3 +1,0 @@
-advapi32.dll AllocateAndInitializeSid
-user32.dll GetInputState
-kernel32.dll GetCurrentThread

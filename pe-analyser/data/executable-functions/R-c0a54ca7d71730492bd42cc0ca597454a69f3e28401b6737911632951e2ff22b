@@ -1,4 +1,0 @@
-oleaut32.dll VarUI2FromCy
-oleaut32.dll SafeArrayGetUBound
-kernel32.dll GetCommandLineW
-user32.dll GetCursor

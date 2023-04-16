@@ -1,4 +1,0 @@
-advapi32.dll GetServiceKeyNameW
-user32.dll GetMenuCheckMarkDimensions
-kernel32.dll GetThreadLocale
-kernel32.dll GetConsoleWindow

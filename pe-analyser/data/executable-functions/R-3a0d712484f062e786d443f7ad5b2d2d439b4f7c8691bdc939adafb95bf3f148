@@ -1,7 +1,0 @@
-advapi32.dll GetSecurityInfo
-kernel32.dll GetProcessHeap
-kernel32.dll GetDateFormatA
-user32.dll DdeImpersonateClient
-user32.dll ChangeDisplaySettingsExA
-user32.dll GetCapture
-user32.dll GetInputDesktop

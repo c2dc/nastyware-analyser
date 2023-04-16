@@ -1,4 +1,0 @@
-advapi32.dll UnlockServiceDatabase
-kernel32.dll GetCommandLineA
-user32.dll GetInputDesktop
-user32.dll GetClipboardSequenceNumber

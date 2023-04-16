@@ -1,6 +1,0 @@
-ntdll.dll ZwSetInformationKey
-ntdll.dll ZwFindAtom
-ntdll.dll RtlInitCodePageTable
-advapi32.dll SystemFunction028
-user32.dll GetMessageExtraInfo
-kernel32.dll GetCurrentThreadId

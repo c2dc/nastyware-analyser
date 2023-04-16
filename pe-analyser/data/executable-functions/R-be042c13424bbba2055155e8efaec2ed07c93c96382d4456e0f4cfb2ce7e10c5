@@ -1,5 +1,0 @@
-ws2_32.dll getsockname
-ws2_32.dll WSAIsBlocking
-kernel32.dll OpenMutexA
-user32.dll GetKBCodePage
-user32.dll GetActiveWindow

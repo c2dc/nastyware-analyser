@@ -1,4 +1,0 @@
-oleaut32.dll VarI4FromR8
-user32.dll MapDialogRect
-user32.dll GetCaretBlinkTime
-kernel32.dll GetCurrentThreadId

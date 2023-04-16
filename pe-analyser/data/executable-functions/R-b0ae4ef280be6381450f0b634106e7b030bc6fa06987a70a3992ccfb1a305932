@@ -1,6 +1,0 @@
-oleaut32.dll VarUI4FromI1
-user32.dll ChildWindowFromPoint
-ntdll.dll RtlEnlargedIntegerMultiply
-kernel32.dll GetSystemDefaultLCID
-kernel32.dll GetUserDefaultLangID
-kernel32.dll GetConsoleWindow

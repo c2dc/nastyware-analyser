@@ -1,4 +1,0 @@
-oleaut32.dll VarDateFromUdate
-kernel32.dll GetProcessHeap
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetTempFileNameA

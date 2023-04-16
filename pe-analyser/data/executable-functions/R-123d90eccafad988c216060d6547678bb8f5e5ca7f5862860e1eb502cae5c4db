@@ -1,7 +1,0 @@
-ntdll.dll RtlCompareUnicodeString
-ntdll.dll RtlGetProcessHeaps
-shell32.dll FindExecutableW
-oleaut32.dll SafeArrayGetVartype
-kernel32.dll GetCommandLineA
-kernel32.dll GetProcessHeap
-user32.dll GetCaretBlinkTime

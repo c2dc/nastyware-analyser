@@ -1,2 +1,0 @@
-kernel32.dll GetProcAddress
-kernel32.dll LoadLibraryW

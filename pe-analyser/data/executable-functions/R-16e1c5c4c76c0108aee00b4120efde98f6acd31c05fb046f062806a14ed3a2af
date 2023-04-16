@@ -1,5 +1,0 @@
-user32.dll GetMenuCheckMarkDimensions
-user32.dll MonitorFromPoint
-user32.dll GetDialogBaseUnits
-user32.dll GetMessageExtraInfo
-ntdll.dll ZwRenameKey

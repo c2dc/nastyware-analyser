@@ -1,5 +1,0 @@
-ole32.dll WriteClassStg
-ole32.dll CoGetInstanceFromIStorage
-advapi32.dll ControlTraceW
-kernel32.dll GetConsoleWindow
-kernel32.dll GetProcessHeap

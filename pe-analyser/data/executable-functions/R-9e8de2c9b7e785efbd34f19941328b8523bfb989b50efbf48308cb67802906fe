@@ -1,4 +1,0 @@
-ntdll.dll NtInitiatePowerAction
-kernel32.dll GetUserDefaultUILanguage
-user32.dll GetOpenClipboardWindow
-user32.dll GetClipboardOwner

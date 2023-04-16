@@ -1,5 +1,0 @@
-advapi32.dll SetEntriesInAclW
-shell32.dll RealShellExecuteExA
-oleaut32.dll VarR4FromBool
-user32.dll GetCaretBlinkTime
-kernel32.dll GetUserDefaultUILanguage

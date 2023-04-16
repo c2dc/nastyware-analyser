@@ -1,4 +1,0 @@
-kernel32.dll GetVolumeInformationW
-kernel32.dll GetLastError
-kernel32.dll GetVersion
-user32.dll GetClipboardOwner

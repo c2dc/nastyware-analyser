@@ -1,3 +1,0 @@
-kernel32.dll GetCurrentProcess
-kernel32.dll GetVersion
-kernel32.dll IsBadReadPtr

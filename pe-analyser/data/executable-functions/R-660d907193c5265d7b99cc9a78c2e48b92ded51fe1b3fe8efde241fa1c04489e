@@ -1,4 +1,0 @@
-ntdll.dll RtlActivateActivationContextUnsafeFast
-user32.dll SetCaretPos
-user32.dll GetDoubleClickTime
-user32.dll GetKBCodePage

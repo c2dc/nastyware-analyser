@@ -1,4 +1,0 @@
-ntdll.dll NtModifyBootEntry
-user32.dll GetDoubleClickTime
-user32.dll GetClipboardSequenceNumber
-kernel32.dll GetCurrentProcessId

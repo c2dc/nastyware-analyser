@@ -1,3 +1,0 @@
-ntdll.dll NtResetWriteWatch
-user32.dll GetClipboardViewer
-kernel32.dll GetConsoleWindow

@@ -1,6 +1,0 @@
-kernel32.dll GetCommandLineA
-kernel32.dll GetThreadLocale
-kernel32.dll CancelTimerQueueTimer
-advapi32.dll FlushTraceA
-user32.dll SetDlgItemTextA
-ole32.dll HMETAFILEPICT_UserFree

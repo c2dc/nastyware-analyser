@@ -1,3 +1,0 @@
-ntdll.dll NtCreateJobObject
-kernel32.dll GetConsoleWindow
-kernel32.dll GetCurrentProcess

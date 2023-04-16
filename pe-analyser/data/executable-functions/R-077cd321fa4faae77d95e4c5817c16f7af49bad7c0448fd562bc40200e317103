@@ -1,3 +1,0 @@
-oleaut32.dll VarR8FromDisp
-user32.dll GetMenuCheckMarkDimensions
-kernel32.dll GetSystemDefaultLCID

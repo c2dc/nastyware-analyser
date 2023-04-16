@@ -1,4 +1,0 @@
-ntdll.dll ZwQuerySection
-ntdll.dll ZwAccessCheckByTypeResultList
-kernel32.dll GetUserDefaultUILanguage
-kernel32.dll GetVersion

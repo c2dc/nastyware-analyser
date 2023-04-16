@@ -1,5 +1,0 @@
-oleaut32.dll SetOaNoCache
-kernel32.dll TerminateThread
-kernel32.dll GetLastError
-user32.dll GetClipboardViewer
-user32.dll GetKBCodePage

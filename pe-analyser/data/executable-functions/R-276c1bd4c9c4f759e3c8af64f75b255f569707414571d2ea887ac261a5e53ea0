@@ -1,7 +1,0 @@
-ws2_32.dll WSAUnhookBlockingHook
-ws2_32.dll WSACreateEvent
-ntdll.dll NtImpersonateThread
-shell32.dll Shell_GetImageLists
-kernel32.dll GetUserDefaultUILanguage
-kernel32.dll GetProcessHeap
-user32.dll GetOpenClipboardWindow

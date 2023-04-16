@@ -1,6 +1,0 @@
-ws2_32.dll getnameinfo
-ntdll.dll RtlDeactivateActivationContext
-ole32.dll CoGetObjectContext
-ole32.dll OleCreateEmbeddingHelper
-user32.dll GetDoubleClickTime
-user32.dll GetCursor

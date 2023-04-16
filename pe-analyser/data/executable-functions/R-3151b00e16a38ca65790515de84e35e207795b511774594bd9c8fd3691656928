@@ -1,5 +1,0 @@
-advapi32.dll LsaLookupPrivilegeName
-ntdll.dll NtQuerySystemInformation
-kernel32.dll GetCurrentThread
-kernel32.dll GetVersion
-user32.dll GetClipboardSequenceNumber

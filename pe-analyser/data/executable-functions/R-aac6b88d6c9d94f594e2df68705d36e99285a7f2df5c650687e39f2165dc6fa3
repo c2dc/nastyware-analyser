@@ -1,4 +1,0 @@
-ntdll.dll RtlEnterCriticalSection
-oleaut32.dll VarI1FromUI1
-user32.dll GetFocus
-kernel32.dll GetSystemDefaultUILanguage

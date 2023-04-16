@@ -1,7 +1,0 @@
-oleaut32.dll SafeArrayDestroy
-oleaut32.dll VarUI2FromI8
-shell32.dll SHGetFolderPathW
-ole32.dll CoTaskMemFree
-user32.dll GetClipboardOwner
-user32.dll GetKBCodePage
-kernel32.dll GetCurrentProcessId

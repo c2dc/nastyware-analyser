@@ -1,5 +1,0 @@
-kernel32.dll GetModuleHandleA
-user32.dll CharLowerW
-advapi32.dll RegOpenKeyExA
-shlwapi.dll PathFileExistsW
-shell32.dll ShellAboutA

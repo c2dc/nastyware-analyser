@@ -1,5 +1,0 @@
-kernel32.dll GetFileAttributesA
-kernel32.dll GetLastError
-kernel32.dll GetCommandLineW
-ws2_32.dll WSAGetLastError
-user32.dll GetInputDesktop

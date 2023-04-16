@@ -1,9 +1,0 @@
-kernel32.dll GetModuleHandleA
-user32.dll FindWindowA
-advapi32.dll GetCurrentHwProfileA
-shell32.dll SHChangeNotifyRegister
-msvcp100.dll ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
-msvcr100.dll isspace
-comctl32.dll PropertySheet
-wininet.dll InternetReadFile
-iphlpapi.dll GetAdaptersInfo

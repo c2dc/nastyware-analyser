@@ -1,4 +1,0 @@
-user32.dll GetInputDesktop
-user32.dll GetSysColor
-user32.dll GetInputState
-user32.dll GetShellWindow

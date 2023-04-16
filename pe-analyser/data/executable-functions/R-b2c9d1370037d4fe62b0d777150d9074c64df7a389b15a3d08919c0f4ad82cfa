@@ -1,6 +1,0 @@
-user32.dll EnumDisplaySettingsExA
-user32.dll GetMessageExtraInfo
-ntdll.dll RtlAddAccessDeniedObjectAce
-advapi32.dll LsaFreeMemory
-kernel32.dll GetCurrentThread
-kernel32.dll GetConsoleWindow

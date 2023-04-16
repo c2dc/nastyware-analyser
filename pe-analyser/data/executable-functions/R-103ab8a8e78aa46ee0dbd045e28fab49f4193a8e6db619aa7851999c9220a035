@@ -1,6 +1,0 @@
-kernel32.dll ProcessIdToSessionId
-kernel32.dll GetCurrentThread
-kernel32.dll PulseEvent
-ole32.dll StgOpenStorageEx
-oleaut32.dll VarI8FromR4
-user32.dll GetDoubleClickTime

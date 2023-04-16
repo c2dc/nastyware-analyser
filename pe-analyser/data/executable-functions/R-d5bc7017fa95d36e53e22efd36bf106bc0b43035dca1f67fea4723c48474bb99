@@ -1,3 +1,0 @@
-oleaut32.dll GetActiveObject
-user32.dll GetCapture
-user32.dll GetProcessWindowStation

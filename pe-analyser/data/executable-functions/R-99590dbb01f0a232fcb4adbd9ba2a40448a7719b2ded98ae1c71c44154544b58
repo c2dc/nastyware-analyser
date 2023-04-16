@@ -1,5 +1,0 @@
-user32.dll GetMessageTime
-user32.dll DdeCreateStringHandleW
-oleaut32.dll VarR4FromStr
-kernel32.dll GetConsoleWindow
-kernel32.dll GetSystemDefaultUILanguage

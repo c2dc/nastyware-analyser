@@ -1,7 +1,0 @@
-ntdll.dll RtlGetCallersAddress
-ntdll.dll ZwSetLowEventPair
-user32.dll GetDlgItem
-user32.dll GetOpenClipboardWindow
-user32.dll GetDialogBaseUnits
-ws2_32.dll WSASetBlockingHook
-kernel32.dll GetSystemDefaultLangID

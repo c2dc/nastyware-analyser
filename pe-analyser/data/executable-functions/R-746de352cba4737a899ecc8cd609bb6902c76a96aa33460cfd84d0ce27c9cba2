@@ -1,4 +1,0 @@
-ntdll.dll NtSetContextThread
-user32.dll GetShellWindow
-user32.dll GetDoubleClickTime
-user32.dll GetClipboardOwner

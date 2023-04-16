@@ -1,7 +1,0 @@
-ole32.dll HBRUSH_UserFree
-ole32.dll OleConvertIStorageToOLESTREAM
-user32.dll GetForegroundWindow
-user32.dll GetMonitorInfoA
-shell32.dll ExtractIconW
-kernel32.dll GetVersion
-kernel32.dll GetSystemDefaultLangID

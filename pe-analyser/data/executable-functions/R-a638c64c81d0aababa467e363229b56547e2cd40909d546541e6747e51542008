@@ -1,5 +1,0 @@
-ws2_32.dll GetNameInfoW
-user32.dll GetMessageExtraInfo
-user32.dll GetDlgItemInt
-user32.dll GetClipboardViewer
-user32.dll GetCaretBlinkTime

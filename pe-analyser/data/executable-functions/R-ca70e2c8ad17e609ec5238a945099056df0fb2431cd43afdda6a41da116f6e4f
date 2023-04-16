@@ -1,5 +1,0 @@
-kernel32.dll lstrcpyA
-kernel32.dll GetConsoleWindow
-ntdll.dll RtlAreBitsClear
-ntdll.dll RtlCustomCPToUnicodeN
-user32.dll GetShellWindow

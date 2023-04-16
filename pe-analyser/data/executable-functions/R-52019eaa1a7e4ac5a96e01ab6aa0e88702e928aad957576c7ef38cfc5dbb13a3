@@ -1,3 +1,0 @@
-ntdll.dll NtTraceEvent
-kernel32.dll GetCurrentProcessId
-user32.dll GetDesktopWindow

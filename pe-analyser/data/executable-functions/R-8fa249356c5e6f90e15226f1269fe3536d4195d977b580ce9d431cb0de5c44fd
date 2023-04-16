@@ -1,4 +1,0 @@
-kernel32.dll FileTimeToSystemTime
-kernel32.dll FatalAppExitA
-kernel32.dll GetUserDefaultUILanguage
-user32.dll GetClipboardViewer

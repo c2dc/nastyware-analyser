@@ -1,5 +1,0 @@
-ntdll.dll NtEnumerateBootEntries
-ntdll.dll NtStartProfile
-ntdll.dll NtQueryInformationToken
-user32.dll GetForegroundWindow
-kernel32.dll GetConsoleWindow

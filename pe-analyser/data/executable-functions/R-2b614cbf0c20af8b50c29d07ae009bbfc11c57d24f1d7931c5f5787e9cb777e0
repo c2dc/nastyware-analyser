@@ -1,6 +1,0 @@
-advapi32.dll LsaICLookupSids
-kernel32.dll QueryInformationJobObject
-kernel32.dll GetUserDefaultUILanguage
-kernel32.dll GetSystemDefaultLCID
-ntdll.dll NtTerminateProcess
-ole32.dll CoRevokeInitializeSpy

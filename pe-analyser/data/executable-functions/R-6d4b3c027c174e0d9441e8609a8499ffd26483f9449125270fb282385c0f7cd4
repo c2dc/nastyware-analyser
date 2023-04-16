@@ -1,5 +1,0 @@
-user32.dll GetMessageTime
-user32.dll GetCaretBlinkTime
-user32.dll UpdateLayeredWindow
-ntdll.dll ZwCreateProcess
-kernel32.dll GetThreadLocale

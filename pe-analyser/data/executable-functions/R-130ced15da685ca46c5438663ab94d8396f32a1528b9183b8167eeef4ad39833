@@ -1,6 +1,0 @@
-user32.dll GetDialogBaseUnits
-user32.dll GetMessageTime
-user32.dll SetProcessWindowStation
-ntdll.dll LdrProcessRelocationBlock
-ntdll.dll DbgPrint
-kernel32.dll GetProcessHeap

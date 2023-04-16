@@ -1,3 +1,0 @@
-kernel32.dll GetStringTypeExA
-kernel32.dll GetSystemDefaultUILanguage
-user32.dll GetShellWindow

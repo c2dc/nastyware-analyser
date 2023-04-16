@@ -1,5 +1,0 @@
-ntdll.dll NtReadRequestData
-ntdll.dll NtTranslateFilePath
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GlobalMemoryStatus
-user32.dll GetMenuCheckMarkDimensions

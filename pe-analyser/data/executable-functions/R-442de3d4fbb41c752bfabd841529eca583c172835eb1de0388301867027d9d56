@@ -1,5 +1,0 @@
-oleaut32.dll LPSAFEARRAY_UserFree
-user32.dll GetDC
-user32.dll GetDialogBaseUnits
-user32.dll GetCursor
-kernel32.dll GetCurrentThreadId

@@ -1,4 +1,0 @@
-ole32.dll HMETAFILEPICT_UserUnmarshal
-user32.dll ShowWindowAsync
-user32.dll GetKBCodePage
-kernel32.dll GetCurrentProcessId

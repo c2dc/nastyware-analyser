@@ -1,4 +1,0 @@
-kernel32.dll IsBadStringPtrA
-user32.dll GetOpenClipboardWindow
-user32.dll GetMessagePos
-user32.dll GetInputDesktop

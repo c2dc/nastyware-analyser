@@ -1,7 +1,0 @@
-ntdll.dll NtAlertResumeThread
-user32.dll EmptyClipboard
-user32.dll GetCaretBlinkTime
-advapi32.dll BuildTrusteeWithNameW
-ole32.dll OleSave
-kernel32.dll GetUserDefaultLangID
-kernel32.dll GetUserDefaultLCID

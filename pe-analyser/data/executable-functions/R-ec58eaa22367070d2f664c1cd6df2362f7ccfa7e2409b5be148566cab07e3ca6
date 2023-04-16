@@ -1,3 +1,0 @@
-ntdll.dll NtQueryInformationFile
-user32.dll GetMenuCheckMarkDimensions
-user32.dll GetForegroundWindow

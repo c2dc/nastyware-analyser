@@ -1,4 +1,0 @@
-advapi32.dll GetTrusteeNameA
-advapi32.dll ConvertSecurityDescriptorToStringSecurityDescriptorA
-kernel32.dll GetUserDefaultLangID
-kernel32.dll GetCurrentProcess

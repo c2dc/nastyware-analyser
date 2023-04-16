@@ -1,5 +1,0 @@
-ntdll.dll ZwQueryInformationFile
-ntdll.dll NtEnumerateValueKey
-oleaut32.dll VarUI2FromUI1
-kernel32.dll GetVersion
-user32.dll GetDesktopWindow

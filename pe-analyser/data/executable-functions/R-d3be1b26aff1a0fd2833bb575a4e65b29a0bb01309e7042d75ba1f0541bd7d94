@@ -1,5 +1,0 @@
-user32.dll GetDoubleClickTime
-user32.dll GetMessageTime
-user32.dll SetLastErrorEx
-ntdll.dll NtQueryDirectoryObject
-kernel32.dll GetNamedPipeInfo

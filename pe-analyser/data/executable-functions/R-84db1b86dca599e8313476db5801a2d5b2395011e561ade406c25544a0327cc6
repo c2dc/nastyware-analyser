@@ -1,4 +1,0 @@
-kernel32.dll GetModuleHandleA
-user32.dll SendMessageA
-advapi32.dll RegQueryValueW
-shell32.dll PathMakeUniqueName

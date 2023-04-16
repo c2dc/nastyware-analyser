@@ -1,6 +1,0 @@
-ntdll.dll LdrQueryProcessModuleInformation
-ntdll.dll NtAdjustGroupsToken
-user32.dll LoadMenuW
-kernel32.dll OpenFileMappingA
-kernel32.dll GetCommandLineW
-kernel32.dll GetUserDefaultLangID

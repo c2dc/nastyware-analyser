@@ -1,3 +1,0 @@
-oleaut32.dll VarBstrFromUI1
-kernel32.dll GetSystemDefaultLCID
-kernel32.dll GetUserDefaultLangID

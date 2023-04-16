@@ -1,7 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-oleaut32.dll SysFreeString
-advapi32.dll RegCloseKey
-user32.dll CharNextW
-shell32.dll SHGetSpecialFolderPathW
-msvcrt.dll _ftol

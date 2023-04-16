@@ -1,3 +1,0 @@
-ntdll.dll RtlInterlockedPushEntrySList
-kernel32.dll GetUserDefaultLCID
-user32.dll GetDialogBaseUnits

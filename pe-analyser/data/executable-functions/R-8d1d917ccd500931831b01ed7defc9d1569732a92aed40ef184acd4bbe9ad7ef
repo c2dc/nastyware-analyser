@@ -1,5 +1,0 @@
-advapi32.dll LsaEnumeratePrivilegesOfAccount
-ole32.dll HBRUSH_UserMarshal
-kernel32.dll GetProcessHeap
-kernel32.dll GetThreadLocale
-user32.dll GetCursor

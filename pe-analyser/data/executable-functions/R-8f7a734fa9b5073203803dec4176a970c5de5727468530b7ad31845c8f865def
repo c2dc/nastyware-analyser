@@ -1,5 +1,0 @@
-ntdll.dll ZwAlertResumeThread
-advapi32.dll BuildSecurityDescriptorA
-kernel32.dll GetConsoleWindow
-user32.dll GetMenuCheckMarkDimensions
-user32.dll GetClipboardSequenceNumber

@@ -1,3 +1,0 @@
-advapi32.dll CommandLineFromMsiDescriptor
-user32.dll GetClipboardViewer
-user32.dll GetInputDesktop

@@ -1,6 +1,0 @@
-kernel32.dll SwitchToFiber
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetCurrentThreadId
-advapi32.dll SystemFunction031
-ntdll.dll ZwSetVolumeInformationFile
-user32.dll GetCaretBlinkTime

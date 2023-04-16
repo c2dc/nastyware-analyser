@@ -1,4 +1,0 @@
-user32.dll LookupIconIdFromDirectoryEx
-user32.dll GetProcessWindowStation
-user32.dll GetInputState
-kernel32.dll GetProcessHeap

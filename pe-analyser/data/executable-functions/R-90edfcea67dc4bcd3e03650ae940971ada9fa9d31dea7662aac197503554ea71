@@ -1,6 +1,0 @@
-advapi32.dll AddAccessAllowedObjectAce
-ntdll.dll NtCompressKey
-ntdll.dll ZwConnectPort
-kernel32.dll EndUpdateResourceA
-kernel32.dll GetSystemDefaultLangID
-user32.dll GetInputDesktop

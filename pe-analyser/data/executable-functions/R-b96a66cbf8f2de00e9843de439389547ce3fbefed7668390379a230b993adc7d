@@ -1,5 +1,0 @@
-kernel32.dll GetCurrentProcess
-kernel32.dll GetProcessId
-oleaut32.dll VarR4FromBool
-advapi32.dll GetOldestEventLogRecord
-user32.dll GetCapture

@@ -1,6 +1,0 @@
-ntdll.dll RtlLogStackBackTrace
-ntdll.dll ZwSetSecurityObject
-ole32.dll CoFileTimeToDosDateTime
-user32.dll GetShellWindow
-user32.dll GetCapture
-user32.dll GetDesktopWindow

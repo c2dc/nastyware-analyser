@@ -1,7 +1,0 @@
-user32.dll GetClipboardOwner
-user32.dll GetInputDesktop
-user32.dll AdjustWindowRectEx
-user32.dll WinHelpW
-kernel32.dll SetConsoleTitleW
-kernel32.dll GetSystemDefaultUILanguage
-ntdll.dll ZwQueryKey

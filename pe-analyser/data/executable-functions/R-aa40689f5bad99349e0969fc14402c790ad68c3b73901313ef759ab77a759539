@@ -1,6 +1,0 @@
-user32.dll GetFocus
-user32.dll IsCharAlphaA
-user32.dll GetMessagePos
-kernel32.dll GetDiskFreeSpaceW
-kernel32.dll GetUserDefaultLCID
-advapi32.dll RegisterServiceCtrlHandlerW

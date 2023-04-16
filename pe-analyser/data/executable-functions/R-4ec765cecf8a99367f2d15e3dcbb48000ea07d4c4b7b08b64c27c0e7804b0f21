@@ -1,6 +1,0 @@
-ntdll.dll NtCreatePort
-ntdll.dll NtAdjustGroupsToken
-ntdll.dll RtlAddCompoundAce
-user32.dll GetCapture
-user32.dll GetDesktopWindow
-user32.dll GetDialogBaseUnits

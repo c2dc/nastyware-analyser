@@ -1,5 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-psapi.dll EnumProcesses
-advapi32.dll RegCloseKey
-ws2_32.dll inet_addr

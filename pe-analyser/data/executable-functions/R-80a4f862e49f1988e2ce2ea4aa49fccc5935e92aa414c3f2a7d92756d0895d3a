@@ -1,7 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-user32.dll wsprintfW
-advapi32.dll RegCloseKey
-shell32.dll SHGetFolderPathW
-version.dll VerQueryValueW
-shlwapi.dll PathRemoveFileSpecW

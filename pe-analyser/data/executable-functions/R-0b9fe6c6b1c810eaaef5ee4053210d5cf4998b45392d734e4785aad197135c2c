@@ -1,7 +1,0 @@
-advapi32.dll SetSecurityDescriptorGroup
-oleaut32.dll RegisterActiveObject
-oleaut32.dll VarUI4FromR4
-kernel32.dll Beep
-user32.dll GetForegroundWindow
-user32.dll GetMessagePos
-user32.dll GetClipboardSequenceNumber

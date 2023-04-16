@@ -1,6 +1,0 @@
-kernel32.dll GetCurrentProcess
-kernel32.dll TlsAlloc
-kernel32.dll CompareStringW
-shell32.dll SHQueryRecycleBinA
-user32.dll GetShellWindow
-user32.dll GetCaretBlinkTime

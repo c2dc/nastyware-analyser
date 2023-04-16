@@ -1,7 +1,0 @@
-oleaut32.dll VarI2FromI8
-user32.dll RealGetWindowClassW
-user32.dll GetMenuCheckMarkDimensions
-ntdll.dll RtlFillMemoryUlong
-kernel32.dll GetCommandLineA
-kernel32.dll Thread32First
-kernel32.dll GetCommandLineW

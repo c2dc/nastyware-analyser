@@ -1,6 +1,0 @@
-ole32.dll HICON_UserFree
-advapi32.dll GetTrusteeNameW
-advapi32.dll ReadEncryptedFileRaw
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetCommandLineW
-kernel32.dll GlobalFlags

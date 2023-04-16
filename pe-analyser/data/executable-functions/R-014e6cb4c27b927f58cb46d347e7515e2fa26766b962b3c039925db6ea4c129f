@@ -1,5 +1,0 @@
-advapi32.dll CreatePrivateObjectSecurityWithMultipleInheritance
-advapi32.dll ImpersonateLoggedOnUser
-ntdll.dll LdrFindResourceDirectory_U
-user32.dll GetInputDesktop
-kernel32.dll GetSystemDefaultUILanguage

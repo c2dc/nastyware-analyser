@@ -1,7 +1,0 @@
-oleaut32.dll VarR4FromI2
-user32.dll GetCursor
-user32.dll IsWindow
-user32.dll GetClipboardViewer
-kernel32.dll GetThreadLocale
-kernel32.dll GetVolumePathNameA
-advapi32.dll GetNamedSecurityInfoW

@@ -1,5 +1,0 @@
-kernel32.dll GetConsoleWindow
-kernel32.dll SuspendThread
-advapi32.dll EnumServicesStatusExA
-user32.dll LoadCursorA
-user32.dll GetClipboardOwner

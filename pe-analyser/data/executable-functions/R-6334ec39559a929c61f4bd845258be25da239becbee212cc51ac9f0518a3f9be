@@ -1,3 +1,0 @@
-ntdll.dll ZwNotifyChangeDirectoryFile
-user32.dll GetCursor
-kernel32.dll GetConsoleWindow

@@ -1,3 +1,0 @@
-oleaut32.dll VarDateFromI1
-user32.dll GetMessageTime
-kernel32.dll GetCommandLineA

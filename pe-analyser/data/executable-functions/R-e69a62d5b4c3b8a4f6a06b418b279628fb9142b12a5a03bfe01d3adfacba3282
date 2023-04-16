@@ -1,4 +1,0 @@
-kernel32.dll QueueUserWorkItem
-kernel32.dll GetCommandLineA
-kernel32.dll GetUserDefaultUILanguage
-kernel32.dll GetSystemDefaultUILanguage

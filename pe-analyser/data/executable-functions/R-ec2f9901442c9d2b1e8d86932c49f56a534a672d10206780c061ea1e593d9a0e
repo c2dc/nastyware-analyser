@@ -1,6 +1,0 @@
-ole32.dll HENHMETAFILE_UserUnmarshal
-ntdll.dll NtFlushWriteBuffer
-ntdll.dll NlsMbOemCodePageTag
-user32.dll GetMessagePos
-user32.dll GetClipboardOwner
-kernel32.dll GetCommandLineA

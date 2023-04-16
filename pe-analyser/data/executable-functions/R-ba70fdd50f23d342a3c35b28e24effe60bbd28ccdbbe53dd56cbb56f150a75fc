@@ -1,4 +1,0 @@
-ws2_32.dll WSALookupServiceNextA
-ntdll.dll RtlConvertSidToUnicodeString
-kernel32.dll GetUserDefaultLCID
-user32.dll GetOpenClipboardWindow

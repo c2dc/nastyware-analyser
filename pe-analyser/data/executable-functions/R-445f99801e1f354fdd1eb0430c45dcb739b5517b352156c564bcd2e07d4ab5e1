@@ -1,6 +1,0 @@
-user32.dll GetMessageTime
-user32.dll GetCaretBlinkTime
-user32.dll IMPGetIMEW
-shell32.dll DragQueryFileW
-oleaut32.dll VarCyFromI1
-advapi32.dll LsaQuerySecurityObject

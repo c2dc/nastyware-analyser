@@ -1,4 +1,0 @@
-user32.dll GetCursor
-user32.dll SendMessageTimeoutW
-shell32.dll SHGetSpecialFolderLocation
-kernel32.dll GetCurrentProcessId

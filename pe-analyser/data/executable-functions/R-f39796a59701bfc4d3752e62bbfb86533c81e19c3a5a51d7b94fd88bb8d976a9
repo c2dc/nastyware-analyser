@@ -1,6 +1,0 @@
-ole32.dll MonikerRelativePathTo
-ntdll.dll NtCreateTimer
-ntdll.dll RtlAddAce
-kernel32.dll GetCurrentProcess
-user32.dll GetCapture
-user32.dll GetMessageExtraInfo

@@ -1,7 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-advapi32.dll RegCloseKey
-ole32.dll CoTaskMemFree
-oleaut32.dll LoadTypeLib
-user32.dll LoadIconA
-msvcrt.dll time

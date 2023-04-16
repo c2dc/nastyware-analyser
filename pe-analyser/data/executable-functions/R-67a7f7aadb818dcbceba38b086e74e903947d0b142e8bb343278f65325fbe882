@@ -1,5 +1,0 @@
-kernel32.dll OpenEventA
-kernel32.dll GetTempFileNameW
-advapi32.dll AccessCheckAndAuditAlarmA
-user32.dll GetDialogBaseUnits
-user32.dll GetDesktopWindow

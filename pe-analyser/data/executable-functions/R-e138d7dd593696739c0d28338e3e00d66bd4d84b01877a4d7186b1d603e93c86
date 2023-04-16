@@ -1,4 +1,0 @@
-advapi32.dll LogonUserExW
-user32.dll GetDialogBaseUnits
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetUserDefaultLangID

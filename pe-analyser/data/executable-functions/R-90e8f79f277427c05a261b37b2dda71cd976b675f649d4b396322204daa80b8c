@@ -1,4 +1,0 @@
-user32.dll GetShellWindow
-user32.dll GetWindowDC
-user32.dll GetActiveWindow
-oleaut32.dll VarFormatNumber

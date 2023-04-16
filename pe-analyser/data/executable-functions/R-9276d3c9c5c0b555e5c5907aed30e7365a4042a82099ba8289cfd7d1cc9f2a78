@@ -1,4 +1,0 @@
-ntdll.dll RtlCloneMemoryStream
-kernel32.dll GetSystemDefaultLangID
-user32.dll GetOpenClipboardWindow
-user32.dll GetInputDesktop

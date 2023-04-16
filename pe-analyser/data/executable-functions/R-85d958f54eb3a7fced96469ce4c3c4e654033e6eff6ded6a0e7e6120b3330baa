@@ -1,4 +1,0 @@
-advapi32.dll ConvertStringSDToSDDomainA
-user32.dll GetCursor
-user32.dll GetShellWindow
-kernel32.dll GetSystemDefaultLCID

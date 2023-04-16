@@ -1,3 +1,0 @@
-shell32.dll SHGetFolderPathA
-user32.dll GetMenuCheckMarkDimensions
-user32.dll GetDoubleClickTime

@@ -1,4 +1,0 @@
-ntdll.dll NtCancelIoFile
-user32.dll GetProcessWindowStation
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetUserDefaultUILanguage

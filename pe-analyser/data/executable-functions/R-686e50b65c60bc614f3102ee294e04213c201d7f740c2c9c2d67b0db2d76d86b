@@ -1,6 +1,0 @@
-advapi32.dll AccessCheckByTypeResultListAndAuditAlarmA
-user32.dll WinHelpA
-user32.dll GetShellWindow
-user32.dll GetMessagePos
-oleaut32.dll VarR4FromStr
-kernel32.dll GetCurrentProcessId

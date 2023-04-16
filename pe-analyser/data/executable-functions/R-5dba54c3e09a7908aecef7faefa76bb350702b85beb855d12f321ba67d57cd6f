@@ -1,7 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-msvcrt.dll free
-ntdll.dll NtClose
-advapi32.dll RegCloseKey
-ole32.dll CoTaskMemFree
-oleaut32.dll RegisterTypeLib

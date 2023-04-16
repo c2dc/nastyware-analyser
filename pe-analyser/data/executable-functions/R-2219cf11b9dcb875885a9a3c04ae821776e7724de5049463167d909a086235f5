@@ -1,5 +1,0 @@
-ole32.dll OleBuildVersion
-ntdll.dll RtlAddAttributeActionToRXact
-shell32.dll SHCloneSpecialIDList
-kernel32.dll GetCurrentThreadId
-user32.dll GetProcessWindowStation

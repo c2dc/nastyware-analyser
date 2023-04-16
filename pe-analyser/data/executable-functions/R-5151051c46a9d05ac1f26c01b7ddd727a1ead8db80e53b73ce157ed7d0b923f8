@@ -1,3 +1,0 @@
-kernel32.dll CreateNamedPipeW
-kernel32.dll GetUserDefaultLangID
-user32.dll GetMenuCheckMarkDimensions

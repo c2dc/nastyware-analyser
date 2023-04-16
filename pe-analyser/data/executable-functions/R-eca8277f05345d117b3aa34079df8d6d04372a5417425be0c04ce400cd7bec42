@@ -1,4 +1,0 @@
-ole32.dll PropStgNameToFmtId
-ole32.dll OleTranslateAccelerator
-kernel32.dll GetSystemDefaultUILanguage
-kernel32.dll GetCommandLineA

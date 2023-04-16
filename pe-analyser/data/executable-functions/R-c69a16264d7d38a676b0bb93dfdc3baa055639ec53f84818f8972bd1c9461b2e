@@ -1,4 +1,0 @@
-oleaut32.dll VarR8FromI4
-user32.dll GetShellWindow
-user32.dll ChangeMenuA
-user32.dll GetMessageExtraInfo

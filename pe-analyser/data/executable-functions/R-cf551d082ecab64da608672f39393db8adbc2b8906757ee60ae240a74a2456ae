@@ -1,4 +1,0 @@
-oleaut32.dll VarI1FromR4
-advapi32.dll ConvertSidToStringSidW
-user32.dll GetOpenClipboardWindow
-kernel32.dll GetSystemDefaultUILanguage

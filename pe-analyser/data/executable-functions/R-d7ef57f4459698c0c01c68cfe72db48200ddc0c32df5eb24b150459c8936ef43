@@ -1,3 +1,0 @@
-user32.dll SendMessageCallbackA
-kernel32.dll GetSystemDefaultLCID
-kernel32.dll GetCurrentProcess

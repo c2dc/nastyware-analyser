@@ -1,6 +1,0 @@
-kernel32.dll GetModuleHandleA
-user32.dll GetCursor
-advapi32.dll RegOpenKeyExW
-comctl32.dll CreateStatusWindowA
-shell32.dll SHGetDiskFreeSpaceA
-psapi.dll GetModuleInformation

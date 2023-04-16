@@ -1,7 +1,0 @@
-ole32.dll HBITMAP_UserFree
-user32.dll GetProcessWindowStation
-user32.dll GetShellWindow
-user32.dll GetWindowWord
-ntdll.dll NtSetSystemTime
-ws2_32.dll ntohs
-kernel32.dll GetCurrentThreadId

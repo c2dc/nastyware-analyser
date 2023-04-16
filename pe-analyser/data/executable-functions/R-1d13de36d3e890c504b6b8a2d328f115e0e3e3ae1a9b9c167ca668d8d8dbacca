@@ -1,4 +1,0 @@
-kernel32.dll CreateDirectoryW
-kernel32.dll GetCurrentProcessId
-user32.dll GetKBCodePage
-user32.dll GetDoubleClickTime

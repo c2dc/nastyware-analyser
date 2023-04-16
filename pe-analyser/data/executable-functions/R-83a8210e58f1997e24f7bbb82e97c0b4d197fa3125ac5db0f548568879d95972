@@ -1,7 +1,0 @@
-user32.dll GetMessageExtraInfo
-user32.dll GetDoubleClickTime
-user32.dll DeregisterShellHookWindow
-kernel32.dll SetProcessShutdownParameters
-kernel32.dll GetSystemDefaultLangID
-ntdll.dll ZwQueryInformationJobObject
-ntdll.dll NtCompressKey

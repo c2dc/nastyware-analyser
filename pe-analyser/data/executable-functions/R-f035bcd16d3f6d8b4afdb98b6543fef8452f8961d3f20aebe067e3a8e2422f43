@@ -1,4 +1,0 @@
-advapi32.dll CheckTokenMembership
-oleaut32.dll SafeArrayAccessData
-user32.dll GetActiveWindow
-kernel32.dll GetCommandLineW

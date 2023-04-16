@@ -1,4 +1,0 @@
-ntdll.dll ZwUnloadDriver
-user32.dll GetClipboardOwner
-user32.dll GetClipboardSequenceNumber
-kernel32.dll GetCurrentThread

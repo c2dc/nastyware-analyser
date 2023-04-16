@@ -1,6 +1,0 @@
-ntdll.dll RtlSubAuthorityCountSid
-advapi32.dll LsaQueryInfoTrustedDomain
-kernel32.dll GetModuleFileNameA
-user32.dll GetClipboardOwner
-user32.dll GetForegroundWindow
-user32.dll GetMenuCheckMarkDimensions

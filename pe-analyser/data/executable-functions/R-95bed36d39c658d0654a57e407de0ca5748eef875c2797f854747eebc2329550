@@ -1,6 +1,0 @@
-kernel32.dll GetPrivateProfileStringA
-kernel32.dll ReadConsoleOutputW
-kernel32.dll GetUserDefaultLCID
-advapi32.dll NotifyChangeEventLog
-user32.dll GetMessageTime
-user32.dll GetClipboardViewer

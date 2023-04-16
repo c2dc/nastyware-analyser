@@ -1,4 +1,0 @@
-kernel32.dll CreateHardLinkW
-user32.dll GetCursor
-user32.dll GetCapture
-user32.dll GetShellWindow

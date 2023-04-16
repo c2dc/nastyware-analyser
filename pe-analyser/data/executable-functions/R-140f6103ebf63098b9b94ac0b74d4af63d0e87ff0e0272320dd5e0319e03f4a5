@@ -1,5 +1,0 @@
-user32.dll GetDlgCtrlID
-user32.dll GetKBCodePage
-ntdll.dll RtlAppendStringToString
-oleaut32.dll VariantInit
-kernel32.dll GetConsoleWindow

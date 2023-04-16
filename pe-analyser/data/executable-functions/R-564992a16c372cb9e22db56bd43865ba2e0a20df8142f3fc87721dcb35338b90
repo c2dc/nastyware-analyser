@@ -1,5 +1,0 @@
-kernel32.dll GetShortPathNameA
-kernel32.dll InterlockedExchangeAdd
-kernel32.dll GetTempPathA
-user32.dll GetClipboardViewer
-user32.dll GetDoubleClickTime

@@ -1,4 +1,0 @@
-oleaut32.dll VarI8FromI1
-kernel32.dll GetProcessAffinityMask
-user32.dll GetInputState
-user32.dll GetMessageTime

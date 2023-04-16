@@ -1,6 +1,0 @@
-shell32.dll SHDefExtractIconW
-ntdll.dll LdrQueryImageFileExecutionOptions
-ntdll.dll RtlCreateTagHeap
-kernel32.dll GetSystemDefaultUILanguage
-kernel32.dll GetLastError
-kernel32.dll WaitNamedPipeA

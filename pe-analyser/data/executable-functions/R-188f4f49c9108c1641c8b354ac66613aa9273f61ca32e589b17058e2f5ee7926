@@ -1,5 +1,0 @@
-user32.dll DefFrameProcA
-user32.dll GetClassNameA
-user32.dll GetCaretBlinkTime
-user32.dll GetInputDesktop
-ntdll.dll RtlQueueWorkItem

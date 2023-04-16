@@ -1,3 +1,0 @@
-kernel32.dll CreateIoCompletionPort
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GetUserDefaultUILanguage

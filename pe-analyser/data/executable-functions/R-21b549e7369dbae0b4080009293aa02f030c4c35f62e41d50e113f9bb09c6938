@@ -1,3 +1,0 @@
-ws2_32.dll WSAAddressToStringA
-user32.dll GetClipboardSequenceNumber
-user32.dll GetInputState

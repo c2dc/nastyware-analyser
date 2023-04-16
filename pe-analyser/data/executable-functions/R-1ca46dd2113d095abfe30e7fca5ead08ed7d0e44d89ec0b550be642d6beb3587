@@ -1,6 +1,0 @@
-user32.dll SetCapture
-user32.dll GetClipboardOwner
-oleaut32.dll OleCreatePropertyFrameIndirect
-ntdll.dll ZwEnumerateBootEntries
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetSystemDefaultUILanguage

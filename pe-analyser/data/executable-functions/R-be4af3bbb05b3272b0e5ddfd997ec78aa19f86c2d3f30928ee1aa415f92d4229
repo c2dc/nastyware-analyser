@@ -1,6 +1,0 @@
-ole32.dll HDC_UserMarshal
-kernel32.dll MoveFileWithProgressA
-user32.dll GetDoubleClickTime
-user32.dll GetForegroundWindow
-user32.dll TrackMouseEvent
-shell32.dll SHExtractIconsW

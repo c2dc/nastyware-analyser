@@ -1,4 +1,0 @@
-advapi32.dll SetFileSecurityW
-user32.dll GetCaretBlinkTime
-user32.dll GetCursor
-kernel32.dll GetCurrentThread

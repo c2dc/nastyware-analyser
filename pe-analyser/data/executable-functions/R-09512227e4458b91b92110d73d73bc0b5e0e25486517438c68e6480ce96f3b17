@@ -1,6 +1,0 @@
-ntdll.dll NtQueryDirectoryObject
-ntdll.dll ZwAllocateUserPhysicalPages
-advapi32.dll InitiateSystemShutdownA
-user32.dll CreateDialogIndirectParamA
-user32.dll GetDialogBaseUnits
-kernel32.dll GetSystemDefaultLCID

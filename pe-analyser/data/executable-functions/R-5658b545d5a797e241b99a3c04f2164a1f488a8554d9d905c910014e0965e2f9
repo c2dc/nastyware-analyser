@@ -1,3 +1,0 @@
-ole32.dll CreateStreamOnHGlobal
-kernel32.dll GetCurrentProcessId
-kernel32.dll GetUserDefaultLCID

@@ -1,4 +1,0 @@
-ntdll.dll RtlFirstFreeAce
-kernel32.dll GetCurrentProcessId
-kernel32.dll GetCurrentProcess
-kernel32.dll GetConsoleWindow

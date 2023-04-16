@@ -1,6 +1,0 @@
-ntdll.dll RtlImpersonateSelf
-ntdll.dll RtlTimeToSecondsSince1970
-ole32.dll OleUninitialize
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GetProcessHeap
-user32.dll GetShellWindow

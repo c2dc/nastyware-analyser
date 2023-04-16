@@ -1,3 +1,0 @@
-advapi32.dll DestroyPrivateObjectSecurity
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetUserDefaultUILanguage

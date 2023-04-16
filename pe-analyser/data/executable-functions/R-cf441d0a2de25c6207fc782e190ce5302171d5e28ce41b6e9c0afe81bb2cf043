@@ -1,4 +1,0 @@
-ole32.dll HMETAFILEPICT_UserMarshal
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GetSystemDefaultUILanguage
-user32.dll GetCursor

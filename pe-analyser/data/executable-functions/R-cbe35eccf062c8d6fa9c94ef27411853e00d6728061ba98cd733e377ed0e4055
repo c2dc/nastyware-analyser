@@ -1,3 +1,0 @@
-oleaut32.dll VarMod
-user32.dll GetClipboardOwner
-user32.dll GetActiveWindow

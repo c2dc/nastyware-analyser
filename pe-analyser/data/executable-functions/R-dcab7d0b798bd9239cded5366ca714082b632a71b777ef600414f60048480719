@@ -1,4 +1,0 @@
-ntdll.dll RtlReleaseResource
-kernel32.dll GetCurrentThreadId
-kernel32.dll DeleteFileA
-user32.dll GetCursor

@@ -1,4 +1,0 @@
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetCommandLineA
-kernel32.dll GetThreadIOPendingFlag
-user32.dll GetCapture

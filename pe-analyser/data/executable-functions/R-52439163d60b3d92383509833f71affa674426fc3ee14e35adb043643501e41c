@@ -1,4 +1,0 @@
-ntdll.dll NtDeleteFile
-user32.dll GetActiveWindow
-user32.dll GetForegroundWindow
-kernel32.dll GetUserDefaultLangID

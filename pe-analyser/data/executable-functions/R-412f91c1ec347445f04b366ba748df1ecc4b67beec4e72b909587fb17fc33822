@@ -1,6 +1,0 @@
-oleaut32.dll VarR8FromI1
-kernel32.dll EnumTimeFormatsA
-kernel32.dll OpenMutexA
-ntdll.dll RtlCommitMemoryStream
-user32.dll GetOpenClipboardWindow
-user32.dll GetDialogBaseUnits

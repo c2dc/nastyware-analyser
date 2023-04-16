@@ -1,6 +1,0 @@
-shell32.dll ILSaveToStream
-ole32.dll OleQueryLinkFromData
-oleaut32.dll VarUdateFromDate
-user32.dll GetClipboardOwner
-kernel32.dll GetCommandLineW
-kernel32.dll GetSystemDefaultLCID

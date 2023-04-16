@@ -1,4 +1,0 @@
-advapi32.dll CreateProcessWithLogonW
-ntdll.dll RtlActivateActivationContextEx
-kernel32.dll GetUserDefaultUILanguage
-user32.dll GetMessagePos

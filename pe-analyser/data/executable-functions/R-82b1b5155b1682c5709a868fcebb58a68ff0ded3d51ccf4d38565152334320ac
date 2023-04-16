@@ -1,6 +1,0 @@
-advapi32.dll SetEntriesInAccessListW
-shell32.dll SHLoadInProc
-ntdll.dll RtlGetControlSecurityDescriptor
-ntdll.dll DbgUiIssueRemoteBreakin
-kernel32.dll GetProcessHeap
-user32.dll GetShellWindow

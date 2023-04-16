@@ -1,6 +1,0 @@
-user32.dll GetDesktopWindow
-user32.dll GetActiveWindow
-user32.dll GetClipboardViewer
-user32.dll GetUpdateRgn
-advapi32.dll FlushTraceA
-kernel32.dll CreateHardLinkW

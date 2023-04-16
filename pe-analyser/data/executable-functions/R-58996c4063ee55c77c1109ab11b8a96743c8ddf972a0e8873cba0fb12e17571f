@@ -1,7 +1,0 @@
-kernel32.dll GetModuleHandleA
-user32.dll IsWindowVisible
-advapi32.dll RegCreateKeyExA
-gdi32.dll DeleteObject
-winspool.drv ClosePrinter
-shell32.dll SHGetSpecialFolderPathA
-shlwapi.dll PathFileExistsA

@@ -1,3 +1,0 @@
-advapi32.dll RegisterServiceCtrlHandlerA
-user32.dll GetClipboardOwner
-kernel32.dll GetThreadLocale

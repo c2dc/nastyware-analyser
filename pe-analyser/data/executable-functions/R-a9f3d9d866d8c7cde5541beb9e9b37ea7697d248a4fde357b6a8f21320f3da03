@@ -1,4 +1,0 @@
-oleaut32.dll GetVarConversionLocaleSetting
-kernel32.dll GetLastError
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetCommandLineW

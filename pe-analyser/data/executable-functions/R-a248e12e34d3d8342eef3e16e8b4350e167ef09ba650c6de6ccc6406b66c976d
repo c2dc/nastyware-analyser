@@ -1,3 +1,0 @@
-advapi32.dll LsaEnumerateAccountRights
-kernel32.dll GetCurrentProcessId
-user32.dll GetDesktopWindow

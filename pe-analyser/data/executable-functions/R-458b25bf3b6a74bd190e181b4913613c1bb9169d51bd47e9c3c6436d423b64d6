@@ -1,6 +1,0 @@
-ntdll.dll RtlConvertLongToLargeInteger
-ws2_32.dll bind
-kernel32.dll GetThreadLocale
-kernel32.dll FindFirstChangeNotificationA
-user32.dll GetMenuItemInfoA
-user32.dll GetCapture

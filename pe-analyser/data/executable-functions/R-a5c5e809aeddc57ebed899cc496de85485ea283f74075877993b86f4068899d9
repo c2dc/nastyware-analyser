@@ -1,7 +1,0 @@
-ntdll.dll ZwEnumerateKey
-user32.dll AdjustWindowRect
-user32.dll ShowWindow
-user32.dll GetMessagePos
-user32.dll GetClipboardOwner
-oleaut32.dll BSTR_UserFree
-kernel32.dll GetCommandLineA

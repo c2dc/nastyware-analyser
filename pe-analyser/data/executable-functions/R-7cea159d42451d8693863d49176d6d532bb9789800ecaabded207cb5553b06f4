@@ -1,6 +1,0 @@
-oleaut32.dll VarR8FromDisp
-advapi32.dll CryptEnumProviderTypesW
-ntdll.dll RtlSetProcessIsCritical
-kernel32.dll GetCommandLineW
-kernel32.dll GetUserDefaultLCID
-user32.dll GetProcessWindowStation

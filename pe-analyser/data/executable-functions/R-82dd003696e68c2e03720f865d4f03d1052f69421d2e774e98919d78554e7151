@@ -1,7 +1,0 @@
-kernel32.dll ReadConsoleOutputA
-kernel32.dll DebugBreakProcess
-kernel32.dll GetSystemDefaultLCID
-advapi32.dll GetTraceEnableLevel
-advapi32.dll UninstallApplication
-user32.dll GetProcessWindowStation
-user32.dll GetActiveWindow

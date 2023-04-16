@@ -1,3 +1,0 @@
-kernel32.dll CheckRemoteDebuggerPresent
-kernel32.dll GetCurrentProcessId
-user32.dll GetDesktopWindow

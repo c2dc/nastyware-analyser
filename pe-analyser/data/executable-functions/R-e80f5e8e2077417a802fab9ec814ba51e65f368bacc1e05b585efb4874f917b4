@@ -1,5 +1,0 @@
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetProcAddress
-kernel32.dll CopyFileW
-user32.dll GetActiveWindow
-user32.dll GetClipboardViewer

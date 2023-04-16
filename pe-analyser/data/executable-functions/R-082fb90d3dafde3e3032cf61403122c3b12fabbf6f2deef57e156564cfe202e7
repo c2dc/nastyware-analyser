@@ -1,6 +1,0 @@
-advapi32.dll SystemFunction029
-advapi32.dll LockServiceDatabase
-user32.dll GetShellWindow
-user32.dll GetDoubleClickTime
-user32.dll DdeQueryStringA
-kernel32.dll GetCurrentProcess

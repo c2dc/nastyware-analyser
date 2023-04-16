@@ -1,5 +1,0 @@
-oleaut32.dll LoadTypeLib
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll GetConsoleWindow
-kernel32.dll GetVolumeNameForVolumeMountPointA
-user32.dll GetForegroundWindow

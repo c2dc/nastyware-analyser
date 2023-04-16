@@ -1,4 +1,0 @@
-ntdll.dll RtlAddRefActivationContext
-ntdll.dll RtlWalkHeap
-kernel32.dll GetCurrentProcessId
-user32.dll GetForegroundWindow

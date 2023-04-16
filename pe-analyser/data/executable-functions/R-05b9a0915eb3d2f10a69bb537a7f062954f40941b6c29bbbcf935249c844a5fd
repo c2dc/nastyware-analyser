@@ -1,5 +1,0 @@
-user32.dll GetDoubleClickTime
-user32.dll DdeSetQualityOfService
-user32.dll GetShellWindow
-advapi32.dll OpenSCManagerW
-kernel32.dll GetCurrentProcess

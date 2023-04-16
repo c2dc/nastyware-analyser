@@ -1,8 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-msvcrt.dll free
-gdi32.dll SelectObject
-oleaut32.dll SysFreeString
-user32.dll GetDC
-ole32.dll CoTaskMemFree
-advapi32.dll RegCloseKey

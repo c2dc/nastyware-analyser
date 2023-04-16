@@ -1,3 +1,0 @@
-kernel32.dll GetSystemWindowsDirectoryA
-kernel32.dll GetCommandLineA
-user32.dll GetMessageTime

@@ -1,5 +1,0 @@
-ole32.dll CoGetInterceptorFromTypeInfo
-ntdll.dll RtlSetControlSecurityDescriptor
-oleaut32.dll VarCyFromR8
-kernel32.dll GetProcessHeap
-user32.dll GetForegroundWindow

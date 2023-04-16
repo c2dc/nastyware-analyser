@@ -1,5 +1,0 @@
-ntdll.dll NtSetDebugFilterState
-ntdll.dll NtQueryEvent
-user32.dll GetDesktopWindow
-user32.dll TranslateMessage
-kernel32.dll GetConsoleWindow

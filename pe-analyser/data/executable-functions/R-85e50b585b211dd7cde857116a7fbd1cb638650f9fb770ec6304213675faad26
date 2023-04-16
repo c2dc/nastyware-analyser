@@ -1,5 +1,0 @@
-ole32.dll HMETAFILEPICT_UserSize
-shell32.dll SHObjectProperties
-user32.dll GetMessagePos
-user32.dll GetCursor
-kernel32.dll GetCurrentProcess

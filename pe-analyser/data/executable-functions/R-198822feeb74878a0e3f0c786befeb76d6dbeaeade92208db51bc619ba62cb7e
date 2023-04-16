@@ -1,7 +1,0 @@
-kernel32.dll HeapReAlloc
-kernel32.dll GetThreadLocale
-ntdll.dll RtlDeleteResource
-oleaut32.dll VarUI4FromCy
-ole32.dll UtConvertDvtd16toDvtd32
-user32.dll GetMessageTime
-user32.dll GetInputState

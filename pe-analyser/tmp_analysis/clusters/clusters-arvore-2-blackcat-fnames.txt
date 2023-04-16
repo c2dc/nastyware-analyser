@@ -1,1 +1,0 @@
-G-migisol.dll,R-Blackcat-1.exe,R-Blackcat-2.exe,R-LockBit_14_02_2021.sample,R-Lockbit.sample,R-e9cd6a0c902f16486ed4b3b3613d821e68773a76fb18c17ba1dfed33fc701036.exe,R-98bd9ce6256c71da1189ff7552bc318b6e9e2e895612248601581b32d85a8e8b.exe

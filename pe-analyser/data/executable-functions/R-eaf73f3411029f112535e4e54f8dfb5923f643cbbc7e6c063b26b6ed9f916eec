@@ -1,5 +1,0 @@
-kernel32.dll SetHandleInformation
-ntdll.dll RtlUnlockMemoryStreamRegion
-ntdll.dll RtlCreateTimerQueue
-user32.dll GetForegroundWindow
-user32.dll GetMessageTime

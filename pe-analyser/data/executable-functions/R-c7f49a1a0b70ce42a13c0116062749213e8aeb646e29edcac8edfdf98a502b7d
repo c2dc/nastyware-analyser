@@ -1,3 +1,0 @@
-kernel32.dll FreeResource
-kernel32.dll GetSystemDefaultLCID
-user32.dll GetDialogBaseUnits

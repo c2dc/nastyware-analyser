@@ -1,4 +1,0 @@
-user32.dll GetWindowDC
-user32.dll FillRect
-kernel32.dll GetCommandLineW
-kernel32.dll GetSystemDefaultLangID

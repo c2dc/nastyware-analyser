@@ -1,5 +1,0 @@
-ole32.dll OleSetMenuDescriptor
-user32.dll GetDesktopWindow
-user32.dll EnumDesktopWindows
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetProcessHeap

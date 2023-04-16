@@ -1,7 +1,0 @@
-kernel32.dll GetDiskFreeSpaceA
-kernel32.dll GetLogicalDrives
-user32.dll GetMenuCheckMarkDimensions
-user32.dll GetLastActivePopup
-user32.dll GetDoubleClickTime
-user32.dll GetMessageExtraInfo
-ole32.dll OleLoadFromStream

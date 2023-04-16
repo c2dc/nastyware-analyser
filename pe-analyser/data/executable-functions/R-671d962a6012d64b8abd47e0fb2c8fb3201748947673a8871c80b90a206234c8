@@ -1,4 +1,0 @@
-oleaut32.dll VarI1FromUI2
-ntdll.dll RtlEncodePointer
-kernel32.dll GetCurrentProcess
-user32.dll GetInputState

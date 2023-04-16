@@ -1,5 +1,0 @@
-user32.dll GetDoubleClickTime
-user32.dll IsWindow
-kernel32.dll GetUserDefaultLCID
-kernel32.dll WriteTapemark
-kernel32.dll GetCurrentProcess

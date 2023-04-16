@@ -1,5 +1,0 @@
-shell32.dll SHAddToRecentDocs
-oleaut32.dll VarR4FromDec
-user32.dll GetMenuCheckMarkDimensions
-user32.dll GetFocus
-kernel32.dll GetSystemDefaultLCID

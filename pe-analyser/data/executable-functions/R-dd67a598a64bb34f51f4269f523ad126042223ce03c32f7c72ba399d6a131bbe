@@ -1,7 +1,0 @@
-kernel32.dll GetConsoleWindow
-kernel32.dll EnumLanguageGroupLocalesA
-kernel32.dll GetUserDefaultLangID
-advapi32.dll SystemFunction020
-ntdll.dll NtFlushVirtualMemory
-user32.dll MessageBoxTimeoutA
-user32.dll GetFocus

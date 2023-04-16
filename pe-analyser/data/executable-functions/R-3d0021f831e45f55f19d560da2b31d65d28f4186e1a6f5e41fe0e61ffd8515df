@@ -1,6 +1,0 @@
-advapi32.dll RegEnumKeyA
-advapi32.dll RegOpenKeyW
-ole32.dll OleCreateStaticFromData
-ntdll.dll NtLockRegistryKey
-user32.dll GetOpenClipboardWindow
-user32.dll GetMessagePos

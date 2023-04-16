@@ -1,4 +1,0 @@
-shell32.dll SHGetNewLinkInfoA
-user32.dll GetCaretBlinkTime
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetConsoleWindow

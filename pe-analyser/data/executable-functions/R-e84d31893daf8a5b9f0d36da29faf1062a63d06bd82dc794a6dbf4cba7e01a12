@@ -1,4 +1,0 @@
-ntdll.dll RtlDosSearchPath_U
-shell32.dll SHDefExtractIconA
-kernel32.dll GetUserDefaultUILanguage
-user32.dll GetMessagePos

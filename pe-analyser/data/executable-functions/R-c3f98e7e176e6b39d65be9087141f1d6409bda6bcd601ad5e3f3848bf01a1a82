@@ -1,4 +1,0 @@
-shell32.dll SHEmptyRecycleBinW
-user32.dll GetCursor
-user32.dll GetShellWindow
-kernel32.dll GetProcessHeap

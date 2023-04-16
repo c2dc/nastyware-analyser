@@ -1,4 +1,0 @@
-ole32.dll OleCreateLink
-kernel32.dll EnumSystemLanguageGroupsA
-user32.dll GetKBCodePage
-user32.dll GetInputState

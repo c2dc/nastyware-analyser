@@ -1,7 +1,0 @@
-user32.dll GetInputDesktop
-user32.dll GetMenuCheckMarkDimensions
-user32.dll CheckMenuItem
-ole32.dll CLIPFORMAT_UserMarshal
-oleaut32.dll SafeArrayCreate
-ntdll.dll RtlExitUserThread
-kernel32.dll GetUserDefaultUILanguage

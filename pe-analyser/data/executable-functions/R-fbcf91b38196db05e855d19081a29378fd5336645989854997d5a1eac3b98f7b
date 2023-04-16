@@ -1,4 +1,0 @@
-user32.dll ImpersonateDdeClientWindow
-user32.dll GetFocus
-oleaut32.dll VarR8FromDisp
-kernel32.dll GetConsoleWindow

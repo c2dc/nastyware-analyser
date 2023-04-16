@@ -1,5 +1,0 @@
-advapi32.dll LsaSetSystemAccessAccount
-advapi32.dll LsaOpenPolicy
-user32.dll GetInputState
-user32.dll SetTimer
-kernel32.dll GetCurrentThread

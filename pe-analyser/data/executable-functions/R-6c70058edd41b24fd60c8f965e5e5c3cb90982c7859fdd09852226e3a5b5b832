@@ -1,6 +1,0 @@
-ntdll.dll RtlCopySid
-kernel32.dll GetSystemDefaultLCID
-kernel32.dll OpenMutexA
-kernel32.dll Heap32First
-user32.dll GetMenuCheckMarkDimensions
-user32.dll GetActiveWindow

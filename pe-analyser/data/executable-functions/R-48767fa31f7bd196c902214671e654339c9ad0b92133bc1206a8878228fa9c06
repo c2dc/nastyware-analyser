@@ -1,4 +1,0 @@
-shell32.dll SHGetDataFromIDListW
-kernel32.dll GetLastError
-kernel32.dll GetCurrentThreadId
-kernel32.dll GetSystemDefaultLCID

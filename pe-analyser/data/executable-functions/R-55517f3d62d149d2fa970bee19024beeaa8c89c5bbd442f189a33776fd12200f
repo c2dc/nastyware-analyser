@@ -1,4 +1,0 @@
-user32.dll GetMessageExtraInfo
-user32.dll DdeCreateDataHandle
-kernel32.dll GetCommandLineW
-kernel32.dll GetCurrentProcessId

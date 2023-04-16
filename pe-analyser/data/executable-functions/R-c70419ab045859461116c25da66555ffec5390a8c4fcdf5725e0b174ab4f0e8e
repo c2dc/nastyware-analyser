@@ -1,5 +1,0 @@
-ntdll.dll KiUserApcDispatcher
-user32.dll GetClipboardSequenceNumber
-user32.dll ChildWindowFromPoint
-user32.dll GetDoubleClickTime
-user32.dll GetMenuCheckMarkDimensions

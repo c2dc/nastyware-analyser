@@ -1,4 +1,0 @@
-kernel32.dll LeaveCriticalSection
-kernel32.dll GetSystemDefaultUILanguage
-ole32.dll OleQueryLinkFromData
-user32.dll GetMessageExtraInfo

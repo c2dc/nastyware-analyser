@@ -1,7 +1,0 @@
-user32.dll KillTimer
-user32.dll GetDesktopWindow
-user32.dll CopyAcceleratorTableA
-user32.dll AppendMenuA
-kernel32.dll WriteConsoleOutputCharacterA
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetUserDefaultUILanguage

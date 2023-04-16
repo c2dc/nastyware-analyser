@@ -1,6 +1,0 @@
-kernel32.dll SetFirmwareEnvironmentVariableA
-kernel32.dll GetCurrentProcess
-kernel32.dll CreateFileMappingA
-advapi32.dll SystemFunction021
-advapi32.dll SystemFunction004
-user32.dll GetMessageTime

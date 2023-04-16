@@ -1,6 +1,0 @@
-ole32.dll DoDragDrop
-kernel32.dll EnumResourceLanguagesA
-user32.dll GetCursor
-user32.dll GetMenuContextHelpId
-user32.dll GetForegroundWindow
-oleaut32.dll VarBstrFromR4

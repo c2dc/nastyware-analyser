@@ -1,4 +1,0 @@
-advapi32.dll ControlTraceW
-advapi32.dll SystemFunction036
-user32.dll GetFocus
-kernel32.dll GetCurrentThreadId

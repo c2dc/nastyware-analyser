@@ -1,5 +1,0 @@
-ntdll.dll NtSaveKeyEx
-kernel32.dll SetThreadIdealProcessor
-kernel32.dll DebugBreak
-user32.dll GetShellWindow
-user32.dll GetMenuCheckMarkDimensions

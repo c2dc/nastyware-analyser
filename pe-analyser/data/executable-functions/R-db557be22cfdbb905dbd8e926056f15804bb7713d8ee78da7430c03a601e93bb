@@ -1,6 +1,0 @@
-kernel32.dll GetModuleHandleA
-user32.dll wsprintfA
-advapi32.dll RegOpenKeyExA
-shell32.dll ShellAboutW
-comctl32.dll DSA_Create
-shlwapi.dll PathFileExistsW

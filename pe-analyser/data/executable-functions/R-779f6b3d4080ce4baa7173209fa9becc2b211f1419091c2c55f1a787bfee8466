@@ -1,5 +1,0 @@
-user32.dll GetInputState
-user32.dll SetSystemCursor
-user32.dll GetDoubleClickTime
-kernel32.dll TerminateProcess
-kernel32.dll FindFirstFileExA

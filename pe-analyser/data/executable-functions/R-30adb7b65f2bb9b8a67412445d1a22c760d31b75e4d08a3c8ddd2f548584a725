@@ -1,5 +1,0 @@
-ntdll.dll RtlIpv6StringToAddressExW
-ntdll.dll NtTestAlert
-user32.dll GetClipboardOwner
-user32.dll GetClipboardViewer
-user32.dll AdjustWindowRect

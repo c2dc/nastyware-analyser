@@ -1,4 +1,0 @@
-oleaut32.dll OleCreatePictureIndirect
-user32.dll GetDoubleClickTime
-kernel32.dll GetCommandLineW
-kernel32.dll GetCurrentProcessId

@@ -1,5 +1,0 @@
-oleaut32.dll VarCyFromBool
-kernel32.dll GetCommandLineA
-kernel32.dll GetLastError
-kernel32.dll BuildCommDCBAndTimeoutsA
-user32.dll GetCursor

@@ -1,3 +1,0 @@
-kernel32.dll CreateFileA
-kernel32.dll ExitProcess
-comctl32.dll InitCommonControls

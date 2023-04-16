@@ -1,5 +1,0 @@
-ntdll.dll NtOpenSemaphore
-advapi32.dll CreateProcessWithLogonW
-shell32.dll SHGetSetSettings
-user32.dll GetDesktopWindow
-kernel32.dll GetCurrentProcessId

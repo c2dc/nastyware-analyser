@@ -1,6 +1,0 @@
-ntdll.dll ZwUnloadDriver
-user32.dll SetWindowTextA
-user32.dll GetMenuCheckMarkDimensions
-kernel32.dll BuildCommDCBAndTimeoutsA
-kernel32.dll GetSystemDefaultLCID
-kernel32.dll QueryActCtxW

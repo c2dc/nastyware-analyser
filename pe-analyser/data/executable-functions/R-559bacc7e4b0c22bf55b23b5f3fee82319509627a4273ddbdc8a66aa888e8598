@@ -1,5 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-msvcrt.dll free
-ntdll.dll NtClose
-user32.dll WinHelpW

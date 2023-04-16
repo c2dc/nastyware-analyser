@@ -1,3 +1,0 @@
-user32.dll GetClipboardViewer
-user32.dll GetUserObjectInformationA
-kernel32.dll GetLastError

@@ -1,3 +1,0 @@
-kernel32.dll EraseTape
-user32.dll GetMessagePos
-user32.dll GetMenuCheckMarkDimensions

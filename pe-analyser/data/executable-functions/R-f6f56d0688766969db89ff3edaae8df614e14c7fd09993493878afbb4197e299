@@ -1,5 +1,0 @@
-advapi32.dll StartServiceCtrlDispatcherW
-advapi32.dll GetCurrentHwProfileA
-advapi32.dll ControlTraceW
-kernel32.dll GetCurrentProcessId
-user32.dll GetMenuCheckMarkDimensions

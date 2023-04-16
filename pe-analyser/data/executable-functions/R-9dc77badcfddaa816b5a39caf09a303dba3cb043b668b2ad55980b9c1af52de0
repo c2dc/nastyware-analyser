@@ -1,4 +1,0 @@
-ntdll.dll ZwQueryInstallUILanguage
-user32.dll GetClipboardViewer
-user32.dll DialogBoxParamA
-user32.dll GetClipboardOwner

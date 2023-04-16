@@ -1,6 +1,0 @@
-ntdll.dll RtlCreateTimerQueue
-ole32.dll CreateAntiMoniker
-kernel32.dll Heap32ListFirst
-kernel32.dll GetProcessHeap
-user32.dll GetOpenClipboardWindow
-user32.dll GetDialogBaseUnits

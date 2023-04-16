@@ -1,6 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-msvcrt.dll free
-advapi32.dll TraceEvent
-user32.dll CharNextW
-oleaut32.dll VarUI4FromStr

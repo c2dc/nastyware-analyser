@@ -1,2 +1,0 @@
-kernel32.dll LoadLibraryA
-kernel32.dll GetProcAddress

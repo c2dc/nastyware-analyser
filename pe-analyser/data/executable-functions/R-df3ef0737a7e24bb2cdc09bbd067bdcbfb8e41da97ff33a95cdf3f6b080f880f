@@ -1,6 +1,0 @@
-kernel32.dll InterlockedFlushSList
-user32.dll DdePostAdvise
-user32.dll GetForegroundWindow
-user32.dll GetInputState
-advapi32.dll SystemFunction017
-ntdll.dll RtlIpv6AddressToStringExW

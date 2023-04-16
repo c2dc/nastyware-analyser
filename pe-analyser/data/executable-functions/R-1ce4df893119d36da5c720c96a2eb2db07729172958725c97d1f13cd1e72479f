@@ -1,6 +1,0 @@
-ntdll.dll RtlIsDosDeviceName_U
-ntdll.dll LdrSetAppCompatDllRedirectionCallback
-kernel32.dll GetCurrentProcessId
-kernel32.dll GetConsoleWindow
-kernel32.dll GetExitCodeThread
-user32.dll GetMessagePos

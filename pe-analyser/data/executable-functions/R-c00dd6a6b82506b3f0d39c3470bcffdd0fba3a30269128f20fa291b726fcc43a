@@ -1,4 +1,0 @@
-kernel32.dll GetSystemDefaultLangID
-kernel32.dll WriteProfileSectionW
-user32.dll GetCaretBlinkTime
-user32.dll GetInputState
