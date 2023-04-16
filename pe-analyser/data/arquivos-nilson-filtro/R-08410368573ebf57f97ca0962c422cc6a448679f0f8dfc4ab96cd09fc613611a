@@ -1,5 +1,0 @@
-oleaut32.dll VarDecFromI2
-oleaut32.dll VarI4FromDec
-user32.dll GetClipboardSequenceNumber
-user32.dll GetMessageTime
-kernel32.dll GetCurrentProcess

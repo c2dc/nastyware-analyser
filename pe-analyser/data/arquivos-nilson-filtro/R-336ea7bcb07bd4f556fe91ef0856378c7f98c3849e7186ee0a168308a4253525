@@ -1,4 +1,0 @@
-kernel32.dll GetModuleHandleA
-kernel32.dll GetProcAddress
-winmm.dll DefDriverProc
-user32.dll MessageBoxA

@@ -1,6 +1,0 @@
-kernel32.dll FormatMessageA
-user32.dll SubtractRect
-user32.dll GetFocus
-user32.dll IsRectEmpty
-user32.dll GetMessageExtraInfo
-oleaut32.dll VarI2FromDec

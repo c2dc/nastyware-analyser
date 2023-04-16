@@ -1,5 +1,0 @@
-kernel32.dll GetUserDefaultLCID
-kernel32.dll GetThreadLocale
-kernel32.dll FlushInstructionCache
-ntdll.dll NtContinue
-user32.dll GetMessageExtraInfo

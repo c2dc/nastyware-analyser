@@ -1,5 +1,0 @@
-ntdll.dll NtDelayExecution
-api-ms-win-core-errorhandling-l1-1-0.dll GetLastError
-api-ms-win-core-processthreads-l1-1-0.dll ExitProcess
-api-ms-win-core-libraryloader-l1-1-0.dll LoadLibraryExW
-api-ms-win-core-libraryloader-l1-1-0.dll FreeLibrary

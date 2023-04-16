@@ -1,6 +1,0 @@
-kernel32.dll GetLogicalDriveStringsA
-kernel32.dll GetUserDefaultUILanguage
-ntdll.dll ZwOpenProcess
-advapi32.dll GetAccessPermissionsForObjectW
-ole32.dll StgIsStorageFile
-user32.dll GetMenuCheckMarkDimensions

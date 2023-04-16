@@ -1,4 +1,0 @@
-ntdll.dll ZwOpenMutant
-user32.dll GetMenuCheckMarkDimensions
-kernel32.dll GetProcessHeap
-kernel32.dll GetVersion

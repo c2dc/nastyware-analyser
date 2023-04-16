@@ -1,4 +1,0 @@
-kernel32.dll GetSystemDefaultUILanguage
-kernel32.dll GetStartupInfoW
-kernel32.dll GetUserDefaultLCID
-ole32.dll OleCreateLinkFromData

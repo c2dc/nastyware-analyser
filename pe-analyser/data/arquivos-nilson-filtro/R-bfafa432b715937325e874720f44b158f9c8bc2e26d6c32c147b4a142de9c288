@@ -1,7 +1,0 @@
-user32.dll WINNLSEnableIME
-user32.dll GetDlgItem
-user32.dll GetDesktopWindow
-user32.dll GetNextDlgGroupItem
-ntdll.dll NlsMbOemCodePageTag
-kernel32.dll GetCurrentProcess
-kernel32.dll GetCurrentThread
