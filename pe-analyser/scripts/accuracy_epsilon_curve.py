@@ -10,6 +10,20 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
 import matplotlib.pyplot as plt
 
+TRAIN_DIR = '/archive/files/nastyware-files-mix/mix-import/'
+TEST_DIR = ''
+# TRAIN_DIR = '/archive/files/import-small-dir/'
+TEST_MALWARE_DIR = '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
+TEST_GOODWARE_DIR = '/archive/files/nastyware-files/import-windows-server-2019/'
+
+acc_dt = []
+acc_mw_dt = []
+acc_gw_dt = []
+acc_sd = []
+mostly_malware_clusters = []
+
+cluster_alg = 'fastgreedy'
+
 def ld_data(dir_name, files, label=None):
     # Load data in files from directory dir_name in a pandas dataframe
     df = pd.DataFrame()
@@ -17,7 +31,7 @@ def ld_data(dir_name, files, label=None):
         funcs = []
         with open(os.path.join(dir_name, filename), 'r') as f:
             lines = f.read().splitlines()
-            
+
             for line in lines:
                 lib, func = line.split(' ')
                 if '@' in func or '?' in func:
@@ -30,8 +44,16 @@ def ld_data(dir_name, files, label=None):
 
                 funcs.append(func)
 
-        # label = 'MALWARE' if filename.startswith('R') else 'GOODWARE'
+        # TODO: Gambiarra
+        if label == None:
+            label = 'MALWARE' if filename.startswith('R-') else 'GOODWARE'
+
         df = pd.concat([df, pd.DataFrame({'filename': filename, 'label': label, 'funcs': ' '.join(funcs)}, index=[0])], ignore_index=True)
+
+        # TODO: Gambiarra
+        if label == 'MALWARE' or label == 'GOODWARE':
+            label = None
+
     return df
 
 # Functions that occur in all malwares in the cluster
@@ -83,7 +105,6 @@ def predict_similarity_difference(file_functions_set, plus_functions_set_list, m
 func_dict = {}
 
 def dt_classification(epsilon):
-    
     malware_clusters_df = [ld_data(TRAIN_DIR, cluster, str(i)) for i, cluster in enumerate(mostly_malware_clusters)]
     rest_df = ld_data(TRAIN_DIR, [f for f in os.listdir(TRAIN_DIR) if not any([f in cluster for cluster in mostly_malware_clusters])], '-1')
     df = pd.concat([rest_df] + malware_clusters_df, ignore_index=True)
@@ -93,9 +114,14 @@ def dt_classification(epsilon):
     classifier = DecisionTreeClassifier(criterion='entropy')
     classifier.fit(df_vectors, df['label'])
 
-    test_mw = ld_data(TEST_MALWARE_DIR, os.listdir(TEST_MALWARE_DIR), 'MALWARE')
-    test_gw = ld_data(TEST_GOODWARE_DIR, os.listdir(TEST_GOODWARE_DIR), 'GOODWARE')
-    test_df = pd.concat([test_mw, test_gw], ignore_index=True)
+    if TEST_DIR != '':
+        test_df = ld_data(TEST_DIR, os.listdir(TEST_DIR))
+        test_mw = test_df[test_df['label'] == 'MALWARE']
+        test_gw = test_df[test_df['label'] == 'GOODWARE']
+    else:
+        test_mw = ld_data(TEST_MALWARE_DIR, os.listdir(TEST_MALWARE_DIR), 'MALWARE')
+        test_gw = ld_data(TEST_GOODWARE_DIR, os.listdir(TEST_GOODWARE_DIR), 'GOODWARE')
+        test_df = pd.concat([test_mw, test_gw], ignore_index=True)
 
     test_mw_vectors = vectorizer.transform(test_mw['funcs']).ceil()
     test_gw_vectors = vectorizer.transform(test_gw['funcs']).ceil()
@@ -125,52 +151,96 @@ def sd_classification(epsilon):
 
     return accuracy_score(test_label, pred)
 
-TRAIN_DIR = '/archive/files/nastyware-files-mix/mix-import/'
-# TRAIN_DIR = '/archive/files/import-small-dir/'
-TEST_MALWARE_DIR = '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
-TEST_GOODWARE_DIR = '/archive/files/nastyware-files/import-windows-server-2019/'
+def get_accuracy_epsilon_curve(train_dir, test_dir):
+    global TRAIN_DIR
+    global TEST_DIR
+    global mostly_malware_clusters
 
-acc_dt = []
-acc_mw_dt = []
-acc_gw_dt = []
-acc_sd = []
-mostly_malware_clusters = []
+    TRAIN_DIR = train_dir
+    TEST_DIR = test_dir
 
-cluster_alg = 'fastgreedy'
-
-lines = open(f'./node_clustering_{cluster_alg}.txt', 'r').readlines()
-lines = lines[1:]
-clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
-
-xx = np.linspace(0.1, 1, 10)
-
-for epsilon in xx:
-    print(f'Processing epsilon {epsilon} / {xx[-1]}', end='\r')
-
+    acc_dt = []
+    acc_mw_dt = []
+    acc_gw_dt = []
     mostly_malware_clusters = []
-    for cluster in clusters:
-        if len(cluster) > 1:
-            malware_count = 0
-            for node in cluster:
-                if node.startswith('R-'):
-                    malware_count += 1
-            if malware_count >= epsilon * len(cluster):
-                mostly_malware_clusters.append(cluster)
 
-    acc_tot, acc_mw, acc_gw = dt_classification(epsilon)
-    acc_dt.append(acc_tot)
-    acc_mw_dt.append(acc_mw)
-    acc_gw_dt.append(acc_gw)
-    # acc_sd.append(sd_classification(epsilon))
+    cluster_alg = 'fastgreedy'
 
-print()
+    lines = open(f'./node_clustering_{cluster_alg}.txt', 'r').readlines()
+    lines = lines[1:]
+    clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
 
-# Plot the results varying epsilon
-plt.plot(xx, acc_dt, label='Decision Tree (Total)')
-plt.plot(xx, acc_mw_dt, label='Decision Tree (Malware)')
-plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware)')
-# plt.plot(xx, acc_sd, label='Similarity Difference')
-plt.xlabel('Epsilon')
-plt.ylabel('Accuracy')
-plt.legend()
-plt.savefig(f'out/epsilon_accuracy_{cluster_alg}.png')
+    xx = np.linspace(0.1, 1, 10)
+
+    for epsilon in xx:
+        print(f'Processing epsilon {epsilon} / {xx[-1]}', end='\r')
+
+        mostly_malware_clusters = []
+        for cluster in clusters:
+            if len(cluster) > 1:
+                malware_count = 0
+                for node in cluster:
+                    if node.startswith('R-'):
+                        malware_count += 1
+                if malware_count >= epsilon * len(cluster):
+                    mostly_malware_clusters.append(cluster)
+
+        acc_tot, acc_mw, acc_gw = dt_classification(epsilon)
+        acc_dt.append(acc_tot)
+        acc_mw_dt.append(acc_mw)
+        acc_gw_dt.append(acc_gw)
+
+    print()
+
+    plt.clf()
+    # Plot the results varying epsilon
+    plt.plot(xx, acc_dt, label='Decision Tree (Total)')
+    plt.plot(xx, acc_mw_dt, label='Decision Tree (Malware)')
+    plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware)')
+    # plt.plot(xx, acc_sd, label='Similarity Difference')
+    plt.grid()
+    plt.xlabel('Epsilon')
+    plt.ylabel('Accuracy')
+    plt.legend()
+    plt.savefig(f'out/epsilon_accuracy_{cluster_alg}.png')
+    return acc_dt, acc_mw_dt, acc_gw_dt
+
+
+if __name__ == '__main__':
+    lines = open(f'./node_clustering_{cluster_alg}.txt', 'r').readlines()
+    lines = lines[1:]
+    clusters = [[el.strip() for el in line.strip().split(',') if not el.strip().startswith('-')] for line in lines]
+
+    xx = np.linspace(0.1, 1, 10)
+
+    for epsilon in xx:
+        print(f'Processing epsilon {epsilon} / {xx[-1]}', end='\r')
+
+        mostly_malware_clusters = []
+        for cluster in clusters:
+            if len(cluster) > 1:
+                malware_count = 0
+                for node in cluster:
+                    if node.startswith('R-'):
+                        malware_count += 1
+                if malware_count >= epsilon * len(cluster):
+                    mostly_malware_clusters.append(cluster)
+
+        acc_tot, acc_mw, acc_gw = dt_classification(epsilon)
+        acc_dt.append(acc_tot)
+        acc_mw_dt.append(acc_mw)
+        acc_gw_dt.append(acc_gw)
+        # acc_sd.append(sd_classification(epsilon))
+
+    print()
+
+    # Plot the results varying epsilon
+    plt.plot(xx, acc_dt, label='Decision Tree (Total)')
+    plt.plot(xx, acc_mw_dt, label='Decision Tree (Malware)')
+    plt.plot(xx, acc_gw_dt, label='Decision Tree (Goodware)')
+    # plt.plot(xx, acc_sd, label='Similarity Difference')
+    plt.grid()
+    plt.xlabel('Epsilon')
+    plt.ylabel('Accuracy')
+    plt.legend()
+    plt.savefig(f'out/epsilon_accuracy_{cluster_alg}.png')

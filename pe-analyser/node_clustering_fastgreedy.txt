@@ -1,0 +1,9 @@
+Clustering with 42 elements and 8 clusters
+-2, -3, -4, -5, -6, -7, -8, -9, -10, G-Microsoft.Transactions.Bridge.dll, R-09f886079111e9f43ece7c64d2636e55149899597911b91a6b27dd560594a1f1.exe, R-1ce0db3fa01d212a3894f6e9a359f9c86815637603a31a4d743d1d4b087d1945.exe, R-3188d9a42da8ee0062410ee4a0e61acf289811c528092b9158e8f805d299eb3a.exe, R-52ca1dc8d708f230c82c5695a6af672c5f214f5d8a7df62b9f07930488a7c9ed.exe, R-62ed61971c25cdb6b20b7408c0047a33c431c1ef636184fdf5dbaf979319edaf.exe, R-7fbc2450a78cb9a8b033dd654c2b2378a7e9f3ea7f89bd0db57f907685a2c4cf.exe, R-a3fa345d4d272ddb13e0e3141bf18eac8521acaf8eb2eff8d3395f056740c2bd.exe, R-abd18b2d7cfc702e56442f2549808b301f2e0fc214cdf2230d5fbefc9620fd42.exe, R-cacfd3f384737f85e02f8c4dfad0689a71b228c8b930995c24da43582f688a64.exe
+-11, -12, G-vdrvroot.sys
+-13, G-newdev.exe
+-14, -15, G-WpdMtpIP.dll
+-16, G-ConsentUX.dll, G-NetworkDesktopSettings.dll
+-17, -19, G-UserDataTypeHelperUtil.dll, G-odexl32.dll
+-18, G-EP0LXFPS.DLL, G-wbemprox.dll
+-20, -21, G-msexcl40.dll, R-f1b8db9b03a5cb348d275cb285f06f3a224042d333f9eeb283fb6f4e079235d4.dll, R-8110e38afd33797465ab43841b1c54abff7a25acc30fa27c2623966750d34737.dll

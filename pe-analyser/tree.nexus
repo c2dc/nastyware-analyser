@@ -1,0 +1,33 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	'G-ConsentUX.dll'[&!color=#000000]
+	'G-EP0LXFPS.DLL'[&!color=#000000]
+	'G-Microsoft.Transactions.Bridge.dll'[&!color=#000000]
+	'G-NetworkDesktopSettings.dll'[&!color=#000000]
+	'G-UserDataTypeHelperUtil.dll'[&!color=#000000]
+	'G-WpdMtpIP.dll'[&!color=#000000]
+	'G-msexcl40.dll'[&!color=#000000]
+	'G-newdev.exe'[&!color=#000000]
+	'G-odexl32.dll'[&!color=#000000]
+	'G-vdrvroot.sys'[&!color=#000000]
+	'G-wbemprox.dll'[&!color=#000000]
+	'R-09f886079111e9f43ece7c64d2636e55149899597911b91a6b27dd560594a1f1.exe'[&!color=#000000]
+	'R-1ce0db3fa01d212a3894f6e9a359f9c86815637603a31a4d743d1d4b087d1945.exe'[&!color=#000000]
+	'R-3188d9a42da8ee0062410ee4a0e61acf289811c528092b9158e8f805d299eb3a.exe'[&!color=#000000]
+	'R-52ca1dc8d708f230c82c5695a6af672c5f214f5d8a7df62b9f07930488a7c9ed.exe'[&!color=#000000]
+	'R-62ed61971c25cdb6b20b7408c0047a33c431c1ef636184fdf5dbaf979319edaf.exe'[&!color=#000000]
+	'R-7fbc2450a78cb9a8b033dd654c2b2378a7e9f3ea7f89bd0db57f907685a2c4cf.exe'[&!color=#000000]
+	'R-8110e38afd33797465ab43841b1c54abff7a25acc30fa27c2623966750d34737.dll'[&!color=#000000]
+	'R-a3fa345d4d272ddb13e0e3141bf18eac8521acaf8eb2eff8d3395f056740c2bd.exe'[&!color=#000000]
+	'R-abd18b2d7cfc702e56442f2549808b301f2e0fc214cdf2230d5fbefc9620fd42.exe'[&!color=#000000]
+	'R-cacfd3f384737f85e02f8c4dfad0689a71b228c8b930995c24da43582f688a64.exe'[&!color=#000000]
+	'R-f1b8db9b03a5cb348d275cb285f06f3a224042d333f9eeb283fb6f4e079235d4.dll'[&!color=#000000]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((((('G-ConsentUX.dll'[&!color=#0000FF]:0.224,'G-NetworkDesktopSettings.dll'[&!color=#0000FF]:0.206)[&!color=#0000FF]:0.0412,'G-WpdMtpIP.dll'[&!color=#0000FF]:0.248)[&!color=#0000FF]:0.0758,(('G-EP0LXFPS.DLL'[&!color=#0000FF]:0.264,'G-wbemprox.dll'[&!color=#0000FF]:0.265)[&!color=#0000FF]:0.0354,('G-UserDataTypeHelperUtil.dll'[&!color=#0000FF]:0.237,'G-odexl32.dll'[&!color=#0000FF]:0.216)[&!color=#0000FF]:0.0654)[&!color=#0000FF]:0.0324)[&!color=#0000FF]:0.0223,'G-newdev.exe'[&!color=#0000FF]:0.345)[&!color=#0000FF]:0.0386,(('G-msexcl40.dll'[&!color=#0000FF]:0.235,'R-f1b8db9b03a5cb348d275cb285f06f3a224042d333f9eeb283fb6f4e079235d4.dll'[&!color=#FF0000]:0.232)[&!color=#FF0000]:0.132,'R-8110e38afd33797465ab43841b1c54abff7a25acc30fa27c2623966750d34737.dll'[&!color=#FF0000]:0.369)[&!color=#FF0000]:0.0195)[&!color=#0000FF]:0.112,'G-vdrvroot.sys'[&!color=#0000FF]:0.499)[&!color=#0000FF]:0.00119,'G-Microsoft.Transactions.Bridge.dll'[&!color=#0000FF]:0.5)[&!color=#0000FF]:0.5,'R-09f886079111e9f43ece7c64d2636e55149899597911b91a6b27dd560594a1f1.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-1ce0db3fa01d212a3894f6e9a359f9c86815637603a31a4d743d1d4b087d1945.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-3188d9a42da8ee0062410ee4a0e61acf289811c528092b9158e8f805d299eb3a.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-52ca1dc8d708f230c82c5695a6af672c5f214f5d8a7df62b9f07930488a7c9ed.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-62ed61971c25cdb6b20b7408c0047a33c431c1ef636184fdf5dbaf979319edaf.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-7fbc2450a78cb9a8b033dd654c2b2378a7e9f3ea7f89bd0db57f907685a2c4cf.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-a3fa345d4d272ddb13e0e3141bf18eac8521acaf8eb2eff8d3395f056740c2bd.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-abd18b2d7cfc702e56442f2549808b301f2e0fc214cdf2230d5fbefc9620fd42.exe'[&!color=#FF0000]:0)[&!color=#FF0000]:0,'R-cacfd3f384737f85e02f8c4dfad0689a71b228c8b930995c24da43582f688a64.exe'[&!color=#FF0000]:0)[&!color=#FF0000];
+end;
+

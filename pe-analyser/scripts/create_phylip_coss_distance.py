@@ -49,6 +49,10 @@ def export_phylip_file(dist_matrix, filename_order, output_file):
                 f.write(str(dist_matrix[i][j]) + " ")
             f.write("\n")
 
+def create_phylip_coss_distance(directory, output_file):
+    dist_matrix, filename_order = create_dist_matrix(directory)
+    export_phylip_file(dist_matrix, filename_order, output_file)
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', '--directory', help='File to output NCD result', required=True)
