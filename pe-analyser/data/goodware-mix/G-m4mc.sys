@@ -1,0 +1,5 @@
+ntoskrnl.exe RtlCompareMemory
+mcd.sys ChangerClassFreePool
+mcd.sys ChangerClassInitialize
+mcd.sys ChangerClassSendSrbSynchronous
+mcd.sys ChangerClassAllocatePool
