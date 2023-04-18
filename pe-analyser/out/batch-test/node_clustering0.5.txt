@@ -1,0 +1,32 @@
+Clustering with 220 elements and 31 clusters
+-2, -84, -90, -98, G-PackageStateRoaming.dll, G-WWAHost.exe
+-3, -81, -82, -83, G-EnterpriseAppMgmtClient.dll, G-Windows.CloudDomainJoinAUG.ProxyStub.dll, G-System.EnterpriseServices.Wrapper.dll, G-puiobj.dll
+-4, -70, -71, G-DhcpSrvMigPlugin.dll, -72, -73, R-4c73230621e55c51c6e4a32e354dca5e8fd3aaaa2df450b73991e6e21257a742.exe, R-676593610aafb444bd3b06028cbe14c0f1bb08d621da061609436d0afbe536fb.exe
+-5, -59, G-System.Data.dll, -60, G-wudriver.dll
+-6, -7, -58, R-0344c90e83481d496a690ea1ce7f116a4e8a191f57547bd7ad0f68bf6ff54832.exe, R-5fdecb2c511ec2b584766991bc2126ae802ed2618a80a227046df5379f12e745.exe, G-sqlwoa.dll
+-8, -56, R-d4e87e3eb3e3a5e08db5a708bd95fedac322088446c87ba37f0aeca529a928cc.exe
+-9, R-598fbc003f3775d3441846dec51317b6e81422a78c9a0d1b53353025d6953175.exe
+-10, -51, G-m4mc.sys
+-11, -12, -13, -14, -15, -16, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, -42, -43, G-AddInProcess.exe, G-powershell_ise.exe, R-09f886079111e9f43ece7c64d2636e55149899597911b91a6b27dd560594a1f1.exe, R-09f9071b686b6820fed8af5f6be019e9a0d4624e3c999f4e3ca0cdb32740cc41.exe, R-1119a57924755cd80e759b2ad50bf42966772866e216813e99cdeedd33571b40.exe, R-1ce0db3fa01d212a3894f6e9a359f9c86815637603a31a4d743d1d4b087d1945.exe, R-3615a819593ed34cf63fd7651d24b762f525c95d68f49ca8cbd03fe7e2dcc4e3.exe, R-3e784435800339cfeb624d5f09e5d5adc54ddad251eaadcab47cdeeb510b0259.exe, R-50be531a65362e72de7dd235671c5bd2bd8220e7fd6312cb2e2ca3272afa3fd4.exe, R-52ca1dc8d708f230c82c5695a6af672c5f214f5d8a7df62b9f07930488a7c9ed.exe, R-52d01903f7c366e01359a00ea771ca1f71d4e1bb54731290bc62c3a218f5af80.exe, R-58eddddb217d2439b4c23060412039bca6f9a3e52fc83e3f7e4dbd5e62bfc611.exe, R-59e5cf3ac305b9551229f2f533ff4ec2176bc0ce52d9390bd82c14aee5b206e9.exe, R-62ed61971c25cdb6b20b7408c0047a33c431c1ef636184fdf5dbaf979319edaf.exe, R-7284ce088723465f101b804f22a27e235f6ae8148dd1120508e3fed43348ed54.exe, R-7a434269888c9382307a609aceba2b185542ab901cda169d761c2650c84f2f4e.exe, R-7fbc2450a78cb9a8b033dd654c2b2378a7e9f3ea7f89bd0db57f907685a2c4cf.exe, R-8fa012cc7bebb93ce19f2d74819faccf7ce9d7aad53c65373432d794726506e5.exe, R-9c3da492d0b98fec833d5217e46cee71fd67cf4d0bae48267cc4007095f096d2.exe, R-a66bb9944f1630e745b926a08a6c2b0adb81e7149bcdbc380b152dff2e7d93e6.exe, R-aa1dd80ae2b4c0fe252b76234e5cf9817c99fadfbb7e251dd9be202b13b32cec.exe, R-abb4163c6b54005775d4b62e00a5a8fd403c4fa474380935ac4d311058341e51.exe, R-abd18b2d7cfc702e56442f2549808b301f2e0fc214cdf2230d5fbefc9620fd42.exe, R-b74b71499c1f837020761b5b707322c697d83b52ccb4c96b37575e193da0cf23.exe, R-b895fbf7b60e9534de3a12e5e6c3b5dbe8a5f6149be49e50beae19e0a9006999.exe, R-c37bdebae273457c00cd6334563f0f09abdc48a175036ed04ae44593b75f781b.exe, R-ca179c01ce38a54fa4659496a086973f3fc99870230a725fc782c71453ac5f54.exe, R-cacfd3f384737f85e02f8c4dfad0689a71b228c8b930995c24da43582f688a64.exe, R-d4dc8610837799abecadc4d3db1f6a8cbbce340de07b90e9868603f50c7fe762.exe, R-dd5f8efd0456d76594e52eaff220830d3d507a7774560639ec826a3d3d535aa9.exe, R-df3209a1414fa6c6d6459b106a4323e6e3b98f68173cad859e17b062d79e024a.exe, R-f087efb1d111b8820dbdb9f843f839a676bfb4e2c15e3a19cb0540c76fe06468.exe, R-f82e0beb906a3fe9fb0e76653b60105bbfc9b8515c23d3d3fbd66262cad24b90.exe, -44, -45, -46, -47, -48, -49, -50, G-MMCFxCommon.Resources.dll, G-Microsoft.PowerShell.Cmdletization.OData.dll, G-Microsoft.PowerShell.Gpowershell.resources.dll, G-Microsoft.Transactions.Bridge.dll, G-Microsoft.Windows.DeveloperLicense.Commands.Resources.dll, G-Microsoft.Windows.DeviceHealthAttestation.Plugin.dll, G-Microsoft.Windows.Diagnosis.SDHost.dll, G-Microsoft.Windows.ServerManager.FaxServer.Plugin.resources.dll
+-52, -55, G-k57nd60a.sys, G-ndisuio.sys
+-53, G-amdppm.sys, -54, G-dmvsc.sys, G-vdrvroot.sys
+-57, R-2e446e83f4ae41c538a08adef96d4dc59e21e4d07abf4a593a5abd5352827f8c.dll, R-8038fc77b26d2cf10f0ca5ee2225c81edeb8d0edf323f3c999319fe83cfc2a04.dll
+-61, -62, R-8110e38afd33797465ab43841b1c54abff7a25acc30fa27c2623966750d34737.dll, R-fe22718d734fa5db94348a0063ec9f985883da8774f09317defe3d67f8733446.dll
+-63, -64, R-f6397532d0b859cf1b26c55f29ec9af49613ce462643d4dc31478c4f231d2833.exe, R-054bd1093598a4baf7d1b63f41e945651d0c33cdd01739a07b3a02a2ca1c508f.exe
+-65, -66, R-0bc232079b7011e7728945286af9d22d342429499b6324d51c3cb85eaa6d3ee0.exe, -68, R-1b3f97b6b5e4553840b55eacf4c1de1746528a33bd7fcda33670d07d36baf9a1.exe, -69, R-5c7291c8c0c9aae91453faabe543abd6da50a2600ba74cd9fd1faa18a939cd4b.exe, R-701f0650f954abf048c29e5d25cfe65caa51f89c0aa6b3fd06348c3d64848396.exe
+-67, G-msvbvm60.dll, R-a4053c9427fa00b62f65abf8ad7760e39df7f7ea0c72ed89375e2076f7cb79a3.exe
+-74, -75, R-4fca8c7c2bc5fe96e8dbaf818216e9f6990303f646d5b07490b58ce151f4b4fd.dll, -76, R-e3863ce67ad4b3eda068834443a1276825fdc79875e931dd22be0f26e840b996.exe, R-fbe1b7e3984d33ae5f5756116aaddce9139849cf0364f4ca1edb74d8a273e766.exe, R-61a11e2e37c04accb8ec4ade0f8bc1e430032d8926f3c731865367109d6e8407.dll
+-77, -80, G-rtmcodecs.dll, G-rtmmvrortc.dll
+-78, -79, G-MapConfiguration.dll, G-cabinet.dll, G-winnsi.dll
+-85, G-AppxUpgradeMigrationPlugin.dll
+-86, -87, -89, G-WUDFx.dll, G-WpdMtpIP.dll, G-wmlaunch.exe
+-88, G-BthRadioMedia.dll, G-EscMigPlugin.dll
+-91, -92, -93, G-ConsentUX.dll, -97, G-DeviceSetupManagerAPI.dll, G-Windows.UI.dll
+-94, G-MtcModel.dll, -95, G-SharedStartModel.dll, G-Windows.UI.CredDialogController.dll
+-96, G-NetworkDesktopSettings.dll, G-sihost.exe
+-99, -100, -101, -105, G-WMADMOE.DLL, G-msdaosp.dll, G-wbemprox.dll
+-102, G-msvcirt.dll
+-103, G-Microsoft.Management.Infrastructure.Native.Unmanaged.dll, -104, G-credssp.dll, G-msador15.dll
+-106, G-NetTCPIP.dll, -107, -109, G-qappsrv.exe
+-108, G-WSCollect.exe, R-51abcecacd2fdd25bb8ef3a64b02aaa940b6d08ea2f7f48d5d6dc13d6912a561.exe
+-110, G-Windows.Media.BackgroundPlayback.exe, G-newdev.exe

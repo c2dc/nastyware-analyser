@@ -31,15 +31,21 @@ PE_ANALYSER_DIR = '/home/joao/my/projects/nastyware-analyser/pe-analyser'
 OUT_DIR = '/home/joao/my/projects/nastyware-analyser/pe-analyser/out/batch-test/'
 
 GOODWARE_IMPORT_FILE_DIRECTORIES = [
-    '/archive/files/nastyware-files/import-windows-server-2016-f/',
-    '/archive/files/nastyware-files/import-windows-server-2019-f/',
-    '/archive/files/nastyware-files/import-windows-server-2022-f/'
+    '/archive/files/nastyware-files-mix/goodware-mix/',
 ]
+# GOODWARE_IMPORT_FILE_DIRECTORIES = [
+#     '/archive/files/nastyware-files/import-windows-server-2016-f/',
+#     '/archive/files/nastyware-files/import-windows-server-2019-f/',
+#     '/archive/files/nastyware-files/import-windows-server-2022-f/'
+# ]
 
 MALWARE_IMPORT_FILE_DIRECTORIES = [
-    '/archive/files/nastyware-files/import-malware-bazaar-2021-01-to-2021-02-f/',
-    '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
+    '/archive/files/nastyware-files-mix/malware-mix/'
 ]
+# MALWARE_IMPORT_FILE_DIRECTORIES = [
+#     '/archive/files/nastyware-files/import-malware-bazaar-2021-01-to-2021-02-f/',
+#     '/archive/files/nastyware-files/import-malware-bazaar-2021-03-to-2021-04/'
+# ]
 
 
 TOTAL_GOODWARE_FILES = count_files_in_directories(GOODWARE_IMPORT_FILE_DIRECTORIES)

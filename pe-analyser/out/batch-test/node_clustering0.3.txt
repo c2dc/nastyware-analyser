@@ -1,0 +1,22 @@
+Clustering with 118 elements and 21 clusters
+-2, -59, G-ProximityCommon.dll, G-mfsvr.dll
+-3, G-tabskb.dll
+-4, -5, -6, G-CloudBackupSettings.dll, G-Windows.UI.CredDialogController.dll, G-PackageStateRoaming.dll, G-WWAHost.exe
+-7, -49, G-appsruprov.dll
+-8, -14, R-4fca8c7c2bc5fe96e8dbaf818216e9f6990303f646d5b07490b58ce151f4b4fd.dll
+-9, -10, -12, G-catsrvut.dll, G-msdtcprx.dll
+-11, G-EscMigPlugin.dll, G-wmlaunch.exe
+-13, G-System.Data.dll, G-tcpmon.dll
+-15, R-054bd1093598a4baf7d1b63f41e945651d0c33cdd01739a07b3a02a2ca1c508f.exe
+-16, R-0344c90e83481d496a690ea1ce7f116a4e8a191f57547bd7ad0f68bf6ff54832.exe
+-17, -45, -46, -47, R-0bc232079b7011e7728945286af9d22d342429499b6324d51c3cb85eaa6d3ee0.exe, R-1d61d1e99f05f85dbe885fc183a1b5fe81c0d47350868484186705d491a6577a.exe, R-e81d26edffa4b4570584bd1cb36211587108dfbbfc24f303a2c3e261cc3c59c1.exe
+-18, -19, -20, -21, -22, -23, -24, G-MMCFxCommon.Resources.dll, G-Microsoft.PowerShell.Gpowershell.resources.dll, G-Microsoft.Windows.DeviceHealthAttestation.Plugin.dll, G-Microsoft.Windows.Diagnosis.SDHost.dll, G-System.Net.Http.WebRequest.dll, G-XBox.TCUI.Shell.dll, -25, -26, -27, -28, -29, -30, -31, -32, -33, -34, -35, -36, -37, -38, -39, -40, -41, R-09f886079111e9f43ece7c64d2636e55149899597911b91a6b27dd560594a1f1.exe, R-26519706c6acbf8a057f879cb7fc1318a03370a013d6f809ed0d075124875ccc.exe, R-3615a819593ed34cf63fd7651d24b762f525c95d68f49ca8cbd03fe7e2dcc4e3.exe, R-3e784435800339cfeb624d5f09e5d5adc54ddad251eaadcab47cdeeb510b0259.exe, R-52ca1dc8d708f230c82c5695a6af672c5f214f5d8a7df62b9f07930488a7c9ed.exe, R-52d01903f7c366e01359a00ea771ca1f71d4e1bb54731290bc62c3a218f5af80.exe, R-59e5cf3ac305b9551229f2f533ff4ec2176bc0ce52d9390bd82c14aee5b206e9.exe, R-7284ce088723465f101b804f22a27e235f6ae8148dd1120508e3fed43348ed54.exe, R-75674ba2558d6fcf6d3992f09bd87aab282ea0b2d9bd01d6e0149a869506e3ce.exe, R-7a434269888c9382307a609aceba2b185542ab901cda169d761c2650c84f2f4e.exe, R-859d11ba63a59d6867ca281a19a03943e8ac87f2399f4c98dbd498753c3b88fd.exe, R-a3fa345d4d272ddb13e0e3141bf18eac8521acaf8eb2eff8d3395f056740c2bd.exe, R-a66bb9944f1630e745b926a08a6c2b0adb81e7149bcdbc380b152dff2e7d93e6.exe, R-db0b892ea1b776ac1324cdb701d9d5fe49e4817259e93cedf8249ed3f9983664.exe, R-e04abb62c7cb7d06e79c802d579572230a52e029b205115c87c31fdb8073930a.exe, R-e665d8433c9e96b567470eb29b4f2857911001759b66cafb40c1123befdaf458.exe, R-f087efb1d111b8820dbdb9f843f839a676bfb4e2c15e3a19cb0540c76fe06468.exe, R-fc634cb879af68f354b7174656d965dc69a60acfd4684cdf6a642171148eb075.exe
+-42, -44, R-647d6ecbbe14fb46a87ae8bab37f55e9983232f484bb2b3ee94ed47834f5c437.exe, R-e2e17c7a66b0571f7d35ecd4f5522eb697a234d2b3d803d609d3f804a63de168.exe
+-43, R-2e446e83f4ae41c538a08adef96d4dc59e21e4d07abf4a593a5abd5352827f8c.dll, R-eb0565cdfae42e6ed0784cfcecd96b31750ff065d5ddd7bec4cb3f125b452efb.dll
+-48, R-9e5fff4db7bf61fcc2c9fa976883fcaeaeae0ff5c3c3e0bb8fc4a0e6a8e67d19.dll, R-ed29dc0edb5cacac638c89b2b5d9c7eb445fd2e9472d0432b6c6fa42c6c21709.exe
+-50, G-NetTCPIP.dll
+-51, -52, G-newdev.exe
+-53, -54, R-51abcecacd2fdd25bb8ef3a64b02aaa940b6d08ea2f7f48d5d6dc13d6912a561.exe, G-WSCollect.exe
+-55, G-MMFUtil.dll, G-Windows.CloudDomainJoinAUG.ProxyStub.dll
+-56, G-wbemprox.dll
+-57, -58, G-UserDataTypeHelperUtil.dll, G-credssp.dll, G-sqlwid.dll

@@ -9,6 +9,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
 import matplotlib.pyplot as plt
+import multiprocessing as mp
 
 TRAIN_DIR = '/archive/files/nastyware-files-mix/mix-import/'
 TEST_DIR = ''
@@ -104,7 +105,7 @@ def predict_similarity_difference(file_functions_set, plus_functions_set_list, m
 
 func_dict = {}
 
-def dt_classification(epsilon):
+def dt_classification(mostly_malware_clusters, epsilon):
     malware_clusters_df = [ld_data(TRAIN_DIR, cluster, str(i)) for i, cluster in enumerate(mostly_malware_clusters)]
     rest_df = ld_data(TRAIN_DIR, [f for f in os.listdir(TRAIN_DIR) if not any([f in cluster for cluster in mostly_malware_clusters])], '-1')
     df = pd.concat([rest_df] + malware_clusters_df, ignore_index=True)
@@ -151,6 +152,21 @@ def sd_classification(epsilon):
 
     return accuracy_score(test_label, pred)
 
+def get_accuracy(clusters, epsilon, queue):
+    print(f'Processing epsilon {epsilon}')
+
+    mostly_malware_clusters = []
+    for cluster in clusters:
+        if len(cluster) > 1:
+            malware_count = 0
+            for node in cluster:
+                if node.startswith('R-'):
+                    malware_count += 1
+            if malware_count >= epsilon * len(cluster):
+                mostly_malware_clusters.append(cluster)
+
+    queue.put((epsilon, dt_classification(mostly_malware_clusters.copy(), epsilon)))
+
 def get_accuracy_epsilon_curve(train_dir, test_dir):
     global TRAIN_DIR
     global TEST_DIR
@@ -172,25 +188,32 @@ def get_accuracy_epsilon_curve(train_dir, test_dir):
 
     xx = np.linspace(0.1, 1, 10)
 
+    processes = min(len(xx), mp.cpu_count())
+    pool = mp.Pool(processes)
+    manager = mp.Manager()
+    queue = manager.Queue()
+
     for epsilon in xx:
-        print(f'Processing epsilon {epsilon} / {xx[-1]}', end='\r')
+        pool.apply_async(get_accuracy, args=(clusters, epsilon, queue))
 
-        mostly_malware_clusters = []
-        for cluster in clusters:
-            if len(cluster) > 1:
-                malware_count = 0
-                for node in cluster:
-                    if node.startswith('R-'):
-                        malware_count += 1
-                if malware_count >= epsilon * len(cluster):
-                    mostly_malware_clusters.append(cluster)
+    pool.close()
+    pool.join()
 
-        acc_tot, acc_mw, acc_gw = dt_classification(epsilon)
-        acc_dt.append(acc_tot)
+    epsilons = []
+
+    while not queue.empty():
+        epsilon, (acc, acc_mw, acc_gw) = queue.get()
+        epsilons.append(epsilon)
+        acc_dt.append(acc)
         acc_mw_dt.append(acc_mw)
         acc_gw_dt.append(acc_gw)
 
-    print()
+    # Sort
+    idx = np.argsort(epsilons)
+    xx = np.array(epsilons)[idx]
+    acc_dt = np.array(acc_dt)[idx]
+    acc_mw_dt = np.array(acc_mw_dt)[idx]
+    acc_gw_dt = np.array(acc_gw_dt)[idx]
 
     plt.clf()
     # Plot the results varying epsilon
